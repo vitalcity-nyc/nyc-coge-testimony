@@ -60,6 +60,12 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .dek{font-family:var(--sans);font-weight:300;font-size:clamp(17px,2.2vw,21px);color:var(--vc-black);max-width:780px;margin:0 0 14px;line-height:1.45;}
 .byline{font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--vc-charcoal);}
 
+/* notebooklm cta */
+.cta-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:18px 0 4px;}
+.cta-btn{display:inline-block;background:var(--vc-orange);color:var(--vc-white);font-family:var(--sans);font-weight:700;font-size:14.5px;letter-spacing:.02em;text-decoration:none;padding:12px 19px;border-radius:4px;border:2px solid var(--vc-black);white-space:nowrap;}
+.cta-btn:hover{background:var(--vc-black);}
+.cta-note{font-size:13.5px;color:var(--vc-charcoal);max-width:420px;}
+
 /* verdict */
 .verdict{border:2px solid var(--vc-black);border-radius:4px;padding:22px 24px;margin:8px 0 0;background:var(--vc-chartreuse-20);}
 .verdict .lab{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--vc-charcoal);margin-bottom:8px;}
@@ -189,6 +195,11 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
   <p class="dek">A catalog of public testimony to the Commission on Government Efficiency (COGE), New York City's 2026 charter revision commission, chaired by Patrick Gaspard. Testimony is grouped by idea rather than by speaker, so proposals raised by more than one person are visible at a glance. Each backer links to their testimony &mdash; the moment in the hearing video, or a written submission where one exists.</p>
   <p class="dek" style="font-size:16px;color:var(--vc-charcoal);">Coverage so far is limited to the three first-round hearings (Manhattan, the Bronx and Brooklyn). More hearings and a written-comment period run through mid-July 2026, and this tool will be updated as that testimony comes in. COGE's proposals are due to reach voters on the November 2026 ballot.</p>
   <p class="byline">__NIDEAS__ ideas &middot; __NUNIQ__ witnesses &middot; 3 hearings so far &middot; ~9 hours reviewed</p>
+
+  <div class="cta-row">
+    <a class="cta-btn" href="https://notebooklm.google.com/notebook/265ada6f-453b-4f9e-8b3b-47718a5ff86d" target="_blank" rel="noopener">Ask the testimony a question &#8599;</a>
+    <span class="cta-note">Query the full testimony in plain language, via a NotebookLM notebook built on the same hearing record.</span>
+  </div>
 
   <div class="verdict">
     <div class="lab">Scope and sources</div>
