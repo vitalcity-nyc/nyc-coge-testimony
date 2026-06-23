@@ -135,6 +135,9 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .prop .watch:hover{background:var(--vc-black);color:var(--vc-white);}
 .prop .watch.doc{border-color:var(--vc-cerulean);color:var(--vc-cerulean);}
 .prop .watch.doc:hover{background:var(--vc-cerulean);color:var(--vc-white);}
+.prop .plinks{display:flex;flex-direction:column;gap:6px;align-items:flex-end;}
+.prop .watch.doc2{border-color:var(--vc-black);background:var(--vc-chartreuse);color:var(--vc-black);}
+.prop .watch.doc2:hover{background:var(--vc-black);color:var(--vc-chartreuse);}
 .prop .hearing-tag{font-family:var(--sans);font-weight:700;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);margin-top:4px;}
 .empty{text-align:center;color:var(--vc-charcoal);padding:50px 0;}
 
@@ -176,26 +179,26 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 <body>
 
 <div class="topbar"><div class="wrap">
-  <a class="wordmark" href="https://www.vitalcitynyc.org" target="_blank" rel="noopener">Vital City</a>
-  <span class="tag">Charter revision 2026</span>
+  <span class="tag">Internal working tool &middot; not for publication</span>
+  <span class="tag">NYC charter revision 2026</span>
 </div></div>
 
 <header class="hero"><div class="wrap">
-  <div class="kicker">Commission on Government Efficiency &middot; the hearing record</div>
-  <h1>The ideas New Yorkers brought to the efficiency commission</h1>
-  <p class="dek">We watched all three of the Commission on Government Efficiency's first-round public hearings and pulled out every proposal &mdash; then grouped them idea by idea, so the threads that many New Yorkers pulled on come into view. COGE is Mayor Mamdani's 2026 charter revision commission, chaired by Patrick Gaspard; its proposals go to voters in November.</p>
-  <p class="byline">__NIDEAS__ ideas &middot; __NUNIQ__ public witnesses &middot; 3 hearings &middot; ~9 hours of testimony</p>
+  <div class="kicker">Commission on Government Efficiency &middot; testimony by idea</div>
+  <h1>Testimony to the Commission on Government Efficiency, by idea</h1>
+  <p class="dek">A catalog of public testimony to the Commission on Government Efficiency (COGE), New York City's 2026 charter revision commission, chaired by Patrick Gaspard. Testimony is grouped by idea rather than by speaker, so proposals raised by more than one person are visible at a glance. Each backer links to their testimony &mdash; the moment in the hearing video, or a written submission where one exists.</p>
+  <p class="dek" style="font-size:16px;color:var(--vc-charcoal);">Coverage so far is limited to the three first-round hearings (Manhattan, the Bronx and Brooklyn). More hearings and a written-comment period run through mid-July 2026, and this tool will be updated as that testimony comes in. COGE's proposals are due to reach voters on the November 2026 ballot.</p>
+  <p class="byline">__NIDEAS__ ideas &middot; __NUNIQ__ witnesses &middot; 3 hearings so far &middot; ~9 hours reviewed</p>
 
   <div class="verdict">
-    <div class="lab">A note before you dig in</div>
-    <div class="head">There is no single place that collects this testimony &mdash; so we built one.</div>
-    <p>COGE livestreams its hearings and lists its schedule, but it publishes no consolidated record of who testified or what they asked for, and citymeetings.nyc has not transcribed the 2026 hearings. This catalog is built from the commission's own hearing videos plus a handful of written submissions. Each backer below links to the exact moment in the official video.</p>
+    <div class="lab">Scope and sources</div>
+    <p>COGE does not publish a consolidated record of who testified or what they asked for, and citymeetings.nyc has not transcribed the 2026 hearings. This catalog is compiled from the commission's own hearing videos plus written submissions that testifiers or their organizations have published. Names and quotes are drawn from auto-generated captions and checked against public records where possible; treat them as provisional.</p>
     <p class="chan">Official channels: schedule and livestreams at <a href="https://www.nyc.gov/site/charter/meetings/public-meetings-hearings.page" target="_blank" rel="noopener">nyc.gov/site/charter</a> &middot; submit testimony via the <a href="https://tinyurl.com/COGE2026comments" target="_blank" rel="noopener">comment form</a> or <a href="mailto:CharterTestimony@citycharter.nyc.gov">CharterTestimony@citycharter.nyc.gov</a></p>
   </div>
 
   <div class="stats">
     <div class="stat"><div class="n">__NIDEAS__</div><div class="l">distinct ideas proposed</div></div>
-    <div class="stat"><div class="n">__NUNIQ__</div><div class="l">public witnesses across three hearings</div></div>
+    <div class="stat"><div class="n">__NUNIQ__</div><div class="l">witnesses across three hearings so far</div></div>
     <div class="stat"><div class="n">__MULTI__</div><div class="l">ideas raised at more than one borough hearing</div></div>
     <div class="stat"><div class="n">12</div><div class="l">backers for the most popular idea, open primaries</div></div>
   </div>
@@ -229,11 +232,11 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 </main>
 
 <section class="method"><div class="wrap">
-  <h2>How we built this</h2>
-  <p>This is an idea-centric reading of the public record, not an official transcript. We took the auto-generated captions from COGE's three first-round hearing videos (Manhattan, June 9; Bronx, June 10; Brooklyn, June 11), identified each public witness and the concrete proposals they made, then clustered those proposals into shared ideas. Two documented written submissions &mdash; from Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled as such. Commissioners, staff and procedural talk are excluded.</p>
+  <h2>How this was built</h2>
+  <p>This is an idea-centric reading of the public record so far, not an official transcript. The auto-generated captions from COGE's first-round hearing videos (Manhattan, June 9; Bronx, June 10; Brooklyn, June 11) were used to identify each public witness and the concrete proposals they made, then those proposals were clustered into shared ideas. Where a witness or their organization has published their full written testimony or a closely related position, the entry links to it. Two documented written submissions &mdash; from Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled. Commissioners, staff and procedural talk are excluded. Further hearings and a written-comment period run through mid-July 2026, and this tool is intended to be updated as that testimony comes in.</p>
 
   <h3>Why some names look approximate</h3>
-  <p>The hearings have no published speaker list, so names come from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses in the Bronx. Names we are unsure of are marked with a dotted underline; hover for a note. Treat any spelling as provisional and confirm against the video before quoting by name.</p>
+  <p>The hearings have no published speaker list, so names came from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses in the Bronx. Each name was checked against public records (organization staff pages, news coverage, official rosters) and many were corrected. Names that could not be confirmed are marked with a dotted underline; hover for a note. Treat any flagged spelling as provisional and confirm against the video before quoting by name.</p>
 
   <h3>COGE only</h3>
   <p>This covers the 2026 Commission on Government Efficiency only. New York City has had four charter commissions in roughly two years, and a lot of widely cited "charter testimony" actually belongs to the 2024 and 2025 commissions. Those were deliberately left out.</p>
@@ -252,8 +255,7 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 </div></section>
 
 <footer><div class="wrap">
-  <span class="fm">Vital City</span>
-  <span class="fl">An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency. Snapshot as of June 23, 2026 &mdash; a living document as hearings continue.</span>
+  <span class="fl">Internal working tool. An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE). Covers the first-round hearings through June 23, 2026; updated as further hearings and written comments come in through mid-July.</span>
 </div></footer>
 
 <button class="ai-btn" id="aiBtn">AI caution</button>
@@ -262,7 +264,8 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
   <h4>About this catalog &mdash; read before relying on it</h4>
   <ul>
     <li>Built with AI-assisted transcription and clustering of COGE's hearing videos on June 23, 2026. It is a research tool, not the official record.</li>
-    <li>Speaker names come from auto-captions and are often misspelled; uncertain ones are flagged. Confirm names and quotes against the linked video before publishing.</li>
+    <li>Speaker names come from auto-captions and are often misspelled; they were checked against public records and many corrected, but ones still unconfirmed are flagged with a dotted underline. Confirm names and quotes against the linked video before publishing.</li>
+    <li>Coverage is the three first-round hearings only; more hearings and written comments run through mid-July 2026 and are not yet included.</li>
     <li>Grouping testimony into "ideas" involves judgment; a backer placed under an idea may have framed it differently. Watch the clip for full context.</li>
     <li>Quotes are transcribed from auto-captions and lightly cleaned; they may not be word-perfect.</li>
     <li>COGE (2026) was separated from the 2024 and 2025 charter commissions; their testimony was excluded.</li>
@@ -344,12 +347,14 @@ function propRow(p){
     : esc(p.name);
   const aff = p.affiliation && p.affiliation!=="Unknown" ? ` &middot; <span class="aff">${esc(p.affiliation)}</span>` : "";
   const qt = p.quote ? `<div class="qt">&ldquo;${esc(p.quote)}&rdquo;</div>` : "";
+  const primary = `<a class="watch ${isDoc?'doc':''}" href="${esc(p.url)}" target="_blank" rel="noopener">${watchLabel}</a>`;
+  const doclink = p.doc_url ? `<a class="watch doc2" href="${esc(p.doc_url)}" target="_blank" rel="noopener">${esc(p.doc_label||'Testimony')} &#8599;</a>` : "";
   return `<div class="prop">
     <div class="who"><span class="nm">${nm}</span>${aff}
       <div class="hearing-tag" style="color:${hearingColor[p.hearing]||'var(--vc-charcoal)'}">${esc(p.hearing)}</div>
       ${qt}
     </div>
-    <a class="watch ${isDoc?'doc':''}" href="${esc(p.url)}" target="_blank" rel="noopener">${watchLabel}</a>
+    <div class="plinks">${primary}${doclink}</div>
   </div>`;
 }
 
