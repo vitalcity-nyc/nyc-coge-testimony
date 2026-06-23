@@ -453,7 +453,9 @@
     "role_type": "Civic-tech",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=2468s",
-    "quote": "I do not recommend large IT contracts if you hope to deliver efficient quality public services."
+    "quote": "I do not recommend large IT contracts if you hope to deliver efficient quality public services.",
+    "doc_url": "https://docs.google.com/document/d/1rnT9IfxA97nYf8k3cLVe7q58-r4kuArlXGc2uKvEWAU/edit",
+    "doc_label": "Full testimony"
    },
    {
     "name": "Julie Swoope",
@@ -889,8 +891,8 @@
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
     "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program.",
-    "doc_url": "https://cbcny.org/research/refined-recommendations-nyc-charter-revision-commission",
-    "doc_label": "CBC charter recommendations"
+    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
+    "doc_label": "Full testimony"
    },
    {
     "name": "Julie Samuels",
@@ -1003,8 +1005,8 @@
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
     "quote": "Create charter rules to strengthen the rainy day fund: mandate deposits during good times, restrict withdrawals to recessions/emergencies, and set target-size policy",
-    "doc_url": "https://cbcny.org/research/refined-recommendations-nyc-charter-revision-commission",
-    "doc_label": "CBC charter recommendations"
+    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
+    "doc_label": "Full testimony"
    },
    {
     "name": "Mark Levine",
@@ -1085,7 +1087,9 @@
     "role_type": "Elected official",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=5805s",
-    "quote": "the comprehensive plan should include at a minimum just a simple statement that requires the city to do a comprehensive plan."
+    "quote": "the comprehensive plan should include at a minimum just a simple statement that requires the city to do a comprehensive plan.",
+    "doc_url": "https://www.brooklynbp.nyc.gov/charter-revision-commission-to-strengthen-government-efficiency-brooklyn-hearing/",
+    "doc_label": "Full testimony"
    },
    {
     "name": "Catherine Vaughan",
