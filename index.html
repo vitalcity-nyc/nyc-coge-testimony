@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COGE testimony tracker - New York City Commission on Government Efficiency</title>
+<meta name="description" content="A catalog of testimony and published positions submitted to New York City's 2026 Commission on Government Efficiency (COGE). Searchable, filterable, sourced.">
+<style>
+  :root {
+    --ink: #16181d;
+    --ink-soft: #45494f;
+    --paper: #f6f4ee;
+    --card: #ffffff;
+    --line: #d9d4c7;
+    --line-soft: #e7e3d8;
+    --navy: #1d2a44;
+    --maroon: #7a2230;
+    --accent: #1d2a44;
+    --formal: #1f6b4a;
+    --formal-bg: #e6f1ea;
+    --likely: #9a6a12;
+    --likely-bg: #f6eede;
+    --reported: #3a5a8a;
+    --reported-bg: #e7eef7;
+    --position: #6b6257;
+    --position-bg: #efe9dd;
+    --shadow: 0 1px 2px rgba(20,22,28,.06), 0 6px 18px rgba(20,22,28,.06);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+  a { color: var(--navy); }
+
+  /* Header */
+  header.hero {
+    border-bottom: 2px solid var(--ink);
+    background: var(--paper);
+  }
+  .kicker {
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--maroon);
+    font-weight: 700;
+    margin: 28px 0 10px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: clamp(28px, 5vw, 46px);
+    line-height: 1.08;
+    margin: 0 0 14px;
+    letter-spacing: -.01em;
+  }
+  .standfirst {
+    font-size: clamp(16px, 2.2vw, 19px);
+    color: var(--ink-soft);
+    max-width: 760px;
+    margin: 0 0 18px;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    font-size: 13px;
+    color: var(--ink-soft);
+    padding-bottom: 24px;
+  }
+  .meta-row b { color: var(--ink); }
+
+  /* Repository answer callout */
+  .verdict {
+    background: var(--navy);
+    color: #f3f1ea;
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin: 26px 0 8px;
+    box-shadow: var(--shadow);
+  }
+  .verdict h2 {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #c8d2e6;
+  }
+  .verdict .big {
+    font-family: Georgia, serif;
+    font-size: clamp(20px, 3.4vw, 27px);
+    line-height: 1.2;
+    margin: 0 0 12px;
+  }
+  .verdict p { margin: 0 0 10px; color: #dfe2ea; font-size: 14.5px; }
+  .verdict p:last-child { margin-bottom: 0; }
+  .verdict a { color: #ffd9a8; }
+  .verdict .chan { font-size: 13px; color: #b9c2d6; }
+
+  /* Stats */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 26px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    padding: 14px 16px;
+  }
+  .stat .n {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1;
+  }
+  .stat .l { font-size: 12.5px; color: var(--ink-soft); margin-top: 6px; }
+
+  /* Controls */
+  .controls { margin: 30px 0 14px; }
+  .search {
+    width: 100%;
+    padding: 13px 15px;
+    font-size: 16px;
+    border: 1.5px solid var(--line);
+    border-radius: 9px;
+    background: var(--card);
+    color: var(--ink);
+  }
+  .search:focus { outline: none; border-color: var(--navy); }
+  .filtergroups { margin-top: 14px; display: grid; gap: 12px; }
+  .fg-label {
+    font-size: 11.5px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .chip {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--ink-soft);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .12s ease;
+    user-select: none;
+  }
+  .chip:hover { border-color: var(--navy); color: var(--ink); }
+  .chip.active { background: var(--navy); border-color: var(--navy); color: #fff; }
+  .chip .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0 4px;
+    border-top: 1px solid var(--line-soft);
+    padding-top: 16px;
+  }
+  .count { font-size: 13.5px; color: var(--ink-soft); }
+  .count b { color: var(--ink); }
+  .reset {
+    background: none;
+    border: none;
+    color: var(--maroon);
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+  }
+  .sortsel {
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    padding: 6px 9px;
+    font-size: 13px;
+    background: var(--card);
+    color: var(--ink);
+  }
+
+  /* Cards */
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 18px 0 40px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 11px;
+    padding: 18px 18px 16px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+  .card .top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+  .card h3 {
+    font-family: Georgia, serif;
+    font-size: 19px;
+    line-height: 1.2;
+    margin: 0 0 3px;
+  }
+  .card .affil { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
+  .badge {
+    flex: 0 0 auto;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    padding: 4px 9px;
+    border-radius: 6px;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .badge.formal { background: var(--formal-bg); color: var(--formal); }
+  .badge.likely { background: var(--likely-bg); color: var(--likely); }
+  .badge.reported { background: var(--reported-bg); color: var(--reported); }
+  .badge.position { background: var(--position-bg); color: var(--position); }
+
+  .card .where { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 10px; }
+  .card .where b { color: var(--ink); font-weight: 600; }
+  .card .summary { font-size: 14.5px; color: var(--ink); margin: 0 0 12px; }
+  .card blockquote {
+    margin: 0 0 12px;
+    padding: 8px 0 8px 13px;
+    border-left: 3px solid var(--line);
+    font-style: italic;
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .tag {
+    font-size: 11.5px;
+    background: var(--paper);
+    border: 1px solid var(--line-soft);
+    color: var(--ink-soft);
+    padding: 3px 8px;
+    border-radius: 5px;
+  }
+  .card .foot {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid var(--line-soft);
+    padding-top: 11px;
+  }
+  .card .source-link {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--navy);
+  }
+  .card .source-link:hover { text-decoration: underline; }
+  .conf { font-size: 11.5px; color: var(--ink-soft); text-align: right; max-width: 56%; }
+  .conf .ct { font-weight: 700; }
+
+  .empty { text-align: center; color: var(--ink-soft); padding: 50px 0; font-size: 15px; }
+
+  /* Methodology */
+  .method {
+    border-top: 2px solid var(--ink);
+    background: #efece3;
+    margin-top: 10px;
+  }
+  .method .wrap { padding-top: 30px; padding-bottom: 50px; }
+  .method h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin: 0 0 6px;
+  }
+  .method h3 { font-size: 15px; margin: 22px 0 6px; }
+  .method p, .method li { font-size: 14px; color: var(--ink-soft); }
+  .method ul { padding-left: 20px; margin: 6px 0; }
+  .method a { color: var(--navy); }
+  .legend { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px 18px; margin: 10px 0; }
+  .legend .li { font-size: 13.5px; display: flex; gap: 9px; align-items: baseline; }
+
+  /* AI caution */
+  .ai-caution-btn {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 40;
+    background: var(--maroon);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(122,34,48,.4);
+  }
+  .ai-pop {
+    position: fixed;
+    right: 16px;
+    bottom: 64px;
+    z-index: 41;
+    width: min(380px, calc(100vw - 32px));
+    background: var(--navy);
+    color: #eef0f5;
+    border-radius: 12px;
+    padding: 18px 18px 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.35);
+    display: none;
+  }
+  .ai-pop.open { display: block; }
+  .ai-pop h4 { margin: 0 0 8px; font-size: 14px; color: #fff; }
+  .ai-pop ul { margin: 0; padding-left: 18px; }
+  .ai-pop li { font-size: 12.8px; margin-bottom: 7px; color: #d7dbe6; }
+  .ai-pop .x { position: absolute; top: 10px; right: 12px; color: #aeb6c8; background:none; border:none; font-size:18px; cursor:pointer; }
+
+  @media (max-width: 760px) {
+    .stats { grid-template-columns: repeat(2,1fr); }
+    .grid { grid-template-columns: 1fr; }
+    .legend { grid-template-columns: 1fr; }
+    .conf { max-width: 50%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">New York City charter revision &middot; 2026</div>
+    <h1>Who is testifying to the Commission on Government Efficiency</h1>
+    <p class="standfirst">A working catalog of testimony and published positions aimed at COGE &mdash; Mayor Zohran Mamdani's 2026 Commission on Government Efficiency, the charter revision commission chaired by Patrick Gaspard that will put proposed New York City Charter amendments on the November 2026 ballot.</p>
+    <div class="meta-row">
+      <span>Snapshot as of <b>June 23, 2026</b></span>
+      <span>Living document &mdash; hearings and written comments continue into <b>mid-July 2026</b></span>
+      <span>Every entry links to a <b>primary or news source</b></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="verdict" aria-label="Is there a single repository">
+    <h2>Is there one place that holds all the testimony?</h2>
+    <div class="big">No &mdash; not yet. There is no single public repository of COGE testimony.</div>
+    <p>It is easy to <em>submit</em> testimony but there is no posted corpus of what others have submitted. The commission streams its hearings and lists its schedule, but as of this snapshot it has not published a consolidated set of written submissions or transcripts. (The separate 2025 charter commission eventually posted a combined written-testimony PDF, so COGE may do the same later.) citymeetings.nyc, which transcribed the 2025 hearings, has not yet indexed the 2026 COGE hearings. So this catalog stitches together testimony from testifiers' own sites and news coverage.</p>
+    <p class="chan"><b>Official channels:</b> schedule and livestreams at <a href="https://www.nyc.gov/site/charter/meetings/public-meetings-hearings.page" target="_blank" rel="noopener">nyc.gov/site/charter</a> &middot; submit written testimony via the <a href="https://tinyurl.com/COGE2026comments" target="_blank" rel="noopener">COGE comment form</a> or email <a href="mailto:CharterTestimony@citycharter.nyc.gov">CharterTestimony@citycharter.nyc.gov</a></p>
+  </section>
+
+  <section class="stats" id="stats" aria-label="Summary counts"></section>
+
+  <section class="controls">
+    <input type="text" class="search" id="search" placeholder="Search by name, organization, topic or keyword...">
+    <div class="filtergroups">
+      <div>
+        <div class="fg-label">Status</div>
+        <div class="chips" id="statusChips"></div>
+      </div>
+      <div>
+        <div class="fg-label">Type of testifier</div>
+        <div class="chips" id="typeChips"></div>
+      </div>
+      <div>
+        <div class="fg-label">Topic</div>
+        <div class="chips" id="topicChips"></div>
+      </div>
+    </div>
+    <div class="toolbar">
+      <div class="count" id="count"></div>
+      <div style="display:flex; gap:14px; align-items:center;">
+        <select class="sortsel" id="sort">
+          <option value="status">Sort: testimony first</option>
+          <option value="date">Sort: by date</option>
+          <option value="name">Sort: A&ndash;Z</option>
+        </select>
+        <button class="reset" id="reset">Clear filters</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid" id="grid"></section>
+  <div class="empty" id="empty" style="display:none;">No entries match these filters.</div>
+
+</main>
+
+<section class="method">
+  <div class="wrap">
+    <h2>How this was built, and what the labels mean</h2>
+    <p>This catalog was assembled from public web research on June 23, 2026. Because COGE keeps no central testimony archive, entries were gathered from testifiers' own websites (the Comptroller, BetaNYC, council members and others) and from news coverage of the hearings. Nothing here is invented: every entry carries a working link to where the testimony or statement was found, and quotes are transcribed from those sources.</p>
+
+    <h3>What the status labels mean</h3>
+    <div class="legend">
+      <div class="li"><span class="badge formal">Formal testimony</span> <span>Delivered or submitted to COGE as testimony, confirmed by a primary source or specific news report.</span></div>
+      <div class="li"><span class="badge likely">Likely / intended</span> <span>Stated intent to testify, or strong indication of a submission, but the filed text was not located.</span></div>
+      <div class="li"><span class="badge reported">Reported statement</span> <span>Quoted in coverage previewing a hearing (for example a press call) rather than confirmed as delivered on the record.</span></div>
+      <div class="li"><span class="badge position">Published position</span> <span>A public statement, blog post or explainer about COGE that was not confirmed as filed testimony &mdash; included because you asked for everything findable, clearly flagged.</span></div>
+    </div>
+
+    <h3>What was deliberately excluded</h3>
+    <p>This is the single biggest trap with COGE. There have been <b>four New York City charter commissions in roughly two years</b>, and the official site reuses the same web address for each. A great deal of widely cited charter testimony &mdash; from the Manhattan Institute, the Real Estate Board of New York, the Citizens Budget Commission, Public Advocate Jumaane Williams and others &mdash; was actually given to the <b>2024 and 2025</b> commissions, not to COGE. Those items were left out unless a 2026 COGE submission could be confirmed. If you see a familiar group missing, that is usually why.</p>
+
+    <h3>A note on absent unions and business groups</h3>
+    <p>Some major interests are shaping COGE from the inside rather than through testimony. DC 37's executive director Henry Garrido and the Partnership for New York City's Kathryn Wylde sit on the commission itself, so labor and big-business input is partly routed through commissioner seats and private feedback sessions, not public testimony.</p>
+
+    <h3>Confidence and verification</h3>
+    <p>Each card states a confidence level. Where a hearing date or the fact of delivery is uncertain, the card says so. For anything you intend to publish or rely on, confirm the verbatim wording and the submission against the original source or the official record. This snapshot reflects activity through June 23, 2026; later hearings and written comments (running into mid-July 2026) are not yet captured.</p>
+
+    <h3>Primary sources</h3>
+    <ul>
+      <li><a href="https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/" target="_blank" rel="noopener">Comptroller Mark Levine &mdash; testimony to COGE</a></li>
+      <li><a href="https://www.beta.nyc/2026/06/11/coge-testimony/" target="_blank" rel="noopener">BetaNYC &mdash; testimony to COGE</a></li>
+      <li><a href="https://publicsectorjobboard.substack.com/p/what-i-said-to-new-york-citys-commission" target="_blank" rel="noopener">Rebecca Heywood / Public Sector Job Board &mdash; testimony</a></li>
+      <li><a href="https://qns.com/2026/06/cm-wong-nyc-commission-district-30/" target="_blank" rel="noopener">QNS &mdash; Council Member Phil Wong's written testimony</a></li>
+      <li><a href="https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/" target="_blank" rel="noopener">City &amp; State &mdash; first COGE hearing</a></li>
+      <li><a href="https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/" target="_blank" rel="noopener">amNewYork &mdash; open-primary advocates press the panel</a></li>
+      <li><a href="https://www.amny.com/finance/new-york-city-has-a-contract-procurement-problem-and-advocates-are-calling-for-reform/" target="_blank" rel="noopener">amNewYork &mdash; procurement-reform testimony</a></li>
+      <li><a href="https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/" target="_blank" rel="noopener">Reinvent Albany &mdash; statement on COGE</a></li>
+      <li><a href="https://abundanceny.substack.com/p/coge-on-tour-knicks-in-four" target="_blank" rel="noopener">Abundance New York &mdash; "COGE on tour"</a></li>
+      <li><a href="https://www.maximumnewyork.com/p/what-is-the-mayors-commission-on" target="_blank" rel="noopener">Maximum New York &mdash; what is COGE</a></li>
+    </ul>
+  </div>
+</section>
+
+<button class="ai-caution-btn" id="aiBtn">AI caution</button>
+<div class="ai-pop" id="aiPop" role="dialog" aria-label="AI caution">
+  <button class="x" id="aiX" aria-label="Close">&times;</button>
+  <h4>About this catalog &mdash; read before relying on it</h4>
+  <ul>
+    <li>Assembled with AI-assisted web research on June 23, 2026. Treat it as a research starting point, not the official record.</li>
+    <li>Every entry links to a primary or news source. No sources or quotes were invented.</li>
+    <li>COGE (2026) was carefully separated from the earlier 2024 and 2025 charter commissions; some famous "charter testimony" belongs to those and was excluded.</li>
+    <li>Status labels (formal / likely / reported / published position) reflect our confidence about whether something was actually submitted &mdash; verify against the official record where it matters.</li>
+    <li>Quotes are transcribed from the linked sources; confirm verbatim wording before republishing.</li>
+    <li>A snapshot only: hearings and written comments continue into mid-July 2026, so this is incomplete by design.</li>
+  </ul>
+</div>
+
+<script>
+const DATA = [
+  {
+    id: 1, name: "Mark Levine", affil: "New York City Comptroller",
+    type: "Elected official", status: "formal", date: "2026-06-17", dateLabel: "June 17, 2026",
+    hearing: "Written submission",
+    tags: ["Budget & fiscal"],
+    summary: "Submitted a proposed charter amendment putting binding rules on the city's Rainy Day Fund (the Revenue Stabilization Fund): a target balance near 16% of tax revenues with a 10% floor, formula-driven deposits in strong years, narrow emergency-only withdrawal rules, caps on single-year withdrawals and mandatory public reporting.",
+    quote: "The Charter should make clear that New York City will save in good times so that it can protect New Yorkers in hard times.",
+    url: "https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/",
+    source: "Comptroller's office",
+    confidence: "High &mdash; testimony and press release on the Comptroller's official site."
+  },
+  {
+    id: 2, name: "Phil Wong", affil: "City Council Member, District 30 (Queens); co-chair, Common Sense Caucus",
+    type: "Elected official", status: "formal", date: "2026-06-19", dateLabel: "~June 19, 2026",
+    hearing: "Written submission (ahead of June 22 Queens session)",
+    tags: ["Budget & fiscal", "Education", "Housing", "Property tax", "Direct democracy"],
+    summary: "Submitted twelve structural charter reforms: honest multi-year budget baselines and enforceable Rainy Day Fund rules (citing a roughly $10 billion budget gap), consolidation review for under-enrolled schools, cost-effectiveness reviews for homeless-housing contracts, a ban on shifting water-ratepayer funds to the general budget, public votes on sanctuary policy and action on property-tax disparities.",
+    quote: "New York City is staring at a $10 billion budget gap built on years of budget gimmicks.",
+    url: "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
+    source: "QNS",
+    confidence: "High &mdash; reported by QNS as formal written testimony."
+  },
+  {
+    id: 3, name: "Gale Brewer", affil: "City Council Member, District 6 (Manhattan)",
+    type: "Elected official", status: "formal", date: "2026-06-09", dateLabel: "June 9, 2026",
+    hearing: "Hearing 1 &mdash; Manhattan (New York Law School)",
+    tags: ["Land use & capital projects"],
+    summary: "Testified in person to streamline Department of Design and Construction projects and to improve planning for open streets.",
+    quote: "",
+    url: "https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/",
+    source: "City & State",
+    confidence: "Medium-high &mdash; reported by City & State; no verbatim text published."
+  },
+  {
+    id: 4, name: "Fabien Levy", affil: "Former Deputy Mayor for Communications (Adams administration); personal capacity",
+    type: "Former official", status: "formal", date: "2026-06-09", dateLabel: "June 9, 2026",
+    hearing: "Hearing 1 &mdash; Manhattan (New York Law School)",
+    tags: ["Elections & voting"],
+    summary: "Testified for open primaries, arguing that low primary turnout is driven by a closed system that turns voters away.",
+    quote: "If you examine why our elections - especially our primaries - have such low voter turnout, it is because our system is rigged to turn voters away.",
+    url: "https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/",
+    source: "City & State",
+    confidence: "Medium-high &mdash; reported by City & State."
+  },
+  {
+    id: 5, name: "BetaNYC", affil: "Civic-technology nonprofit",
+    type: "Civic-tech / nonprofit", status: "formal", date: "2026-06-11", dateLabel: "June 11, 2026",
+    hearing: "Hearing 3 &mdash; Brooklyn (technology theme)",
+    tags: ["Technology & open data", "Agency structure"],
+    summary: "Argued for 'digital sovereignty' - the city owning and freely controlling its own digital infrastructure. Asked COGE to make digital sovereignty a charter principle, extend machine-readable and API requirements to all city laws and codes, and expand in-house service-design capacity across agencies.",
+    quote: "Digital sovereignty, the city's ability to own and freely control its own digital infrastructure, is not a technology preference. It is the foundation of government efficiency.",
+    url: "https://www.beta.nyc/2026/06/11/coge-testimony/",
+    source: "BetaNYC",
+    confidence: "High &mdash; full testimony published on BetaNYC's site, which notes it was drafted with help from an AI model."
+  },
+  {
+    id: 6, name: "Rebecca Heywood", affil: "Founder, Public Sector Job Board; former New York City employee (DOT, DCAS, Emergency Management)",
+    type: "Policy writer / civic-tech", status: "formal", date: "2026-06-11", dateLabel: "June 11, 2026",
+    hearing: "Hearing 3 &mdash; Brooklyn (technology theme)",
+    tags: ["Civil service & hiring", "Procurement & contracting", "Technology & open data"],
+    summary: "Testified that the city's slow hiring pipeline acts as a financial filter that screens out ordinary New Yorkers and weakens in-house tech talent. Urged charter changes for faster hiring, civil-service paths for modern technology roles, and routine verification that tech investments and vendors actually deliver outcomes.",
+    quote: "A six-month or more wait between offer and start is a financial filter. It selects for people in stable jobs, with savings, or family to fall back on.",
+    url: "https://publicsectorjobboard.substack.com/p/what-i-said-to-new-york-citys-commission",
+    source: "Public Sector Job Board",
+    confidence: "High &mdash; the author's own published testimony."
+  },
+  {
+    id: 7, name: "Citizens NYC", affil: "Community-development nonprofit (Michael Hickey, chief of strategy and operations)",
+    type: "Nonprofit", status: "formal", date: "2026-06-09", dateLabel: "Week of June 16, 2026",
+    hearing: "COGE hearing (likely Manhattan, June 9)",
+    tags: ["Procurement & contracting"],
+    summary: "Urged the commission to rethink city contracting, pointing to its own 'master contract' as a model pathway that keeps small community-based organizations from being shut out by burdensome requirements.",
+    quote: "It can serve as an example of what happens when a city agency commits to creating an innovative procurement pathway that's purpose-built for engaging hyperlocal leaders.",
+    url: "https://www.amny.com/finance/new-york-city-has-a-contract-procurement-problem-and-advocates-are-calling-for-reform/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; reported by amNewYork; exact hearing date not confirmed."
+  },
+  {
+    id: 8, name: "ACEC New York", affil: "American Council of Engineering Companies of New York (Bill Murray, Taylor Palmer)",
+    type: "Business / industry", status: "formal", date: "2026-06-09", dateLabel: "~June 9, 2026",
+    hearing: "COGE hearing (likely Manhattan, June 9)",
+    tags: ["Procurement & contracting"],
+    summary: "Testified that engineering firms are routinely forced to start city work and carry payroll for months before contracts are registered, and urged charter-level fixes such as expedited-payment requirements.",
+    quote: "Firms are asked to hire and organize their staff, mobilize their resources, incur overhead, incur payroll costs and perform services often times for many months without an enforceable agreement for payment in place.",
+    url: "https://www.amny.com/finance/new-york-city-has-a-contract-procurement-problem-and-advocates-are-calling-for-reform/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; reported by amNewYork; exact hearing date not confirmed."
+  },
+  {
+    id: 9, name: "Open Primaries", affil: "National election-reform advocacy nonprofit (John Opdycke, president)",
+    type: "Advocacy", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
+    hearing: "Hearing &mdash; Staten Island",
+    tags: ["Elections & voting"],
+    summary: "Pressed COGE to let New York City's more than one million unaffiliated voters take part in primaries, calling the closed-primary exclusion a turnout and civil-rights problem while declining to endorse one specific mechanism. Open primaries was the single most common topic across the early hearings.",
+    quote: "There's lots of ways to skin a cat. You can do open primaries in a variety of ways.",
+    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the Staten Island hearing; delivery on the record not separately confirmed."
+  },
+  {
+    id: 10, name: "Paul Rieckhoff", affil: "Founder, Independent Veterans of America",
+    type: "Advocacy", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
+    hearing: "Hearing &mdash; Staten Island",
+    tags: ["Elections & voting"],
+    summary: "Argued that unaffiliated voters, including veterans, are shut out of taxpayer-funded primary elections.",
+    quote: "The election happens two blocks from my kid's public school. It's publicly funded, public poll workers, public machines, public school - and I can't vote in it.",
+    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the hearing."
+  },
+  {
+    id: 11, name: "Jessie Fields", affil: "Harlem primary-care physician; independent voter and open-primaries advocate",
+    type: "Resident / advocate", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
+    hearing: "Hearing &mdash; Staten Island",
+    tags: ["Elections & voting"],
+    summary: "Framed open primaries as a basic voting-rights issue.",
+    quote: "Your right to vote should not depend on your joining a political organization.",
+    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the hearing."
+  },
+  {
+    id: 12, name: "Nick Troiano", affil: "Executive Director, Unite America",
+    type: "Advocacy", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
+    hearing: "Hearing &mdash; Staten Island",
+    tags: ["Elections & voting"],
+    summary: "Provided national context, noting that New York is one of 16 states with fully closed primaries.",
+    quote: "",
+    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the hearing."
+  },
+  {
+    id: 13, name: "Abundance New York", affil: "Pro-housing / 'abundance' advocacy organization (Catherine Vaughan)",
+    type: "Advocacy", status: "likely", date: "2026-06-09", dateLabel: "June 2026 (multiple hearings)",
+    hearing: "Stated intent to testify at multiple hearings",
+    tags: ["Land use & capital projects", "Procurement & contracting", "Civil service & hiring", "Property tax"],
+    summary: "Said publicly it would testify at multiple hearings on Abundance Agenda items that intersect the charter: a streamlined workforce-planning function, faster permitting for housing and clean energy, modernized procurement and Department of Finance property-assessment reform. Also co-hosted testimony-writing workshops with Maximum New York.",
+    quote: "We'll be testifying at multiple hearings on topics that we covered in our Abundance Agenda, and that have specific intersections with the city charter.",
+    url: "https://abundanceny.substack.com/p/coge-on-tour-knicks-in-four",
+    source: "Abundance New York",
+    confidence: "Medium &mdash; stated intent on the group's Substack; specific submitted testimony not located."
+  },
+  {
+    id: 14, name: "Reinvent Albany", affil: "Government-transparency watchdog (Rachael Fauss, senior policy advisor)",
+    type: "Good-government", status: "position", date: "2026-05-28", dateLabel: "May 28, 2026",
+    hearing: "Public statement",
+    tags: ["Transparency & oversight", "Procurement & contracting"],
+    summary: "Welcomed the commission and urged it to strengthen anti-corruption watchdogs: independent budgeting and removal protections for the Department of Investigation and the Conflicts of Interest Board, a more independent Campaign Finance Board, and a public vendor-transparency ('excluded vendors') database. This is a press statement, not confirmed filed testimony.",
+    quote: "One dollar spent on DOI saves NYC at least $18 in tax dollars and makes it more likely agency decisions are based on public benefit.",
+    url: "https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/",
+    source: "Reinvent Albany",
+    confidence: "Medium &mdash; published statement. A separate claim that the group testified June 9 appears to conflate 2025 testimony to a different commission and is unconfirmed."
+  },
+  {
+    id: 15, name: "Citizens Union", affil: "Good-government organization (Grace Rauh, executive director)",
+    type: "Good-government", status: "position", date: "2026-05-28", dateLabel: "Late May 2026",
+    hearing: "Public statement",
+    tags: ["Process & public participation"],
+    summary: "Called the agenda timely but warned that rushing questions onto the November ballot leaves little time for public input and deliberation, and urged structural limits on the charter-revision process itself. (Citizens Union's substantive charter testimony on record is to the separate 2025 commission.)",
+    quote: "important and timely reforms ... little time for public input, research and deliberation",
+    url: "https://www.amny.com/news/coge-mamdani-replaces-adams-charter-commission/",
+    source: "amNewYork",
+    confidence: "Medium &mdash; press statement reacting to the commission, not filed COGE testimony."
+  },
+  {
+    id: 16, name: "Maximum New York", affil: "Civic-education project / policy writer (Daniel Golliher)",
+    type: "Policy writer", status: "position", date: "2026-06-05", dateLabel: "June 2026",
+    hearing: "Explainer and testimony workshops",
+    tags: ["Process & public participation"],
+    summary: "Published a widely read explainer of the commission and co-hosted testimony-prep 'office hours' to help residents testify. Has its own charter proposals but no confirmed COGE submission of its own.",
+    quote: "This is an open offer to any group: I am happy to co-host or show up to an event.",
+    url: "https://www.maximumnewyork.com/p/what-is-the-mayors-commission-on",
+    source: "Maximum New York",
+    confidence: "Medium &mdash; published explainer and facilitation, not confirmed as filed testimony."
+  },
+  {
+    id: 17, name: "Richard Briffault", affil: "Charter scholar, Columbia Law School / NYU Marron Institute",
+    type: "Academic", status: "position", date: "2026-05-01", dateLabel: "2026",
+    hearing: "Published primer (background)",
+    tags: ["Process & public participation"],
+    summary: "Authored a primer on the history and mechanics of New York City charter-revision commissions, including this one. Useful orientation rather than a submission to COGE.",
+    quote: "",
+    url: "https://www.vitalcitynyc.org/charter-revision-politics-nyc-primer/",
+    source: "Vital City",
+    confidence: "High that the primer exists; included as background, not testimony."
+  }
+];
+
+// ---- Build filter universes ----
+const STATUS_ORDER = ["formal", "likely", "reported", "position"];
+const STATUS_LABEL = { formal: "Formal testimony", likely: "Likely / intended", reported: "Reported statement", position: "Published position" };
+const STATUS_DOT = { formal: "var(--formal)", likely: "var(--likely)", reported: "var(--reported)", position: "var(--position)" };
+
+const types = [...new Set(DATA.map(d => d.type))].sort();
+const topics = [...new Set(DATA.flatMap(d => d.tags))].sort();
+
+const state = { q: "", status: new Set(), type: new Set(), topic: new Set(), sort: "status" };
+
+// ---- Stats ----
+function renderStats() {
+  const total = DATA.length;
+  const formal = DATA.filter(d => d.status === "formal").length;
+  const topicCount = topics.length;
+  const elex = DATA.filter(d => d.tags.includes("Elections & voting")).length;
+  const stats = [
+    { n: total, l: "entries catalogued" },
+    { n: formal, l: "confirmed formal testimony" },
+    { n: topicCount, l: "topic areas" },
+    { n: elex, l: "on elections &amp; open primaries" }
+  ];
+  document.getElementById("stats").innerHTML = stats.map(s =>
+    `<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join("");
+}
+
+// ---- Chips ----
+function buildChips() {
+  document.getElementById("statusChips").innerHTML = STATUS_ORDER.map(s =>
+    `<span class="chip" data-group="status" data-val="${s}"><span class="dot" style="background:${STATUS_DOT[s]}"></span>${STATUS_LABEL[s]}</span>`).join("");
+  document.getElementById("typeChips").innerHTML = types.map(t =>
+    `<span class="chip" data-group="type" data-val="${t}">${t}</span>`).join("");
+  document.getElementById("topicChips").innerHTML = topics.map(t =>
+    `<span class="chip" data-group="topic" data-val="${t}">${t}</span>`).join("");
+
+  document.querySelectorAll(".chip").forEach(chip => {
+    chip.addEventListener("click", () => {
+      const g = chip.dataset.group, v = chip.dataset.val;
+      const set = state[g];
+      if (set.has(v)) { set.delete(v); chip.classList.remove("active"); }
+      else { set.add(v); chip.classList.add("active"); }
+      render();
+    });
+  });
+}
+
+// ---- Filtering + render ----
+function matches(d) {
+  if (state.status.size && !state.status.has(d.status)) return false;
+  if (state.type.size && !state.type.has(d.type)) return false;
+  if (state.topic.size && !d.tags.some(t => state.topic.has(t))) return false;
+  if (state.q) {
+    const hay = (d.name + " " + d.affil + " " + d.summary + " " + d.quote + " " + d.tags.join(" ") + " " + d.hearing + " " + d.type).toLowerCase();
+    if (!hay.includes(state.q.toLowerCase())) return false;
+  }
+  return true;
+}
+
+function sortRows(rows) {
+  const r = rows.slice();
+  if (state.sort === "name") r.sort((a, b) => a.name.localeCompare(b.name));
+  else if (state.sort === "date") r.sort((a, b) => b.date.localeCompare(a.date));
+  else r.sort((a, b) => STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status) || b.date.localeCompare(a.date));
+  return r;
+}
+
+function card(d) {
+  const q = d.quote ? `<blockquote>&ldquo;${d.quote}&rdquo;</blockquote>` : "";
+  const tags = d.tags.map(t => `<span class="tag">${t}</span>`).join("");
+  let host = "source";
+  try { host = new URL(d.url).hostname.replace("www.", ""); } catch (e) {}
+  return `<article class="card">
+    <div class="top">
+      <div>
+        <h3>${d.name}</h3>
+        <div class="affil">${d.affil}</div>
+      </div>
+      <span class="badge ${d.status}">${STATUS_LABEL[d.status]}</span>
+    </div>
+    <div class="where"><b>${d.dateLabel}</b> &middot; ${d.hearing}</div>
+    <div class="summary">${d.summary}</div>
+    ${q}
+    <div class="tags">${tags}</div>
+    <div class="foot">
+      <a class="source-link" href="${d.url}" target="_blank" rel="noopener">${d.source} &rarr;</a>
+      <div class="conf"><span class="ct">Confidence:</span> ${d.confidence}</div>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const rows = sortRows(DATA.filter(matches));
+  const grid = document.getElementById("grid");
+  const empty = document.getElementById("empty");
+  grid.innerHTML = rows.map(card).join("");
+  empty.style.display = rows.length ? "none" : "block";
+  document.getElementById("count").innerHTML = `Showing <b>${rows.length}</b> of ${DATA.length} entries`;
+}
+
+document.getElementById("search").addEventListener("input", e => { state.q = e.target.value; render(); });
+document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+document.getElementById("reset").addEventListener("click", () => {
+  state.q = ""; state.status.clear(); state.type.clear(); state.topic.clear();
+  document.getElementById("search").value = "";
+  document.querySelectorAll(".chip.active").forEach(c => c.classList.remove("active"));
+  render();
+});
+
+// AI caution popover
+const aiBtn = document.getElementById("aiBtn"), aiPop = document.getElementById("aiPop"), aiX = document.getElementById("aiX");
+aiBtn.addEventListener("click", () => aiPop.classList.toggle("open"));
+aiX.addEventListener("click", () => aiPop.classList.remove("open"));
+
+renderStats();
+buildChips();
+render();
+</script>
+</body>
+</html>
