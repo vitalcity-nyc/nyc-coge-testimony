@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Marielena Walz",
+    "name_as_heard": "Marielena Wallz / Mory Elena Walez",
+    "name_confidence": "low",
+    "affiliation": "Equity Design (founder and CEO); NYC/NYS MWBE",
+    "role_type": "Business/industry",
+    "t": 630,
+    "topics": ["MWBE", "procurement", "cash flow", "DOE contract caps"],
+    "proposals": [
+      "Fix the slow city payment cycle so small businesses (and their subcontractors) are not paid a year after the work; close the cash-flow gap that prevents taking on large contracts",
+      "Raise or allow upward revision of the $25,000 MWBE contract cap with DOE for proven, established vendors, with an evidence-based process to increase it"
+    ],
+    "quote": "we get paid after the fact, sometimes a year after the fact ... So, I have to figure out how to be able to close that gap in my revenue so I have the cash flow that would allow me to take on big contracts."
+  },
+  {
+    "name": "Anedi Paneiagua",
+    "name_as_heard": "Anedi Paneiagua / Aned Pawa",
+    "name_confidence": "low",
+    "affiliation": "Independent family child care provider",
+    "role_type": "Business/industry",
+    "t": 1120,
+    "topics": ["child care", "independent providers", "universal child care", "waitlists", "parent choice"],
+    "proposals": [
+      "Include independent / family-environment child care providers (not just those in networks) in any expansion of child care access, funding and growth opportunities",
+      "Preserve parents' freedom to choose the program (center, school, or family-based) that fits their child rather than judging by network affiliation",
+      "Use existing licensed provider capacity to reduce the 25,000+ child waiting list and simplify access for families; unify the fragmented system (subsidized, Head Start, preK, 3K)"
+    ],
+    "quote": "any kind of expansion of the child care can be included for the providers, independent providers ... and can guarantee that no child, family or educator can be left behind."
+  },
+  {
+    "name": "Dr. Constance Barnes",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Unmask EU LLC (founder); chair, economic development committee, Community Board 8 (testifying as a community member)",
+    "role_type": "Business/industry",
+    "t": 1390,
+    "topics": ["MWBE", "small business space/rent", "vacancies", "SBS outreach", "digital divide"],
+    "proposals": [
+      "Streamline the MWBE application paperwork (e.g., accommodate applicants whose landlords don't provide rent receipts)",
+      "Consider a vacancy tax on landlords holding empty commercial storefronts so those spaces can be used by small businesses",
+      "Greatly expand SBS Business Express on-site support teams (only ~a dozen citywide) and do more grassroots, in-person outreach to businesses that lack technology or awareness rather than requiring online/cross-borough travel"
+    ],
+    "quote": "maybe a vacancy tax for landlords who are just holding businesses that could be utilized. We should also provide on-site community support."
+  },
+  {
+    "name": "Patrick Hall",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Alain Flowers, Tribeca (co-owner with wife Christine); storefront business since 1983",
+    "role_type": "Business/industry",
+    "t": 1571,
+    "topics": ["small business diversity", "regulatory burden", "policymaking process"],
+    "proposals": [
+      "Require a small business economic impact statement for every piece of legislation, regulation or major policy affecting businesses, measuring the cost to a privately owned, owner-operated small business in time, paperwork, compliance, risk and money",
+      "'Listen before legislating' — bring actual small business owners to the table before any new requirement, mandate or program is created",
+      "Stop treating small businesses as a single category; recognize they are a diverse ecosystem (new vs. legacy, restaurant vs. flower shop, sole proprietor vs. 20 employees)"
+    ],
+    "quote": "Listen before legislating. Before a new requirement is added, before a mandate is created, before a program is launched, bring in the people who will actually have to live with it."
+  },
+  {
+    "name": "Daniel Garcia",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Sasa Catering and Special Events (owner); MWBE; Port Morris Industrial Business Zone, Bronx",
+    "role_type": "Business/industry",
+    "t": 1878,
+    "topics": ["industrial business", "slow city payment", "contract financing", "IBSP program funding"],
+    "proposals": [
+      "Fix slow city-agency payments that cause cash-flow crises for industrial businesses (his receivables hit $2M; needed $750K in bridge financing)",
+      "Reverse the planned defunding of the Industrial Business Service Provider (IBSP) program that funds the BACH industrial team, which is a 'lifeline' for industrial businesses"
+    ],
+    "quote": "When payments are delayed for months or even years, it creates a real cash flow crisis that can threaten whole operations like salsa."
+  },
+  {
+    "name": "Andrew Rigie",
+    "name_as_heard": "Andrew Riggy / Andrew Ridgie",
+    "name_confidence": "medium",
+    "affiliation": "NYC Hospitality Alliance (executive director)",
+    "role_type": "Advocacy org",
+    "t": 2042,
+    "topics": ["outdoor dining", "revocable consent", "licensing", "red tape"],
+    "proposals": [
+      "Remove the revocable consent requirement from the outdoor dining (Dining Out NYC) licensing process via charter change — it adds 3+ months and is the major reason licensing now takes 6+ months",
+      "Consolidate the two separate licensing processes (sidewalk cafe vs. roadway cafe) which have different standards/timeframes",
+      "Reduce or eliminate the consent fees (per-square-footage) that act as barriers while keeping proper community and agency review"
+    ],
+    "quote": "removing the revocable consent requirement from the outdoor dining licensing process ... by removing the revocable consent you will speed up the process by months and months and months."
+  },
+  {
+    "name": "Michelle Maniah",
+    "name_as_heard": "Michelle Mania / Michelle Maniah",
+    "name_confidence": "low",
+    "affiliation": "Family child care provider (5 years)",
+    "role_type": "Business/industry",
+    "t": 2753,
+    "topics": ["child care", "2K/3K networks", "ACS/HRA vouchers", "infant care", "financing", "CDA credential"],
+    "proposals": [
+      "Make 2K/3K inclusive so traditional/independent providers are not forced to join networks (which strips their independence and adds layered agency oversight)",
+      "Restore child care access/vouchers (ACS, HRA) for children not in networks and for children under age two; address the ~60,000 families being dropped from ACS vouchers",
+      "Fund after-school care for 3- and 4-year-olds (gap from 2pm-6pm) and provide capital/financing so home-based providers can expand to center-based programs; expand CDA-credential instructor capacity"
+    ],
+    "quote": "the 2K and 3K program forces you to join a network ... there is nothing being done about these providers who are going to fall behind and eventually have to close their doors."
+  },
+  {
+    "name": "Jessica Hower",
+    "name_as_heard": "Jessica Alos / Jessica Hower",
+    "name_confidence": "low",
+    "affiliation": "Political consultant; advisory board, Go Vote NYC; former executive director, New Majority NYC",
+    "role_type": "Advocacy org",
+    "t": 2845,
+    "topics": ["open primaries", "voter turnout", "election efficiency", "independent voters"],
+    "proposals": [
+      "Adopt open primaries in New York City to roughly double turnout and make elections more efficient (80% of US states already have them)",
+      "Frame open primaries as enfranchising independent voters — nearly half of NYC's independents are under 40 and a majority are people of color — currently excluded by the closed primary system"
+    ],
+    "quote": "Open primary districts generally have twice the turnout that we do here. And since this is also an efficiency discussion, election processes are much more efficient."
+  },
+  {
+    "name": "Yadira Rodriguez",
+    "name_as_heard": "Yadira Rodriguez / Yad Rodriguez",
+    "name_confidence": "medium",
+    "affiliation": "Construction consultant, Bronx business owner",
+    "role_type": "Business/industry",
+    "t": 3566,
+    "topics": ["permitting fees", "violation penalties", "approval times", "DOB", "OATH"],
+    "proposals": [
+      "Reduce the financial burden of permitting fees, violation penalties and lengthy approval processes from agencies like DOB and OATH",
+      "Lower agency fees that burden homeowners (who can't afford architects/engineers/GCs), which in turn hurts contractors' ability to run a functional business in the Bronx"
+    ],
+    "quote": "the financial burden created by the permitting fees, violation penalties, and the lengthy approval process by the numerous agencies such as Do and Oath ... their fees are incredible crazy."
+  },
+  {
+    "name": "Josea Kanan",
+    "name_as_heard": "Yana Kanan / Josea Kanan",
+    "name_confidence": "low",
+    "affiliation": "Balance Money and Mind (founder/owner); financial literacy, bookkeeping, tax; NYC MWBE",
+    "role_type": "Business/industry",
+    "t": 3690,
+    "topics": ["MWBE", "procurement disparity", "micro/small business", "local hiring"],
+    "proposals": [
+      "Address the MWBE procurement disparity (per the FY25 report, ~78% of MWBE firms got no contracts; MWBE average contract ~$754K vs ~$3.6M for non-certified firms)",
+      "Require prime contractors who win city contracts to hire/subcontract small and micro businesses from the Bronx so NYC procurement dollars stay with local New Yorkers"
+    ],
+    "quote": "whoever earned those contract can be secured that they hire or should contract a small and micro businesses from the Bronx to ensure that those resource from New Yorkers always stay in New York."
+  },
+  {
+    "name": "Madison Weisenberger",
+    "name_as_heard": "Madison E. Weisenberger (stage name Madison Ford)",
+    "name_confidence": "high",
+    "affiliation": "Actress, director, content creator; NYC resident (since Dec.)",
+    "role_type": "Resident",
+    "t": 4065,
+    "topics": ["sex trafficking", "criminal designation", "law enforcement data sharing"],
+    "proposals": [
+      "Designate engaging in (or knowingly associating with / financing / housing) sex trafficking as an act of terrorism, including banks, hotels and businesses that profit from it",
+      "Have NYC collaborate with international police (e.g., Interpol) and NYPD/state police to share sex-trafficking data, and create a visible public database of those associated with trafficking; build a culture of reporting"
+    ],
+    "quote": "engaging in sex trafficking or associating with a person that you're aware is presently engaging in sex trafficking should be designated as an act of terrorism."
+  },
+  {
+    "name": "Charles Delhomme",
+    "name_as_heard": "Charles Done / Charles Delhomme",
+    "name_confidence": "medium",
+    "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx)",
+    "role_type": "Nonprofit",
+    "t": 4268,
+    "topics": ["industrial business", "permitting", "IBZ land protection", "IBSP funding"],
+    "proposals": [
+      "Streamline permitting across agencies, strengthen protections for IBZ-zoned land, improve infrastructure responsiveness in industrial corridors, and give industrial businesses a real seat at economic-development planning",
+      "Reverse the planned citywide defunding of the Industrial Business Service Provider (IBSP) program (nearly 40 years old) that connects industrial businesses to city government"
+    ],
+    "quote": "The industrial business service providing program ... is now scheduled to be defunded citywide ... Cutting this program would eliminate one of the few consistent voices for the industrial sector."
+  },
+  {
+    "name": "Amalu Saju Jial",
+    "name_as_heard": "Amalu Saju Jial / Dio",
+    "name_confidence": "low",
+    "affiliation": "PH High-Tech (founder/CEO), a technology consulting company; platform MineLog X AI",
+    "role_type": "Business/industry",
+    "t": 4463,
+    "topics": ["AI/data platform", "predictive maintenance", "immigrant/minority entrepreneurs", "access to capital", "pilot programs"],
+    "proposals": [
+      "Create more pathways to funding, public partnerships and pilot/test-and-deploy opportunities for minority-owned and immigrant businesses",
+      "Use open-source AI data platforms to make NYC construction, infrastructure, transportation and public sectors safer and more cost-effective (predicting failures before they happen)"
+    ],
+    "quote": "New York has an incredible opportunity to unlock the potential of immigrants and minority entrepreneurs by creating more pathways to funding, public partnerships and opportunities to test and deploy innovative solutions locally."
+  },
+  {
+    "name": "Pedro Suarez",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Third Avenue Business Improvement District, South Bronx (executive director)",
+    "role_type": "Advocacy org",
+    "t": 4657,
+    "topics": ["quality of life", "fair share", "permitting app", "public realm", "street lighting accountability", "small business emergency fund", "insurance/energy costs", "contracting", "commercial leases", "entrepreneurship education"],
+    "proposals": [
+      "Enforce fair-share distribution of shelters/substance-abuse facilities (cites 2023 Comptroller report; Bronx is oversaturated) with real accountability",
+      "Build a single app/web account consolidating all city permitting and licensing for small businesses, multilingual",
+      "Make DOT responsible for proactively auditing/fixing street lighting (lights out for months) rather than relying on business owners to report; invest more in public-realm programming/plazas",
+      "Create a small business emergency fund for natural disasters/fires/floods/financial hardship; lower insurance and energy costs (work with Con Ed)",
+      "Streamline city MWBE contracting/reimbursement into one transparent system (registration can take 6 months to a year); add commercial-lease protections for legacy businesses; integrate entrepreneurship into high school and higher education"
+    ],
+    "quote": "there should be an app or web account to consolidate all of the city's permitting and licensing for small businesses ... in multiple languages is some low-hanging fruit."
+  },
+  {
+    "name": "Gregory Hernandez",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Bronx business owner; filmmaker; production company (founded 2019); MBE certified, DOE vendor",
+    "role_type": "Business/industry",
+    "t": 4897,
+    "topics": ["AI regulation", "procurement integrity", "cash flow", "payroll financing", "local hiring"],
+    "proposals": [
+      "Regulate AI in the contracting/bidding process — train procurement officers to verify that bid content (e.g., drone/aerial footage) was actually created by the bidding business, not AI-generated or masqueraded, to level the playing field",
+      "Provide a payroll cash-infusion/financing mechanism for businesses in good standing (e.g., three years of tax returns) so solo entrepreneurs can hire full-time local Bronx graduates / CTE completers rather than waiting up to a year to get paid on contracts"
+    ],
+    "quote": "can we regulate AI in the sense of ... make sure that content that is created during the bidding process is actually created by that particular individual or that business entity and not created by AI."
+  },
+  {
+    "name": "Jerry Hippolyte",
+    "name_as_heard": "Jerry Epolit / Jerry Hippolyte",
+    "name_confidence": "medium",
+    "affiliation": "Housing Solutions of New York (chief of staff and head of government affairs); Bronx-based homelessness nonprofit",
+    "role_type": "Nonprofit",
+    "t": 5078,
+    "topics": ["interagency coordination", "procurement modernization", "Passport system", "reducing duplication", "subcontractor payment"],
+    "proposals": [
+      "Strengthen coordination across city agencies ('one government') with shared/integrated reporting platforms so nonprofits don't submit the same information repeatedly to DOB, FDNY, DOT, etc.",
+      "Modernize procurement and payment processes — build further on the Passport system so its 'vault' documents (e.g., a COI) connect across multiple contracts instead of being re-uploaded each time",
+      "Reduce duplication of submissions across systems so organizations can spend time on service delivery instead of bureaucracy"
+    ],
+    "quote": "there's a vault section but that vault section doesn't connect back to your contract. So if you have multicontracts you still have to go to the vault versus ... it can cut across the other contracts."
+  },
+  {
+    "name": "Belis Laura",
+    "name_as_heard": "Bel Belle kiss Laura / Belis Laura",
+    "name_confidence": "low",
+    "affiliation": "Grand Slam (founder/CEO), a family-owned banquet hall business (18 years); also has a youth foundation",
+    "role_type": "Business/industry",
+    "t": 5479,
+    "topics": ["parking/loading zones", "parking tickets", "enforcement", "street cleanliness"],
+    "proposals": [
+      "Enforce business loading zones so other drivers don't block them, and stop ticketing the business's own commercial vehicles while they are actively loading/unloading (treat it as the city's responsibility to clear illegally parked cars, not the business owner's)",
+      "Improve street and park cleanliness in the community"
+    ],
+    "quote": "They give us ticket every two minutes, every five minutes ... it's becoming like another rent to us."
+  },
+  {
+    "name": "Sarah Wilson",
+    "name_as_heard": "Sarah Wilson",
+    "name_confidence": "medium",
+    "affiliation": "Former foster parent (not a small business owner)",
+    "role_type": "Resident",
+    "t": 5684,
+    "topics": ["foster care", "ACS efficiency", "reunification policy", "child welfare"],
+    "proposals": [
+      "Create a legal mechanism guaranteeing continued visitation with the foster family when a child enters care young (e.g., before age two) and stays more than two years, rather than pushing reunification 'at all cost'",
+      "Reframe reunification as an 'aspiration' rather than a 'goal,' and commission research into how many children re-enter foster care after failed reunifications (to judge whether reunification is actually successful)"
+    ],
+    "quote": "this push for reunification at all cost that is often harming children ... there should be some kind of legal mechanism ... to ensure visitation with that foster family."
+  },
+  {
+    "name": "Marcus Khan",
+    "name_as_heard": "Marcus Khan",
+    "name_confidence": "medium",
+    "affiliation": "Bronx resident; student, Colin Powell School for Civic and Global Leadership, City College (CUNY)",
+    "role_type": "Resident",
+    "t": 5953,
+    "topics": ["long-term prevention", "systemic inequality", "community land trusts", "food deserts", "after-school programs"],
+    "proposals": [
+      "Shift city budgeting/spending toward long-term preventive measures (housing and food security) rather than short-term reactive ones, to address root causes of gang violence, homelessness and poor outcomes",
+      "Support community land trusts (e.g., Port Morris Community Land Trust), more supermarkets to end food deserts, after-school programs, and legislation like COPA / safer-homes measures"
+    ],
+    "quote": "we need to stop the fall before it happens or else we can't be surprised when we're in the hospital."
+  },
+  {
+    "name": "Mimi Turner",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Women's Housing and Economic Development Corporation (WHEDco), senior small business adviser; South Bronx community development nonprofit",
+    "role_type": "Nonprofit",
+    "t": 6090,
+    "topics": ["local development corporations", "SBS funding", "cooperative ownership", "food access", "FRESH program"],
+    "proposals": [
+      "Sustain and expand city investment in community-based local development organizations (like WHEDco) that help small businesses navigate licenses, leases and the new gate regulation",
+      "Prioritize cooperative ownership models (e.g., succession planning, the Bronx People's Federal Credit Union) as an economic development strategy",
+      "Evaluate food access initiatives including the FRESH program so future investment goes beyond attracting operators to ensure affordability, quality jobs, local procurement and local ownership"
+    ],
+    "quote": "we urge the city to sustain and expand investment in community-based local development focused organizations like Wedco."
+  },
+  {
+    "name": "Lamar White",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Bronx resident; medical coder, real estate agent, software developer; founder of the Quality Time Network and Quality Time Network Foundation",
+    "role_type": "Civic-tech",
+    "t": 6367,
+    "topics": ["civic technology", "pilot programs", "reducing administrative barriers", "connecting solutions to government"],
+    "proposals": [
+      "Create a clear pathway for residents, community organizers and local innovators who have already built civic-tech solutions to connect with the right city stakeholders and run pilot programs that could inform policy",
+      "Use the charter review process to establish clearer mechanisms for such solutions to be evaluated, tested and implemented across NYC"
+    ],
+    "quote": "What is the best path to connect with the right city stakeholders and explore pilot programs that could eventually inform policy and improve how services are delivered?"
+  },
+  {
+    "name": "Janessa Jules",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "South Bronx small business owner (cannabis space) and analyst",
+    "role_type": "Business/industry",
+    "t": 6533,
+    "topics": ["government website audit", "311 burden", "cannabis delivery requirement", "voter registration awareness"],
+    "proposals": [
+      "Conduct a low-cost audit of all NYC government/agency websites to fix redundant sites, dead links, wrong contact info and out-of-service numbers — reducing strain on 311 and saving staff hours",
+      "Create an exemption from the mandatory distributor/delivery-entity requirement for small/startup cannabis businesses (which adds cost for low-volume sellers)",
+      "Improve communication/marketing about online voter registration availability ('why should you care about voting') rather than assuming people don't want to register"
+    ],
+    "quote": "doing an audit of all of the different agencies and department sites could be something that would be a lowcost way to address that issue."
+  },
+  {
+    "name": "Mohamad Salu Diello",
+    "name_as_heard": "Mamadu Sa Salu Dio / Mohamad Salu Diello",
+    "name_confidence": "low",
+    "affiliation": "President, Guinean community in New York (nonprofit advocating for Guineans in NY)",
+    "role_type": "Nonprofit",
+    "t": 6814,
+    "topics": ["immigrant small business", "access to funding", "rising costs", "shelter food contracts"],
+    "proposals": [
+      "Improve access to funding/investment for immigrant-owned small businesses (restaurants, general stores) that are struggling with rising prices",
+      "Give immigrant restaurant owners equal opportunity to win contracts to deliver culturally familiar food to shelters (raised during the recent migrant influx)"
+    ],
+    "quote": "the access to funding I might say is very limited to us. I really ... asking you to consider that aspect."
+  },
+  {
+    "name": "B. Saj",
+    "name_as_heard": "Sadadio / B Saj",
+    "name_confidence": "low",
+    "affiliation": "Broker/owner of Bar Real Estate and owner of City Builder Development Corporation (buy/fix/flip)",
+    "role_type": "Business/industry",
+    "t": 7077,
+    "topics": ["DOB plan examination", "permitting back-and-forth", "hard money costs", "HPD inspections"],
+    "proposals": [
+      "Require DOB plan examiners to give all objections at once instead of serial round-trips, since each delay (while paying ~12% hard-money interest on a 6-month loan) eats the small developer's profit",
+      "Speed up HPD inspections to clear violations (e.g., heat/hot water) — currently takes three to four months after a property is fully renovated"
+    ],
+    "quote": "Why don't you tell me what you need ... one time when I submit it to you, you don't have to make me go back and forth."
+  },
+  {
+    "name": "Ana Wahed",
+    "name_as_heard": "Ana Wahi / Ana Wahed",
+    "name_confidence": "medium",
+    "affiliation": "Tara Kitchen (founder), boutique Moroccan restaurant group; certified NYC MWBE",
+    "role_type": "Business/industry",
+    "t": 7270,
+    "topics": ["MWBE", "micro-purchasing", "procurement transparency", "outdated city websites"],
+    "proposals": [
+      "Make micro-purchasing (city purchases below $25,000) transparent and accessible to small businesses like independent restaurants (food/boxed lunches/breakfasts) — currently convoluted with no success after 18 months of trying",
+      "Overhaul the outdated MWBE/procurement websites (Passport, etc.) and modernize the certification/upload/payment systems"
+    ],
+    "quote": "I'm really interested in micropurchasing and if that is something that could be made transparent and ... accessible to small businesses like myself. It's really the difference between us surviving and going out of business."
+  },
+  {
+    "name": "Dearis Zumani",
+    "name_as_heard": "Damatis Zuma Nigui / Dearis Zumani",
+    "name_confidence": "low",
+    "affiliation": "Founder of Neighbor First Group (helps small businesses get funding)",
+    "role_type": "Business/industry",
+    "t": 7548,
+    "topics": ["SBA loans", "access to capital", "startup financing", "high interest rates"],
+    "proposals": [
+      "Have the city help small businesses obtain SBA loans more easily, given that roughly half of applications are declined and approval rates are very low against high demand",
+      "Provide affordable financing for startup businesses that lack sufficient income, since conventional bank loans (20-25% interest) are unaffordable"
+    ],
+    "quote": "the best funding for me is the SBA loan but it's very hard to get."
+  },
+  {
+    "name": "Madu (Mamadou)",
+    "name_as_heard": "Madu",
+    "name_confidence": "low",
+    "affiliation": "Deputy director, Guinea USA Chamber of Commerce (nonprofit; not a business owner)",
+    "role_type": "Nonprofit",
+    "t": 7697,
+    "topics": ["immigrant business support", "grants/low-interest loans", "language access", "procurement access"],
+    "proposals": [
+      "Posed questions/asks (rather than proposals): what specific programs help immigrant-owned small businesses grow; how can they access city grants/low-interest loans/financial assistance",
+      "Provide support for entrepreneurs who face language barriers navigating government services, and programs helping small businesses obtain city contracts/procurement opportunities"
+    ],
+    "quote": "what support is available for entrepreneur who face language [barriers] when navigate government services?"
+  },
+  {
+    "name": "Glenny Payano",
+    "name_as_heard": "Glenny Pyano / Glenn Payano",
+    "name_confidence": "low",
+    "affiliation": "CEO of a domestic violence nonprofit and an LLC (primarily Spanish-speaking)",
+    "role_type": "Nonprofit",
+    "t": 7946,
+    "topics": ["home-based business licensing", "commercial rent", "HRA application access", "language access"],
+    "proposals": [
+      "Create programs/licensing pathways so moms can legally run a business from home (or affordable local space) without getting ticketed, given high commercial rent and many empty storefronts",
+      "Fix the HRA/social-assistance self-service application system (broken scanners, document problems, English-only) that wrongly rejects non-English-speaking applicants; provide real cultural-competence and language-access help, plus programs for low-income mothers who lack credit history"
+    ],
+    "quote": "It is an abuse ... for them to assume that they can use the system and fill out applications without any kind of help and do it by themselves in another language."
+  },
+  {
+    "name": "Mariam Diallo",
+    "name_as_heard": "Mariam Dio",
+    "name_confidence": "medium",
+    "affiliation": "Owner of Guinea African Hair Braiding (two salons); secretary/director of Guinea US Chamber of Commerce",
+    "role_type": "Business/industry",
+    "t": 8355,
+    "topics": ["natural hair braiding licensing", "access to capital", "rising business costs", "immigrant women entrepreneurs"],
+    "proposals": [
+      "Create a separate licensing pathway (or exemption) for natural hair braiding, which uses no chemicals — removing the costly NY State requirement (14 weeks of school plus state exam) that is an unnecessary barrier driving women to braid illegally or move to other states",
+      "Improve access to affordable financing/grants and address rising commercial rent, utility and insurance costs for women- and immigrant-owned businesses"
+    ],
+    "quote": "in many states, they don't require a license to braid a hair because when we braid hair, we don't use no chemical product ... that's a very big barrier for many talented women who want to work."
+  },
+  {
+    "name": "Pascal (AK General Contractor)",
+    "name_as_heard": "Pascal Udrago / Pascal with RA",
+    "name_confidence": "low",
+    "affiliation": "Licensed general contractor (AK General Contractor)",
+    "role_type": "Business/industry",
+    "t": 8593,
+    "topics": ["contractor licensing/insurance cost", "commercial vehicle parking", "DOB superintendent mandate"],
+    "proposals": [
+      "Lower the high cost/barriers of getting a contractor license and insurance, which pushes many to work unlicensed",
+      "Address the inability of small contractors to park commercial trucks on the street at night (ticketed, can't afford a parking lot/office) and the new building-department requirement to hire a superintendent on projects, which small businesses can't afford"
+    ],
+    "quote": "the building department changed the law if you got like some project you have to hiding ... superintendent that's the extra money we have to pay and we don't have enough budget."
+  },
+  {
+    "name": "Sarah Espayat",
+    "name_as_heard": "Sarah Espayat / Harris Payat",
+    "name_confidence": "low",
+    "affiliation": "MWBE-certified business owner; mental health / emotional coaching services for women ages 25-55",
+    "role_type": "Business/industry",
+    "t": 8909,
+    "topics": ["MWBE", "subcontracting access", "prime contractor confidence"],
+    "proposals": [
+      "Create a way for prime contractors / large organizations to recognize and use small MWBE service providers as subcontractors, since they currently overlook or don't feel confident in small community-rooted providers when they win contracts"
+    ],
+    "quote": "they don't consider us like ... how can we put something together that let them see us and consider us when they get these type of contracts."
+  },
+  {
+    "name": "Jessica Lopez",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Licensed real estate agent (Bronx); 20+ years in property management; works with voucher holders (CityFHEPS/FHEPS)",
+    "role_type": "Business/industry",
+    "t": 9010,
+    "topics": ["rental vouchers", "voucher processing time", "landlord participation", "realtors as small businesses"],
+    "proposals": [
+      "Speed up rental-assistance voucher processing (CityFHEPS/FHEPS) so it actually meets the 30-45 day target instead of 3-4 months, so landlords don't give up holding vacant units and voucher holders don't lose apartments",
+      "Recognize and protect real estate agents as small business owners/independent contractors; don't cut broker compensation while delays and responsibilities grow, or families lose the people who help them navigate the system"
+    ],
+    "quote": "having a voucher does not mean they have a home ... I've personally had families wait 3 to four months after submitting everything before receiving final approval to move in."
+  },
+  {
+    "name": "Marilyn/Meline Suarez",
+    "name_as_heard": "Marilyn Suarez / Meline Suarez",
+    "name_confidence": "low",
+    "affiliation": "Founder of a Region NYC small business making artisanal paletas (multicultural flavors); immigrant entrepreneur",
+    "role_type": "Business/industry",
+    "t": 9216,
+    "topics": ["Article 20-C license", "food inspection process", "first-time owner guidance", "multilingual resources"],
+    "proposals": [
+      "Provide additional support for the food inspection/Article 20-C licensing process — educational workshops, clear checklists, multilingual resources and easier technical assistance — especially for first-time owners",
+      "Fix the confusing NY State Department of Agriculture website/PDF forms (no translation, 20-page PDFs) that make compliance hard"
+    ],
+    "quote": "it can be difficult to know exactly what is expected ... Additional support such as educational workshops, clear checklists, multilingual resources, and easier technical assistant will make a significant difference."
+  }
+]

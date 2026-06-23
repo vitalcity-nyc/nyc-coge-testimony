@@ -3,749 +3,389 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>COGE testimony tracker - New York City Commission on Government Efficiency</title>
-<meta name="description" content="A catalog of testimony and published positions submitted to New York City's 2026 Commission on Government Efficiency (COGE). Searchable, filterable, sourced.">
+<title>The ideas New Yorkers brought to the efficiency commission</title>
+<meta name="description" content="An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE), drawn from the hearing record. Vital City.">
+<link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
 <style>
-  :root {
-    --ink: #16181d;
-    --ink-soft: #45494f;
-    --paper: #f6f4ee;
-    --card: #ffffff;
-    --line: #d9d4c7;
-    --line-soft: #e7e3d8;
-    --navy: #1d2a44;
-    --maroon: #7a2230;
-    --accent: #1d2a44;
-    --formal: #1f6b4a;
-    --formal-bg: #e6f1ea;
-    --likely: #9a6a12;
-    --likely-bg: #f6eede;
-    --reported: #3a5a8a;
-    --reported-bg: #e7eef7;
-    --position: #6b6257;
-    --position-bg: #efe9dd;
-    --shadow: 0 1px 2px rgba(20,22,28,.06), 0 6px 18px rgba(20,22,28,.06);
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-  }
-  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
-  a { color: var(--navy); }
+@font-face{
+  font-family:'GascogneTS';
+  src:url('fonts/GascogneTS-Light.ttf') format('truetype');
+  font-weight:300; font-style:normal; font-display:swap;
+}
+:root{
+  --vc-black:#050507; --vc-white:#ffffff; --vc-cloud:#dddddd;
+  --vc-chartreuse:#dde44c; --vc-orange:#ff7c53; --vc-periwinkle:#9b9fbc;
+  --vc-rose:#cea9be; --vc-magenta:#e7466d; --vc-charcoal:#707175;
+  --vc-indigo:#394882; --vc-cerulean:#217ebe;
+  --vc-chartreuse-20:#f7f8dd; --vc-chartreuse-50:#edefa8;
+  --vc-orange-20:#fde5dd;
+  --sans:'halyard-text','Inter','Helvetica Neue',Arial,sans-serif;
+  --serif:'GascogneTS','Source Serif 4',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--vc-white);color:var(--vc-black);
+  font-family:var(--sans);font-weight:300;line-height:1.5;font-size:17px;}
+a{color:var(--vc-black);}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
 
-  /* Header */
-  header.hero {
-    border-bottom: 2px solid var(--ink);
-    background: var(--paper);
-  }
-  .kicker {
-    font-size: 12px;
-    letter-spacing: .14em;
-    text-transform: uppercase;
-    color: var(--maroon);
-    font-weight: 700;
-    margin: 28px 0 10px;
-  }
-  h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-weight: 700;
-    font-size: clamp(28px, 5vw, 46px);
-    line-height: 1.08;
-    margin: 0 0 14px;
-    letter-spacing: -.01em;
-  }
-  .standfirst {
-    font-size: clamp(16px, 2.2vw, 19px);
-    color: var(--ink-soft);
-    max-width: 760px;
-    margin: 0 0 18px;
-  }
-  .meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 18px;
-    font-size: 13px;
-    color: var(--ink-soft);
-    padding-bottom: 24px;
-  }
-  .meta-row b { color: var(--ink); }
+/* top bar */
+.topbar{border-bottom:2px solid var(--vc-black);}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;}
+.wordmark{font-family:var(--sans);font-weight:900;letter-spacing:.02em;font-size:19px;text-transform:uppercase;text-decoration:none;color:var(--vc-black);}
+.topbar .tag{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--vc-charcoal);}
 
-  /* Repository answer callout */
-  .verdict {
-    background: var(--navy);
-    color: #f3f1ea;
-    border-radius: 10px;
-    padding: 22px 24px;
-    margin: 26px 0 8px;
-    box-shadow: var(--shadow);
-  }
-  .verdict h2 {
-    margin: 0 0 8px;
-    font-size: 13px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: #c8d2e6;
-  }
-  .verdict .big {
-    font-family: Georgia, serif;
-    font-size: clamp(20px, 3.4vw, 27px);
-    line-height: 1.2;
-    margin: 0 0 12px;
-  }
-  .verdict p { margin: 0 0 10px; color: #dfe2ea; font-size: 14.5px; }
-  .verdict p:last-child { margin-bottom: 0; }
-  .verdict a { color: #ffd9a8; }
-  .verdict .chan { font-size: 13px; color: #b9c2d6; }
+/* hero */
+.hero .wrap{padding:38px 22px 26px;}
+.kicker{font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--vc-orange);margin-bottom:14px;}
+h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);line-height:1.04;margin:0 0 18px;letter-spacing:-.01em;}
+.dek{font-family:var(--sans);font-weight:300;font-size:clamp(17px,2.2vw,21px);color:var(--vc-black);max-width:780px;margin:0 0 14px;line-height:1.45;}
+.byline{font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--vc-charcoal);}
 
-  /* Stats */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    margin: 26px 0 8px;
-  }
-  .stat {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 9px;
-    padding: 14px 16px;
-  }
-  .stat .n {
-    font-family: Georgia, serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--navy);
-    line-height: 1;
-  }
-  .stat .l { font-size: 12.5px; color: var(--ink-soft); margin-top: 6px; }
+/* verdict */
+.verdict{border:2px solid var(--vc-black);border-radius:4px;padding:22px 24px;margin:8px 0 0;background:var(--vc-chartreuse-20);}
+.verdict .lab{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--vc-charcoal);margin-bottom:8px;}
+.verdict .head{font-family:var(--serif);font-size:clamp(20px,3vw,28px);line-height:1.18;margin:0 0 10px;}
+.verdict p{font-size:15px;margin:0 0 8px;line-height:1.5;}
+.verdict p:last-child{margin-bottom:0;}
+.verdict .chan{font-size:13.5px;color:var(--vc-charcoal);}
+.verdict a{color:var(--vc-black);text-decoration:underline;text-decoration-color:var(--vc-orange);text-decoration-thickness:2px;}
 
-  /* Controls */
-  .controls { margin: 30px 0 14px; }
-  .search {
-    width: 100%;
-    padding: 13px 15px;
-    font-size: 16px;
-    border: 1.5px solid var(--line);
-    border-radius: 9px;
-    background: var(--card);
-    color: var(--ink);
-  }
-  .search:focus { outline: none; border-color: var(--navy); }
-  .filtergroups { margin-top: 14px; display: grid; gap: 12px; }
-  .fg-label {
-    font-size: 11.5px;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    font-weight: 700;
-    margin-bottom: 7px;
-  }
-  .chips { display: flex; flex-wrap: wrap; gap: 7px; }
-  .chip {
-    border: 1px solid var(--line);
-    background: var(--card);
-    color: var(--ink-soft);
-    padding: 6px 12px;
-    border-radius: 999px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: all .12s ease;
-    user-select: none;
-  }
-  .chip:hover { border-color: var(--navy); color: var(--ink); }
-  .chip.active { background: var(--navy); border-color: var(--navy); color: #fff; }
-  .chip .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:34px 0 6px;border-top:2px solid var(--vc-black);border-bottom:2px solid var(--vc-black);}
+.stat{padding:18px 16px;border-right:1px solid var(--vc-cloud);}
+.stat:last-child{border-right:none;}
+.stat .n{font-family:var(--serif);font-size:46px;line-height:.95;color:var(--vc-black);}
+.stat .l{font-family:var(--sans);font-weight:300;font-size:13px;color:var(--vc-charcoal);margin-top:8px;line-height:1.3;}
 
-  .toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 20px 0 4px;
-    border-top: 1px solid var(--line-soft);
-    padding-top: 16px;
-  }
-  .count { font-size: 13.5px; color: var(--ink-soft); }
-  .count b { color: var(--ink); }
-  .reset {
-    background: none;
-    border: none;
-    color: var(--maroon);
-    font-size: 13px;
-    cursor: pointer;
-    text-decoration: underline;
-    padding: 0;
-  }
-  .sortsel {
-    border: 1px solid var(--line);
-    border-radius: 7px;
-    padding: 6px 9px;
-    font-size: 13px;
-    background: var(--card);
-    color: var(--ink);
-  }
+/* section heads */
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--vc-black);padding-bottom:7px;margin:46px 0 6px;}
+.sec-head h2{font-family:var(--sans);font-weight:900;font-size:23px;margin:0;letter-spacing:-.01em;}
+.sec-head .note{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--vc-charcoal);}
+.sec-sub{font-size:14px;color:var(--vc-charcoal);margin:10px 0 18px;max-width:760px;}
 
-  /* Cards */
-  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 18px 0 40px; }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 11px;
-    padding: 18px 18px 16px;
-    box-shadow: var(--shadow);
-    display: flex;
-    flex-direction: column;
-  }
-  .card .top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
-  .card h3 {
-    font-family: Georgia, serif;
-    font-size: 19px;
-    line-height: 1.2;
-    margin: 0 0 3px;
-  }
-  .card .affil { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
-  .badge {
-    flex: 0 0 auto;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: .03em;
-    padding: 4px 9px;
-    border-radius: 6px;
-    white-space: nowrap;
-    text-transform: uppercase;
-  }
-  .badge.formal { background: var(--formal-bg); color: var(--formal); }
-  .badge.likely { background: var(--likely-bg); color: var(--likely); }
-  .badge.reported { background: var(--reported-bg); color: var(--reported); }
-  .badge.position { background: var(--position-bg); color: var(--position); }
+/* ranked chart */
+.chart{margin:6px 0 10px;}
+.crow{display:grid;grid-template-columns:1fr 240px;gap:14px;align-items:center;padding:5px 0;cursor:pointer;border-radius:3px;}
+.crow:hover{background:var(--vc-chartreuse-20);}
+.crow .clabel{font-size:13.5px;text-align:right;line-height:1.25;}
+.crow .clabel .cat{display:block;font-family:var(--sans);font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--vc-charcoal);}
+.crow .cbarwrap{display:flex;align-items:center;gap:9px;}
+.crow .cbar{height:17px;background:var(--vc-chartreuse);min-width:2px;}
+.crow .cval{font-family:var(--sans);font-weight:700;font-size:13px;color:var(--vc-black);}
+.crow.dim{opacity:.32;}
 
-  .card .where { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 10px; }
-  .card .where b { color: var(--ink); font-weight: 600; }
-  .card .summary { font-size: 14.5px; color: var(--ink); margin: 0 0 12px; }
-  .card blockquote {
-    margin: 0 0 12px;
-    padding: 8px 0 8px 13px;
-    border-left: 3px solid var(--line);
-    font-style: italic;
-    color: var(--ink-soft);
-    font-size: 14px;
-  }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
-  .tag {
-    font-size: 11.5px;
-    background: var(--paper);
-    border: 1px solid var(--line-soft);
-    color: var(--ink-soft);
-    padding: 3px 8px;
-    border-radius: 5px;
-  }
-  .card .foot {
-    margin-top: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    border-top: 1px solid var(--line-soft);
-    padding-top: 11px;
-  }
-  .card .source-link {
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--navy);
-  }
-  .card .source-link:hover { text-decoration: underline; }
-  .conf { font-size: 11.5px; color: var(--ink-soft); text-align: right; max-width: 56%; }
-  .conf .ct { font-weight: 700; }
+/* controls */
+.controls{margin:8px 0 6px;}
+.search{width:100%;padding:13px 15px;font-size:16px;font-family:var(--sans);font-weight:300;border:2px solid var(--vc-black);border-radius:3px;background:var(--vc-white);color:var(--vc-black);}
+.search:focus{outline:none;border-color:var(--vc-orange);}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px;}
+.chip{font-family:var(--sans);font-weight:700;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;border:1.5px solid var(--vc-cloud);background:var(--vc-white);color:var(--vc-charcoal);padding:6px 11px;border-radius:999px;cursor:pointer;transition:all .12s;}
+.chip:hover{border-color:var(--vc-black);color:var(--vc-black);}
+.chip.active{background:var(--vc-black);border-color:var(--vc-black);color:var(--vc-white);}
+.toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin:18px 0 8px;}
+.count{font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);}
+.count b{color:var(--vc-black);}
+.tools-right{display:flex;gap:14px;align-items:center;}
+.sortsel{font-family:var(--sans);font-size:13px;border:1.5px solid var(--vc-cloud);border-radius:3px;padding:6px 9px;background:var(--vc-white);color:var(--vc-black);}
+.reset{background:none;border:none;color:var(--vc-black);font-family:var(--sans);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;text-decoration:underline;text-decoration-color:var(--vc-orange);text-decoration-thickness:2px;padding:0;}
 
-  .empty { text-align: center; color: var(--ink-soft); padding: 50px 0; font-size: 15px; }
+/* idea cards */
+.ideas{margin:14px 0 10px;}
+.idea{border-bottom:1px solid var(--vc-cloud);padding:24px 0;}
+.idea:first-child{border-top:2px solid var(--vc-black);}
+.idea .ihead{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;}
+.rank{font-family:var(--serif);font-size:42px;line-height:.85;color:var(--vc-cloud);min-width:54px;}
+.idea h3{font-family:var(--sans);font-weight:900;font-size:21px;line-height:1.18;margin:0 0 8px;letter-spacing:-.01em;}
+.idea .imeta{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:11px;}
+.cat-tag{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--vc-orange);}
+.pcount{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--vc-black);background:var(--vc-chartreuse);padding:3px 9px;border-radius:999px;}
+.hreach{font-family:var(--sans);font-weight:300;font-size:12px;color:var(--vc-charcoal);}
+.idea .summary{font-size:15.5px;line-height:1.5;margin:0 0 14px;}
+.propbtn{font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;background:none;border:none;color:var(--vc-black);cursor:pointer;padding:0;display:inline-flex;align-items:center;gap:6px;}
+.propbtn .arr{color:var(--vc-orange);transition:transform .15s;}
+.propbtn.open .arr{transform:rotate(90deg);}
+.props{margin:14px 0 0;display:none;}
+.props.open{display:block;}
+.prop{display:grid;grid-template-columns:1fr auto;gap:12px;padding:11px 0;border-top:1px dotted var(--vc-cloud);align-items:start;}
+.prop .who{font-size:14.5px;}
+.prop .who .nm{font-family:var(--sans);font-weight:700;}
+.prop .who .uncertain{color:var(--vc-charcoal);font-weight:300;cursor:help;border-bottom:1px dotted var(--vc-charcoal);}
+.prop .who .aff{color:var(--vc-charcoal);font-size:13px;}
+.prop .who .qt{font-family:var(--serif);font-size:14.5px;color:var(--vc-black);margin-top:5px;line-height:1.4;}
+.prop .watch{font-family:var(--sans);font-weight:700;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap;text-decoration:none;color:var(--vc-black);border:1.5px solid var(--vc-black);padding:5px 10px;border-radius:3px;}
+.prop .watch:hover{background:var(--vc-black);color:var(--vc-white);}
+.prop .watch.doc{border-color:var(--vc-cerulean);color:var(--vc-cerulean);}
+.prop .watch.doc:hover{background:var(--vc-cerulean);color:var(--vc-white);}
+.prop .hearing-tag{font-family:var(--sans);font-weight:700;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);margin-top:4px;}
+.empty{text-align:center;color:var(--vc-charcoal);padding:50px 0;}
 
-  /* Methodology */
-  .method {
-    border-top: 2px solid var(--ink);
-    background: #efece3;
-    margin-top: 10px;
-  }
-  .method .wrap { padding-top: 30px; padding-bottom: 50px; }
-  .method h2 {
-    font-family: Georgia, serif;
-    font-size: 24px;
-    margin: 0 0 6px;
-  }
-  .method h3 { font-size: 15px; margin: 22px 0 6px; }
-  .method p, .method li { font-size: 14px; color: var(--ink-soft); }
-  .method ul { padding-left: 20px; margin: 6px 0; }
-  .method a { color: var(--navy); }
-  .legend { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px 18px; margin: 10px 0; }
-  .legend .li { font-size: 13.5px; display: flex; gap: 9px; align-items: baseline; }
+/* methodology */
+.method{background:var(--vc-cloud);margin-top:42px;}
+.method .wrap{padding:34px 22px 46px;}
+.method h2{font-family:var(--sans);font-weight:900;font-size:22px;margin:0 0 8px;}
+.method h3{font-family:var(--sans);font-weight:700;font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin:22px 0 6px;}
+.method p,.method li{font-size:14.5px;color:var(--vc-black);line-height:1.55;}
+.method a{color:var(--vc-black);text-decoration:underline;text-decoration-color:var(--vc-orange);text-decoration-thickness:2px;}
+.method ul{padding-left:20px;}
 
-  /* AI caution */
-  .ai-caution-btn {
-    position: fixed;
-    right: 16px;
-    bottom: 16px;
-    z-index: 40;
-    background: var(--maroon);
-    color: #fff;
-    border: none;
-    border-radius: 999px;
-    padding: 10px 16px;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 4px 14px rgba(122,34,48,.4);
-  }
-  .ai-pop {
-    position: fixed;
-    right: 16px;
-    bottom: 64px;
-    z-index: 41;
-    width: min(380px, calc(100vw - 32px));
-    background: var(--navy);
-    color: #eef0f5;
-    border-radius: 12px;
-    padding: 18px 18px 16px;
-    box-shadow: 0 10px 40px rgba(0,0,0,.35);
-    display: none;
-  }
-  .ai-pop.open { display: block; }
-  .ai-pop h4 { margin: 0 0 8px; font-size: 14px; color: #fff; }
-  .ai-pop ul { margin: 0; padding-left: 18px; }
-  .ai-pop li { font-size: 12.8px; margin-bottom: 7px; color: #d7dbe6; }
-  .ai-pop .x { position: absolute; top: 10px; right: 12px; color: #aeb6c8; background:none; border:none; font-size:18px; cursor:pointer; }
+/* footer */
+footer{background:var(--vc-orange);color:var(--vc-white);}
+footer .wrap{padding:30px 22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;align-items:center;}
+footer .fm{font-family:var(--sans);font-weight:900;font-size:22px;text-transform:uppercase;letter-spacing:.02em;}
+footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560px;}
 
-  @media (max-width: 760px) {
-    .stats { grid-template-columns: repeat(2,1fr); }
-    .grid { grid-template-columns: 1fr; }
-    .legend { grid-template-columns: 1fr; }
-    .conf { max-width: 50%; }
-  }
+/* AI caution */
+.ai-btn{position:fixed;right:16px;bottom:16px;z-index:40;background:var(--vc-black);color:var(--vc-white);border:none;border-radius:999px;padding:10px 16px;font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+.ai-pop{position:fixed;right:16px;bottom:62px;z-index:41;width:min(390px,calc(100vw - 32px));background:var(--vc-black);color:var(--vc-white);border-radius:6px;padding:18px;box-shadow:0 10px 40px rgba(0,0,0,.4);display:none;}
+.ai-pop.open{display:block;}
+.ai-pop h4{font-family:var(--sans);font-weight:900;margin:0 0 8px;font-size:14px;}
+.ai-pop ul{margin:0;padding-left:18px;}
+.ai-pop li{font-size:12.8px;margin-bottom:7px;color:#e4e4e7;line-height:1.45;}
+.ai-pop .x{position:absolute;top:8px;right:11px;background:none;border:none;color:#aaa;font-size:19px;cursor:pointer;}
+.ai-pop a{color:var(--vc-chartreuse);}
+
+@media(max-width:740px){
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .stat:nth-child(2){border-right:none;}
+  .crow{grid-template-columns:1fr 150px;}
+  .idea .ihead{grid-template-columns:1fr;gap:6px;}
+  .rank{font-size:30px;min-width:0;}
+  .prop{grid-template-columns:1fr;}
+}
 </style>
 </head>
 <body>
 
-<header class="hero">
-  <div class="wrap">
-    <div class="kicker">New York City charter revision &middot; 2026</div>
-    <h1>Who is testifying to the Commission on Government Efficiency</h1>
-    <p class="standfirst">A working catalog of testimony and published positions aimed at COGE &mdash; Mayor Zohran Mamdani's 2026 Commission on Government Efficiency, the charter revision commission chaired by Patrick Gaspard that will put proposed New York City Charter amendments on the November 2026 ballot.</p>
-    <div class="meta-row">
-      <span>Snapshot as of <b>June 23, 2026</b></span>
-      <span>Living document &mdash; hearings and written comments continue into <b>mid-July 2026</b></span>
-      <span>Every entry links to a <b>primary or news source</b></span>
-    </div>
+<div class="topbar"><div class="wrap">
+  <a class="wordmark" href="https://www.vitalcitynyc.org" target="_blank" rel="noopener">Vital City</a>
+  <span class="tag">Charter revision 2026</span>
+</div></div>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">Commission on Government Efficiency &middot; the hearing record</div>
+  <h1>The ideas New Yorkers brought to the efficiency commission</h1>
+  <p class="dek">We watched all three of the Commission on Government Efficiency's first-round public hearings and pulled out every proposal &mdash; then grouped them idea by idea, so the threads that many New Yorkers pulled on come into view. COGE is Mayor Mamdani's 2026 charter revision commission, chaired by Patrick Gaspard; its proposals go to voters in November.</p>
+  <p class="byline">32 ideas &middot; 95 public witnesses &middot; 3 hearings &middot; ~9 hours of testimony</p>
+
+  <div class="verdict">
+    <div class="lab">A note before you dig in</div>
+    <div class="head">There is no single place that collects this testimony &mdash; so we built one.</div>
+    <p>COGE livestreams its hearings and lists its schedule, but it publishes no consolidated record of who testified or what they asked for, and citymeetings.nyc has not transcribed the 2026 hearings. This catalog is built from the commission's own hearing videos plus a handful of written submissions. Each backer below links to the exact moment in the official video.</p>
+    <p class="chan">Official channels: schedule and livestreams at <a href="https://www.nyc.gov/site/charter/meetings/public-meetings-hearings.page" target="_blank" rel="noopener">nyc.gov/site/charter</a> &middot; submit testimony via the <a href="https://tinyurl.com/COGE2026comments" target="_blank" rel="noopener">comment form</a> or <a href="mailto:CharterTestimony@citycharter.nyc.gov">CharterTestimony@citycharter.nyc.gov</a></p>
   </div>
-</header>
+
+  <div class="stats">
+    <div class="stat"><div class="n">32</div><div class="l">distinct ideas proposed</div></div>
+    <div class="stat"><div class="n">95</div><div class="l">public witnesses across three hearings</div></div>
+    <div class="stat"><div class="n">18</div><div class="l">ideas raised at more than one borough hearing</div></div>
+    <div class="stat"><div class="n">12</div><div class="l">backers for the most popular idea, open primaries</div></div>
+  </div>
+</div></header>
 
 <main class="wrap">
 
-  <section class="verdict" aria-label="Is there a single repository">
-    <h2>Is there one place that holds all the testimony?</h2>
-    <div class="big">No &mdash; not yet. There is no single public repository of COGE testimony.</div>
-    <p>It is easy to <em>submit</em> testimony but there is no posted corpus of what others have submitted. The commission streams its hearings and lists its schedule, but as of this snapshot it has not published a consolidated set of written submissions or transcripts. (The separate 2025 charter commission eventually posted a combined written-testimony PDF, so COGE may do the same later.) citymeetings.nyc, which transcribed the 2025 hearings, has not yet indexed the 2026 COGE hearings. So this catalog stitches together testimony from testifiers' own sites and news coverage.</p>
-    <p class="chan"><b>Official channels:</b> schedule and livestreams at <a href="https://www.nyc.gov/site/charter/meetings/public-meetings-hearings.page" target="_blank" rel="noopener">nyc.gov/site/charter</a> &middot; submit written testimony via the <a href="https://tinyurl.com/COGE2026comments" target="_blank" rel="noopener">COGE comment form</a> or email <a href="mailto:CharterTestimony@citycharter.nyc.gov">CharterTestimony@citycharter.nyc.gov</a></p>
-  </section>
+  <div class="sec-head"><h2>The shared threads</h2><span class="note">Ideas ranked by how many people backed them</span></div>
+  <p class="sec-sub">Every idea raised at the hearings, ordered by the number of distinct people who argued for it. Click any bar to jump to the detail.</p>
+  <div class="chart" id="chart"></div>
 
-  <section class="stats" id="stats" aria-label="Summary counts"></section>
-
-  <section class="controls">
-    <input type="text" class="search" id="search" placeholder="Search by name, organization, topic or keyword...">
-    <div class="filtergroups">
-      <div>
-        <div class="fg-label">Status</div>
-        <div class="chips" id="statusChips"></div>
-      </div>
-      <div>
-        <div class="fg-label">Type of testifier</div>
-        <div class="chips" id="typeChips"></div>
-      </div>
-      <div>
-        <div class="fg-label">Topic</div>
-        <div class="chips" id="topicChips"></div>
-      </div>
-    </div>
+  <div class="sec-head"><h2>Every idea, with who backed it</h2><span class="note" id="topcount"></span></div>
+  <div class="controls">
+    <input type="text" class="search" id="search" placeholder="Search ideas, people or organizations...">
+    <div class="chips" id="catChips"></div>
     <div class="toolbar">
       <div class="count" id="count"></div>
-      <div style="display:flex; gap:14px; align-items:center;">
+      <div class="tools-right">
         <select class="sortsel" id="sort">
-          <option value="status">Sort: testimony first</option>
-          <option value="date">Sort: by date</option>
-          <option value="name">Sort: A&ndash;Z</option>
+          <option value="count">Sort: most backers first</option>
+          <option value="title">Sort: A&ndash;Z</option>
+          <option value="category">Sort: by category</option>
         </select>
-        <button class="reset" id="reset">Clear filters</button>
+        <button class="reset" id="reset">Clear</button>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="grid" id="grid"></section>
-  <div class="empty" id="empty" style="display:none;">No entries match these filters.</div>
-
+  <div class="ideas" id="ideas"></div>
+  <div class="empty" id="empty" style="display:none;">No ideas match these filters.</div>
 </main>
 
-<section class="method">
-  <div class="wrap">
-    <h2>How this was built, and what the labels mean</h2>
-    <p>This catalog was assembled from public web research on June 23, 2026. Because COGE keeps no central testimony archive, entries were gathered from testifiers' own websites (the Comptroller, BetaNYC, council members and others) and from news coverage of the hearings. Nothing here is invented: every entry carries a working link to where the testimony or statement was found, and quotes are transcribed from those sources.</p>
+<section class="method"><div class="wrap">
+  <h2>How we built this</h2>
+  <p>This is an idea-centric reading of the public record, not an official transcript. We took the auto-generated captions from COGE's three first-round hearing videos (Manhattan, June 9; Bronx, June 10; Brooklyn, June 11), identified each public witness and the concrete proposals they made, then clustered those proposals into shared ideas. Two documented written submissions &mdash; from Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled as such. Commissioners, staff and procedural talk are excluded.</p>
 
-    <h3>What the status labels mean</h3>
-    <div class="legend">
-      <div class="li"><span class="badge formal">Formal testimony</span> <span>Delivered or submitted to COGE as testimony, confirmed by a primary source or specific news report.</span></div>
-      <div class="li"><span class="badge likely">Likely / intended</span> <span>Stated intent to testify, or strong indication of a submission, but the filed text was not located.</span></div>
-      <div class="li"><span class="badge reported">Reported statement</span> <span>Quoted in coverage previewing a hearing (for example a press call) rather than confirmed as delivered on the record.</span></div>
-      <div class="li"><span class="badge position">Published position</span> <span>A public statement, blog post or explainer about COGE that was not confirmed as filed testimony &mdash; included because you asked for everything findable, clearly flagged.</span></div>
-    </div>
+  <h3>Why some names look approximate</h3>
+  <p>The hearings have no published speaker list, so names come from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses in the Bronx. Names we are unsure of are marked with a dotted underline; hover for a note. Treat any spelling as provisional and confirm against the video before quoting by name.</p>
 
-    <h3>What was deliberately excluded</h3>
-    <p>This is the single biggest trap with COGE. There have been <b>four New York City charter commissions in roughly two years</b>, and the official site reuses the same web address for each. A great deal of widely cited charter testimony &mdash; from the Manhattan Institute, the Real Estate Board of New York, the Citizens Budget Commission, Public Advocate Jumaane Williams and others &mdash; was actually given to the <b>2024 and 2025</b> commissions, not to COGE. Those items were left out unless a 2026 COGE submission could be confirmed. If you see a familiar group missing, that is usually why.</p>
+  <h3>COGE only</h3>
+  <p>This covers the 2026 Commission on Government Efficiency only. New York City has had four charter commissions in roughly two years, and a lot of widely cited "charter testimony" actually belongs to the 2024 and 2025 commissions. Those were deliberately left out.</p>
 
-    <h3>A note on absent unions and business groups</h3>
-    <p>Some major interests are shaping COGE from the inside rather than through testimony. DC 37's executive director Henry Garrido and the Partnership for New York City's Kathryn Wylde sit on the commission itself, so labor and big-business input is partly routed through commissioner seats and private feedback sessions, not public testimony.</p>
+  <h3>Who isn't here</h3>
+  <p>Some major interests are shaping COGE from inside rather than through testimony: DC 37's Henry Garrido and the Partnership for New York City's Kathryn Wylde sit on the commission itself. A fourth and fifth round of hearings and written comments run into mid-July 2026, so this is a snapshot, not the final word.</p>
 
-    <h3>Confidence and verification</h3>
-    <p>Each card states a confidence level. Where a hearing date or the fact of delivery is uncertain, the card says so. For anything you intend to publish or rely on, confirm the verbatim wording and the submission against the original source or the official record. This snapshot reflects activity through June 23, 2026; later hearings and written comments (running into mid-July 2026) are not yet captured.</p>
+  <h3>Sources</h3>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=n6F-Of84tR4" target="_blank" rel="noopener">COGE Round 1 &mdash; Manhattan hearing (full video)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=BT7z3EaKSUM" target="_blank" rel="noopener">COGE Round 1 &mdash; Bronx hearing (full video)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=lzsMs6xsxY4" target="_blank" rel="noopener">COGE Round 1 &mdash; Brooklyn hearing (full video)</a></li>
+    <li><a href="https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/" target="_blank" rel="noopener">Comptroller Mark Levine &mdash; written testimony</a></li>
+    <li><a href="https://qns.com/2026/06/cm-wong-nyc-commission-district-30/" target="_blank" rel="noopener">Council Member Phil Wong &mdash; written testimony (QNS)</a></li>
+  </ul>
+</div></section>
 
-    <h3>Primary sources</h3>
-    <ul>
-      <li><a href="https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/" target="_blank" rel="noopener">Comptroller Mark Levine &mdash; testimony to COGE</a></li>
-      <li><a href="https://www.beta.nyc/2026/06/11/coge-testimony/" target="_blank" rel="noopener">BetaNYC &mdash; testimony to COGE</a></li>
-      <li><a href="https://publicsectorjobboard.substack.com/p/what-i-said-to-new-york-citys-commission" target="_blank" rel="noopener">Rebecca Heywood / Public Sector Job Board &mdash; testimony</a></li>
-      <li><a href="https://qns.com/2026/06/cm-wong-nyc-commission-district-30/" target="_blank" rel="noopener">QNS &mdash; Council Member Phil Wong's written testimony</a></li>
-      <li><a href="https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/" target="_blank" rel="noopener">City &amp; State &mdash; first COGE hearing</a></li>
-      <li><a href="https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/" target="_blank" rel="noopener">amNewYork &mdash; open-primary advocates press the panel</a></li>
-      <li><a href="https://www.amny.com/finance/new-york-city-has-a-contract-procurement-problem-and-advocates-are-calling-for-reform/" target="_blank" rel="noopener">amNewYork &mdash; procurement-reform testimony</a></li>
-      <li><a href="https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/" target="_blank" rel="noopener">Reinvent Albany &mdash; statement on COGE</a></li>
-      <li><a href="https://abundanceny.substack.com/p/coge-on-tour-knicks-in-four" target="_blank" rel="noopener">Abundance New York &mdash; "COGE on tour"</a></li>
-      <li><a href="https://www.maximumnewyork.com/p/what-is-the-mayors-commission-on" target="_blank" rel="noopener">Maximum New York &mdash; what is COGE</a></li>
-    </ul>
-  </div>
-</section>
+<footer><div class="wrap">
+  <span class="fm">Vital City</span>
+  <span class="fl">An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency. Snapshot as of June 23, 2026 &mdash; a living document as hearings continue.</span>
+</div></footer>
 
-<button class="ai-caution-btn" id="aiBtn">AI caution</button>
+<button class="ai-btn" id="aiBtn">AI caution</button>
 <div class="ai-pop" id="aiPop" role="dialog" aria-label="AI caution">
   <button class="x" id="aiX" aria-label="Close">&times;</button>
   <h4>About this catalog &mdash; read before relying on it</h4>
   <ul>
-    <li>Assembled with AI-assisted web research on June 23, 2026. Treat it as a research starting point, not the official record.</li>
-    <li>Every entry links to a primary or news source. No sources or quotes were invented.</li>
-    <li>COGE (2026) was carefully separated from the earlier 2024 and 2025 charter commissions; some famous "charter testimony" belongs to those and was excluded.</li>
-    <li>Status labels (formal / likely / reported / published position) reflect our confidence about whether something was actually submitted &mdash; verify against the official record where it matters.</li>
-    <li>Quotes are transcribed from the linked sources; confirm verbatim wording before republishing.</li>
-    <li>A snapshot only: hearings and written comments continue into mid-July 2026, so this is incomplete by design.</li>
+    <li>Built with AI-assisted transcription and clustering of COGE's hearing videos on June 23, 2026. It is a research tool, not the official record.</li>
+    <li>Speaker names come from auto-captions and are often misspelled; uncertain ones are flagged. Confirm names and quotes against the linked video before publishing.</li>
+    <li>Grouping testimony into "ideas" involves judgment; a backer placed under an idea may have framed it differently. Watch the clip for full context.</li>
+    <li>Quotes are transcribed from auto-captions and lightly cleaned; they may not be word-perfect.</li>
+    <li>COGE (2026) was separated from the 2024 and 2025 charter commissions; their testimony was excluded.</li>
+    <li>A snapshot: later hearings and written comments into mid-July 2026 are not yet captured.</li>
   </ul>
 </div>
 
+<script id="data" type="application/json">[{"id": "open-primaries-for-unaffiliated-voters", "title": "Open the primaries so unaffiliated voters can vote in the election that decides", "category": "Elections & voting", "summary": "Move New York City from closed partisan primaries to open or nonpartisan primaries (often paired with a top-two advancing) so the roughly 1.2 to 1.4 million unaffiliated voters can participate in the primaries that are usually determinative. Proponents argue this is a civil-rights issue (a majority of independents are people of color and many are under 40), that it raises turnout, that it pushes candidates toward broader consensus, and that independents already fund the matching-funds program with their taxes. Several urge putting it on the November ballot, building on the 2025 Charter Revision Commission record.", "proponent_count": 12, "hearings": ["Manhattan", "Bronx", "Brooklyn"], "proponents": [{"name": "Susan Lee", "name_confidence": "high", "affiliation": "Alliance for Community Preservation and Betterment", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=1025s", "quote": "1.2 million New Yorkers are locked out of the primary. As Americans, we need to do better."}, {"name": "Melanie Wesslock", "name_confidence": "medium", "affiliation": "One City Rising", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=1185s", "quote": "I had to register for a party that I do not want to be in in order to have a vote in our primaries... and I think that is insane."}, {"name": "Jeff Baron", "name_confidence": "medium", "affiliation": "Resident (independent voter; former Brooklyn College instructor)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=1513s", "quote": "650,000 people of color in New York City are excluded from voting in the elections that matter when choosing who will represent them in government."}, {"name": "Peter Ponio", "name_confidence": "low", "affiliation": "Retired NYPD (39 years); member of three police unions", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=2130s", "quote": "Just as unions help ensure that workers have a voice in the workplace, our election system... should ensure that every voter has a voice in our democracy."}, {"name": "Stacy Chmielewski", "name_confidence": "low", "affiliation": "Resident (lifelong NYC resident)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=2334s", "quote": "The conclusion from these studies is clear. When voters are given greater access to participate, more of them vote."}, {"name": "Maria Daniello", "name_confidence": "low", "affiliation": "One City Rising", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=2566s", "quote": "The main effect of moving to an open primary, followed by a top two election would be to give unaffiliated voters the ability to participate in the primary process..."}, {"name": "Fabian Levy", "name_confidence": "high", "affiliation": "Resident (former NYC Deputy Mayor for Communications)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=5006s", "quote": "If every vote should be counted, why are we restricting legal citizens from voting in the first place?"}, {"name": "Andrea Harris", "name_confidence": "high", "affiliation": "Resident (mother of an active-duty service member)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7050s", "quote": "Many of our armed forces swear an oath to defend the Constitution of the United States, not a political party."}, {"name": "Jessica Hower", "name_confidence": "low", "affiliation": "Political consultant; advisory board, Go Vote NYC; former executive director, New Majority NYC", "role_type": "Advocacy org", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=2845s", "quote": "Open primary districts generally have twice the turnout that we do here. And since this is also an efficiency discussion, election processes are much more efficient."}, {"name": "Dr. Jesse Fields", "name_confidence": "high", "affiliation": "Harlem community doctor (Mount Sinai); NYC Maternal Mortality Review Committee; All Stars Project board; works with Open Primaries", "role_type": "Advocacy org", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=2650s", "quote": "The disenfranchisement of 1.2 million New Yorkers, a majority of whom are black, Hispanic, and Asian, must end."}, {"name": "John Manning", "name_confidence": "medium", "affiliation": "Retired city analyst; resident of Bay Ridge, Brooklyn", "role_type": "Resident", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=5232s", "quote": "there are well over 1 million independent or unaffiliated registered voters in New York who find themselves ignored by the process."}, {"name": "Yvonne Lee", "name_confidence": "high", "affiliation": "Lifelong New Yorker, Harlem; retired from HPD (housing/community specialist); lifelong independent voter", "role_type": "Resident", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9672s", "quote": "We have a primary election where us independents are locked out. It feels like we're being held hostage."}]}, {"id": "involve-building-trades-and-protect-labor-standards", "title": "Bring the building trades in early and don't let efficiency erode labor standards", "category": "Labor & workforce", "summary": "Organized labor and the building trades urge the city to consult them early on large projects, put experienced union tradespeople on jobs from day one, and use project labor agreements as a 'job site constitution' that speeds rather than slows work. They argue skilled union labor and rigorous apprenticeship are foundations of efficiency and pathways to the middle class. A recurring counter-tension: no efficiency reform should become a 'fast pass for exploitation' or weaken worker protections, prevailing-wage enforcement or safety.", "proponent_count": 8, "hearings": ["Manhattan"], "proponents": [{"name": "Michael Picarillo", "name_confidence": "medium", "affiliation": "NYC District Council of Carpenters (Director of Area Standards; ~17,000 carpenters)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=2820s", "quote": "When you have experienced union carpenters on site, things run smoother, safer, and faster without cutting quarters. That's not an opinion. That's just how jobs actually play out."}, {"name": "Devon Lomax", "name_confidence": "medium", "affiliation": "District Council 9 Painters and Allied Trades (Political Director)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4678s", "quote": "Skilled workforce is not an obstacle to efficiency. It is one of its foundations."}, {"name": "Diego", "name_confidence": "low", "affiliation": "Ironworkers Local 40", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=5230s", "quote": "I personally been on jobs where one old-timer sees something that eight engineers have not yet understood."}, {"name": "Michael Grunner", "name_confidence": "medium", "affiliation": "IBEW Local 3 (International Brotherhood of Electrical Workers)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7833s", "quote": "Build more, build faster, build better. Most importantly, build union. Building unions builds pathways. a pathway to the middle class."}, {"name": "Henry Sodelin", "name_confidence": "low", "affiliation": "IBEW Local 3 (International Brotherhood of Electrical Workers)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8080s", "quote": "If we want to continue this being the great city that it is... always keep the building trades in what we're doing."}, {"name": "Chris Loscalzo", "name_confidence": "medium", "affiliation": "Laborers Local 1010 (LIUNA)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8696s", "quote": "Project labor agreements function as a job site constitution, establishing a single set of rules and expectations across an entire project rather than relying on a piecemeal approach."}, {"name": "Aaron Binstein", "name_confidence": "high", "affiliation": "Ironworkers Local 40", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9645s", "quote": "No job or infrastructure project is worth more than a worker's health or their well-being."}, {"name": "Robert Bernat", "name_confidence": "medium", "affiliation": "Construction & General Building Laborers Local 79 (LIUNA)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4199s", "quote": "No reform should create a fast pass for exploitation... Jumping the line on special consideration should only be available to firms committed to strong labor standards."}]}, {"id": "pay-vendors-and-nonprofits-on-time", "title": "Pay vendors and nonprofits on time, and measure the clock from when they bill", "category": "Paying vendors on time", "summary": "City agencies routinely pay small businesses, nonprofits and human-services providers months or even a year late, forcing them to borrow at commercial rates or work for free. Proponents call for enforceable on-time standards (a 30-day citywide standard, partial 80% payments while vetting continues, upfront advances), and for tracking payment timeliness from the date a requisition is submitted (not just after agency approval) with public requisition-level reporting. Several cite the cash-flow crisis this creates for MWBEs and the roughly 31% of $12.7 billion owed and unpaid to human-service vendors.", "proponent_count": 7, "hearings": ["Manhattan", "Bronx", "Brooklyn"], "proponents": [{"name": "Ashley Roloffs", "name_confidence": "medium", "affiliation": "Trust for Public Land (Program Coordinator)", "role_type": "Nonprofit", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7272s", "quote": "Philanthropic dollars are effectively paying banks for city-funded projects. Advancing even a portion of grant funding at the outset would solve this."}, {"name": "Felice Farber", "name_confidence": "medium", "affiliation": "Subcontractors Trade Association (STA), Executive Director (350+ specialty trade firms, 100% union)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9411s", "quote": "The city should track payment timeliness beginning on the date a payment requisition is submitted rather than measuring the period only after an agency approves payment."}, {"name": "Marielena Walz", "name_confidence": "low", "affiliation": "Equity Design (founder and CEO); NYC/NYS MWBE", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=630s", "quote": "we get paid after the fact, sometimes a year after the fact ... So, I have to figure out how to be able to close that gap in my revenue so I have the cash flow that would allow me to take on big contracts."}, {"name": "Daniel Garcia", "name_confidence": "high", "affiliation": "Sasa Catering and Special Events (owner); MWBE; Port Morris Industrial Business Zone, Bronx", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1878s", "quote": "When payments are delayed for months or even years, it creates a real cash flow crisis that can threaten whole operations like salsa."}, {"name": "Gregory Hernandez", "name_confidence": "high", "affiliation": "Bronx business owner; filmmaker; production company (founded 2019); MBE certified, DOE vendor", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4897s", "quote": "Provide a payroll cash-infusion/financing mechanism for businesses in good standing"}, {"name": "Louisa Chaffee", "name_confidence": "high", "affiliation": "NYC Independent Budget Office (director)", "role_type": "Government body", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s", "quote": "This is a like a real-life example of how New York City makes its human service community provide services for free."}, {"name": "Julie Samuels", "name_confidence": "high", "affiliation": "Tech:NYC (president/CEO); former charter revision commissioner", "role_type": "Business/industry", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s", "quote": "Reform procurement to ensure city contractors get paid"}]}, {"id": "consolidate-and-speed-permitting", "title": "Consolidate and speed up permitting across agencies", "category": "Permitting & licensing", "summary": "Permitting is a fragmented maze across DOB, FDNY, DEP, DOT, SAPO and others, with serial back-and-forth that delays projects and inflates costs. Proponents want consolidation and acceleration: a single permitting authority or interface, all objections delivered at once, phased and concurrent reviews, a single multilingual permitting app/web account for small businesses, and integrated reporting so the same documents aren't submitted repeatedly. They argue delay is itself a form of government inefficiency that burdens homeowners, small developers and industrial businesses.", "proponent_count": 7, "hearings": ["Manhattan", "Bronx"], "proponents": [{"name": "Martha Snow", "name_confidence": "high", "affiliation": "Urban Design Forum (Director of Community Design)", "role_type": "Nonprofit", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4524s", "quote": "Activating a public space means navigating a fragmented maze... with no uniform process and no single point of accountability."}, {"name": "Robert Bernat", "name_confidence": "medium", "affiliation": "Construction & General Building Laborers Local 79 (LIUNA)", "role_type": "Labor", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4199s", "quote": "No reform should create a fast pass for exploitation... Jumping the line on special consideration should only be available to firms committed to strong labor standards."}, {"name": "Yadira Rodriguez", "name_confidence": "medium", "affiliation": "Construction consultant, Bronx business owner", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=3566s", "quote": "the financial burden created by the permitting fees, violation penalties, and the lengthy approval process by the numerous agencies such as Do and Oath ... their fees are incredible crazy."}, {"name": "Charles Delhomme", "name_confidence": "medium", "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx)", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4268s", "quote": "Streamline permitting across agencies, strengthen protections for IBZ-zoned land"}, {"name": "Pedro Suarez", "name_confidence": "high", "affiliation": "Third Avenue Business Improvement District, South Bronx (executive director)", "role_type": "Advocacy org", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4657s", "quote": "there should be an app or web account to consolidate all of the city's permitting and licensing for small businesses ... in multiple languages is some low-hanging fruit."}, {"name": "Jerry Hippolyte", "name_confidence": "medium", "affiliation": "Housing Solutions of New York (chief of staff and head of government affairs); Bronx-based homelessness nonprofit", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5078s", "quote": "there's a vault section but that vault section doesn't connect back to your contract. So if you have multicontracts you still have to go to the vault versus ... it can cut across the other contracts."}, {"name": "B. Saj", "name_confidence": "low", "affiliation": "Broker/owner of Bar Real Estate and owner of City Builder Development Corporation (buy/fix/flip)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7077s", "quote": "Why don't you tell me what you need ... one time when I submit it to you, you don't have to make me go back and forth."}]}, {"id": "fix-mwbe-program-and-procurement-disparity", "title": "Fix the MWBE program: raise caps, close the disparity, open subcontracting", "category": "MWBE & small business", "summary": "MWBE firms face a stark procurement disparity (roughly 78% got no contracts in FY25, with average MWBE contracts far below non-certified firms), low contract caps (such as the $25,000 DOE cap), burdensome paperwork and outdated certification websites. Proponents want caps raised for proven vendors, the application streamlined, prime contractors required to subcontract local small and micro businesses, and a transparent single contracting and reimbursement system. The throughline is keeping procurement dollars with local New Yorkers and letting small community-rooted providers actually compete.", "proponent_count": 6, "hearings": ["Bronx"], "proponents": [{"name": "Marielena Walz", "name_confidence": "low", "affiliation": "Equity Design (founder and CEO); NYC/NYS MWBE", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=630s", "quote": "Raise or allow upward revision of the $25,000 MWBE contract cap with DOE for proven, established vendors"}, {"name": "Dr. Constance Barnes", "name_confidence": "high", "affiliation": "Unmask EU LLC (founder); chair, economic development committee, Community Board 8 (testifying as a community member)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1390s", "quote": "Streamline the MWBE application paperwork (e.g., accommodate applicants whose landlords don't provide rent receipts)"}, {"name": "Josea Kanan", "name_confidence": "low", "affiliation": "Balance Money and Mind (founder/owner); financial literacy, bookkeeping, tax; NYC MWBE", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=3690s", "quote": "whoever earned those contract can be secured that they hire or should contract a small and micro businesses from the Bronx to ensure that those resource from New Yorkers always stay in New York."}, {"name": "Ana Wahed", "name_confidence": "medium", "affiliation": "Tara Kitchen (founder), boutique Moroccan restaurant group; certified NYC MWBE", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7270s", "quote": "I'm really interested in micropurchasing and if that is something that could be made transparent and ... accessible to small businesses like myself. It's really the difference between us surviving and going out of business."}, {"name": "Sarah Espayat", "name_confidence": "low", "affiliation": "MWBE-certified business owner; mental health / emotional coaching services for women ages 25-55", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8909s", "quote": "they don't consider us like ... how can we put something together that let them see us and consider us when they get these type of contracts."}, {"name": "Pedro Suarez", "name_confidence": "high", "affiliation": "Third Avenue Business Improvement District, South Bronx (executive director)", "role_type": "Advocacy org", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4657s", "quote": "Streamline city MWBE contracting/reimbursement into one transparent system (registration can take 6 months to a year)"}]}, {"id": "build-in-house-digital-teams-not-big-it-contracts", "title": "Build in-house digital teams instead of relying on big IT contracts", "category": "Technology & digital services", "summary": "Rather than depending on large IT contractors who upsell and take institutional knowledge with them when they leave, the city should hire small multidisciplinary digital service teams (design, product, engineering, policy) embedded in agencies, backed by shared central infrastructure, modeled on the federal 18F / U.S. Digital Service. Proponents argue internal teams build faster and cheaper, let the city be a savvy customer and hold vendors accountable, and note the city spent $769 million or more last year on outside digital services. Supporting asks include enforcing Local Law 63 and creating civil-service titles for modern product roles.", "proponent_count": 5, "hearings": ["Manhattan", "Brooklyn"], "proponents": [{"name": "Tristan Lewis", "name_confidence": "high", "affiliation": "Resident; technology entrepreneur; President/CEO of a govtech software company (PBC)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6287s", "quote": "Digital infrastructure is fundamentally different than any other infrastructure that exists."}, {"name": "Lea Bannon", "name_confidence": "medium", "affiliation": "Former 18F / U.S. Digital Service; career civil servant (personal capacity)", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=2468s", "quote": "I do not recommend large IT contracts if you hope to deliver efficient quality public services."}, {"name": "Julie Su", "name_confidence": "low", "affiliation": "NYC DSA member; Mamdani technology transition committee; leads a public-sector tech team", "role_type": "Labor", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4118s", "quote": "We need to break our dependence on private technology contracting while maintaining civil service protections for the workers of New York City because the status quo is broken."}, {"name": "Jordan Shapiro", "name_confidence": "high", "affiliation": "BetaNYC (Associate Board Program Manager)", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=6032s", "quote": "the city pays a private company to host the website that serves its own laws. That contradiction is an efficiency problem, and the solution has a name. It's called digital sovereignty."}, {"name": "Rebecca Haywood", "name_confidence": "high", "affiliation": "Former NYC employee (DOT, DCAS, emergency management); technologist; runs a gov-tech job board/newsletter", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8985s", "quote": "internal digital teams can build more quickly at a lower cost, ensuring that residents can access services more easily."}]}, {"id": "comprehensive-procurement-reform", "title": "Treat procurement as central and overhaul its rules and oversight", "category": "Procurement & contracting", "summary": "Given roughly $40 billion a year in new contracts, proponents argue no efficiency effort can ignore procurement. Proposals include advance published procurement planning, centralized value-for-money reporting through MOCS, emergency-procurement planning, a single holistic view of all vendors to catch duplicate invoices and collusion, aggregating contracts across departments for lower unit prices, and a charter framework for centralized vendor oversight. There is internal tension over the Procurement Policy Board: some want it empowered and expanded, others want a centralized authority that takes precedence over it.", "proponent_count": 5, "hearings": ["Manhattan", "Bronx", "Brooklyn"], "proponents": [{"name": "Charles Diamond", "name_confidence": "high", "affiliation": "Former special counsel, Mayor's Office of Contract Services (MOCS)", "role_type": "Government body", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3994s", "quote": "There's no way this commission can end its work without a big part of it being procurement because it is so big."}, {"name": "Michael Hickey", "name_confidence": "medium", "affiliation": "Citizens Committee for New York City (Citizens NYC)", "role_type": "Nonprofit", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=1679s", "quote": "We recommend the contract administration be scaled to size and scope of funding so that community-based and hyperlocal partners are no longer excluded from competing because the administrative cost is too damn high."}, {"name": "Carl Hammersberg", "name_confidence": "medium", "affiliation": "SAS (analytics vendor; 'existing trusted partner of the city')", "role_type": "Business/industry", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1663s", "quote": "Just knowing that five different departments are doing business with the same company and potentially you could aggregate that contract and get a lower unit price can have a huge impact on spending."}, {"name": "Louisa Chaffee", "name_confidence": "high", "affiliation": "NYC Independent Budget Office (director)", "role_type": "Government body", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s", "quote": "Reform the Procurement Policy Board: expand to 10 members... require it to meet four times a year, review procurements, and produce a public annual report"}, {"name": "Jerry Hippolyte", "name_confidence": "medium", "affiliation": "Housing Solutions of New York (chief of staff and head of government affairs); Bronx-based homelessness nonprofit", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5078s", "quote": "Modernize procurement and payment processes — build further on the Passport system so its 'vault' documents... connect across multiple contracts instead of being re-uploaded each time"}]}, {"id": "modernize-civil-service-hiring", "title": "Modernize civil-service hiring: broaden titles, relax exams, hire on skills", "category": "Hiring & civil service", "summary": "NYC's civil-service system has roughly 2,600 job titles, rigid exams and the 'rule of three,' and offer-to-start waits exceeding six months that act as a financial filter. Proponents want broader job titles matching the labor market, hiring on skills and experience, use of state flexibilities like NY HELPS (which NYC opted out of), AI tools to rewrite outdated specs at scale, new titles for modern product roles, and a charter-mandated multi-year workforce plan. The argument: when the city can't hire who it needs, it pays far more for contractors.", "proponent_count": 5, "hearings": ["Manhattan", "Brooklyn"], "proponents": [{"name": "Robert Gordon", "name_confidence": "high", "affiliation": "Recoding America Fund (VP); former White House deputy; former NYC DOH employee", "role_type": "Nonprofit", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3253s", "quote": "Complexity favors the powerful and the popular... And when the city can't hire the people it needs... it hires contractors who it pays much more for."}, {"name": "Robert Joyce", "name_confidence": "high", "affiliation": "Abundance New York (director of policy); native Brooklynite, renter, career public servant", "role_type": "Advocacy org", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=6859s", "quote": "make staffing decisions... for the city as a whole downstream from our overall policy desired outcomes and staff from there."}, {"name": "Sherri Chung", "name_confidence": "medium", "affiliation": "Holly (company using AI for government recruitment/classification/compensation); lives in Park Slope", "role_type": "Business/industry", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7530s", "quote": "the system that we see in hiring is often slow not because of public servants but because... they don't have modern tools."}, {"name": "Rebecca Haywood", "name_confidence": "high", "affiliation": "Former NYC employee (DOT, DCAS, emergency management); technologist; runs a gov-tech job board/newsletter", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8985s", "quote": "Create civil service pathways/titles for modern product-development roles (product managers, user researchers, data scientists) that don't fit existing IT titles"}, {"name": "Martha Snow", "name_confidence": "high", "affiliation": "Urban Design Forum (Director of Community Design)", "role_type": "Nonprofit", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4524s", "quote": "Modernize civil service: remove unnecessary hiring barriers, create pay parity and performance incentives"}]}, {"id": "improve-access-to-capital-for-immigrant-small-business", "title": "Improve access to capital and city contracts for immigrant and minority businesses", "category": "MWBE & small business", "summary": "Immigrant- and minority-owned small businesses struggle with limited access to funding, hard-to-get SBA loans, unaffordable conventional financing (20-25% interest) and language barriers in navigating government. Proponents want more pathways to city grants and low-interest loans, help obtaining SBA loans, pilot and public-partnership opportunities, and equal access to city contracts including culturally familiar food for shelters. The recurring framing is that the city can unlock the potential of immigrant entrepreneurs by lowering financing and access barriers.", "proponent_count": 5, "hearings": ["Bronx"], "proponents": [{"name": "Amalu Saju Jial", "name_confidence": "low", "affiliation": "PH High-Tech (founder/CEO), a technology consulting company; platform MineLog X AI", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4463s", "quote": "New York has an incredible opportunity to unlock the potential of immigrants and minority entrepreneurs by creating more pathways to funding, public partnerships and opportunities to test and deploy innovative solutions locally."}, {"name": "Mohamad Salu Diello", "name_confidence": "low", "affiliation": "President, Guinean community in New York (nonprofit advocating for Guineans in NY)", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=6814s", "quote": "the access to funding I might say is very limited to us. I really ... asking you to consider that aspect."}, {"name": "Dearis Zumani", "name_confidence": "low", "affiliation": "Founder of Neighbor First Group (helps small businesses get funding)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7548s", "quote": "the best funding for me is the SBA loan but it's very hard to get."}, {"name": "Madu (Mamadou)", "name_confidence": "low", "affiliation": "Deputy director, Guinea USA Chamber of Commerce (nonprofit; not a business owner)", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7697s", "quote": "what support is available for entrepreneur who face language [barriers] when navigate government services?"}, {"name": "Mariam Diallo", "name_confidence": "medium", "affiliation": "Owner of Guinea African Hair Braiding (two salons); secretary/director of Guinea US Chamber of Commerce", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8355s", "quote": "Improve access to affordable financing/grants and address rising commercial rent, utility and insurance costs for women- and immigrant-owned businesses"}]}, {"id": "fix-contract-registration-delays", "title": "Stop work-before-registration and put time limits on contract registration", "category": "Procurement & contracting", "summary": "Engineering and construction vendors are routinely told to start work before contracts or change orders are registered, then go unpaid through long OMB and Comptroller reviews; expired permits force costly re-review and staff turnover destroys institutional knowledge. Proponents want the charter to prohibit directing work before registration (aligning with federal practice), put time frames on OMB budget review, extend nonprofit-style registration acceleration to all vendors, and mandate registering contract extensions so vendors aren't forced to work for free.", "proponent_count": 4, "hearings": ["Manhattan", "Brooklyn"], "proponents": [{"name": "Bill Murray", "name_confidence": "high", "affiliation": "American Council of Engineering Companies of New York (ACEC NY); former City Council staffer; CB2 Queens", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3092s", "quote": "Amend the city charter to expressly prohibit city agencies and personnel from directing any vendor to begin work on a contract or change order before it has been registered."}, {"name": "Taylor Palmer", "name_confidence": "high", "affiliation": "American Council of Engineering Companies of New York (ACEC NY)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3297s", "quote": "Much like how a patient benefits from having the same doctor who knows their medical history, a project benefits from retaining the same personnel who understand its background and prior decisions."}, {"name": "Felice Farber", "name_confidence": "medium", "affiliation": "Subcontractors Trade Association (STA), Executive Director (350+ specialty trade firms, 100% union)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9411s", "quote": "Remove or meaningfully narrow the Comptroller's role in procurement/contract administration, especially contract registration, change-order review and extra-work dispute determinations"}, {"name": "Louisa Chaffee", "name_confidence": "high", "affiliation": "NYC Independent Budget Office (director)", "role_type": "Government body", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s", "quote": "Mandate in the charter that agencies register contract extensions for contracts that would otherwise expire... so vendors aren't forced to work unpaid"}]}, {"id": "build-a-dedicated-capital-delivery-authority", "title": "Speed capital delivery with a dedicated authority and front-end planning", "category": "Capital projects", "summary": "Non-school city capital building suffers from high DDC admin costs and decade-long timelines, so proponents ask what the equivalent of the School Construction Authority should be for libraries, cultural and other facilities, and want a coordinated citywide capital planning process with shared data, qualifications-based selection, expanded design-build and best-value procurement, and delegated authority pushed down into agencies. The recurring theme is 'do it once and do it right' through more front-end planning and clearer authority, rather than routing every decision to the top.", "proponent_count": 4, "hearings": ["Manhattan"], "proponents": [{"name": "Gale Brewer", "name_confidence": "high", "affiliation": "New York City Council Member (Manhattan)", "role_type": "Elected official", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=5582s", "quote": "Who's the equivalent of the school construction authority for the building world? That would be everything else."}, {"name": "Craig Covill", "name_confidence": "low", "affiliation": "Design-Build Institute of America (DBIA), NYC Metro region president (~1,600 members)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6079s", "quote": "Design build delivers projects faster and more efficiently than design bid build... It is a tool in the toolbox."}, {"name": "Bria Donahue", "name_confidence": "medium", "affiliation": "American Institute of Architects New York (AIA NY), Director of Government Affairs (~5,000 members)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7928s", "quote": "Smart comprehensive planning enables the city to deliver quality projects with the mentality of do it once and do it right."}, {"name": "Taylor Palmer", "name_confidence": "high", "affiliation": "American Council of Engineering Companies of New York (ACEC NY)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3297s", "quote": "Provide OMB clarity/consistency on capital eligibility so determinations are firm and uniform across projects"}]}, {"id": "reduce-occupational-licensing-barriers", "title": "Lower occupational-licensing and home-business barriers for small operators", "category": "MWBE & small business", "summary": "Costly and burdensome licensing requirements push people into unlicensed work or out of business: contractor licenses and insurance, a new DOB superintendent mandate, the New York State natural-hair-braiding license (14 weeks of school plus an exam for chemical-free work), and Article 20-C food licensing. Proponents want lower-cost or alternative pathways, exemptions where requirements don't fit the work (braiding, low-volume cannabis), legal ways for mothers to run home-based businesses, and clearer multilingual guidance and workshops for first-time owners.", "proponent_count": 4, "hearings": ["Bronx"], "proponents": [{"name": "Mariam Diallo", "name_confidence": "medium", "affiliation": "Owner of Guinea African Hair Braiding (two salons); secretary/director of Guinea US Chamber of Commerce", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8355s", "quote": "in many states, they don't require a license to braid a hair because when we braid hair, we don't use no chemical product ... that's a very big barrier for many talented women who want to work."}, {"name": "Pascal (AK General Contractor)", "name_confidence": "low", "affiliation": "Licensed general contractor (AK General Contractor)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8593s", "quote": "the building department changed the law if you got like some project you have to hiding ... superintendent that's the extra money we have to pay and we don't have enough budget."}, {"name": "Glenny Payano", "name_confidence": "low", "affiliation": "CEO of a domestic violence nonprofit and an LLC (primarily Spanish-speaking)", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7946s", "quote": "Create programs/licensing pathways so moms can legally run a business from home (or affordable local space) without getting ticketed"}, {"name": "Marilyn/Meline Suarez", "name_confidence": "low", "affiliation": "Founder of a Region NYC small business making artisanal paletas (multicultural flavors); immigrant entrepreneur", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=9216s", "quote": "it can be difficult to know exactly what is expected ... Additional support such as educational workshops, clear checklists, multilingual resources, and easier technical assistant will make a significant difference."}]}, {"id": "fix-outdoor-dining-revocable-consent", "title": "Run outdoor dining on DOT permits, not revocable consents", "category": "Permitting & licensing", "summary": "The outdoor dining (Dining Out NYC) program is bogged down because it runs through revocable consents, which add months and high publication and consent fees. Proponents want a charter change so outdoor dining is administered through DOT permits and licenses, the two separate sidewalk and roadway processes consolidated, the program made year-round, duplicative reviews and notification requirements eased, and consent/publication fees capped or eliminated. They argue this single change would speed licensing by months.", "proponent_count": 3, "hearings": ["Manhattan", "Bronx"], "proponents": [{"name": "Jackson Chabbott", "name_confidence": "low", "affiliation": "Open Plans", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=629s", "quote": "We urge the commission to recommend charter changes that would allow outdoor dining to be administered through the Department of Transportation's permits and licenses rather than revocable consents."}, {"name": "Cory Hannigan", "name_confidence": "medium", "affiliation": "Transportation Alternatives (Policy and Government Relations Director)", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7430s", "quote": "Streamline the outdoor dining application; eliminate duplicative street-bed and sidewalk dining processes; make the program year-round"}, {"name": "Andrew Rigie", "name_confidence": "medium", "affiliation": "NYC Hospitality Alliance (executive director)", "role_type": "Advocacy org", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=2042s", "quote": "removing the revocable consent requirement from the outdoor dining licensing process ... by removing the revocable consent you will speed up the process by months and months and months."}]}, {"id": "modernize-mayors-management-report-and-neighborhood-data", "title": "Modernize the Mayor's Management Report into real-time, neighborhood-level data", "category": "Open data & transparency", "summary": "The Mayor's Management Report should become a frequently updated, real-time dashboard with performance data broken down by neighborhood and disaggregated by race, income and other dimensions, measuring outcomes and quality, not just outputs. Proposals include a statistically valid resident feedback survey at least every four years at the community-board level, a comprehensive citywide performance-management system, and convening tech and open-data experts periodically to set best practices. The aim is to measure how well the city does things, not merely what it does.", "proponent_count": 3, "hearings": ["Manhattan", "Brooklyn"], "proponents": [{"name": "Tim Tompkins", "name_confidence": "low", "affiliation": "NYU Marron Institute / former Times Square Alliance and Partnerships for Parks", "role_type": "Academic", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=442s", "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"}, {"name": "Andrew Rein", "name_confidence": "high", "affiliation": "Citizens Budget Commission (president)", "role_type": "Advocacy org", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s", "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program."}, {"name": "Julie Samuels", "name_confidence": "high", "affiliation": "Tech:NYC (president/CEO); former charter revision commissioner", "role_type": "Business/industry", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s", "quote": "Modernize the Mayor's Management Report into a frequently-updated, real-time-data dashboard"}]}, {"id": "unified-technology-leadership-and-software-as-a-service", "title": "Create unified technology leadership and 'commission' software instead of buying it", "category": "Technology & digital services", "summary": "The city needs senior unified technology leadership (a deputy mayor for transformation, a chief digital officer reporting to the mayor and OMB, or a permanent charter commission on digital transformation) with a real budget line and agencies reporting up. Proponents argue software is not a one-time good like buses or pencils: the city should 'commission' it and keep the builder on the hook for updates, security and fixes, and modernize procurement for SaaS and AI sold on subscription rather than the capital-expenditure RFP model that pushes startups out. Staying current is described as a permanent condition of governing.", "proponent_count": 3, "hearings": ["Manhattan", "Brooklyn"], "proponents": [{"name": "Tristan Lewis", "name_confidence": "high", "affiliation": "Resident; technology entrepreneur; President/CEO of a govtech software company (PBC)", "role_type": "Business/industry", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6287s", "quote": "Modernize procurement for SaaS/AI sold on subscription/usage (operating budget) rather than the prepackaged, capital-expenditure RFP model that pushes startups out"}, {"name": "Julie Samuels", "name_confidence": "high", "affiliation": "Tech:NYC (president/CEO); former charter revision commissioner", "role_type": "Business/industry", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s", "quote": "we need to fundamentally accept that we need a unified technology leadership in the city."}, {"name": "Andrew Rasiej", "name_confidence": "high", "affiliation": "Civic Hall at Union Square (founder)", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7065s", "quote": "Staying current isn't the project you finish, it's the permanent condition of governing from now on."}]}, {"id": "codify-ai-governance-with-disclosure-and-right-to-contest", "title": "Codify AI governance: disclose it, prove it works, let people contest it", "category": "AI governance", "summary": "The charter's technology chapter is outdated (still governing cable TV), so the city should codify AI governance: plain-language notice when an automated system makes decisions about a person, a bar on deploying high-stakes systems (benefits, housing, hiring, schools) without proof they work, and a right to explanation, appeal and a human being. Proponents favor caution, independent testing, impact assessments and resident and worker engagement before procurement, and smaller open-source models over costly Big Tech systems. They cite the $500,000-plus My City chatbot that gave illegal advice as a cautionary tale.", "proponent_count": 3, "hearings": ["Brooklyn"], "proponents": [{"name": "Julia Stoyanovich", "name_confidence": "high", "affiliation": "NYU professor of computer science and data science; founder/director, Center for Responsible AI", "role_type": "Academic", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7305s", "quote": "Disclose it. Prove it works. Let people contest it. Three lines in the charter, three questions for the ballot."}, {"name": "Brian Chen", "name_confidence": "high", "affiliation": "Data & Society (policy director)", "role_type": "Academic", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3070s", "quote": "The promised benefits are unproven, the costs are real, and getting it wrong will be very expensive."}, {"name": "Jessica Ariel Womala", "name_confidence": "medium", "affiliation": "The Future Fluent (small business); formerly Promise; Crown Heights homeowner; systems architect", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=660s", "quote": "We must stop defining AI solely by the risks and fear. And we need to start defining AI by what we hope these technologies can achieve for public good."}]}, {"id": "enforceable-rainy-day-fund-and-honest-budgeting", "title": "Put enforceable Rainy Day Fund rules and honest baselines in the charter", "category": "Budget & fiscal reserves", "summary": "Create binding charter rules for the city's Revenue Stabilization (Rainy Day) Fund: mandatory formula deposits in good times, withdrawals restricted to recessions and emergencies, a target size (around 16%), and public reporting. Proponents pair this with honest multi-year budget baselines. The goal is to harden fiscal discipline so reserves are actually built and preserved rather than spent down.", "proponent_count": 3, "hearings": ["Brooklyn", "Written submission"], "proponents": [{"name": "Andrew Rein", "name_confidence": "high", "affiliation": "Citizens Budget Commission (president)", "role_type": "Advocacy org", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s", "quote": "Create charter rules to strengthen the rainy day fund: mandate deposits during good times, restrict withdrawals to recessions/emergencies, and set target-size policy"}, {"name": "Mark Levine", "name_confidence": "high", "affiliation": "NYC Comptroller", "role_type": "Elected official", "hearing": "Written submission", "url": "https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/", "quote": "binding Rainy Day Fund (Revenue Stabilization Fund) charter rules"}, {"name": "Phil Wong", "name_confidence": "high", "affiliation": "City Council Member D30", "role_type": "Elected official", "hearing": "Written submission", "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/", "quote": "honest multi-year budget baselines + enforceable Rainy Day Fund rules"}]}, {"id": "audit-and-modernize-government-websites-and-open-data", "title": "Audit and modernize government websites and open data with AI access", "category": "Open data & transparency", "summary": "City and agency websites are riddled with redundant sites, dead links, wrong contact info and out-of-service numbers that strain 311 and waste staff hours, while open-data tools like Checkbook NYC stop at the unit of appropriation and are hard to use. Proponents want a low-cost audit of all agency sites, AI tools (such as a Boston-style Model Context Protocol server) that let residents query open data in plain language, and breaking down agency data silos starting with lower-risk open data while building governance.", "proponent_count": 3, "hearings": ["Bronx", "Brooklyn"], "proponents": [{"name": "Janessa Jules", "name_confidence": "high", "affiliation": "South Bronx small business owner (cannabis space) and analyst", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=6533s", "quote": "doing an audit of all of the different agencies and department sites could be something that would be a lowcost way to address that issue."}, {"name": "Margaret Brown", "name_confidence": "medium", "affiliation": "City employee at a mayoral agency (unnamed); personal capacity", "role_type": "Government body", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=469s", "quote": "Have the city stand up a Model Context Protocol (MCP) server like Boston's that lets AI securely interact with city open data and reduces hallucinations when residents query public data"}, {"name": "Ralph Yozzo", "name_confidence": "medium", "affiliation": "Lifelong New Yorker; served on Community Education Council; private-sector career", "role_type": "Resident", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9842s", "quote": "Efficiency also means possible cuts, right? I barely hear anyone talking about cuts."}]}, {"id": "create-comprehensive-citywide-plan", "title": "Mandate a comprehensive citywide plan and support community boards", "category": "Land use & planning", "summary": "The charter should mandate a comprehensive plan: a citywide needs assessment, growth plan, future land-use map, community engagement and a 10-year capital plan focused on underserved neighborhoods, modeled on the citywide waterfront plan. Proponents pair this with an independent Community Board central office (like the IBO) to give community boards planning, technology, HR, legal and procurement support, and with reforming ULURP for public infrastructure so projects aren't stalled. The aim is equitable, data-driven service delivery and land use rather than ad hoc decisions.", "proponent_count": 3, "hearings": ["Manhattan", "Brooklyn", "Written submission"], "proponents": [{"name": "Spencer Williams", "name_confidence": "high", "affiliation": "Director of land use and topography, Brooklyn Borough President Antonio Reynoso (testifying on BP's behalf)", "role_type": "Elected official", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=5805s", "quote": "the comprehensive plan should include at a minimum just a simple statement that requires the city to do a comprehensive plan."}, {"name": "Katherine Vaughn", "name_confidence": "high", "affiliation": "Abundance New York (Executive Director, ~5,000 members); Brooklyn CB6 member", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8171s", "quote": "Reform ULURP for public infrastructure: waive ULURP for public-facility projects under $5 million and expedite review in districts not carrying their fair share"}, {"name": "Phil Wong", "name_confidence": "high", "affiliation": "City Council Member D30", "role_type": "Elected official", "hearing": "Written submission", "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/", "quote": "consolidation review for under-enrolled schools; address property-tax disparities"}]}, {"id": "designate-dob-single-permitting-authority", "title": "Make DOB the single permitting and inspection authority for construction", "category": "Permitting & licensing", "summary": "Designate the Department of Buildings as the single permitting and inspection authority for all residential and commercial construction, with FDNY, DEP and others keeping their substantive standards but DOB administering them under one application and one inspection sequence. Proponents also want DOB empowered to update construction codes by rule rather than by City Council local law, to keep technical updates from being slowed and politicized, and want clean-energy permitting consolidated at DEP. The argument: a new residential building takes 18 months to permit and four years to occupancy, time spent overpaying rent or waiting in shelter.", "proponent_count": 2, "hearings": ["Manhattan"], "proponents": [{"name": "Katherine Vaughn", "name_confidence": "high", "affiliation": "Abundance New York (Executive Director, ~5,000 members); Brooklyn CB6 member", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8171s", "quote": "A new residential building takes 18 months to permit and four years from filing to occupancy. Time spent paying too much rent or waiting in a shelter."}, {"name": "Leo Sunk", "name_confidence": "low", "affiliation": "Resident (lifelong New Yorker; housing affordability advocate)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10958s", "quote": "The city government needs to get out of its own way and let New York build."}]}, {"id": "strengthen-independent-oversight-and-ethics-agencies", "title": "Strengthen and independently fund watchdog and ethics agencies", "category": "Oversight & ethics", "summary": "Independent oversight agencies (DOI, Conflicts of Interest Board) must seek funding from the very officials they regulate, so proponents want independent budgeting (a set percentage of the city budget), removal-for-cause protections and fixed terms for the DOI commissioner, more transparent COIB ethics guidance, and lobbying oversight moved into a more independent ethics commission. They argue strong watchdogs save money, citing inspectors general returning $17 for every $1 invested, and frame the reforms as a response to corruption and a shrunken DOI.", "proponent_count": 2, "hearings": ["Manhattan"], "proponents": [{"name": "Grace Rauh", "name_confidence": "medium", "affiliation": "Citizens Union (Executive Director)", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8447s", "quote": "Strong watchdogs save taxpayer dollars by preventing fraud, waste, and abuse... offices of Inspector General are known to generate $17 in returns for every $1 invested."}, {"name": "Rachel Fauss", "name_confidence": "medium", "affiliation": "Reinvent Albany (Senior Policy Advisor)", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9206s", "quote": "We believe the commission must respond to this eruption of corruption by taking steps to strengthen New York City's frontline ethics agencies in particular the department of investigation and conflicts of interest board."}]}, {"id": "speed-street-safety-redesigns", "title": "Speed up tested street-safety redesigns and expand automated enforcement", "category": "Street safety & public realm", "summary": "Standard, already-tested street safety redesigns (protected bike lanes, bus lanes, daylighting, sidewalk expansions) take years because of additional outreach rounds, duplicative FDNY objection requirements and slow DDC delivery. Proponents want shorter timelines, a sensible deadline for or removal of firehouse comment requirements, traffic enforcement returned to DOT, and authority for the city to expand speed cameras and automated enforcement without repeatedly begging the state. One argues Vision Zero has failed after a decade because of these delays, which cost time, money and lives.", "proponent_count": 2, "hearings": ["Manhattan"], "proponents": [{"name": "Cory Hannigan", "name_confidence": "medium", "affiliation": "Transportation Alternatives (Policy and Government Relations Director)", "role_type": "Advocacy org", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7430s", "quote": "When a protected bike lane is proposed and presented to a community, the DOT has already conducted months of outreach, analysis, and research... From there, additional months of outreach and delays cost time, money, and lives."}, {"name": "Pedro Rodriguez", "name_confidence": "high", "affiliation": "Resident; founder of Neighbors for Safe Austin Street; CB6 member; street safety advocate (speaking for himself)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9762s", "quote": "Let's be honest, vision zero has been a failure. He's been active for about 10 years and we are nowhere near zero."}]}, {"id": "include-independent-providers-in-child-care-expansion", "title": "Include independent and family child-care providers in any expansion", "category": "Child care & education", "summary": "Any expansion of child care (2K/3K, subsidies) should include independent and family-based providers rather than forcing them into networks that strip their independence and add layered oversight, and should preserve parents' freedom to choose the program that fits their child. Proponents want existing licensed capacity used to cut the 25,000-plus child waitlist, vouchers restored for children not in networks and under age two, after-school care funded for 3- and 4-year-olds, and financing for home-based providers to expand. The warning: independent providers are falling behind and closing.", "proponent_count": 2, "hearings": ["Bronx"], "proponents": [{"name": "Anedi Paneiagua", "name_confidence": "low", "affiliation": "Independent family child care provider", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1120s", "quote": "any kind of expansion of the child care can be included for the providers, independent providers ... and can guarantee that no child, family or educator can be left behind."}, {"name": "Michelle Maniah", "name_confidence": "low", "affiliation": "Family child care provider (5 years)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=2753s", "quote": "the 2K and 3K program forces you to join a network ... there is nothing being done about these providers who are going to fall behind and eventually have to close their doors."}]}, {"id": "speed-rental-voucher-and-shelter-housing-placement", "title": "Speed rental-voucher processing and stop warehousing people in shelter", "category": "Housing & shelter", "summary": "People with approved apartments or rental-assistance vouchers (CityFHEPS/FHEPS) wait three to four months on processing, documentation and checks, so landlords give up holding units and eligible families stay stranded in shelter. Proponents want voucher processing to actually meet the 30-45 day target, the administrative delays and lack of continuity among HRA, HPD and DHS fixed, and the inefficiencies of the agency-nonprofit-contractor shelter network addressed. One shelter resident describes the system as 'warehousing women' while the city hemorrhages money on contracts that aren't delivering.", "proponent_count": 2, "hearings": ["Manhattan", "Bronx"], "proponents": [{"name": "Lauren Napier", "name_confidence": "high", "affiliation": "Resident (currently in a DHS women's shelter; former six-figure earner)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10204s", "quote": "The shelter is what I feel... is really warehousing women. We are not being processed and we are being held there... the city is hemorrhaging money."}, {"name": "Jessica Lopez", "name_confidence": "high", "affiliation": "Licensed real estate agent (Bronx); 20+ years in property management; works with voucher holders (CityFHEPS/FHEPS)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=9010s", "quote": "having a voucher does not mean they have a home ... I've personally had families wait 3 to four months after submitting everything before receiving final approval to move in."}]}, {"id": "machine-readable-laws-and-financial-data", "title": "Require machine-readable laws and city financial data, and keep it in-house", "category": "Open data & transparency", "summary": "The city should establish digital sovereignty as a charter principle and extend machine-readability requirements (Charter section 20-U) to all laws and to the comptroller's Annual Comprehensive Financial Report, with granular disaggregation below the unit-of-appropriation level and a consistent data ontology over time for longitudinal study. Proponents note the city pays a private company to host the website serving its own laws, and want a federated, secure data architecture (like Estonia's X-Road) rather than one centralized warehouse that can be weaponized.", "proponent_count": 2, "hearings": ["Brooklyn"], "proponents": [{"name": "Jordan Shapiro", "name_confidence": "high", "affiliation": "BetaNYC (Associate Board Program Manager)", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=6032s", "quote": "Extend Charter section 20-U's machine-readable API requirement (for public records) to all laws"}, {"name": "David Lee", "name_confidence": "high", "affiliation": "Fiscal policy analyst, Center for New York City Affairs; AI/climate researcher at Columbia (personal capacity)", "role_type": "Academic", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8048s", "quote": "transparency and accessibility to public data are of course the paramount priorities of effective... governance."}]}, {"id": "make-edc-and-public-land-decisions-accountable", "title": "Make EDC and public-land decisions transparent and community-accountable", "category": "Public land & EDC", "summary": "Proponents argue the Economic Development Corporation's public engagement is a sham that ignores community and maritime input, and that public-land decisions strip power from the communities forced to live with them. They call for charter requirements to disclose all leases, dispositions and redevelopment agreements before finalization, a community pre-approval standard, an independent body to audit public-land decisions against public-benefit standards, displacement-impact assessments for legacy small-business tenants, and structures like a maritime community board to give the public real voice.", "proponent_count": 2, "hearings": ["Brooklyn"], "proponents": [{"name": "Lola Star", "name_confidence": "medium", "affiliation": "Small business owner, artist, community advocate, Coney Island", "role_type": "Business/industry", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=10191s", "quote": "Public land belongs to the people of New York but too often decisions are made through systems that strip power from the communities who are forced to live with the consequences."}, {"name": "David Sheldon", "name_confidence": "high", "affiliation": "Retired AFM Local 802 rep; public member of Manhattan Community Board 1 (waterfront); Save Our Seaport; active mariner", "role_type": "Resident", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9213s", "quote": "as a measure of efficiency, as a savings of both time and money, perhaps the EDC can just do away with the sham of public engagement."}]}, {"id": "create-pathways-for-civic-tech-pilots", "title": "Create paid pilot pathways and a sandbox for civic-tech founders", "category": "Technology & digital services", "summary": "Residents, community organizers and small civic-tech founders who have already built solutions have no clear path to connect with city stakeholders and test them. Proponents want a regulatory/deployment sandbox where small organizations can pilot in a limited area, iterate with community and treat failure as part of the process, with pilot engagements made paid and small (1-3 person) organizations exempted from the full RFP process. They also want government employees able to flag where things aren't working so outside builders can propose solutions.", "proponent_count": 2, "hearings": ["Bronx", "Brooklyn"], "proponents": [{"name": "Lamar White", "name_confidence": "high", "affiliation": "Bronx resident; medical coder, real estate agent, software developer; founder of the Quality Time Network and Quality Time Network Foundation", "role_type": "Civic-tech", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=6367s", "quote": "What is the best path to connect with the right city stakeholders and explore pilot programs that could eventually inform policy and improve how services are delivered?"}, {"name": "Sergio Marrero", "name_confidence": "high", "affiliation": "Rebel One (impact investor for social-good tech founders); formerly led Blue Ridge Labs (Robin Hood Foundation)", "role_type": "Civic-tech", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=10027s", "quote": "a sandbox of some sort... where they can actually deploy this technology and failure is part of the process rather than a long rigorous process."}]}, {"id": "protect-industrial-businesses-and-ibsp-funding", "title": "Protect industrial businesses and reverse IBSP defunding", "category": "MWBE & small business", "summary": "The Industrial Business Service Provider (IBSP) program, nearly 40 years old, is scheduled to be defunded citywide, which proponents say would eliminate one of the few consistent voices connecting industrial businesses to city government. They want the defunding reversed, stronger protections for IBZ-zoned land, better infrastructure responsiveness in industrial corridors and a real seat for industrial businesses at economic-development planning. The IBSP-funded teams are described as a lifeline for the industrial sector.", "proponent_count": 2, "hearings": ["Bronx"], "proponents": [{"name": "Daniel Garcia", "name_confidence": "high", "affiliation": "Sasa Catering and Special Events (owner); MWBE; Port Morris Industrial Business Zone, Bronx", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1878s", "quote": "Reverse the planned defunding of the Industrial Business Service Provider (IBSP) program that funds the BACH industrial team, which is a 'lifeline' for industrial businesses"}, {"name": "Charles Delhomme", "name_confidence": "medium", "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx)", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4268s", "quote": "The industrial business service providing program ... is now scheduled to be defunded citywide ... Cutting this program would eliminate one of the few consistent voices for the industrial sector."}]}, {"id": "tax-vacant-storefronts-and-fund-local-development-orgs", "title": "Tax vacant storefronts and fund community local-development organizations", "category": "MWBE & small business", "summary": "With many storefronts sitting empty while small businesses can't afford space, proponents propose a vacancy tax on landlords holding empty commercial storefronts and sustained city investment in community-based local development organizations that help small businesses navigate licenses, leases and regulations. They also urge prioritizing cooperative-ownership models and rethinking food-access initiatives like FRESH so investment ensures affordability, quality jobs and local ownership rather than just attracting operators.", "proponent_count": 2, "hearings": ["Bronx"], "proponents": [{"name": "Dr. Constance Barnes", "name_confidence": "high", "affiliation": "Unmask EU LLC (founder); chair, economic development committee, Community Board 8 (testifying as a community member)", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1390s", "quote": "maybe a vacancy tax for landlords who are just holding businesses that could be utilized. We should also provide on-site community support."}, {"name": "Mimi Turner", "name_confidence": "high", "affiliation": "Women's Housing and Economic Development Corporation (WHEDco), senior small business adviser; South Bronx community development nonprofit", "role_type": "Nonprofit", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=6090s", "quote": "we urge the city to sustain and expand investment in community-based local development focused organizations like Wedco."}]}, {"id": "shift-budget-toward-prevention-and-community-safety", "title": "Shift spending toward prevention and a separate community-safety response", "category": "Budget & fiscal reserves", "summary": "Proponents want city budgeting to favor long-term preventive measures (housing and food security, after-school programs, community land trusts) over short-term reactive spending to address root causes of violence, homelessness and poor outcomes. One calls for a Department of Community Safety created by charter revision to separate medical and care response from police response to mental-health and addiction 911 calls, diverting funds (citing roughly $860 million in projected NYPD overtime) into prevention and rehabilitation.", "proponent_count": 2, "hearings": ["Bronx", "Brooklyn"], "proponents": [{"name": "Marcus Khan", "name_confidence": "medium", "affiliation": "Bronx resident; student, Colin Powell School for Civic and Global Leadership, City College (CUNY)", "role_type": "Resident", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5953s", "quote": "we need to stop the fall before it happens or else we can't be surprised when we're in the hospital."}, {"name": "Charlotte", "name_confidence": "low", "affiliation": "Working musician; resident of Washington Heights, Upper Manhattan", "role_type": "Resident", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8281s", "quote": "My neighbors and I deserve to be able to call for medical help without fearing misunderstanding by the police or potentially deadly escalation."}]}, {"id": "match-residential-growth-with-school-siting-and-infrastructure", "title": "Match residential growth with school siting and infrastructure investment", "category": "Land use & planning", "summary": "When the city incentivizes residential growth, it fails to match it with the infrastructure the moment demands (schools, crossing guards, pedestrian safety, sanitation), and the process for siting schools is badly outdated, with schools placed in former post offices and retail stores. Proponents want the school-siting process revised, better coordination among the six or seven agencies that cause delays, and growth incentives paired with infrastructure. A separate written submission adds consolidation review for under-enrolled schools.", "proponent_count": 2, "hearings": ["Manhattan", "Written submission"], "proponents": [{"name": "Trisha Joyce", "name_confidence": "medium", "affiliation": "Resident and business owner (Lower Manhattan / Tribeca; chair of CB youth and education committee, speaking for herself)", "role_type": "Resident", "hearing": "Manhattan", "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10727s", "quote": "The success of that incentivization created challenges the city somehow failed to anticipate and it was never matched with the infrastructure investment the moment demanded."}, {"name": "Phil Wong", "name_confidence": "high", "affiliation": "City Council Member D30", "role_type": "Elected official", "hearing": "Written submission", "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/", "quote": "consolidation review for under-enrolled schools"}]}, {"id": "rein-in-monopoly-and-ai-masquerade-in-procurement", "title": "Rein in vendor monopolies and AI masquerade in city contracting", "category": "Procurement & contracting", "summary": "Proponents want the city to scrutinize vendors that exploit captive users and game procurement: investigate Securus's growing monopoly over prison communications (it acquired JPay and charges roughly $6.50 per money transfer) and inflated prices charged to incarcerated families, and regulate AI in the bidding process so procurement officers verify that bid content was actually created by the bidding business rather than AI-generated. Both aim to level the playing field and stop vendors from pilfering struggling families' money.", "proponent_count": 2, "hearings": ["Bronx", "Brooklyn"], "proponents": [{"name": "Robin Graham", "name_confidence": "high", "affiliation": "Mentor/advocate for incarcerated and returning citizens and their families (24 years)", "role_type": "Advocacy org", "hearing": "Brooklyn", "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8654s", "quote": "can we take the technology out of the hands of those vendors who are pilfering the pockets of the loved ones who are already struggling."}, {"name": "Gregory Hernandez", "name_confidence": "high", "affiliation": "Bronx business owner; filmmaker; production company (founded 2019); MBE certified, DOE vendor", "role_type": "Business/industry", "hearing": "Bronx", "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4897s", "quote": "can we regulate AI in the sense of ... make sure that content that is created during the bidding process is actually created by that particular individual or that business entity and not created by AI."}]}]</script>
 <script>
-const DATA = [
-  {
-    id: 1, name: "Mark Levine", affil: "New York City Comptroller",
-    type: "Elected official", status: "formal", date: "2026-06-17", dateLabel: "June 17, 2026",
-    hearing: "Written submission",
-    tags: ["Budget & fiscal"],
-    summary: "Submitted a proposed charter amendment putting binding rules on the city's Rainy Day Fund (the Revenue Stabilization Fund): a target balance near 16% of tax revenues with a 10% floor, formula-driven deposits in strong years, narrow emergency-only withdrawal rules, caps on single-year withdrawals and mandatory public reporting.",
-    quote: "The Charter should make clear that New York City will save in good times so that it can protect New Yorkers in hard times.",
-    url: "https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/",
-    source: "Comptroller's office",
-    confidence: "High &mdash; testimony and press release on the Comptroller's official site."
-  },
-  {
-    id: 2, name: "Phil Wong", affil: "City Council Member, District 30 (Queens); co-chair, Common Sense Caucus",
-    type: "Elected official", status: "formal", date: "2026-06-19", dateLabel: "~June 19, 2026",
-    hearing: "Written submission (ahead of June 22 Queens session)",
-    tags: ["Budget & fiscal", "Education", "Housing", "Property tax", "Direct democracy"],
-    summary: "Submitted twelve structural charter reforms: honest multi-year budget baselines and enforceable Rainy Day Fund rules (citing a roughly $10 billion budget gap), consolidation review for under-enrolled schools, cost-effectiveness reviews for homeless-housing contracts, a ban on shifting water-ratepayer funds to the general budget, public votes on sanctuary policy and action on property-tax disparities.",
-    quote: "New York City is staring at a $10 billion budget gap built on years of budget gimmicks.",
-    url: "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
-    source: "QNS",
-    confidence: "High &mdash; reported by QNS as formal written testimony."
-  },
-  {
-    id: 3, name: "Gale Brewer", affil: "City Council Member, District 6 (Manhattan)",
-    type: "Elected official", status: "formal", date: "2026-06-09", dateLabel: "June 9, 2026",
-    hearing: "Hearing 1 &mdash; Manhattan (New York Law School)",
-    tags: ["Land use & capital projects"],
-    summary: "Testified in person to streamline Department of Design and Construction projects and to improve planning for open streets.",
-    quote: "",
-    url: "https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/",
-    source: "City & State",
-    confidence: "Medium-high &mdash; reported by City & State; no verbatim text published."
-  },
-  {
-    id: 4, name: "Fabien Levy", affil: "Former Deputy Mayor for Communications (Adams administration); personal capacity",
-    type: "Former official", status: "formal", date: "2026-06-09", dateLabel: "June 9, 2026",
-    hearing: "Hearing 1 &mdash; Manhattan (New York Law School)",
-    tags: ["Elections & voting"],
-    summary: "Testified for open primaries, arguing that low primary turnout is driven by a closed system that turns voters away.",
-    quote: "If you examine why our elections - especially our primaries - have such low voter turnout, it is because our system is rigged to turn voters away.",
-    url: "https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/",
-    source: "City & State",
-    confidence: "Medium-high &mdash; reported by City & State."
-  },
-  {
-    id: 5, name: "BetaNYC", affil: "Civic-technology nonprofit",
-    type: "Civic-tech / nonprofit", status: "formal", date: "2026-06-11", dateLabel: "June 11, 2026",
-    hearing: "Hearing 3 &mdash; Brooklyn (technology theme)",
-    tags: ["Technology & open data", "Agency structure"],
-    summary: "Argued for 'digital sovereignty' - the city owning and freely controlling its own digital infrastructure. Asked COGE to make digital sovereignty a charter principle, extend machine-readable and API requirements to all city laws and codes, and expand in-house service-design capacity across agencies.",
-    quote: "Digital sovereignty, the city's ability to own and freely control its own digital infrastructure, is not a technology preference. It is the foundation of government efficiency.",
-    url: "https://www.beta.nyc/2026/06/11/coge-testimony/",
-    source: "BetaNYC",
-    confidence: "High &mdash; full testimony published on BetaNYC's site, which notes it was drafted with help from an AI model."
-  },
-  {
-    id: 6, name: "Rebecca Heywood", affil: "Founder, Public Sector Job Board; former New York City employee (DOT, DCAS, Emergency Management)",
-    type: "Policy writer / civic-tech", status: "formal", date: "2026-06-11", dateLabel: "June 11, 2026",
-    hearing: "Hearing 3 &mdash; Brooklyn (technology theme)",
-    tags: ["Civil service & hiring", "Procurement & contracting", "Technology & open data"],
-    summary: "Testified that the city's slow hiring pipeline acts as a financial filter that screens out ordinary New Yorkers and weakens in-house tech talent. Urged charter changes for faster hiring, civil-service paths for modern technology roles, and routine verification that tech investments and vendors actually deliver outcomes.",
-    quote: "A six-month or more wait between offer and start is a financial filter. It selects for people in stable jobs, with savings, or family to fall back on.",
-    url: "https://publicsectorjobboard.substack.com/p/what-i-said-to-new-york-citys-commission",
-    source: "Public Sector Job Board",
-    confidence: "High &mdash; the author's own published testimony."
-  },
-  {
-    id: 7, name: "Citizens NYC", affil: "Community-development nonprofit (Michael Hickey, chief of strategy and operations)",
-    type: "Nonprofit", status: "formal", date: "2026-06-09", dateLabel: "Week of June 16, 2026",
-    hearing: "COGE hearing (likely Manhattan, June 9)",
-    tags: ["Procurement & contracting"],
-    summary: "Urged the commission to rethink city contracting, pointing to its own 'master contract' as a model pathway that keeps small community-based organizations from being shut out by burdensome requirements.",
-    quote: "It can serve as an example of what happens when a city agency commits to creating an innovative procurement pathway that's purpose-built for engaging hyperlocal leaders.",
-    url: "https://www.amny.com/finance/new-york-city-has-a-contract-procurement-problem-and-advocates-are-calling-for-reform/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; reported by amNewYork; exact hearing date not confirmed."
-  },
-  {
-    id: 8, name: "ACEC New York", affil: "American Council of Engineering Companies of New York (Bill Murray, Taylor Palmer)",
-    type: "Business / industry", status: "formal", date: "2026-06-09", dateLabel: "~June 9, 2026",
-    hearing: "COGE hearing (likely Manhattan, June 9)",
-    tags: ["Procurement & contracting"],
-    summary: "Testified that engineering firms are routinely forced to start city work and carry payroll for months before contracts are registered, and urged charter-level fixes such as expedited-payment requirements.",
-    quote: "Firms are asked to hire and organize their staff, mobilize their resources, incur overhead, incur payroll costs and perform services often times for many months without an enforceable agreement for payment in place.",
-    url: "https://www.amny.com/finance/new-york-city-has-a-contract-procurement-problem-and-advocates-are-calling-for-reform/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; reported by amNewYork; exact hearing date not confirmed."
-  },
-  {
-    id: 9, name: "Open Primaries", affil: "National election-reform advocacy nonprofit (John Opdycke, president)",
-    type: "Advocacy", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
-    hearing: "Hearing &mdash; Staten Island",
-    tags: ["Elections & voting"],
-    summary: "Pressed COGE to let New York City's more than one million unaffiliated voters take part in primaries, calling the closed-primary exclusion a turnout and civil-rights problem while declining to endorse one specific mechanism. Open primaries was the single most common topic across the early hearings.",
-    quote: "There's lots of ways to skin a cat. You can do open primaries in a variety of ways.",
-    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the Staten Island hearing; delivery on the record not separately confirmed."
-  },
-  {
-    id: 10, name: "Paul Rieckhoff", affil: "Founder, Independent Veterans of America",
-    type: "Advocacy", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
-    hearing: "Hearing &mdash; Staten Island",
-    tags: ["Elections & voting"],
-    summary: "Argued that unaffiliated voters, including veterans, are shut out of taxpayer-funded primary elections.",
-    quote: "The election happens two blocks from my kid's public school. It's publicly funded, public poll workers, public machines, public school - and I can't vote in it.",
-    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the hearing."
-  },
-  {
-    id: 11, name: "Jessie Fields", affil: "Harlem primary-care physician; independent voter and open-primaries advocate",
-    type: "Resident / advocate", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
-    hearing: "Hearing &mdash; Staten Island",
-    tags: ["Elections & voting"],
-    summary: "Framed open primaries as a basic voting-rights issue.",
-    quote: "Your right to vote should not depend on your joining a political organization.",
-    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the hearing."
-  },
-  {
-    id: 12, name: "Nick Troiano", affil: "Executive Director, Unite America",
-    type: "Advocacy", status: "reported", date: "2026-06-23", dateLabel: "June 23, 2026",
-    hearing: "Hearing &mdash; Staten Island",
-    tags: ["Elections & voting"],
-    summary: "Provided national context, noting that New York is one of 16 states with fully closed primaries.",
-    quote: "",
-    url: "https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; from a June 22 advocacy press call previewing the hearing."
-  },
-  {
-    id: 13, name: "Abundance New York", affil: "Pro-housing / 'abundance' advocacy organization (Catherine Vaughan)",
-    type: "Advocacy", status: "likely", date: "2026-06-09", dateLabel: "June 2026 (multiple hearings)",
-    hearing: "Stated intent to testify at multiple hearings",
-    tags: ["Land use & capital projects", "Procurement & contracting", "Civil service & hiring", "Property tax"],
-    summary: "Said publicly it would testify at multiple hearings on Abundance Agenda items that intersect the charter: a streamlined workforce-planning function, faster permitting for housing and clean energy, modernized procurement and Department of Finance property-assessment reform. Also co-hosted testimony-writing workshops with Maximum New York.",
-    quote: "We'll be testifying at multiple hearings on topics that we covered in our Abundance Agenda, and that have specific intersections with the city charter.",
-    url: "https://abundanceny.substack.com/p/coge-on-tour-knicks-in-four",
-    source: "Abundance New York",
-    confidence: "Medium &mdash; stated intent on the group's Substack; specific submitted testimony not located."
-  },
-  {
-    id: 14, name: "Reinvent Albany", affil: "Government-transparency watchdog (Rachael Fauss, senior policy advisor)",
-    type: "Good-government", status: "position", date: "2026-05-28", dateLabel: "May 28, 2026",
-    hearing: "Public statement",
-    tags: ["Transparency & oversight", "Procurement & contracting"],
-    summary: "Welcomed the commission and urged it to strengthen anti-corruption watchdogs: independent budgeting and removal protections for the Department of Investigation and the Conflicts of Interest Board, a more independent Campaign Finance Board, and a public vendor-transparency ('excluded vendors') database. This is a press statement, not confirmed filed testimony.",
-    quote: "One dollar spent on DOI saves NYC at least $18 in tax dollars and makes it more likely agency decisions are based on public benefit.",
-    url: "https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/",
-    source: "Reinvent Albany",
-    confidence: "Medium &mdash; published statement. A separate claim that the group testified June 9 appears to conflate 2025 testimony to a different commission and is unconfirmed."
-  },
-  {
-    id: 15, name: "Citizens Union", affil: "Good-government organization (Grace Rauh, executive director)",
-    type: "Good-government", status: "position", date: "2026-05-28", dateLabel: "Late May 2026",
-    hearing: "Public statement",
-    tags: ["Process & public participation"],
-    summary: "Called the agenda timely but warned that rushing questions onto the November ballot leaves little time for public input and deliberation, and urged structural limits on the charter-revision process itself. (Citizens Union's substantive charter testimony on record is to the separate 2025 commission.)",
-    quote: "important and timely reforms ... little time for public input, research and deliberation",
-    url: "https://www.amny.com/news/coge-mamdani-replaces-adams-charter-commission/",
-    source: "amNewYork",
-    confidence: "Medium &mdash; press statement reacting to the commission, not filed COGE testimony."
-  },
-  {
-    id: 16, name: "Maximum New York", affil: "Civic-education project / policy writer (Daniel Golliher)",
-    type: "Policy writer", status: "position", date: "2026-06-05", dateLabel: "June 2026",
-    hearing: "Explainer and testimony workshops",
-    tags: ["Process & public participation"],
-    summary: "Published a widely read explainer of the commission and co-hosted testimony-prep 'office hours' to help residents testify. Has its own charter proposals but no confirmed COGE submission of its own.",
-    quote: "This is an open offer to any group: I am happy to co-host or show up to an event.",
-    url: "https://www.maximumnewyork.com/p/what-is-the-mayors-commission-on",
-    source: "Maximum New York",
-    confidence: "Medium &mdash; published explainer and facilitation, not confirmed as filed testimony."
-  },
-  {
-    id: 17, name: "Richard Briffault", affil: "Charter scholar, Columbia Law School / NYU Marron Institute",
-    type: "Academic", status: "position", date: "2026-05-01", dateLabel: "2026",
-    hearing: "Published primer (background)",
-    tags: ["Process & public participation"],
-    summary: "Authored a primer on the history and mechanics of New York City charter-revision commissions, including this one. Useful orientation rather than a submission to COGE.",
-    quote: "",
-    url: "https://www.vitalcitynyc.org/charter-revision-politics-nyc-primer/",
-    source: "Vital City",
-    confidence: "High that the primer exists; included as background, not testimony."
-  }
-];
+const IDEAS = JSON.parse(document.getElementById('data').textContent);
+const MAXC = Math.max.apply(null, IDEAS.map(i=>i.proponent_count));
+const cats = [...new Set(IDEAS.map(i=>i.category))].sort();
+const state = {q:"", cat:new Set(), sort:"count"};
 
-// ---- Build filter universes ----
-const STATUS_ORDER = ["formal", "likely", "reported", "position"];
-const STATUS_LABEL = { formal: "Formal testimony", likely: "Likely / intended", reported: "Reported statement", position: "Published position" };
-const STATUS_DOT = { formal: "var(--formal)", likely: "var(--likely)", reported: "var(--reported)", position: "var(--position)" };
+const hearingColor = {Manhattan:"var(--vc-cerulean)",Bronx:"var(--vc-magenta)",Brooklyn:"var(--vc-indigo)","Written submission":"var(--vc-charcoal)"};
 
-const types = [...new Set(DATA.map(d => d.type))].sort();
-const topics = [...new Set(DATA.flatMap(d => d.tags))].sort();
+function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 
-const state = { q: "", status: new Set(), type: new Set(), topic: new Set(), sort: "status" };
-
-// ---- Stats ----
-function renderStats() {
-  const total = DATA.length;
-  const formal = DATA.filter(d => d.status === "formal").length;
-  const topicCount = topics.length;
-  const elex = DATA.filter(d => d.tags.includes("Elections & voting")).length;
-  const stats = [
-    { n: total, l: "entries catalogued" },
-    { n: formal, l: "confirmed formal testimony" },
-    { n: topicCount, l: "topic areas" },
-    { n: elex, l: "on elections &amp; open primaries" }
-  ];
-  document.getElementById("stats").innerHTML = stats.map(s =>
-    `<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join("");
+// ranked chart (always full set, ordered by count)
+function renderChart(){
+  const rows = IDEAS.slice().sort((a,b)=>b.proponent_count-a.proponent_count);
+  document.getElementById('chart').innerHTML = rows.map(i=>{
+    const w = Math.max(2, i.proponent_count/MAXC*100);
+    return `<div class="crow" data-id="${i.id}">
+      <div class="clabel"><span class="cat">${esc(i.category)}</span>${esc(i.title)}</div>
+      <div class="cbarwrap"><div class="cbar" style="width:${w}%"></div><span class="cval">${i.proponent_count}</span></div>
+    </div>`;
+  }).join("");
+  document.querySelectorAll('.crow').forEach(r=>{
+    r.addEventListener('click',()=>{
+      const el=document.querySelector(`.idea[data-id="${r.dataset.id}"]`);
+      if(el){
+        // ensure visible: clear filters if hidden
+        if(el.style.display==='none'){document.getElementById('reset').click();}
+        el.scrollIntoView({behavior:'smooth',block:'center'});
+        el.querySelector('.props').classList.add('open');
+        el.querySelector('.propbtn').classList.add('open');
+        el.style.transition='background .2s';el.style.background='var(--vc-chartreuse-20)';
+        setTimeout(()=>el.style.background='',1200);
+      }
+    });
+  });
 }
 
-// ---- Chips ----
-function buildChips() {
-  document.getElementById("statusChips").innerHTML = STATUS_ORDER.map(s =>
-    `<span class="chip" data-group="status" data-val="${s}"><span class="dot" style="background:${STATUS_DOT[s]}"></span>${STATUS_LABEL[s]}</span>`).join("");
-  document.getElementById("typeChips").innerHTML = types.map(t =>
-    `<span class="chip" data-group="type" data-val="${t}">${t}</span>`).join("");
-  document.getElementById("topicChips").innerHTML = topics.map(t =>
-    `<span class="chip" data-group="topic" data-val="${t}">${t}</span>`).join("");
-
-  document.querySelectorAll(".chip").forEach(chip => {
-    chip.addEventListener("click", () => {
-      const g = chip.dataset.group, v = chip.dataset.val;
-      const set = state[g];
-      if (set.has(v)) { set.delete(v); chip.classList.remove("active"); }
-      else { set.add(v); chip.classList.add("active"); }
+function buildChips(){
+  document.getElementById('catChips').innerHTML = cats.map(c=>
+    `<span class="chip" data-val="${esc(c)}">${esc(c)}</span>`).join("");
+  document.querySelectorAll('#catChips .chip').forEach(ch=>{
+    ch.addEventListener('click',()=>{
+      const v=ch.dataset.val;
+      if(state.cat.has(v)){state.cat.delete(v);ch.classList.remove('active');}
+      else{state.cat.add(v);ch.classList.add('active');}
       render();
     });
   });
 }
 
-// ---- Filtering + render ----
-function matches(d) {
-  if (state.status.size && !state.status.has(d.status)) return false;
-  if (state.type.size && !state.type.has(d.type)) return false;
-  if (state.topic.size && !d.tags.some(t => state.topic.has(t))) return false;
-  if (state.q) {
-    const hay = (d.name + " " + d.affil + " " + d.summary + " " + d.quote + " " + d.tags.join(" ") + " " + d.hearing + " " + d.type).toLowerCase();
-    if (!hay.includes(state.q.toLowerCase())) return false;
+function matches(i){
+  if(state.cat.size && !state.cat.has(i.category)) return false;
+  if(state.q){
+    const hay=(i.title+" "+i.summary+" "+i.category+" "+i.proponents.map(p=>p.name+" "+p.affiliation).join(" ")).toLowerCase();
+    if(!hay.includes(state.q.toLowerCase())) return false;
   }
   return true;
 }
-
-function sortRows(rows) {
-  const r = rows.slice();
-  if (state.sort === "name") r.sort((a, b) => a.name.localeCompare(b.name));
-  else if (state.sort === "date") r.sort((a, b) => b.date.localeCompare(a.date));
-  else r.sort((a, b) => STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status) || b.date.localeCompare(a.date));
+function sortRows(rows){
+  const r=rows.slice();
+  if(state.sort==="title") r.sort((a,b)=>a.title.localeCompare(b.title));
+  else if(state.sort==="category") r.sort((a,b)=>a.category.localeCompare(b.category)||b.proponent_count-a.proponent_count);
+  else r.sort((a,b)=>b.proponent_count-a.proponent_count);
   return r;
 }
 
-function card(d) {
-  const q = d.quote ? `<blockquote>&ldquo;${d.quote}&rdquo;</blockquote>` : "";
-  const tags = d.tags.map(t => `<span class="tag">${t}</span>`).join("");
-  let host = "source";
-  try { host = new URL(d.url).hostname.replace("www.", ""); } catch (e) {}
-  return `<article class="card">
-    <div class="top">
-      <div>
-        <h3>${d.name}</h3>
-        <div class="affil">${d.affil}</div>
-      </div>
-      <span class="badge ${d.status}">${STATUS_LABEL[d.status]}</span>
+function propRow(p){
+  const isDoc = p.hearing==="Written submission";
+  const watchLabel = isDoc ? "Read &rarr;" : "Watch &#9654;";
+  const nm = p.name_confidence==="low" || p.name_confidence==="medium"
+    ? `<span class="uncertain" title="Name transcribed from auto-captions &mdash; may be misspelled. Confirm against the video.">${esc(p.name)}</span>`
+    : esc(p.name);
+  const aff = p.affiliation && p.affiliation!=="Unknown" ? ` &middot; <span class="aff">${esc(p.affiliation)}</span>` : "";
+  const qt = p.quote ? `<div class="qt">&ldquo;${esc(p.quote)}&rdquo;</div>` : "";
+  return `<div class="prop">
+    <div class="who"><span class="nm">${nm}</span>${aff}
+      <div class="hearing-tag" style="color:${hearingColor[p.hearing]||'var(--vc-charcoal)'}">${esc(p.hearing)}</div>
+      ${qt}
     </div>
-    <div class="where"><b>${d.dateLabel}</b> &middot; ${d.hearing}</div>
-    <div class="summary">${d.summary}</div>
-    ${q}
-    <div class="tags">${tags}</div>
-    <div class="foot">
-      <a class="source-link" href="${d.url}" target="_blank" rel="noopener">${d.source} &rarr;</a>
-      <div class="conf"><span class="ct">Confidence:</span> ${d.confidence}</div>
+    <a class="watch ${isDoc?'doc':''}" href="${esc(p.url)}" target="_blank" rel="noopener">${watchLabel}</a>
+  </div>`;
+}
+
+function card(i, idx){
+  const reach = i.hearings.join(" &middot; ");
+  const plabel = i.proponent_count===1 ? "1 backer" : i.proponent_count+" backers";
+  return `<article class="idea" data-id="${i.id}">
+    <div class="ihead">
+      <div class="rank">${String(idx+1).padStart(2,'0')}</div>
+      <div>
+        <h3>${esc(i.title)}</h3>
+        <div class="imeta">
+          <span class="cat-tag">${esc(i.category)}</span>
+          <span class="pcount">${plabel}</span>
+          <span class="hreach">${reach}</span>
+        </div>
+        <p class="summary">${esc(i.summary)}</p>
+        <button class="propbtn"><span class="arr">&#9654;</span> Who backed it (${i.proponent_count})</button>
+        <div class="props">${i.proponents.map(propRow).join("")}</div>
+      </div>
     </div>
   </article>`;
 }
 
-function render() {
-  const rows = sortRows(DATA.filter(matches));
-  const grid = document.getElementById("grid");
-  const empty = document.getElementById("empty");
-  grid.innerHTML = rows.map(card).join("");
-  empty.style.display = rows.length ? "none" : "block";
-  document.getElementById("count").innerHTML = `Showing <b>${rows.length}</b> of ${DATA.length} entries`;
+function render(){
+  const rows=sortRows(IDEAS.filter(matches));
+  const c=document.getElementById('ideas');
+  c.innerHTML=rows.map(card).join("");
+  document.getElementById('empty').style.display=rows.length?'none':'block';
+  document.getElementById('count').innerHTML=`Showing <b>${rows.length}</b> of ${IDEAS.length} ideas`;
+  c.querySelectorAll('.propbtn').forEach(b=>{
+    b.addEventListener('click',()=>{
+      b.classList.toggle('open');
+      b.nextElementSibling.classList.toggle('open');
+    });
+  });
 }
 
-document.getElementById("search").addEventListener("input", e => { state.q = e.target.value; render(); });
-document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
-document.getElementById("reset").addEventListener("click", () => {
-  state.q = ""; state.status.clear(); state.type.clear(); state.topic.clear();
-  document.getElementById("search").value = "";
-  document.querySelectorAll(".chip.active").forEach(c => c.classList.remove("active"));
+document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value;render();});
+document.getElementById('sort').addEventListener('change',e=>{state.sort=e.target.value;render();});
+document.getElementById('reset').addEventListener('click',()=>{
+  state.q="";state.cat.clear();state.sort="count";
+  document.getElementById('search').value="";
+  document.getElementById('sort').value="count";
+  document.querySelectorAll('#catChips .chip.active').forEach(c=>c.classList.remove('active'));
   render();
 });
+document.getElementById('topcount').textContent = cats.length+" categories";
 
-// AI caution popover
-const aiBtn = document.getElementById("aiBtn"), aiPop = document.getElementById("aiPop"), aiX = document.getElementById("aiX");
-aiBtn.addEventListener("click", () => aiPop.classList.toggle("open"));
-aiX.addEventListener("click", () => aiPop.classList.remove("open"));
+const aiBtn=document.getElementById('aiBtn'),aiPop=document.getElementById('aiPop');
+aiBtn.addEventListener('click',()=>aiPop.classList.toggle('open'));
+document.getElementById('aiX').addEventListener('click',()=>aiPop.classList.remove('open'));
 
-renderStats();
+renderChart();
 buildChips();
 render();
 </script>

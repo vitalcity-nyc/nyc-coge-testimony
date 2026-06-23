@@ -1,0 +1,600 @@
+[
+  {
+    "name": "Tim Tompkins",
+    "name_as_heard": "Tim Jackson / Simon Jackson / Jim D",
+    "name_confidence": "low",
+    "affiliation": "NYU Marron Institute / former Times Square Alliance and Partnerships for Parks",
+    "role_type": "Academic",
+    "t": 442,
+    "topics": ["public realm", "parks", "Mayor's Management Report", "neighborhood accountability", "community partnerships"],
+    "proposals": [
+      "Strengthen charter provisions on infrastructure maintenance (the issues Dick Ravitch focused on) so maintenance is adequately addressed",
+      "Reform/modernize the Mayor's Management Report so performance data is broken down by neighborhood with smaller, more real-time indicators",
+      "Build a neighborhood-level performance dashboard combining 311, Citizens Budget Commission resident survey data and real-time open data; work with tech and open-data people",
+      "Charter should require the city to convene technology/open-data experts every five or ten years to set best practices for measuring performance",
+      "Empower and resource community/neighborhood partner groups, especially in less-resourced areas, with an adequately funded unionized city workforce for maintenance and recreation"
+    ],
+    "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"
+  },
+  {
+    "name": "Jackson Chabbott",
+    "name_as_heard": "Jackson Shabbat",
+    "name_confidence": "low",
+    "affiliation": "Open Plans",
+    "role_type": "Advocacy org",
+    "t": 629,
+    "topics": ["outdoor dining", "public right-of-way", "permits vs revocable consents", "small business", "spatial equity"],
+    "proposals": [
+      "Amend the charter so outdoor dining is administered through DOT permits and licenses rather than revocable consents",
+      "More broadly, give the city flexibility to use permits instead of revocable consents for routine, recurring uses of the public right-of-way",
+      "Review the charter's public hearing notice requirements for outdoor dining; cap publication costs (currently $100-$800 per application) at a reasonable level or eliminate them"
+    ],
+    "quote": "We urge the commission to recommend charter changes that would allow outdoor dining to be administered through the Department of Transportation's permits and licenses rather than revocable consents."
+  },
+  {
+    "name": "Susan Lee",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Alliance for Community Preservation and Betterment",
+    "role_type": "Advocacy org",
+    "t": 1025,
+    "topics": ["open primaries", "unaffiliated voters", "voter disenfranchisement", "public matching funds"],
+    "proposals": [
+      "Move New York City from closed primaries to open/nonpartisan primaries so the ~1.2 million unaffiliated voters (about 24% of the electorate) can participate",
+      "Argues that since unaffiliated voters' tax dollars fund the matching-funds program, they should be able to vote in the primaries those funds support"
+    ],
+    "quote": "1.2 million New Yorkers are locked out of the primary. As Americans, we need to do better."
+  },
+  {
+    "name": "Melanie Wesslock",
+    "name_as_heard": "Melanie Weslock",
+    "name_confidence": "medium",
+    "affiliation": "One City Rising",
+    "role_type": "Advocacy org",
+    "t": 1185,
+    "topics": ["open primaries", "independent voters", "voter turnout", "small business"],
+    "proposals": [
+      "Adopt open primaries in New York City to include independent/unaffiliated voters and raise turnout (currently ~10%)",
+      "Argues open primaries push candidates toward broader, more moderate, consensus-driven appeals rather than catering only to a party base"
+    ],
+    "quote": "I had to register for a party that I do not want to be in in order to have a vote in our primaries... and I think that is insane."
+  },
+  {
+    "name": "Jeff Baron",
+    "name_as_heard": "Jeffrey Aaron / Jeff Baron",
+    "name_confidence": "medium",
+    "affiliation": "Resident (independent voter; former Brooklyn College instructor)",
+    "role_type": "Resident",
+    "t": 1513,
+    "topics": ["open primaries", "voters of color", "civil rights", "Mayor Mamdani"],
+    "proposals": [
+      "Adopt open primaries; notes 1.2 million unaffiliated voters, 54% of them people of color (~650,000) excluded from primaries",
+      "Frames closed primaries as a civil rights issue and asks the commission to put open primaries on the ballot given Mayor Mamdani's stated openness to the idea"
+    ],
+    "quote": "650,000 people of color in New York City are excluded from voting in the elections that matter when choosing who will represent them in government."
+  },
+  {
+    "name": "Michael Hickey",
+    "name_as_heard": "Michael Hickeyi",
+    "name_confidence": "medium",
+    "affiliation": "Citizens Committee for New York City (Citizens NYC)",
+    "role_type": "Nonprofit",
+    "t": 1679,
+    "topics": ["procurement", "nonprofit contracting", "on-time payment", "master contracts", "small purchase threshold"],
+    "proposals": [
+      "Better empower the Procurement Policy Board (PPB) to set rules and empower MOCS to enforce them",
+      "Raise the small purchase threshold and index it to inflation so smaller groups can be included",
+      "Require all contracting agencies to disclose timeline data by contract type and processing stage to make timing visible and accountable",
+      "Scale contract administration to the size and scope of funding so small/hyperlocal partners aren't excluded by administrative cost",
+      "Use the Citizens NYC master-contract model as an example of a streamlined, purpose-built procurement pathway for hyperlocal leaders"
+    ],
+    "quote": "We recommend the contract administration be scaled to size and scope of funding so that community-based and hyperlocal partners are no longer excluded from competing because the administrative cost is too damn high."
+  },
+  {
+    "name": "Peter Ponio",
+    "name_as_heard": "Sam Ponio / Peter Ponio",
+    "name_confidence": "low",
+    "affiliation": "Retired NYPD (39 years); member of three police unions",
+    "role_type": "Labor",
+    "t": 2130,
+    "topics": ["open primaries", "unions", "independent voters", "young voters", "public trust"],
+    "proposals": [
+      "Replace closed partisan primaries with open primaries; cites ~1.4 million unaffiliated NYC voters, nearly half under age 40",
+      "Argues from a labor perspective that excluding independents undermines civic engagement and union support among younger generations"
+    ],
+    "quote": "Just as unions help ensure that workers have a voice in the workplace, our election system... should ensure that every voter has a voice in our democracy."
+  },
+  {
+    "name": "Stacy Chmielewski",
+    "name_as_heard": "Stacy Chamettnik / Stacy Chmetznik",
+    "name_confidence": "low",
+    "affiliation": "Resident (lifelong NYC resident)",
+    "role_type": "Resident",
+    "t": 2334,
+    "topics": ["open primaries", "voter turnout", "ranked choice voting", "matching funds", "research data"],
+    "proposals": [
+      "Replace closed partisan primaries with open primaries",
+      "Cites multiple studies (Ferrer/Bipartisan Policy Center 2024 ~5pt turnout gain; McGhee/Tolbert 2024 ~12pt; Donovan et al 2025) as evidence open/nonpartisan primaries raise turnout across all groups, especially younger and independent voters"
+    ],
+    "quote": "The conclusion from these studies is clear. When voters are given greater access to participate, more of them vote."
+  },
+  {
+    "name": "Maria Daniello",
+    "name_as_heard": "Maria Denzilo / Maria Danelo",
+    "name_confidence": "low",
+    "affiliation": "One City Rising",
+    "role_type": "Advocacy org",
+    "t": 2566,
+    "topics": ["open primaries", "unaffiliated voters", "Voting Rights Act", "prior charter commission"],
+    "proposals": [
+      "Adopt open primaries (open primary followed by top-two) to enfranchise 1.2-1.4 million unaffiliated New Yorkers",
+      "Urges the commission to review and build on the extensive 2025 Charter Revision Commission record, including the Loretta Lynch pre-clearance report under New York's Voting Rights Act"
+    ],
+    "quote": "The main effect of moving to an open primary, followed by a top two election would be to give unaffiliated voters the ability to participate in the primary process..."
+  },
+  {
+    "name": "Michael Picarillo",
+    "name_as_heard": "Michael Picarillo / Michael Picillo",
+    "name_confidence": "medium",
+    "affiliation": "NYC District Council of Carpenters (Director of Area Standards; ~17,000 carpenters)",
+    "role_type": "Labor",
+    "t": 2820,
+    "topics": ["infrastructure delivery", "coordination", "skilled union labor", "apprenticeship", "project labor agreements"],
+    "proposals": [
+      "When undertaking large projects, the city/commission should consult organized labor and the building trades early on how to get projects done efficiently",
+      "Put experienced, qualified union tradespeople on the job from the start to reduce rework and delays; set jobs up right from day one",
+      "Defends project labor agreements as speeding up (not slowing) projects by guaranteeing trained, apprenticeship-completed workers",
+      "Ensure public money yields public return: good jobs, accountability, and lasting work"
+    ],
+    "quote": "When you have experienced union carpenters on site, things run smoother, safer, and faster without cutting quarters. That's not an opinion. That's just how jobs actually play out."
+  },
+  {
+    "name": "Bill Murray",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "American Council of Engineering Companies of New York (ACEC NY); former City Council staffer; CB2 Queens",
+    "role_type": "Business/industry",
+    "t": 3092,
+    "topics": ["capital project delivery", "contract registration", "charter section 328", "OMB budget review", "small firms / MWBEs"],
+    "proposals": [
+      "Amend the city charter to expressly prohibit city agencies and personnel from directing any vendor to begin work on a contract or change order before it is registered (Section 328)",
+      "Extend the contract-registration acceleration that nonprofits got under Local Laws 156/157 to engineering/infrastructure vendors",
+      "Consider amending the charter to put time frames on OMB budget review, which is a major cause of registration delay",
+      "Submit ACEC NY's January procurement-reform paper for the record"
+    ],
+    "quote": "Amend the city charter to expressly prohibit city agencies and personnel from directing any vendor to begin work on a contract or change order before it has been registered."
+  },
+  {
+    "name": "Taylor Palmer",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "American Council of Engineering Companies of New York (ACEC NY)",
+    "role_type": "Business/industry",
+    "t": 3297,
+    "topics": ["cost of delay", "contract registration", "competition", "MWBEs / small firms", "institutional knowledge"],
+    "proposals": [
+      "Recognize the full cost of registration/change-order delay (escalating professional-services overhead, loss of staff continuity, expired permits requiring re-review/redesign), not just construction escalation",
+      "Shift the incentive structure so the city is pressured to register contracts faster; align city practice with federal law (no work before contract is fully processed)",
+      "Apply reforms uniformly across all contract types, not just nonprofits, to keep small firms and MWBEs competing in NYC",
+      "Provide OMB clarity/consistency on capital eligibility so determinations are firm and uniform across projects"
+    ],
+    "quote": "Much like how a patient benefits from having the same doctor who knows their medical history, a project benefits from retaining the same personnel who understand its background and prior decisions."
+  },
+  {
+    "name": "Charles Diamond",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Former special counsel, Mayor's Office of Contract Services (MOCS)",
+    "role_type": "Government body",
+    "t": 3994,
+    "topics": ["procurement reform", "advance procurement planning", "value-for-money reporting", "emergency procurement", "transparency"],
+    "proposals": [
+      "Undertake a comprehensive procurement reform package (submitted ~7 specific written points)",
+      "Require advance published procurement planning by agencies beyond what is required for health and human services contracts, plus centralized post-hoc value-for-money reporting through MOCS",
+      "Require emergency procurement planning (like COOP planning) for dramatic surges in an agency's contracting portfolio, given ~$15 billion spent on emergency contracting since 2020",
+      "Treat procurement as central to any government-efficiency effort given ~$40B/year in new contracts (over $100B in commitments)"
+    ],
+    "quote": "There's no way this commission can end its work without a big part of it being procurement because it is so big."
+  },
+  {
+    "name": "Robert Bernat",
+    "name_as_heard": "Robert Brunat / Robert Bernat",
+    "name_confidence": "medium",
+    "affiliation": "Construction & General Building Laborers Local 79 (LIUNA)",
+    "role_type": "Labor",
+    "t": 4199,
+    "topics": ["infrastructure delivery", "on-time payment", "centralized permitting", "labor standards", "decarbonization / apprenticeship"],
+    "proposals": [
+      "Support streamlining and centralized permitting and on-time payment, but ensure no reform creates a 'fast pass for exploitation' or undermines worker protections/oversight",
+      "Reserve any expedited/special consideration for firms committed to strong labor standards",
+      "Ensure new programs like building decarbonization support apprenticeship training and family-sustaining careers",
+      "Frames the affordability crisis as requiring solving the low-wage crisis through investment in workers"
+    ],
+    "quote": "No reform should create a fast pass for exploitation... Jumping the line on special consideration should only be available to firms committed to strong labor standards."
+  },
+  {
+    "name": "Martha Snow",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Urban Design Forum (Director of Community Design)",
+    "role_type": "Nonprofit",
+    "t": 4524,
+    "topics": ["public space permitting", "SAPO", "DOT grant authority", "temporary installations", "civil service reform"],
+    "proposals": [
+      "Accelerate Street Activity Permit Office (SAPO) permitting and create a single regulatory interface / single point of accountability for activating public space across DOT, Parks and SAPO",
+      "Make DOT legally able to make grants to nonprofit partners to ease the burden on SBS and other grant-making agencies",
+      "Extend the Public Design Commission's one-year rule for temporary installations to at least two years, with defined pathways from pilot to permanent",
+      "Modernize civil service: remove unnecessary hiring barriers, create pay parity and performance incentives, and upgrade interagency-coordination technology"
+    ],
+    "quote": "Activating a public space means navigating a fragmented maze... with no uniform process and no single point of accountability."
+  },
+  {
+    "name": "Devon Lomax",
+    "name_as_heard": "Devon Lommax",
+    "name_confidence": "medium",
+    "affiliation": "District Council 9 Painters and Allied Trades (Political Director)",
+    "role_type": "Labor",
+    "t": 4678,
+    "topics": ["apprenticeship", "workforce development", "responsible contractors", "skilled labor"],
+    "proposals": [
+      "Expand registered apprenticeship opportunities through city projects, building on the city's existing painter apprenticeship model (which placed 100+ NYCHA residents)",
+      "Define what 'responsible contractor' actually means and distinguish responsible contractors from those that repeatedly fail their obligations"
+    ],
+    "quote": "Skilled workforce is not an obstacle to efficiency. It is one of its foundations."
+  },
+  {
+    "name": "Fabian Levy",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Resident (former NYC Deputy Mayor for Communications)",
+    "role_type": "Resident",
+    "t": 5006,
+    "topics": ["open primaries", "jungle primaries", "party registration deadlines", "young voters", "voter access"],
+    "proposals": [
+      "Adopt open / 'jungle' primaries with a top-two advancing to a general or runoff",
+      "Fix the mismatched registration deadlines: voters can register up to 10 days before an election but must change party affiliation ~4 months (115-129 days) in advance",
+      "Put an open-primaries ballot measure forward this fall, drawing on last year's charter commission testimony"
+    ],
+    "quote": "If every vote should be counted, why are we restricting legal citizens from voting in the first place?"
+  },
+  {
+    "name": "Diego",
+    "name_as_heard": "Diego Oper / Diego",
+    "name_confidence": "low",
+    "affiliation": "Ironworkers Local 40",
+    "role_type": "Labor",
+    "t": 5230,
+    "topics": ["infrastructure delivery", "capital spending targets", "building trades involvement", "prevailing wage fraud"],
+    "proposals": [
+      "Streamline the permitting/execution process for infrastructure projects to cut bureaucracy, cost overruns, and idle workers (cites Comptroller finding the city missed capital spending targets every year for 10 years, sometimes spending only ~50%)",
+      "Involve the building trades in all phases of planning and execution (echoing the carpenters)",
+      "Ensure efficiency reforms don't enable exploitation; crack down on prevailing wage fraud (contractors pocketing the difference between legal/prevailing wage and what they pay)"
+    ],
+    "quote": "I personally been on jobs where one old-timer sees something that eight engineers have not yet understood."
+  },
+  {
+    "name": "Gale Brewer",
+    "name_as_heard": "Gail Brewer",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member (Manhattan)",
+    "role_type": "Elected official",
+    "t": 5582,
+    "topics": ["capital project delivery", "School Construction Authority model", "DDC", "public realm / streets", "open streets programming", "delivery/loading zones"],
+    "proposals": [
+      "Consider what the 'equivalent of the School Construction Authority' should be for non-school city capital building (libraries, cultural, HPD), and weigh whether DDC should take on more or whether agencies could share appropriate functions",
+      "Examine DDC's high admin costs and efficiency versus other builders",
+      "Define and assign clear responsibility/coordination/funding for the 'public realm' (sidewalks, bus lanes, bike lanes, pedestrians, delivery carts), including funding for programming of open streets",
+      "Address private companies (e.g., Amazon, Fresh Direct) appropriating public street/curb space as distribution centers, which drives 311 complaints"
+    ],
+    "quote": "Who's the equivalent of the school construction authority for the building world? That would be everything else."
+  },
+  {
+    "name": "Craig Covill",
+    "name_as_heard": "Craig Kovville / Craig Cobel / Craig Kovville",
+    "name_confidence": "low",
+    "affiliation": "Design-Build Institute of America (DBIA), NYC Metro region president (~1,600 members)",
+    "role_type": "Business/industry",
+    "t": 6079,
+    "topics": ["design-build", "best-value procurement", "delegated authority", "contract administration"],
+    "proposals": [
+      "Expand use of design-build and best-value procurement (only <20% of NYC construction is design-build vs >45% nationally) as one tool among many (P3, CM-at-risk, design-bid-build)",
+      "Empower/enable the Comptroller's office and agency departments with delegated authority over contract changes, contract administration, procurement and permitting approvals, with alignment to the Comptroller",
+      "Push decision-making authority down into agencies/departments rather than routing everything to the top, citing other cities' delegated-power models (written testimony to follow)"
+    ],
+    "quote": "Design build delivers projects faster and more efficiently than design bid build... It is a tool in the toolbox."
+  },
+  {
+    "name": "Tristan Lewis",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Resident; technology entrepreneur; President/CEO of a govtech software company (PBC)",
+    "role_type": "Business/industry",
+    "t": 6287,
+    "topics": ["digital infrastructure", "SaaS/AI procurement", "operating vs capital budget", "centralized technology office", "economies of scale"],
+    "proposals": [
+      "Treat digital infrastructure differently from physical infrastructure in the charter/procurement framework",
+      "Create a centralized office of digital technology to handle industry engagement, legal aspects of new tech, equity, economic impact, and procurement for city agencies",
+      "Modernize procurement for SaaS/AI sold on subscription/usage (operating budget) rather than the prepackaged, capital-expenditure RFP model that pushes startups out",
+      "Cites Estonia, Houston and Atlanta as models where a centralized agency procures, consults to other agencies, and negotiates cross-agency contracts to realize economies of scale"
+    ],
+    "quote": "Digital infrastructure is fundamentally different than any other infrastructure that exists."
+  },
+  {
+    "name": "Nick Worley",
+    "name_as_heard": "Nick Gariglia / Nick Worley",
+    "name_confidence": "low",
+    "affiliation": "New York Offshore Wind Alliance / Alliance for Clean Energy New York (Advocacy Manager)",
+    "role_type": "Advocacy org",
+    "t": 6823,
+    "topics": ["infrastructure investment", "port infrastructure", "electric grid readiness", "offshore wind", "interagency coordination"],
+    "proposals": [
+      "Treat infrastructure delays as a form of government inefficiency; have the commission consider port infrastructure and electric grid readiness as core to the city's future",
+      "Proactively invest in waterfront facilities and the broader supply chain (beyond offshore wind operations)",
+      "Have the city work with Con Edison and stakeholders on grid upgrades (transmission, substations, interconnection points) and plan proactively",
+      "Reduce duplicative city/state regulatory requirements in renewable energy through greater coordination across city sectors and with state policy"
+    ],
+    "quote": "Infrastructure delays are themselves a form of government inefficiency."
+  },
+  {
+    "name": "Andrea Harris",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Resident (mother of an active-duty service member)",
+    "role_type": "Resident",
+    "t": 7050,
+    "topics": ["open primaries", "veterans and military families", "independent voters"],
+    "proposals": [
+      "Open the primaries; argues the closed system disenfranchises the many service members, veterans and military families who register as independents (estimates ~700,000 of NYC's unaffiliated voters are veterans/active duty)",
+      "Asks the commission to review last year's Charter Revision Commission work and adopt its recommendation to let voters decide on open primaries"
+    ],
+    "quote": "Many of our armed forces swear an oath to defend the Constitution of the United States, not a political party."
+  },
+  {
+    "name": "Ashley Roloffs",
+    "name_as_heard": "Ashley Roloffs / Ashley Rolloloffs",
+    "name_confidence": "medium",
+    "affiliation": "Trust for Public Land (Program Coordinator)",
+    "role_type": "Nonprofit",
+    "t": 7272,
+    "topics": ["nonprofit contracting", "upfront funding", "reimbursement timelines", "maintenance funding", "capital process", "cross-agency coordination"],
+    "proposals": [
+      "Advance a portion of city grant funding to nonprofit partners upfront so they don't borrow at commercial rates while awaiting reimbursement",
+      "Pay nonprofits back within a consistently enforced citywide 30-day standard",
+      "Require a funded maintenance plan as a condition of capital approval for any facility or open space",
+      "Shorten the lag between budget adoption and disbursement, especially for ResoA funds (currently ~4 months)",
+      "Improve cross-agency coordination on capital projects (look at other cities' models)",
+      "Audit and streamline capital process steps via a plain-language 'is this step still needed' review"
+    ],
+    "quote": "Philanthropic dollars are effectively paying banks for city-funded projects. Advancing even a portion of grant funding at the outset would solve this."
+  },
+  {
+    "name": "Cory Hannigan",
+    "name_as_heard": "Corey Hanigan",
+    "name_confidence": "medium",
+    "affiliation": "Transportation Alternatives (Policy and Government Relations Director)",
+    "role_type": "Advocacy org",
+    "t": 7430,
+    "topics": ["street safety", "Vision Zero", "FDNY duplicative review", "outdoor dining", "bike/bus lanes"],
+    "proposals": [
+      "Shorten timelines for implementing tested, standard safety redesigns (protected bike lanes, bus lanes) that have already gone through DOT outreach and design",
+      "Impose a sensible timeline for firehouse/FDNY objections to street designs, or remove the duplicative comment requirement entirely, so projects aren't delayed by non-response",
+      "Streamline the outdoor dining application; eliminate duplicative street-bed and sidewalk dining processes; make the program year-round; ease/remove City Council and community board notification requirements; create simpler, more flexible sidewalk/curbside specifications, licensing and liability requirements"
+    ],
+    "quote": "When a protected bike lane is proposed and presented to a community, the DOT has already conducted months of outreach, analysis, and research... From there, additional months of outreach and delays cost time, money, and lives."
+  },
+  {
+    "name": "Michael Grunner",
+    "name_as_heard": "Michael Grunner",
+    "name_confidence": "medium",
+    "affiliation": "IBEW Local 3 (International Brotherhood of Electrical Workers)",
+    "role_type": "Labor",
+    "t": 7833,
+    "topics": ["infrastructure delivery", "union labor", "apprenticeship", "pathways to middle class"],
+    "proposals": [
+      "Think holistically about infrastructure efficiency: 'build more, build faster, build better' and build union",
+      "Recognize union construction and rigorous apprenticeship as pathways to the middle class for immigrants, communities of color, veterans and working families"
+    ],
+    "quote": "Build more, build faster, build better. Most importantly, build union. Building unions builds pathways. a pathway to the middle class."
+  },
+  {
+    "name": "Bria Donahue",
+    "name_as_heard": "Bria Donu / Bria Donahghue",
+    "name_confidence": "medium",
+    "affiliation": "American Institute of Architects New York (AIA NY), Director of Government Affairs (~5,000 members)",
+    "role_type": "Business/industry",
+    "t": 7928,
+    "topics": ["capital planning", "interagency coordination", "qualifications-based selection", "project delivery"],
+    "proposals": [
+      "Launch a coordinated citywide capital planning process with shared data and more front-end planning to maximize co-benefits (utility/infrastructure coordination, permit approvals, minimizing disruption)",
+      "Prioritize qualifications-based selection (QBS) and provide flexibility to capital agencies in selection",
+      "Adopt a 'do it once and do it right' mentality for delivering quality public projects (further detail in written comments)"
+    ],
+    "quote": "Smart comprehensive planning enables the city to deliver quality projects with the mentality of do it once and do it right."
+  },
+  {
+    "name": "Henry Sodelin",
+    "name_as_heard": "Henry Sutherland / Henry Sodelin",
+    "name_confidence": "low",
+    "affiliation": "IBEW Local 3 (International Brotherhood of Electrical Workers)",
+    "role_type": "Labor",
+    "t": 8080,
+    "topics": ["building trades", "streamlining projects", "safety", "private-sector efficiency"],
+    "proposals": [
+      "Keep the building trades integral to streamlining and delivering city infrastructure projects",
+      "Argues union private-sector trades are inherently efficient ('if you don't produce... you're going to be looking for work') and bring safety, professionalism and quality"
+    ],
+    "quote": "If we want to continue this being the great city that it is... always keep the building trades in what we're doing."
+  },
+  {
+    "name": "Katherine Vaughn",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Abundance New York (Executive Director, ~5,000 members); Brooklyn CB6 member",
+    "role_type": "Advocacy org",
+    "t": 8171,
+    "topics": ["housing permitting", "DOB consolidation", "clean energy permitting", "ULURP", "fair share"],
+    "proposals": [
+      "Designate DOB as the single permitting and inspection authority for all residential and commercial construction (FDNY, DEP and others keep their substantive standards but DOB administers them under one application and one inspection sequence)",
+      "Delegate authority to DOB to update the construction codes by rule",
+      "Consolidate clean-energy permitting (rooftop/community solar, battery storage, heat pumps, EV charging, interconnection signoffs) in a single office at DEP, with one application and one inspection",
+      "Reform ULURP for public infrastructure: waive ULURP for public-facility projects under $5 million and expedite review in districts not carrying their fair share of a given facility type (extending the November ballot-question-2 fast-track logic to public facilities)"
+    ],
+    "quote": "A new residential building takes 18 months to permit and four years from filing to occupancy. Time spent paying too much rent or waiting in a shelter."
+  },
+  {
+    "name": "Grace Rauh",
+    "name_as_heard": "Grace Ralph",
+    "name_confidence": "medium",
+    "affiliation": "Citizens Union (Executive Director)",
+    "role_type": "Advocacy org",
+    "t": 8447,
+    "topics": ["oversight agencies", "ethics", "DOI", "Conflicts of Interest Board", "police oversight", "lobbying oversight"],
+    "proposals": [
+      "Protect and increase funding for independent oversight/watchdog agencies (DOI, COIB), which currently must seek funding from the officials they regulate; adopt the prior charter commission's set-percentage-of-budget formula",
+      "Adopt the watchdog-protection charter amendments already developed and vetted by the Law Department by last year's City Council charter commission",
+      "Move lobbying oversight out of the City Clerk's office and into the Conflicts of Interest Board",
+      "Merge the three external police oversight agencies (NYPD Inspector General, Mayor's Commission to Combat Police Corruption, and CCRB) into a unified police oversight board (per the 2021 police reform plan)"
+    ],
+    "quote": "Strong watchdogs save taxpayer dollars by preventing fraud, waste, and abuse... offices of Inspector General are known to generate $17 in returns for every $1 invested."
+  },
+  {
+    "name": "Chris Loscalzo",
+    "name_as_heard": "Christopher Loscalzo / Chris Scalzo",
+    "name_confidence": "medium",
+    "affiliation": "Laborers Local 1010 (LIUNA)",
+    "role_type": "Labor",
+    "t": 8696,
+    "topics": ["infrastructure delivery", "project labor agreements", "climate resiliency", "urban forestry", "apprenticeship", "citizenship"],
+    "proposals": [
+      "Reduce bureaucratic delays and improve interagency coordination so public projects move from planning to completion faster",
+      "Use project labor agreements (citing a Cornell ILR study on a PLA for Parks street planting / urban forestry) as a 'job site constitution' that improves coordination, safety, quality and use of taxpayer dollars",
+      "Support workforce development through apprenticeship/training programs and civic participation (citizenship assistance partnership)"
+    ],
+    "quote": "Project labor agreements function as a job site constitution, establishing a single set of rules and expectations across an entire project rather than relying on a piecemeal approach."
+  },
+  {
+    "name": "Rachel Fauss",
+    "name_as_heard": "Rachel Foss",
+    "name_confidence": "medium",
+    "affiliation": "Reinvent Albany (Senior Policy Advisor)",
+    "role_type": "Advocacy org",
+    "t": 9206,
+    "topics": ["ethics agencies", "DOI", "COIB", "independent budgeting", "lobbying", "city-affiliated nonprofits"],
+    "proposals": [
+      "Establish independent budgeting for DOI and the Conflicts of Interest Board, plus more independent appointment processes and removal protections",
+      "Make COIB ethics guidance far more transparent (amend Charter chapter 68)",
+      "Put lobbying and ethics under one roof, ideally at a more independent NYC ethics commission",
+      "Strengthen ethics laws regarding city-affiliated nonprofits",
+      "Protect the DOI commissioner: removal only for cause with written notice and opportunity for a public City Council hearing, and a fixed 5- or 7-year term (DOI is down ~25% of staff vs 10 years ago)"
+    ],
+    "quote": "We believe the commission must respond to this eruption of corruption by taking steps to strengthen New York City's frontline ethics agencies in particular the department of investigation and conflicts of interest board."
+  },
+  {
+    "name": "Felice Farber",
+    "name_as_heard": "Feliz Farber / Fel Farber",
+    "name_confidence": "medium",
+    "affiliation": "Subcontractors Trade Association (STA), Executive Director (350+ specialty trade firms, 100% union)",
+    "role_type": "Business/industry",
+    "t": 9411,
+    "topics": ["procurement", "Comptroller role", "phased permitting", "subcontractor payment", "subcontractor approval appeals"],
+    "proposals": [
+      "Remove or meaningfully narrow the Comptroller's role in procurement/contract administration, especially contract registration, change-order review and extra-work dispute determinations",
+      "Expressly authorize permitting agencies to establish phased permit submission/review, concurrent reviews, and other approaches tailored to alternative delivery methods",
+      "Require plumbing, mechanical and electrical contractors to be identified as part of the design-build proposal submission",
+      "Track payment timeliness from the date a requisition is submitted (not just after agency approval); publicly report agency review time; create a publicly accessible requisition-level payment-tracking database",
+      "Reform the subcontractor approval process: require written notice explaining a rejection to both prime and sub, and establish a formal appeal process with defined timelines"
+    ],
+    "quote": "The city should track payment timeliness beginning on the date a payment requisition is submitted rather than measuring the period only after an agency approves payment."
+  },
+  {
+    "name": "Aaron Binstein",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Ironworkers Local 40",
+    "role_type": "Labor",
+    "t": 9645,
+    "topics": ["worker safety", "prevailing wage fraud", "city-state enforcement coordination"],
+    "proposals": [
+      "Do not sacrifice safety in the name of efficiency; maintain a positive safety culture",
+      "Have the city work more closely with the State Department of Labor (Bureau of Public Work) and the Comptroller to strengthen enforcement against prevailing wage fraud by non-union contractors on publicly funded jobs"
+    ],
+    "quote": "No job or infrastructure project is worth more than a worker's health or their well-being."
+  },
+  {
+    "name": "Pedro Rodriguez",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Resident; founder of Neighbors for Safe Austin Street; CB6 member; street safety advocate (speaking for himself)",
+    "role_type": "Resident",
+    "t": 9762,
+    "topics": ["street safety", "Vision Zero", "speed cameras", "traffic enforcement", "automated enforcement", "DDC delays"],
+    "proposals": [
+      "Speed up street improvements (bike lanes, bus lanes, sidewalk expansions, daylighting), which can take years",
+      "Let the city expand speed cameras as needed instead of begging the state every couple of years",
+      "Return traffic enforcement to DOT (it moved to NYPD under Giuliani in the 1990s)",
+      "Allow automated enforcement not just of speed and red lights but also parking, ASP and other violations",
+      "Examine reforms to DDC, which can take at least 10 years to complete a project that affects street safety"
+    ],
+    "quote": "Let's be honest, vision zero has been a failure. He's been active for about 10 years and we are nowhere near zero."
+  },
+  {
+    "name": "Marco Tang",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Resident (NYC resident; self-described polymath / neurodivergent)",
+    "role_type": "Resident",
+    "t": 9991,
+    "topics": ["education", "standardized testing", "Common Core", "neurodivergent students", "student mental health"],
+    "proposals": [
+      "Treat education as 'hidden infrastructure' and address it in the charter ('school charter')",
+      "Move away from standardized testing / Common Core, which he argues crushes creativity and disproportionately harms neurodivergent students",
+      "Add alternatives: Sudbury/democratic schools, philosophy classes, meditation, social-interaction and mental-health curricula, and martial-arts classes (to address bullying)"
+    ],
+    "quote": "The education system has been designed to crush creativity and beat it to death."
+  },
+  {
+    "name": "Lauren Napier",
+    "name_as_heard": null,
+    "name_confidence": "high",
+    "affiliation": "Resident (currently in a DHS women's shelter; former six-figure earner)",
+    "role_type": "Resident",
+    "t": 10204,
+    "topics": ["homeless services", "shelter inefficiency", "housing placement delays", "interagency coordination", "contract oversight"],
+    "proposals": [
+      "Address the extraordinary inefficiencies across the network of city agencies, nonprofit operators, contractors and private-equity partners serving the homeless (her shelter operates under a ~$80M five-year contract she says is not delivering)",
+      "Fix the administrative delays and lack of continuity/transparency among agencies (HRA/HPD/DHS) that strand people with approved apartments in shelter (she had an apartment in March but remained in shelter into June; counts 10 people eligible to move June 1 still waiting on checks/documentation)",
+      "Offers to share detailed information and remedies she has gathered"
+    ],
+    "quote": "The shelter is what I feel... is really warehousing women. We are not being processed and we are being held there... the city is hemorrhaging money."
+  },
+  {
+    "name": "Trisha Joyce",
+    "name_as_heard": "Trisha Joyce / Trisha",
+    "name_confidence": "medium",
+    "affiliation": "Resident and business owner (Lower Manhattan / Tribeca; chair of CB youth and education committee, speaking for herself)",
+    "role_type": "Resident",
+    "t": 10727,
+    "topics": ["school siting", "Lower Manhattan recovery", "infrastructure coordination", "pedestrian safety", "affordable housing", "parking"],
+    "proposals": [
+      "Revise the process for approving/siting schools, which she says is desperately in need of revision (schools placed in former post offices and retail stores created their own infrastructure demands)",
+      "Better coordinate city agencies (she cites 6-7 agencies with delays during Lower Manhattan recovery) to get things done in a timely manner and control costs",
+      "Match residential growth incentives with infrastructure investment (schools, pedestrian safety, traffic management, outdoor space, crossing guards, sanitation, affordable housing) — note three of four local elementary schools still lack crossing guards",
+      "Address city agencies occupying neighborhood parking spaces"
+    ],
+    "quote": "The success of that incentivization created challenges the city somehow failed to anticipate and it was never matched with the infrastructure investment the moment demanded."
+  },
+  {
+    "name": "Leo Sunk",
+    "name_as_heard": "Leo Ruben / Leo Sunk of Troop Salmon",
+    "name_confidence": "low",
+    "affiliation": "Resident (lifelong New Yorker; housing affordability advocate)",
+    "role_type": "Resident",
+    "t": 10958,
+    "topics": ["housing affordability", "housing supply", "permitting consolidation", "DOB", "construction code"],
+    "proposals": [
+      "Make DOB the single permitting and inspection authority for construction (other agencies keep their standards but DOB administers them and all inspections)",
+      "Let DOB update the construction and building codes by simple rule adoption rather than requiring a City Council local law (which slows/politicizes technical updates), mirroring the state's model"
+    ],
+    "quote": "The city government needs to get out of its own way and let New York build."
+  }
+]

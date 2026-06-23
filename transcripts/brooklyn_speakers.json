@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Margaret Brown",
+    "name_as_heard": "Margaret Brown / chair later calls her 'Jordan'",
+    "name_confidence": "medium",
+    "affiliation": "City employee at a mayoral agency (unnamed); personal capacity",
+    "role_type": "Government body",
+    "t": 469,
+    "topics": ["AI", "open data", "civic engagement", "municipal AI", "digital equity"],
+    "proposals": [
+      "Have the city stand up a Model Context Protocol (MCP) server like Boston's that lets AI securely interact with city open data and reduces hallucinations when residents query public data",
+      "Adopt open-source agents (like Boston's) so residents can ask plain-language questions of city open data and get formatted tables without needing data-analyst skills",
+      "Pursue a 'moon shot' of New York City running its own (non-corporate) AI rather than relying on environmentally harmful Big Tech data centers and training their models",
+      "Provide cheaper/free high-speed internet citywide and low-cost devices for public-school kids, paired with workforce development"
+    ],
+    "quote": "efficiency is not an end in itself. It's important to define our goals and values first."
+  },
+  {
+    "name": "Jessica Ariel Womala",
+    "name_as_heard": "Jessica Ariel (hyphenated, partly cut off); full: Jessica Ariel Womala",
+    "name_confidence": "medium",
+    "affiliation": "The Future Fluent (small business); formerly Promise; Crown Heights homeowner; systems architect",
+    "role_type": "Civic-tech",
+    "t": 660,
+    "topics": ["AI in benefits", "SNAP", "administrative friction", "human-in-the-loop", "case processing"],
+    "proposals": [
+      "Use AI as a proactive 'coach' that tells benefits applicants before they submit if a document is out of date/out of bounds or wrong, and reads/validates uploaded documents",
+      "Reserve AI for repetitive, deterministic tasks (document completeness, math) while reserving strategic/judgment decisions for human caseworkers; route uncertain or false-negative cases to a human secondary queue",
+      "Apply battle-tested benefits-automation models (energy credits via nyseaap.com, SNAP in Mississippi, water-bill assistance in Detroit, property-tax plans in Baltimore) to reduce wrongful churn (cited 300,000 HRA cases pinballing closed/reopened for preventable error codes)"
+    ],
+    "quote": "We must stop defining AI solely by the risks and fear. And we need to start defining AI by what we hope these technologies can achieve for public good."
+  },
+  {
+    "name": "Carl Hammersberg",
+    "name_as_heard": "Carl Hammersberg",
+    "name_confidence": "medium",
+    "affiliation": "SAS (analytics vendor; 'existing trusted partner of the city')",
+    "role_type": "Business/industry",
+    "t": 1663,
+    "topics": ["procurement", "vendor oversight", "data silos", "fraud detection", "savings"],
+    "proposals": [
+      "Break down agency data silos and start with lower-risk open data to proactively address citizen needs while building governance",
+      "Create a single holistic view of all vendors/procurement (not necessarily one central place) for continuous monitoring to catch duplicate invoices, inflated pricing vs contract terms, and vendor-to-vendor or employee-to-vendor collusion",
+      "Aggregate contracts where multiple departments use the same company to negotiate lower unit prices (cited bidder collusion raising costs ~43% per bid; potential tens of millions saved per instance)",
+      "Set a charter framework establishing centralized procurement/vendor oversight that takes precedence over the Procurement Policy Board"
+    ],
+    "quote": "Just knowing that five different departments are doing business with the same company and potentially you could aggregate that contract and get a lower unit price can have a huge impact on spending."
+  },
+  {
+    "name": "Andrew Rein",
+    "name_as_heard": "Andrew Rein (heard as 'Andrew Ryan' / 'Andrew Rein')",
+    "name_confidence": "high",
+    "affiliation": "Citizens Budget Commission (president)",
+    "role_type": "Advocacy org",
+    "t": 1841,
+    "topics": ["resident survey", "performance management", "mayor's management report", "rainy day fund", "charter scope"],
+    "proposals": [
+      "Amend the charter to require a statistically valid, representative resident feedback survey at least every four years, published at community-board level and disaggregated by race/ethnicity/household income",
+      "Require a comprehensive citywide performance management system with robust data and accountability review processes",
+      "Improve the Mayor's Management Report (MMR) to include input, output, outcome, quality, and efficiency indicators for each agency/program (measure how well, not just what)",
+      "Create charter rules to strengthen the rainy day fund: mandate deposits during good times, restrict withdrawals to recessions/emergencies, and set target-size policy"
+    ],
+    "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program."
+  },
+  {
+    "name": "Lea Bannon",
+    "name_as_heard": "Lea Bannon / Leah",
+    "name_confidence": "medium",
+    "affiliation": "Former 18F / U.S. Digital Service; career civil servant (personal capacity)",
+    "role_type": "Civic-tech",
+    "t": 2468,
+    "topics": ["digital service teams", "in-house tech", "IT contracting", "service design", "hiring"],
+    "proposals": [
+      "Enable agencies to hire small (6-8 person) multidisciplinary digital service teams (design, product, legal/policy, engineering) embedded in agencies rather than relying on large IT contracts",
+      "Back those teams with a centralized IT program providing shared services, infrastructure, and tooling so agencies don't reinvent the wheel; only procure broadly-used commodity services like email",
+      "Measure success by reporting on the public's top end-to-end pain points and whether teams resolve them",
+      "Adopt USDS-style rapid hiring: pool agency subject-matter experts to pre-screen large candidate pools before HR vetting, to quickly hire qualified candidates"
+    ],
+    "quote": "I do not recommend large IT contracts if you hope to deliver efficient quality public services."
+  },
+  {
+    "name": "Dr. Jesse Fields",
+    "name_as_heard": "Jesse Fields",
+    "name_confidence": "high",
+    "affiliation": "Harlem community doctor (Mount Sinai); NYC Maternal Mortality Review Committee; All Stars Project board; works with Open Primaries",
+    "role_type": "Advocacy org",
+    "t": 2650,
+    "topics": ["open primaries", "voter disenfranchisement", "independent voters", "civil rights"],
+    "proposals": [
+      "Put an initiative on the November ballot to open the primaries so the ~1.2 million independent/unaffiliated New Yorkers can vote in primary (the determinative) elections",
+      "Frame disenfranchisement of independents as a civil-rights issue (majority are Black, Hispanic, Asian and under 40)"
+    ],
+    "quote": "The disenfranchisement of 1.2 million New Yorkers, a majority of whom are black, Hispanic, and Asian, must end."
+  },
+  {
+    "name": "Brian Chen",
+    "name_as_heard": "Brian Chen",
+    "name_confidence": "high",
+    "affiliation": "Data & Society (policy director)",
+    "role_type": "Academic",
+    "t": 3070,
+    "topics": ["AI skepticism", "procurement", "public/worker engagement", "open-source models", "impact assessments"],
+    "proposals": [
+      "Move cautiously before adopting AI; favor smaller, sustainable open-source models (less data/energy, often better-performing) over expensive Big Tech systems",
+      "Require engaging residents and city workers in goal-setting and procedures BEFORE procurement, as the most impactful point to shape technology",
+      "Formalize procurement procedures that center independent testing, impact assessments, transparency, data minimization, and clear accountability mechanisms for new tech systems"
+    ],
+    "quote": "The promised benefits are unproven, the costs are real, and getting it wrong will be very expensive."
+  },
+  {
+    "name": "Robert Gordon",
+    "name_as_heard": "Robert Gordon",
+    "name_confidence": "high",
+    "affiliation": "Recoding America Fund (VP); former White House deputy; former NYC DOH employee",
+    "role_type": "Nonprofit",
+    "t": 3253,
+    "topics": ["civil service reform", "hiring", "exams", "rule of three", "job titles", "vacancies"],
+    "proposals": [
+      "Create broader job titles matching the labor market and career pathways (NYC has ~2,600 titles, many more than peer jurisdictions)",
+      "Let managers hire based on skills and experience, not just test scores; replace rigid exams and the 'rule of three' with targeted anti-corruption oversight",
+      "Change the charter to take advantage of state flexibilities like the NY HELPS program (which suspended exams for hard-to-fill titles, 40,000+ hires); NYC opted out and should reconsider",
+      "Establish a diverse commission to overhaul the civil service system soup-to-nuts, modeled on the Speed Commission on housing"
+    ],
+    "quote": "Complexity favors the powerful and the popular... And when the city can't hire the people it needs... it hires contractors who it pays much more for."
+  },
+  {
+    "name": "Louisa Chaffee",
+    "name_as_heard": "Louisa Chaffee",
+    "name_confidence": "high",
+    "affiliation": "NYC Independent Budget Office (director)",
+    "role_type": "Government body",
+    "t": 3864,
+    "topics": ["procurement", "contract registration", "late payments", "human services", "PPB", "budget transparency"],
+    "proposals": [
+      "Mandate in the charter that agencies register contract extensions for contracts that would otherwise expire (and any case where continued payment is at risk), so vendors aren't forced to work unpaid; extensions cancellable once new award is registered",
+      "Charter mandate requiring agencies to pay 80% of each invoice from a human-service vendor in good standing within a reasonable period, using partial-payment technology while vetting continues (cited 31% of $12.7B owed and unpaid)",
+      "Reform the Procurement Policy Board: expand to 10 members (modeled on IBO's advisory structure), require it to meet four times a year, review procurements, and produce a public annual report",
+      "Revisit units of appropriation so they can be adjusted"
+    ],
+    "quote": "This is a like a real-life example of how New York City makes its human service community provide services for free."
+  },
+  {
+    "name": "Julie Su",
+    "name_as_heard": "Julie Swoop / Julie Su",
+    "name_confidence": "low",
+    "affiliation": "NYC DSA member; Mamdani technology transition committee; leads a public-sector tech team",
+    "role_type": "Labor",
+    "t": 4118,
+    "topics": ["IT contracting", "in-house staff", "Local Law 63", "civil service", "digital services agency"],
+    "proposals": [
+      "Hire full-time city employees for technology work (who retain institutional knowledge and train successors) rather than depending on private contractors who have incentives to upsell",
+      "Enforce Local Law 63 requiring agencies to justify hiring contractors instead of full-time workers",
+      "Break dependence on private technology contracting while maintaining civil service protections; create an in-house digital services agency (like federal 18F) within city government"
+    ],
+    "quote": "We need to break our dependence on private technology contracting while maintaining civil service protections for the workers of New York City because the status quo is broken."
+  },
+  {
+    "name": "Julie Samuels",
+    "name_as_heard": "Julie Samuels",
+    "name_confidence": "high",
+    "affiliation": "Tech:NYC (president/CEO); former charter revision commissioner",
+    "role_type": "Business/industry",
+    "t": 4982,
+    "topics": ["unified tech leadership", "procurement reform", "MMR dashboard", "civil service", "broadband equity", "AI workforce"],
+    "proposals": [
+      "Establish unified senior technology leadership, e.g. a deputy mayor for transformation and innovation with a real budget line and agencies reporting up (or a CTO across agencies)",
+      "Reform procurement to ensure city contractors get paid",
+      "Modernize the Mayor's Management Report into a frequently-updated, real-time-data dashboard, possibly moved out of the Mayor's Office of Operations",
+      "Expand broadband/internet access as a matter of equity; pursue civil service reform",
+      "Note Tech:NYC's 'Coded Futures' AI-training program showed zero job displacement"
+    ],
+    "quote": "we need to fundamentally accept that we need a unified technology leadership in the city."
+  },
+  {
+    "name": "John Manning",
+    "name_as_heard": "John Furby Manning / John Furman / John Manning",
+    "name_confidence": "medium",
+    "affiliation": "Retired city analyst; resident of Bay Ridge, Brooklyn",
+    "role_type": "Resident",
+    "t": 5232,
+    "topics": ["open primaries", "voter turnout", "ballot referendum", "nonpartisan elections"],
+    "proposals": [
+      "Place a referendum on the November ballot for open/nonpartisan primaries for local NYC offices",
+      "Open the process so ordinary citizens can compete against the party machine and the 1M+ unaffiliated voters are no longer ignored"
+    ],
+    "quote": "there are well over 1 million independent or unaffiliated registered voters in New York who find themselves ignored by the process."
+  },
+  {
+    "name": "Spencer Williams",
+    "name_as_heard": "Spencer Williams",
+    "name_confidence": "high",
+    "affiliation": "Director of land use and topography, Brooklyn Borough President Antonio Reynoso (testifying on BP's behalf)",
+    "role_type": "Elected official",
+    "t": 5805,
+    "topics": ["comprehensive plan", "land use", "community boards", "equity", "service delivery"],
+    "proposals": [
+      "Add a charter mandate requiring the city to create a comprehensive plan (citywide needs assessment, growth plan, future land-use map, community engagement, 10-year capital plan focused on underserved neighborhoods), similar to the citywide waterfront plan",
+      "Create an independent Community Board central office (like the IBO) to provide community boards with planning expertise, communications/technology, space, HR, procurement, intergovernmental and legal support, and training"
+    ],
+    "quote": "the comprehensive plan should include at a minimum just a simple statement that requires the city to do a comprehensive plan."
+  },
+  {
+    "name": "Jordan Shapiro",
+    "name_as_heard": "Jordan Shapiro",
+    "name_confidence": "high",
+    "affiliation": "BetaNYC (Associate Board Program Manager)",
+    "role_type": "Civic-tech",
+    "t": 6032,
+    "topics": ["digital sovereignty", "open source", "machine-readable laws", "vendor dependence", "federated data"],
+    "proposals": [
+      "Establish digital sovereignty as a unified governing principle in the charter, freeing NYC from dependence on proprietary systems",
+      "Extend Charter section 20-U's machine-readable API requirement (for public records) to all laws",
+      "Create digital services teams for all city agencies; unify fragmented charter provisions (sections 20-F, 20-U, 1072)",
+      "Use a federated data system architecture (e.g. Estonia's X-Road) with strong security so democratized data is not centralized into one warehouse that can be weaponized"
+    ],
+    "quote": "the city pays a private company to host the website that serves its own laws. That contradiction is an efficiency problem, and the solution has a name. It's called digital sovereignty."
+  },
+  {
+    "name": "Robert Joyce",
+    "name_as_heard": "Robert Joyce",
+    "name_confidence": "high",
+    "affiliation": "Abundance New York (director of policy); native Brooklynite, renter, career public servant",
+    "role_type": "Advocacy org",
+    "t": 6859,
+    "topics": ["civil service reform", "workforce plan", "flexible hiring", "vacancies"],
+    "proposals": [
+      "Amend the charter to require the mayor to submit a 5-year city government workforce plan (modeled on the capital strategy) with longer-term hiring targets, title combinations/reforms, and hiring/management process reforms tied to policy outcomes",
+      "Create flexible, term-limited civil service hiring structures (citing FEMA's 2-4 year termed civil servants and DARPA's specialized teams) so staffing tracks fluctuating needs"
+    ],
+    "quote": "make staffing decisions... for the city as a whole downstream from our overall policy desired outcomes and staff from there."
+  },
+  {
+    "name": "Andrew Rasiej",
+    "name_as_heard": "Andrew Rasiej",
+    "name_confidence": "high",
+    "affiliation": "Civic Hall at Union Square (founder)",
+    "role_type": "Civic-tech",
+    "t": 7065,
+    "topics": ["software procurement", "tech modernization", "CDO", "permanent commission", "culture change"],
+    "proposals": [
+      "Treat software differently from goods like buses/pencils: 'commission' rather than 'procure' software, keeping the builder on the hook to keep it current with updates, security patches, and fixes",
+      "Create an Office of Chief of Digital Transformation led by a Chief Digital Officer reporting to the mayor, first deputy mayor, and OMB director",
+      "Create a permanent Commission on Digital Transformation in the charter itself to keep continuously upgrading the city"
+    ],
+    "quote": "Staying current isn't the project you finish, it's the permanent condition of governing from now on."
+  },
+  {
+    "name": "Julia Stoyanovich",
+    "name_as_heard": "Julia Stoyanovich",
+    "name_confidence": "high",
+    "affiliation": "NYU professor of computer science and data science; founder/director, Center for Responsible AI",
+    "role_type": "Academic",
+    "t": 7305,
+    "topics": ["AI governance", "charter chapter 48", "algorithmic transparency", "automated decision systems", "right to contest"],
+    "proposals": [
+      "Codify AI governance in the charter (the tech chapter, Ch. 48, is outdated, still governing cable TV) with three principles for the November ballot",
+      "Disclose it: require plain-language notice when the city uses an automated system to make decisions about a person",
+      "Prove it works: bar deployment of high-stakes systems (benefits, housing, hiring, schools) without showing they work and can be verified (cited the $500K+ My City Chatbot that gave illegal advice)",
+      "Let people contest it: guarantee a right to a real explanation, a right to appeal, and a right to reach a human being"
+    ],
+    "quote": "Disclose it. Prove it works. Let people contest it. Three lines in the charter, three questions for the ballot."
+  },
+  {
+    "name": "Sherri Chung",
+    "name_as_heard": "Sherry Chung / Sherri Chung",
+    "name_confidence": "medium",
+    "affiliation": "Holly (company using AI for government recruitment/classification/compensation); lives in Park Slope",
+    "role_type": "Business/industry",
+    "t": 7530,
+    "topics": ["civil service modernization", "hiring", "job classifications", "AI tooling", "compensation"],
+    "proposals": [
+      "Use AI tools to rewrite outdated job specifications at scale, flagging barriers like unnecessary driver's-license requirements, gendered language, and needless degree requirements",
+      "Automate salary surveys/market benchmarking so pay tracks the market instead of being contracted out in stale, expensive cycles",
+      "Reduce manual paperwork (e.g. classification analyses from 40 hours to 30 minutes; review worksheets from 4 weeks to 1-2 days), keeping humans as the decision-makers",
+      "Treat civil service modernization as the infrastructure project underneath the administration's other promises"
+    ],
+    "quote": "the system that we see in hiring is often slow not because of public servants but because... they don't have modern tools."
+  },
+  {
+    "name": "Hugh Francis",
+    "name_as_heard": "Hugh Francis",
+    "name_confidence": "medium",
+    "affiliation": "heymamdani.nyc coalition / Garden3D (GSA-certified); coalition incl. Mozilla Foundation, RadicalxChange, Metagov, Decentral/Polis",
+    "role_type": "Civic-tech",
+    "t": 7822,
+    "topics": ["open government", "participatory tech", "civic volunteers", "open source", "Taiwan model"],
+    "proposals": [
+      "Make the city's technology open and participatory so residents can build and improve public services (citing Taiwan's g0v volunteers and Audrey Tang's open office hours / open data tools)",
+      "Adopt open design systems like the federal 18F U.S. Web Design System (cited up to 30% faster development) and partner with local civic technologists",
+      "Act on the coalition's open letter to the mayor on open government and civic technology"
+    ],
+    "quote": "New York City can become dramatically more efficient by making its technology open and participatory to the people who live here."
+  },
+  {
+    "name": "David Lee",
+    "name_as_heard": "David Lee",
+    "name_confidence": "high",
+    "affiliation": "Fiscal policy analyst, Center for New York City Affairs; AI/climate researcher at Columbia (personal capacity)",
+    "role_type": "Academic",
+    "t": 8048,
+    "topics": ["open data", "machine-readable financial data", "budget transparency", "data ontology"],
+    "proposals": [
+      "Impose a charter machine-readability requirement on the comptroller's Annual Comprehensive Financial Report (ACFR), enshrining the practice begun under Comptroller Lander",
+      "Require more granular disaggregation of expense budget data below the unit-of-appropriation level (down to budget codes), including by funding source",
+      "Mandate a consistent data ontology over time so longitudinal fiscal studies are possible"
+    ],
+    "quote": "transparency and accessibility to public data are of course the paramount priorities of effective... governance."
+  },
+  {
+    "name": "Charlotte",
+    "name_as_heard": "Charlotte (Monwood?), 'Charlotte, like the spider'; surname uncertain",
+    "name_confidence": "low",
+    "affiliation": "Working musician; resident of Washington Heights, Upper Manhattan",
+    "role_type": "Resident",
+    "t": 8281,
+    "topics": ["Department of Community Safety", "mental health crisis response", "policing", "NYPD budget"],
+    "proposals": [
+      "Create a Department of Community Safety through charter revision to separate care/medical response from police response to mental-health and addiction 911 calls",
+      "Divert funding currently earmarked for the NYPD (citing ~$860M projected FY2026 overtime) into prevention and rehabilitation programs"
+    ],
+    "quote": "My neighbors and I deserve to be able to call for medical help without fearing misunderstanding by the police or potentially deadly escalation."
+  },
+  {
+    "name": "Stacy Bogue",
+    "name_as_heard": "Stacy Bogue",
+    "name_confidence": "medium",
+    "affiliation": "Parent advocate for families with disabilities (autism); worked with Gail Brewer",
+    "role_type": "Advocacy org",
+    "t": 8488,
+    "topics": ["disability services", "data collection", "DOE/HRA coordination", "commission"],
+    "proposals": [
+      "Create a commission/committee including parents of children with disabilities to fix the broken, siloed coordination between the DOE and HRA",
+      "Begin collecting data on the disability community (currently none exists) to enable better service and potential AI assistance",
+      "Establish a single place that holds all of a family's disability-related records (analogous to a hospital health system)"
+    ],
+    "quote": "the DOE and the HR departments are not talking to each other and there is a lot of confusion within the communities of disability."
+  },
+  {
+    "name": "Robin Graham",
+    "name_as_heard": "Robin Graham",
+    "name_confidence": "high",
+    "affiliation": "Mentor/advocate for incarcerated and returning citizens and their families (24 years)",
+    "role_type": "Advocacy org",
+    "t": 8654,
+    "topics": ["prison communications", "Securus/JPay monopoly", "vendor pricing", "incarcerated families"],
+    "proposals": [
+      "Investigate and rein in Securus Technologies' growing monopoly over prison communications/payments (it acquired JPay, now charges ~$6.50 per money transfer vs free/cheaper before, and is acquiring GTL)",
+      "Take prison-communications technology out of the hands of vendors pilfering struggling families' money",
+      "Investigate vendors charging incarcerated people inflated prices for basics (cookies, ramen, toiletries); note NYC's JPay/Rikers connection and a new NYC commissioner could be engaged"
+    ],
+    "quote": "can we take the technology out of the hands of those vendors who are pilfering the pockets of the loved ones who are already struggling."
+  },
+  {
+    "name": "Rebecca Haywood",
+    "name_as_heard": "Rebecca Haywood",
+    "name_confidence": "high",
+    "affiliation": "Former NYC employee (DOT, DCAS, emergency management); technologist; runs a gov-tech job board/newsletter",
+    "role_type": "Civic-tech",
+    "t": 8985,
+    "topics": ["tech hiring", "civil service titles", "vendor accountability", "digital services", "product model"],
+    "proposals": [
+      "Increase transparency for candidates and agencies on hiring rules, exams, and timelines; address the 6+ month offer-to-start wait that acts as a financial filter on city employment",
+      "Create civil service pathways/titles for modern product-development roles (product managers, user researchers, data scientists) that don't fit existing IT titles",
+      "Build internal digital capacity so the city can be a savvy customer, hold vendors accountable, and make build-vs-buy decisions (cited $769M+ spent last year on outside digital services)",
+      "Use the charter's link between merit/fitness and effective service delivery to require agencies to regularly assess whether they have the right personnel and titles"
+    ],
+    "quote": "internal digital teams can build more quickly at a lower cost, ensuring that residents can access services more easily."
+  },
+  {
+    "name": "David Sheldon",
+    "name_as_heard": "David Sheldon",
+    "name_confidence": "high",
+    "affiliation": "Retired AFM Local 802 rep; public member of Manhattan Community Board 1 (waterfront); Save Our Seaport; active mariner",
+    "role_type": "Resident",
+    "t": 9213,
+    "topics": ["EDC accountability", "public engagement", "waterfront planning", "community boards"],
+    "proposals": [
+      "Make the Economic Development Corporation (EDC) publicly accountable, since its public engagement sessions notoriously ignore community and maritime-professional input",
+      "Create a Community Board Maritime (a maritime-focused community board) with delegates from each community board that shares a waterfront"
+    ],
+    "quote": "as a measure of efficiency, as a savings of both time and money, perhaps the EDC can just do away with the sham of public engagement."
+  },
+  {
+    "name": "Yvonne Lee",
+    "name_as_heard": "Yvonne Lee",
+    "name_confidence": "high",
+    "affiliation": "Lifelong New Yorker, Harlem; retired from HPD (housing/community specialist); lifelong independent voter",
+    "role_type": "Resident",
+    "t": 9672,
+    "topics": ["open primaries", "independent voters", "democracy", "voter access"],
+    "proposals": [
+      "Open the primaries so the 1.2 million independent/unaffiliated voters are no longer 'locked out' or 'held hostage'",
+      "Let all registered voters participate in every election (the determinative primary) regardless of party affiliation"
+    ],
+    "quote": "We have a primary election where us independents are locked out. It feels like we're being held hostage."
+  },
+  {
+    "name": "Ralph Yozzo",
+    "name_as_heard": "Ralph Yozzo / Ralph Yazo",
+    "name_confidence": "medium",
+    "affiliation": "Lifelong New Yorker; served on Community Education Council; private-sector career",
+    "role_type": "Resident",
+    "t": 9842,
+    "topics": ["budget cuts", "spending growth", "fiscal transparency", "open data usability"],
+    "proposals": [
+      "Focus 'efficiency' on actual budget cuts, questioning why the budget grows exponentially while e.g. DOE pupil counts decline",
+      "Require real-time disclosure of contracts, hiring, and deals; make tools like Checkbook NYC and expense budget data (which stops at unit of appropriation, e.g. 'Lump sum, $6 billion') actually understandable",
+      "Create a community budget council (like the community education council) and offer regular public classes on the city budget"
+    ],
+    "quote": "Efficiency also means possible cuts, right? I barely hear anyone talking about cuts."
+  },
+  {
+    "name": "Sergio Marrero",
+    "name_as_heard": "Sergio Marrero",
+    "name_confidence": "high",
+    "affiliation": "Rebel One (impact investor for social-good tech founders); formerly led Blue Ridge Labs (Robin Hood Foundation)",
+    "role_type": "Civic-tech",
+    "t": 10027,
+    "topics": ["civic-tech startups", "sandbox/pilots", "procurement", "RFP barriers"],
+    "proposals": [
+      "Create a regulatory/deployment sandbox where small civic-tech founders can pilot solutions in a limited area, iterate with community, and treat failure as part of the process",
+      "Make pilot engagements paid and exempt small (1-3 person) organizations from the full RFP process so founders can build while testing",
+      "Build on the city's transparency by letting government employees flag where things aren't working so outside builders can propose solutions"
+    ],
+    "quote": "a sandbox of some sort... where they can actually deploy this technology and failure is part of the process rather than a long rigorous process."
+  },
+  {
+    "name": "Lola Star",
+    "name_as_heard": "Lola Starr / Lola Star",
+    "name_confidence": "medium",
+    "affiliation": "Small business owner, artist, community advocate, Coney Island",
+    "role_type": "Business/industry",
+    "t": 10191,
+    "topics": ["public land", "EDC accountability", "small business protection", "displacement", "democratic control"],
+    "proposals": [
+      "Add a charter public-land transparency requirement: disclose all leases, dispositions, and redevelopment agreements before finalization with time for public review",
+      "Establish a community pre-approval standard so major public-land decisions aren't finalized until structured, documented community review is complete",
+      "Create an independent oversight body to audit public-land decisions against public-benefit standards",
+      "Require small-business protection: displacement-impact assessments and mitigation plans for legacy tenants on all public-land projects, plus a small-business advocate with enforcement authority"
+    ],
+    "quote": "Public land belongs to the people of New York but too often decisions are made through systems that strip power from the communities who are forced to live with the consequences."
+  }
+]
