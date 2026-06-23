@@ -96,6 +96,13 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .sortsel{font-family:var(--sans);font-size:13px;border:1.5px solid var(--vc-cloud);border-radius:3px;padding:6px 9px;background:var(--vc-white);color:var(--vc-black);}
 .reset{background:none;border:none;color:var(--vc-black);font-family:var(--sans);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;text-decoration:underline;text-decoration-color:var(--vc-orange);text-decoration-thickness:2px;padding:0;}
 
+/* idea/person view toggle */
+.viewtoggle{display:inline-flex;border:2px solid var(--vc-black);border-radius:4px;overflow:hidden;margin-bottom:13px;}
+.viewtoggle .vt{font-family:var(--sans);font-weight:700;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;background:var(--vc-white);color:var(--vc-black);border:none;padding:9px 18px;cursor:pointer;transition:background .12s;}
+.viewtoggle .vt+.vt{border-left:2px solid var(--vc-black);}
+.viewtoggle .vt.active{background:var(--vc-black);color:var(--vc-white);}
+.viewtoggle .vt:not(.active):hover{background:var(--vc-chartreuse-20);}
+
 /* idea cards */
 .ideas{margin:14px 0 10px;}
 .idea{border-bottom:1px solid var(--vc-cloud);padding:24px 0;}
@@ -199,12 +206,18 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 
 <main class="wrap">
 
-  <div class="sec-head"><h2>The shared threads</h2><span class="note">Ideas ranked by how many people backed them</span></div>
-  <p class="sec-sub">Every idea raised at the hearings, ordered by the number of distinct people who argued for it. Click any bar to jump to the detail.</p>
-  <div class="chart" id="chart"></div>
+  <div id="ideaOnly">
+    <div class="sec-head"><h2>The shared threads</h2><span class="note">Ideas ranked by how many people backed them</span></div>
+    <p class="sec-sub">Every idea raised at the hearings, ordered by the number of distinct people who argued for it. Click any bar to jump to the detail.</p>
+    <div class="chart" id="chart"></div>
+  </div>
 
-  <div class="sec-head"><h2>Every idea, with who backed it</h2><span class="note" id="topcount"></span></div>
+  <div class="sec-head"><h2 id="secTitle">Every idea, with who backed it</h2><span class="note" id="topcount"></span></div>
   <div class="controls">
+    <div class="viewtoggle" id="viewToggle">
+      <button class="vt active" data-view="idea">By idea</button>
+      <button class="vt" data-view="person">By person</button>
+    </div>
     <input type="text" class="search" id="search" placeholder="Search ideas, people or organizations...">
     <div class="chips" id="catChips"></div>
     <div class="toolbar">
@@ -271,9 +284,29 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 const IDEAS = JSON.parse(document.getElementById('data').textContent);
 const MAXC = Math.max.apply(null, IDEAS.map(i=>i.proponent_count));
 const cats = [...new Set(IDEAS.map(i=>i.category))].sort();
-const state = {q:"", cat:new Set(), sort:"count"};
+const state = {q:"", cat:new Set(), sort:"count", view:"idea"};
 
 const hearingColor = {Manhattan:"var(--vc-cerulean)",Bronx:"var(--vc-magenta)",Brooklyn:"var(--vc-indigo)","Written submission":"var(--vc-charcoal)"};
+
+// person index: regroup every proponent record by witness name
+const PEOPLE = (function(){
+  const rank={high:3,medium:2,low:1};
+  const m=new Map();
+  IDEAS.forEach(i=>i.proponents.forEach(p=>{
+    let e=m.get(p.name);
+    if(!e){e={name:p.name,name_confidence:p.name_confidence||"medium",affiliation:p.affiliation||"",hearings:new Set(),backings:[]};m.set(p.name,e);}
+    if((p.affiliation||"").length > e.affiliation.length) e.affiliation=p.affiliation;
+    if((rank[p.name_confidence]||2) < (rank[e.name_confidence]||2)) e.name_confidence=p.name_confidence;
+    e.hearings.add(p.hearing);
+    e.backings.push({title:i.title,id:i.id,category:i.category,hearing:p.hearing,url:p.url,quote:p.quote,doc_url:p.doc_url,doc_label:p.doc_label});
+  }));
+  return [...m.values()].map(e=>({name:e.name,name_confidence:e.name_confidence,affiliation:e.affiliation,hearings:[...e.hearings],backings:e.backings,ideaCount:e.backings.length}));
+})();
+
+const SORTOPTS={
+  idea:[["count","Sort: most backers first"],["title","Sort: A–Z"],["category","Sort: by category"]],
+  person:[["count","Sort: most ideas first"],["title","Sort: A–Z by name"]]
+};
 
 function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 
@@ -372,18 +405,81 @@ function card(i, idx){
   </article>`;
 }
 
-function render(){
-  const rows=sortRows(IDEAS.filter(matches));
-  const c=document.getElementById('ideas');
-  c.innerHTML=rows.map(card).join("");
-  document.getElementById('empty').style.display=rows.length?'none':'block';
-  document.getElementById('count').innerHTML=`Showing <b>${rows.length}</b> of ${IDEAS.length} ideas`;
+function bindProps(c){
   c.querySelectorAll('.propbtn').forEach(b=>{
     b.addEventListener('click',()=>{
       b.classList.toggle('open');
       b.nextElementSibling.classList.toggle('open');
     });
   });
+}
+
+// ---- by-person view ----
+function personMatches(pp){
+  if(state.q){
+    const hay=(pp.name+" "+pp.affiliation+" "+pp.backings.map(b=>b.title+" "+b.category+" "+(b.quote||"")).join(" ")).toLowerCase();
+    if(!hay.includes(state.q.toLowerCase())) return false;
+  }
+  return true;
+}
+function sortPeople(rows){
+  const r=rows.slice();
+  if(state.sort==="title") r.sort((a,b)=>a.name.localeCompare(b.name));
+  else r.sort((a,b)=> b.ideaCount-a.ideaCount || a.name.localeCompare(b.name));
+  return r;
+}
+function personBackingRow(b){
+  const isDoc=b.hearing==="Written submission";
+  const watchLabel=isDoc?"Read &rarr;":"Watch &#9654;";
+  const primary=`<a class="watch ${isDoc?'doc':''}" href="${esc(b.url)}" target="_blank" rel="noopener">${watchLabel}</a>`;
+  const doclink=b.doc_url?`<a class="watch doc2" href="${esc(b.doc_url)}" target="_blank" rel="noopener">${esc(b.doc_label||'Testimony')} &#8599;</a>`:"";
+  const qt=b.quote?`<div class="qt">&ldquo;${esc(b.quote)}&rdquo;</div>`:"";
+  return `<div class="prop">
+    <div class="who"><span class="nm">${esc(b.title)}</span>
+      <div class="hearing-tag" style="color:${hearingColor[b.hearing]||'var(--vc-charcoal)'}">${esc(b.category)} &middot; ${esc(b.hearing)}</div>
+      ${qt}
+    </div>
+    <div class="plinks">${primary}${doclink}</div>
+  </div>`;
+}
+function personCard(pp, idx){
+  const nm=(pp.name_confidence==="low"||pp.name_confidence==="medium")
+    ? `<span class="uncertain" title="Name transcribed from auto-captions &mdash; may be misspelled. Confirm against the video.">${esc(pp.name)}</span>`
+    : esc(pp.name);
+  const ic=pp.ideaCount===1?"1 idea":pp.ideaCount+" ideas";
+  return `<article class="idea" data-name="${esc(pp.name)}">
+    <div class="ihead">
+      <div class="rank">${String(idx+1).padStart(2,'0')}</div>
+      <div>
+        <h3>${nm}</h3>
+        <div class="imeta">
+          <span class="pcount">${ic}</span>
+          <span class="hreach">${pp.hearings.join(" &middot; ")}</span>
+        </div>
+        ${pp.affiliation?`<p class="summary">${esc(pp.affiliation)}</p>`:""}
+        <button class="propbtn"><span class="arr">&#9654;</span> What they proposed (${pp.ideaCount})</button>
+        <div class="props">${pp.backings.map(personBackingRow).join("")}</div>
+      </div>
+    </div>
+  </article>`;
+}
+function renderPeople(){
+  const rows=sortPeople(PEOPLE.filter(personMatches));
+  const c=document.getElementById('ideas');
+  c.innerHTML=rows.map(personCard).join("");
+  document.getElementById('empty').style.display=rows.length?'none':'block';
+  document.getElementById('count').innerHTML=`Showing <b>${rows.length}</b> of ${PEOPLE.length} witnesses`;
+  bindProps(c);
+}
+
+function render(){
+  if(state.view==='person'){renderPeople();return;}
+  const rows=sortRows(IDEAS.filter(matches));
+  const c=document.getElementById('ideas');
+  c.innerHTML=rows.map(card).join("");
+  document.getElementById('empty').style.display=rows.length?'none':'block';
+  document.getElementById('count').innerHTML=`Showing <b>${rows.length}</b> of ${IDEAS.length} ideas`;
+  bindProps(c);
 }
 
 document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value;render();});
@@ -396,6 +492,28 @@ document.getElementById('reset').addEventListener('click',()=>{
   render();
 });
 document.getElementById('topcount').textContent = cats.length+" categories";
+
+function buildSort(){
+  const sel=document.getElementById('sort');
+  state.sort="count";
+  sel.innerHTML=SORTOPTS[state.view].map(o=>`<option value="${o[0]}">${o[1]}</option>`).join("");
+}
+document.querySelectorAll('#viewToggle .vt').forEach(b=>{
+  b.addEventListener('click',()=>{
+    if(state.view===b.dataset.view) return;
+    state.view=b.dataset.view;
+    document.querySelectorAll('#viewToggle .vt').forEach(x=>x.classList.toggle('active',x===b));
+    const ideaView = state.view==='idea';
+    document.getElementById('ideaOnly').style.display = ideaView?'':'none';
+    document.getElementById('catChips').style.display = ideaView?'':'none';
+    document.getElementById('topcount').style.display = ideaView?'':'none';
+    document.getElementById('secTitle').textContent = ideaView?'Every idea, with who backed it':'Every witness, with what they backed';
+    state.cat.clear();
+    document.querySelectorAll('#catChips .chip.active').forEach(c=>c.classList.remove('active'));
+    buildSort();
+    render();
+  });
+});
 
 const aiBtn=document.getElementById('aiBtn'),aiPop=document.getElementById('aiPop');
 aiBtn.addEventListener('click',()=>aiPop.classList.toggle('open'));
