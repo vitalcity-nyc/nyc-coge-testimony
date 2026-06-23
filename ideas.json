@@ -269,7 +269,9 @@
     "role_type": "Government body",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s",
-    "quote": "This is a like a real-life example of how New York City makes its human service community provide services for free."
+    "quote": "This is a like a real-life example of how New York City makes its human service community provide services for free.",
+    "doc_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/city-budget-overview/2026/2026-june-coge-testimony.pdf",
+    "doc_label": "Full testimony (PDF)"
    },
    {
     "name": "Julie Samuels",
@@ -532,7 +534,9 @@
     "role_type": "Government body",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s",
-    "quote": "Reform the Procurement Policy Board: expand to 10 members... require it to meet four times a year, review procurements, and produce a public annual report"
+    "quote": "Reform the Procurement Policy Board: expand to 10 members... require it to meet four times a year, review procurements, and produce a public annual report",
+    "doc_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/city-budget-overview/2026/2026-june-coge-testimony.pdf",
+    "doc_label": "Full testimony (PDF)"
    },
    {
     "name": "Jerry Hyppolite",
@@ -563,7 +567,9 @@
     "role_type": "Nonprofit",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3253s",
-    "quote": "Complexity favors the powerful and the popular... And when the city can't hire the people it needs... it hires contractors who it pays much more for."
+    "quote": "Complexity favors the powerful and the popular... And when the city can't hire the people it needs... it hires contractors who it pays much more for.",
+    "doc_url": "https://robertmgordon.substack.com/p/the-wrong-kind-of-outlier",
+    "doc_label": "Full testimony"
    },
    {
     "name": "Robert Joyce",
@@ -707,7 +713,9 @@
     "role_type": "Government body",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s",
-    "quote": "Mandate in the charter that agencies register contract extensions for contracts that would otherwise expire... so vendors aren't forced to work unpaid"
+    "quote": "Mandate in the charter that agencies register contract extensions for contracts that would otherwise expire... so vendors aren't forced to work unpaid",
+    "doc_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/city-budget-overview/2026/2026-june-coge-testimony.pdf",
+    "doc_label": "Full testimony (PDF)"
    }
   ]
  },
@@ -955,7 +963,9 @@
     "role_type": "Academic",
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3070s",
-    "quote": "The promised benefits are unproven, the costs are real, and getting it wrong will be very expensive."
+    "quote": "The promised benefits are unproven, the costs are real, and getting it wrong will be very expensive.",
+    "doc_url": "https://datasociety.net/announcements/2026/06/18/statement-for-the-record-regarding-modernizing-government-and-streamlining-government-technology/",
+    "doc_label": "Full statement"
    },
    {
     "name": "Jessica Ariel-Wamala",
