@@ -121,6 +121,16 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .viewtoggle .vt.active{background:var(--vc-black);color:var(--vc-white);}
 .viewtoggle .vt:not(.active):hover{background:var(--vc-chartreuse-20);}
 
+/* role filter row */
+.rolewrap{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:11px;}
+.rolelab{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--vc-charcoal);}
+.rolewrap .chips{margin-top:0;}
+
+/* deep-link anchor */
+.anchor{position:relative;font-family:var(--sans);font-weight:700;font-size:15px;color:var(--vc-cloud);text-decoration:none;margin-left:8px;}
+.anchor:hover{color:var(--vc-orange);}
+.anchor.copied::after{content:"link copied";position:absolute;left:50%;transform:translateX(-50%);top:-24px;background:var(--vc-black);color:#fff;font-family:var(--sans);font-weight:700;font-size:10px;letter-spacing:.04em;padding:3px 7px;border-radius:3px;white-space:nowrap;}
+
 /* idea cards */
 .ideas{margin:14px 0 10px;}
 .idea{border-bottom:1px solid var(--vc-cloud);padding:24px 0;}
@@ -238,6 +248,7 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
     </div>
     <input type="text" class="search" id="search" placeholder="Search ideas, people or organizations...">
     <div class="chips" id="catChips"></div>
+    <div class="rolewrap"><span class="rolelab">Who's testifying</span><div class="chips" id="roleChips"></div></div>
     <div class="toolbar">
       <div class="count" id="count"></div>
       <div class="tools-right">
@@ -260,7 +271,7 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
   <p>This is an idea-centric reading of the public record so far, not an official transcript. The hearing transcripts from COGE's first-round borough hearings (Manhattan, June 9; the Bronx, June 10; Brooklyn, June 11; and Queens, June 22) were used to identify each public witness and the concrete proposals they made, then those proposals were clustered into shared ideas. The Manhattan, Bronx and Brooklyn transcripts come from YouTube's auto-generated captions; the Queens hearing had no captions published yet, so its audio was transcribed with OpenAI's Whisper. Where a witness or their organization has published their full written testimony or a closely related position, the entry links to it. Documented written submissions &mdash; including Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled. Commissioners, staff and procedural talk are excluded. The Staten Island hearing (June 23) and a written-comment period run into mid-July 2026, and this tool is intended to be updated as that testimony comes in.</p>
 
   <h3>Why some names look approximate</h3>
-  <p>The hearings have no published speaker list, so names came from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses in the Bronx. Each name was checked against public records (organization staff pages, news coverage, official rosters) and many were corrected. Names that could not be confirmed are marked with a dotted underline; hover for a note. Treat any flagged spelling as provisional and confirm against the video before quoting by name.</p>
+  <p>Names came from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses. Each name was checked against public records (organization staff pages, news coverage) and, for the Manhattan, Bronx and Brooklyn hearings, against the commission's own official meeting minutes, which list each speaker; many names were corrected this way. Names that still could not be confirmed are marked with a dotted underline; hover for a note. Treat any flagged spelling as provisional and confirm against the video before quoting by name.</p>
 
   <h3>COGE only</h3>
   <p>This covers the 2026 Commission on Government Efficiency only. New York City has had four charter commissions in roughly two years, and a lot of widely cited "charter testimony" actually belongs to the 2024 and 2025 commissions. Those were deliberately left out.</p>
@@ -304,7 +315,9 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 const IDEAS = JSON.parse(document.getElementById('data').textContent);
 const MAXC = Math.max.apply(null, IDEAS.map(i=>i.proponent_count));
 const cats = [...new Set(IDEAS.map(i=>i.category))].sort();
-const state = {q:"", cat:new Set(), sort:"count", view:"idea"};
+const roles = [...new Set(IDEAS.flatMap(i=>i.proponents.map(p=>p.role_type)).filter(Boolean))].sort();
+const state = {q:"", cat:new Set(), roles:new Set(), sort:"count", view:"idea"};
+function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
 
 const hearingColor = {Manhattan:"var(--vc-cerulean)",Bronx:"var(--vc-magenta)",Brooklyn:"var(--vc-indigo)",Queens:"#3aa35a","Written submission":"var(--vc-charcoal)"};
 
@@ -314,13 +327,14 @@ const PEOPLE = (function(){
   const m=new Map();
   IDEAS.forEach(i=>i.proponents.forEach(p=>{
     let e=m.get(p.name);
-    if(!e){e={name:p.name,name_confidence:p.name_confidence||"medium",affiliation:p.affiliation||"",hearings:new Set(),backings:[]};m.set(p.name,e);}
+    if(!e){e={name:p.name,name_confidence:p.name_confidence||"medium",affiliation:p.affiliation||"",role_type:p.role_type||"",hearings:new Set(),backings:[]};m.set(p.name,e);}
     if((p.affiliation||"").length > e.affiliation.length) e.affiliation=p.affiliation;
+    if(!e.role_type && p.role_type) e.role_type=p.role_type;
     if((rank[p.name_confidence]||2) < (rank[e.name_confidence]||2)) e.name_confidence=p.name_confidence;
     e.hearings.add(p.hearing);
     e.backings.push({title:i.title,id:i.id,category:i.category,hearing:p.hearing,url:p.url,quote:p.quote,doc_url:p.doc_url,doc_label:p.doc_label});
   }));
-  return [...m.values()].map(e=>({name:e.name,name_confidence:e.name_confidence,affiliation:e.affiliation,hearings:[...e.hearings],backings:e.backings,ideaCount:e.backings.length}));
+  return [...m.values()].map(e=>({name:e.name,name_confidence:e.name_confidence,affiliation:e.affiliation,role_type:e.role_type,hearings:[...e.hearings],backings:e.backings,ideaCount:e.backings.length}));
 })();
 
 const SORTOPTS={
@@ -367,10 +381,21 @@ function buildChips(){
       render();
     });
   });
+  document.getElementById('roleChips').innerHTML = roles.map(r=>
+    `<span class="chip" data-role="${esc(r)}">${esc(r)}</span>`).join("");
+  document.querySelectorAll('#roleChips .chip').forEach(ch=>{
+    ch.addEventListener('click',()=>{
+      const v=ch.dataset.role;
+      if(state.roles.has(v)){state.roles.delete(v);ch.classList.remove('active');}
+      else{state.roles.add(v);ch.classList.add('active');}
+      render();
+    });
+  });
 }
 
 function matches(i){
   if(state.cat.size && !state.cat.has(i.category)) return false;
+  if(state.roles.size && !i.proponents.some(p=>state.roles.has(p.role_type))) return false;
   if(state.q){
     const hay=(i.title+" "+i.summary+" "+i.category+" "+i.proponents.map(p=>p.name+" "+p.affiliation).join(" ")).toLowerCase();
     if(!hay.includes(state.q.toLowerCase())) return false;
@@ -411,7 +436,7 @@ function card(i, idx){
     <div class="ihead">
       <div class="rank">${String(idx+1).padStart(2,'0')}</div>
       <div>
-        <h3>${esc(i.title)}</h3>
+        <h3>${esc(i.title)}<a class="anchor" href="#idea-${i.id}" title="Copy link to this idea" aria-label="Copy link to this idea">#</a></h3>
         <div class="imeta">
           <span class="cat-tag">${esc(i.category)}</span>
           <span class="pcount">${plabel}</span>
@@ -436,6 +461,7 @@ function bindProps(c){
 
 // ---- by-person view ----
 function personMatches(pp){
+  if(state.roles.size && !state.roles.has(pp.role_type)) return false;
   if(state.q){
     const hay=(pp.name+" "+pp.affiliation+" "+pp.backings.map(b=>b.title+" "+b.category+" "+(b.quote||"")).join(" ")).toLowerCase();
     if(!hay.includes(state.q.toLowerCase())) return false;
@@ -467,11 +493,11 @@ function personCard(pp, idx){
     ? `<span class="uncertain" title="Name transcribed from auto-captions &mdash; may be misspelled. Confirm against the video.">${esc(pp.name)}</span>`
     : esc(pp.name);
   const ic=pp.ideaCount===1?"1 idea":pp.ideaCount+" ideas";
-  return `<article class="idea" data-name="${esc(pp.name)}">
+  return `<article class="idea" data-name="${esc(pp.name)}" data-slug="${slug(pp.name)}">
     <div class="ihead">
       <div class="rank">${String(idx+1).padStart(2,'0')}</div>
       <div>
-        <h3>${nm}</h3>
+        <h3>${nm}<a class="anchor" href="#person-${slug(pp.name)}" title="Copy link to this witness" aria-label="Copy link to this witness">#</a></h3>
         <div class="imeta">
           <span class="pcount">${ic}</span>
           <span class="hreach">${pp.hearings.join(" &middot; ")}</span>
@@ -505,10 +531,10 @@ function render(){
 document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value;render();});
 document.getElementById('sort').addEventListener('change',e=>{state.sort=e.target.value;render();});
 document.getElementById('reset').addEventListener('click',()=>{
-  state.q="";state.cat.clear();state.sort="count";
+  state.q="";state.cat.clear();state.roles.clear();state.sort="count";
   document.getElementById('search').value="";
   document.getElementById('sort').value="count";
-  document.querySelectorAll('#catChips .chip.active').forEach(c=>c.classList.remove('active'));
+  document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active'));
   render();
 });
 document.getElementById('topcount').textContent = cats.length+" categories";
@@ -518,21 +544,55 @@ function buildSort(){
   state.sort="count";
   sel.innerHTML=SORTOPTS[state.view].map(o=>`<option value="${o[0]}">${o[1]}</option>`).join("");
 }
+function setView(v){
+  if(state.view===v) return;
+  state.view=v;
+  document.querySelectorAll('#viewToggle .vt').forEach(x=>x.classList.toggle('active',x.dataset.view===v));
+  const ideaView = v==='idea';
+  document.getElementById('ideaOnly').style.display = ideaView?'':'none';
+  document.getElementById('catChips').style.display = ideaView?'':'none';
+  document.getElementById('topcount').style.display = ideaView?'':'none';
+  document.getElementById('secTitle').textContent = ideaView?'Every idea, with who backed it':'Every witness, with what they backed';
+  state.cat.clear();
+  document.querySelectorAll('#catChips .chip.active').forEach(c=>c.classList.remove('active'));
+  buildSort();
+  render();
+}
 document.querySelectorAll('#viewToggle .vt').forEach(b=>{
-  b.addEventListener('click',()=>{
-    if(state.view===b.dataset.view) return;
-    state.view=b.dataset.view;
-    document.querySelectorAll('#viewToggle .vt').forEach(x=>x.classList.toggle('active',x===b));
-    const ideaView = state.view==='idea';
-    document.getElementById('ideaOnly').style.display = ideaView?'':'none';
-    document.getElementById('catChips').style.display = ideaView?'':'none';
-    document.getElementById('topcount').style.display = ideaView?'':'none';
-    document.getElementById('secTitle').textContent = ideaView?'Every idea, with who backed it':'Every witness, with what they backed';
-    state.cat.clear();
-    document.querySelectorAll('#catChips .chip.active').forEach(c=>c.classList.remove('active'));
-    buildSort();
-    render();
-  });
+  b.addEventListener('click',()=>setView(b.dataset.view));
+});
+
+// deep links: #idea-<id> / #person-<slug>
+function focusCard(el){
+  if(!el) return;
+  el.scrollIntoView({behavior:'smooth',block:'center'});
+  const pb=el.querySelector('.propbtn'), pr=el.querySelector('.props');
+  if(pb&&pr){pb.classList.add('open');pr.classList.add('open');}
+  el.style.transition='background .2s';el.style.background='var(--vc-chartreuse-20)';
+  setTimeout(()=>{el.style.background='';},1500);
+}
+function applyHash(){
+  const h=decodeURIComponent((location.hash||'').replace(/^#/,''));
+  if(!h) return;
+  let sel=null;
+  if(h.indexOf('idea-')===0){ setView('idea'); sel='.idea[data-id="'+(window.CSS&&CSS.escape?CSS.escape(h.slice(5)):h.slice(5))+'"]'; }
+  else if(h.indexOf('person-')===0){ setView('person'); sel='.idea[data-slug="'+(window.CSS&&CSS.escape?CSS.escape(h.slice(7)):h.slice(7))+'"]'; }
+  else return;
+  // clear filters so the target isn't hidden
+  state.q="";state.cat.clear();state.roles.clear();
+  document.getElementById('search').value="";
+  document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active'));
+  render();
+  focusCard(document.querySelector(sel));
+}
+window.addEventListener('hashchange',applyHash);
+// clicking the # anchor copies the full link
+document.getElementById('ideas').addEventListener('click',e=>{
+  const a=e.target.closest('.anchor'); if(!a) return;
+  setTimeout(()=>{
+    try{ navigator.clipboard && navigator.clipboard.writeText(location.href); }catch(_){}
+    a.classList.add('copied'); setTimeout(()=>a.classList.remove('copied'),1200);
+  },0);
 });
 
 const aiBtn=document.getElementById('aiBtn'),aiPop=document.getElementById('aiPop');
@@ -542,6 +602,7 @@ document.getElementById('aiX').addEventListener('click',()=>aiPop.classList.remo
 renderChart();
 buildChips();
 render();
+applyHash();
 </script>
 </body>
 </html>
