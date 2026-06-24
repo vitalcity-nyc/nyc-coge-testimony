@@ -122,7 +122,7 @@
    },
    {
     "name": "Deborah Green",
-    "name_confidence": "high",
+    "name_confidence": "medium",
     "affiliation": "Resident of Long Island City, Queens; registered Democrat / longtime independent",
     "role_type": "Resident",
     "hearing": "Queens",
@@ -131,8 +131,8 @@
    },
    {
     "name": "Alan Cox",
-    "name_confidence": "high",
-    "affiliation": "Community health outreach worker with COAP (Coalition for Positive Health Empowerment); lifelong New Yorker, Bronx resident; independent voter",
+    "name_confidence": "low",
+    "affiliation": "Community health outreach worker with COPE (Coalition on Positive Health Empowerment); Bronx resident; independent voter",
     "role_type": "Nonprofit",
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9112s",
@@ -140,7 +140,7 @@
    },
    {
     "name": "Robert Brown",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
     "role_type": "Resident",
     "hearing": "Queens",
@@ -225,7 +225,7 @@
     "quote": "Why don't you tell me what you need ... one time when I submit it to you, you don't have to make me go back and forth."
    },
    {
-    "name": "Anne Marie Gray",
+    "name": "Annemarie Gray",
     "name_confidence": "high",
     "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
     "role_type": "Advocacy org",
@@ -235,7 +235,7 @@
    },
    {
     "name": "Robert Brown",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
     "role_type": "Resident",
     "hearing": "Queens",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Cordell Schachter",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
     "role_type": "Civic-tech",
     "hearing": "Queens",
@@ -400,7 +400,7 @@
    },
    {
     "name": "Honda Wang",
-    "name_confidence": "low",
+    "name_confidence": "high",
     "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
     "role_type": "Labor",
     "hearing": "Queens",
@@ -785,7 +785,7 @@
    },
    {
     "name": "Sumana Harihareswara",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Software professional (testified online); cited beta NYC and 18F",
     "role_type": "Civic-tech",
     "hearing": "Queens",
@@ -852,7 +852,7 @@
    },
    {
     "name": "Robert Brown",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
     "role_type": "Resident",
     "hearing": "Queens",
@@ -1107,7 +1107,7 @@
    },
    {
     "name": "Cordell Schachter",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
     "role_type": "Civic-tech",
     "hearing": "Queens",
@@ -1316,7 +1316,7 @@
    },
    {
     "name": "Cordell Schachter",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
     "role_type": "Civic-tech",
     "hearing": "Queens",
@@ -1376,8 +1376,8 @@
   ],
   "proponents": [
    {
-    "name": "Ligia Gualpa",
-    "name_confidence": "medium",
+    "name": "Ligia Guallpa",
+    "name_confidence": "high",
     "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
     "role_type": "Advocacy org",
     "hearing": "Queens",
@@ -1385,8 +1385,8 @@
     "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like."
    },
    {
-    "name": "Antonio Solis",
-    "name_confidence": "medium",
+    "name": "Antonio Solís",
+    "name_confidence": "high",
     "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
     "role_type": "Labor",
     "hearing": "Queens",
@@ -1778,7 +1778,7 @@
   ],
   "proponents": [
    {
-    "name": "Anne Marie Gray",
+    "name": "Annemarie Gray",
     "name_confidence": "high",
     "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
     "role_type": "Advocacy org",

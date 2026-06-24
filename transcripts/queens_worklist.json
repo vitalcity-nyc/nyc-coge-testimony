@@ -1,0 +1,202 @@
+[
+ {
+  "name": "Deborah Green",
+  "name_confidence": "high",
+  "affiliation": "Resident of Long Island City, Queens; registered Democrat / longtime independent",
+  "role_type": "Resident",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7328s",
+  "quote": "What better way to restore faith in government than by ending the longstanding disenfranchisement of almost a quarter of the electorate?"
+ },
+ {
+  "name": "Alan Cox",
+  "name_confidence": "high",
+  "affiliation": "Community health outreach worker with COAP (Coalition for Positive Health Empowerment); lifelong New Yorker, Bronx resident; independent voter",
+  "role_type": "Nonprofit",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9112s",
+  "quote": "We have a system where 1.2 million folks who are independents are shut out of voting in the primaries. And that's where most decisions are made."
+ },
+ {
+  "name": "Robert Brown",
+  "name_confidence": "low",
+  "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
+  "role_type": "Resident",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9878s",
+  "quote": "We all pay taxes, we all contribute to this city, we should all have a fair shot."
+ },
+ {
+  "name": "Anne Marie Gray",
+  "name_confidence": "high",
+  "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
+  "role_type": "Advocacy org",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=3090s",
+  "quote": "We really must take a more well-rounded view of neighborhood character... so too are the New Yorkers that live in them."
+ },
+ {
+  "name": "Cordell Schachter",
+  "name_confidence": "medium",
+  "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+  "role_type": "Civic-tech",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4858s",
+  "quote": "Streamline IT hiring and workforce development via a multidisciplinary board working with state authorities, labor, academia and the private sector."
+ },
+ {
+  "name": "Honda Wang",
+  "name_confidence": "low",
+  "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
+  "role_type": "Labor",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=5063s",
+  "quote": "Asking the charter commission to eliminate guardrails because of mismanagement would be the equivalent of asking the FAA to relax airline safety standards after a plane crash because of Boeing's mismanagement."
+ },
+ {
+  "name": "Zachary Thomas",
+  "name_confidence": "high",
+  "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+  "role_type": "Government body",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9713s",
+  "quote": "Make it easier for Parks and other agencies to hire and retain quality candidates so resident-initiated projects actually get executed."
+ },
+ {
+  "name": "Phil Wong",
+  "name_confidence": "high",
+  "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+  "role_type": "Elected official",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
+  "quote": "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night) and tie contracts to real outcomes."
+ },
+ {
+  "name": "Payway",
+  "name_confidence": "low",
+  "affiliation": "Co-owner of Zazza restaurant (Southeast Asian community, Queens); board director of a NYC restaurant group",
+  "role_type": "Business/industry",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=5959s",
+  "quote": "Outdoor dining actually largely become a luxury for the well-funded restaurant in a wealthy neighborhood."
+ },
+ {
+  "name": "Helen Zhang",
+  "name_confidence": "high",
+  "affiliation": "Owner of Ziggy's Roman Cafe, a full-service restaurant at 15 Main Street, Dumbo, Brooklyn (testified online)",
+  "role_type": "Business/industry",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6490s",
+  "quote": "I spent five months fighting for the right to put tables outside my front door. Please, I would love to make sure no one else does the same."
+ },
+ {
+  "name": "Michael Kelly",
+  "name_confidence": "high",
+  "affiliation": "Outdoor-dining permit expediter who filed 400+ sidewalk, roadway and closed-cafe applications for clients (testified online)",
+  "role_type": "Business/industry",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6700s",
+  "quote": "The main complaint is that they paid the fee and cannot operate."
+ },
+ {
+  "name": "Megan Rickerson",
+  "name_confidence": "high",
+  "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+  "role_type": "Business/industry",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6873s",
+  "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed."
+ },
+ {
+  "name": "Sumana Harihareswara",
+  "name_confidence": "medium",
+  "affiliation": "Software professional (testified online); cited beta NYC and 18F",
+  "role_type": "Civic-tech",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4633s",
+  "quote": "When we buy or build software that only a few people can ever improve or look at because it's closed source, then that reduces efficiency."
+ },
+ {
+  "name": "Ligia Gualpa",
+  "name_confidence": "medium",
+  "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
+  "role_type": "Advocacy org",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=2865s",
+  "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like."
+ },
+ {
+  "name": "Antonio Solis",
+  "name_confidence": "medium",
+  "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
+  "role_type": "Labor",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4061s",
+  "quote": "In reality, the streets have become our place of work, but every day we encounter and face danger due to the lack of safe infrastructure."
+ },
+ {
+  "name": "Frank Morano",
+  "name_confidence": "high",
+  "affiliation": "New York City Council Member, Staten Island South Shore (testified online)",
+  "role_type": "Elected official",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=541s",
+  "quote": "People don't care how many meetings were held. They care whether their pothole was filled."
+ },
+ {
+  "name": "Ashley Graber",
+  "name_confidence": "high",
+  "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
+  "role_type": "Business/industry",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4464s",
+  "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
+ },
+ {
+  "name": "Rajesh Sankat",
+  "name_confidence": "high",
+  "affiliation": "Program strategist and civic designer at three by three, a community-centered design studio in Brooklyn",
+  "role_type": "Civic-tech",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6206s",
+  "quote": "When something shapes all of our lives, we don't leave it entirely to private actors. And that is what is happening with AI."
+ },
+ {
+  "name": "Pritya Shrimali",
+  "name_confidence": "medium",
+  "affiliation": "Recent NYC high school graduate and New Jersey resident researching federal superfund and urban environmental remediation policy",
+  "role_type": "Academic",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7131s",
+  "quote": "A child born in this neighborhood today will be finishing elementary school before the cleanup even begins."
+ },
+ {
+  "name": "Mary Anil",
+  "name_confidence": "medium",
+  "affiliation": "Astoria, Queens resident (29 years); NYC government employee since 2007; MPA from Baruch, PhD from CUNY Graduate Center",
+  "role_type": "Resident",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7748s",
+  "quote": "If many incumbents are running for other offices in competitive elections and are campaigning for six or ten months, then I worry about our governance."
+ },
+ {
+  "name": "Damian Archibald",
+  "name_confidence": "low",
+  "affiliation": "Anesthesiologist at Elmhurst Hospital, Queens; resident of Long Island City",
+  "role_type": "Labor",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7989s",
+  "quote": "The state of our public spaces and roads are a public health issue."
+ },
+ {
+  "name": "Henry Smith",
+  "name_confidence": "medium",
+  "affiliation": "Director of economic development, Long Island City Partnership / LIC Business Improvement District (testified online)",
+  "role_type": "Business/industry",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8256s",
+  "quote": "It has really been a problem with not only just cases being closed immediately but also to have the follow-up."
+ },
+ {
+  "name": "India Bee",
+  "name_confidence": "medium",
+  "affiliation": "Local beekeeper; founder of a sensory-inclusion pop-up organization; parent and disability advocate (CUNY graduate degree in disability studies)",
+  "role_type": "Advocacy org",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8928s",
+  "quote": "The city is beautiful, noisy chaos, and a lot of our loved ones cannot function in that... allow us to hold on to the pole and support our loved ones."
+ },
+ {
+  "name": "Taiwan Green",
+  "name_confidence": "high",
+  "affiliation": "Music educator, community advocate and small business owner; lifelong resident of Southeast Queens",
+  "role_type": "Resident",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9299s",
+  "quote": "We were very hard to remove litter and improve the area. Unfortunately, by the very next day, it looked as though we had never been there."
+ },
+ {
+  "name": "Terry Renee",
+  "name_confidence": "medium",
+  "affiliation": "Community health worker who attends public hearings across New York City",
+  "role_type": "Resident",
+  "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9469s",
+  "quote": "If a resource is not being used... you might as well not have it exist. It's the same thing as if it doesn't exist because you can't navigate it."
+ }
+]

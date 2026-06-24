@@ -1,0 +1,128 @@
+[
+ {
+  "original_name": "Deborah Green",
+  "corrected_name": "Deborah Green",
+  "name_verified": false,
+  "name_confidence": "medium",
+  "affiliation_corrected": "Resident of Long Island City, Queens; testifying as an individual. Self-described longtime independent / currently a registered Democrat (registered Democratic in 2016 to vote in primaries); voted for Mayor Mamdani in the 2025 primary and general. No organizational affiliation stated.",
+  "verify_source": "Local hearing transcript only: /Users/joshgreenman/Experiments/nyc-coge-testimony/transcripts/queens.txt (lines 236-242). No independent public record found.",
+  "notes": "In the transcript she introduces herself plainly: \"My name is Deborah Green, and I live here in Long Island City,\" testifying in support of a referendum on open primaries before the COGE Queens hearing (June 22, 2026). She presents strictly as a private citizen and independent/unaffiliated voter, with no organization. Web searches (\"Deborah Green\" + Long Island City / Queens / open primaries / independent voter, plus spelling variants Debra Green and Deborah Greene) returned no person matching this individual. A Ballotpedia \"Deborah Green\" entry exists but refers to an unrelated political figure, not a Long Island City resident — not treated as a match. The transcribed name is a common, ordinary, plausible spelling, so it is kept as-is rather than \"corrected.\" Confidence is medium (ordinary plausible name) rather than high, because no public record confirms this specific person; it is not low because nothing about the transcription appears garbled. Identity not fabricated."
+ },
+ {
+  "original_name": "Alan Cox",
+  "corrected_name": "Alan Cox",
+  "name_verified": false,
+  "name_confidence": "low",
+  "affiliation_corrected": "Community health outreach worker with COPE, the Coalition on Positive Health Empowerment (a Bronx/Harlem-based nonprofit focused on Hepatitis C, HIV and chronic-disease care in underserved NYC communities). Bronx resident; independent (unaffiliated) voter.",
+  "verify_source": "Affiliation verified via COPE official site (https://copehealth.org/ and team page https://copehealth.org/our-team/) and ProPublica Nonprofit Explorer (https://projects.propublica.org/nonprofits/organizations/272654975). Hearing/topic context: amNewYork, \"As NYC votes, open primary advocates press Mamdani panel...\" (https://www.amny.com/news/nyc-open-primary-advocates-press-mamdani-panel/) and City & State NY, \"Talk of open primaries dominates first COGE hearing\" (https://www.cityandstateny.com/policy/2026/06/talk-open-primaries-dominates-first-coge-hearing/414079/). No source corroborating the personal name.",
+  "notes": "Affiliation corrected with high confidence: the transcript's \"COAP (Coalition for Positive Health Empowerment)\" is a Whisper garble of COPE, the Coalition ON Positive Health Empowerment — a real nonprofit headquartered in Harlem with South Bronx focus, founded 2010 by Gloria Searson, EIN 27-2654975. The acronym is COPE (not COAP) and the preposition is \"on\" (not \"for\"). The testimony quote about ~1.2 million independent voters shut out of closed primaries fits the open-primaries advocacy that dominated the June 2026 COGE hearings.\n\nThe PERSONAL NAME could not be verified. COPE's public staff/board roster (Gloria Searson, Kwame Thompson, Gail Brown, Janice Sweeting, Escott Solomon, Sandee Myles, Pauline Edwards, Carlos Rosario; board: Kotler, Taylor, Copeland) contains no one resembling \"Alan Cox,\" and no outreach worker named Alan/Allen Cox appears there. News coverage of COGE open-primaries testimony names John Opdycke (Open Primaries), Paul Rieckhoff, Dr. Jessie Fields and Nick Troiano — none a match. No public record links any Alan/Allen/Alon Cox to COPE, open-primaries advocacy, or the Queens hearing. This is most likely a frontline outreach worker testifying as a private individual with no findable public footprint. First name \"Alan\" is plausible; surname \"Cox\" is short and easily garbled by speech-to-text and is uncorroborated, so confidence is low. Kept the transcribed name rather than invent a correction."
+ },
+ {
+  "original_name": "Robert Brown",
+  "corrected_name": "Robert Brown",
+  "name_verified": false,
+  "name_confidence": "medium",
+  "affiliation_corrected": "New York City resident and taxpayer; self-identified independent voter from the younger generations (Gen X / Gen Z / millennial). No organizational affiliation stated; testified in a personal capacity.",
+  "verify_source": "No public record found. Local hearing transcript: /Users/joshgreenman/Experiments/nyc-coge-testimony/transcripts/queens.txt (chair introduces \"Robert Brown and Zachary Thomas\" as the final two speakers; the witness's testimony on open primaries, independent voters, and the \"we should all have a fair shot\" quote appears immediately after Zachary Thomas's tree-guard testimony).",
+  "notes": "Ordinary private resident with no findable public footprint. The chair (Chair Gaspard, COGE Queens hearing, June 22, 2026) called \"Robert Brown and Zachary Thomas\" as the last two speakers; in the transcript Zachary Thomas speaks first (about tree guards in the East Village / Community Board 3 Manhattan), then this witness delivers the testimony matching the prompt: advocating open primaries, describing himself as an independent younger-generation voter and longtime taxpayer, and using the line \"we all pay taxes, we all contribute to this city, we should all have a fair shot.\" He stated no organization, title, or other identifying detail. Web searches on the name plus COGE/Queens, and on the distinctive quote, returned no matching person, org page, news coverage, roster, or LinkedIn profile. \"Robert Brown\" is a very common name with no distinguishing footprint, so it cannot be confirmed or corrected against any public record. The transcribed name is plausible and not obviously garbled, hence medium confidence rather than low. Did NOT invent an identity; kept the transcribed name unverified."
+ },
+ {
+  "original_name": "Anne Marie Gray",
+  "corrected_name": "Annemarie Gray",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Open New York, Executive Director",
+  "verify_source": "Open New York team page (https://opennewyork.org/team): \"Annemarie Gray joined Open New York as Executive Director in Fall 2022.\" Corroborated by Gothamist, Crain's New York Business, and City & State New York coverage.",
+  "notes": "Confirmed match. The transcribed affiliation (Open New York, executive director, statewide pro-housing grassroots advocacy group) exactly matches Annemarie Gray, who has led Open New York as Executive Director since Fall 2022. The only correction is the first-name spelling: Whisper rendered it as two words \"Anne Marie,\" but her name is spelled as one word, \"Annemarie.\" Surname \"Gray\" was transcribed correctly. Prior to Open New York she was a Senior Policy Advisor at NYC City Hall working on land use and housing (SoHo/NoHo and Gowanus rezonings, Where We Live NYC). The quote about \"neighborhood character\" is fully consistent with her pro-housing advocacy role."
+ },
+ {
+  "original_name": "Cordell Schachter",
+  "corrected_name": "Cordell Schachter",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Former Chief Information Officer, U.S. Department of Transportation (2021-Jan 2025); former Chief Technology Officer/CIO, New York City Department of Transportation (2008-2021). Now a transportation-technology advisor/educator (Columbia SPS, NYU Wagner); affiliated with the Transit Tech Lab / Transit Innovation Partnership (MTA + Partnership for New York City).",
+  "verify_source": "https://en.wikipedia.org/wiki/Cordell_Schachter ; https://www.transportation.gov/mission/cordell-schachter ; https://sps.columbia.edu/person/cordell-schachter",
+  "notes": "The Whisper transcription \"Cordell Schachter\" is already spelled correctly and required no correction. He is a well-documented public figure with a Wikipedia page, a US DOT bio, and LinkedIn/Columbia/NYU Wagner profiles. His real-world background matches the stated COGE role exactly: former NYC DOT CTO/CIO (26 years in NYC government) and former federal (US DOT) CIO, fitting the \"former NYC and federal government CTO/CIO\" description. The Transit Tech Lab is a real initiative of the Transit Innovation Partnership (MTA + Partnership for New York City); his \"executive in residence\" title there could not be confirmed verbatim in the search results, but it is consistent with his profile and post-government advisory work. His testimony about streamlining IT hiring and workforce development is consistent with his IT-leadership background. Confidence is high on the name spelling and core affiliation; the specific \"executive in residence at the Transit Tech Lab\" title is plausible but unverified verbatim."
+ },
+ {
+  "original_name": "Honda Wang",
+  "corrected_name": "Honda Wang",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Rank-and-file New York City civil servant (analyst at a city agency; one source identifies the NYC Campaign Finance Board) and member/steward of AFSCME Local 1549 (DC 37); active in NYC-DSA's Labor Branch. Testified in personal capacity as an ordinary city worker.",
+  "verify_source": "https://keywiki.org/Honda_Wang ; corroborated by AFSCME Local 1549 delegate campaign (https://actionnetwork.org/forms/put-members-back-in-charge-of-local-1549) and DSA labor references.",
+  "notes": "The transcribed name \"Honda Wang\" is NOT a Whisper garble — it matches a real, documented person spelled exactly this way across multiple independent sources. KeyWiki describes Honda Wang as a rank-and-file member of AFSCME Local 1549 working as an analyst at a NYC city agency and an active NYC-DSA labor organizer (Democratic Socialist Labor Commission Steering Committee, Lower Manhattan branch). A separate search reference places him at the NYC Campaign Finance Board as a Local 1549 steward. This profile (ordinary civil servant, Labor role type, testifying in personal capacity) is fully consistent with the stated affiliation and the pro-guardrails / anti-charter-rollback content of the quoted testimony. I could not locate the COGE Queens hearing transcript itself online to read the verbatim testimony entry, but the name + affiliation match is strong and consistent, so confidence is high on the spelling and identity. Note: a non-trivial chance remains that \"Honda\" is a stage/chosen first name or transliteration; the surname Wang and the AFSCME 1549 / city-worker / DSA-labor footprint are well attested."
+ },
+ {
+  "original_name": "Zachary Thomas",
+  "corrected_name": "Zachary Thomas",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Member, Parks Committee, Manhattan Community Board 3 (joined summer 2024); author of the \"Friends of New York City Abundance\" Substack newsletter; recently relocated to Long Island City, Queens",
+  "verify_source": "https://newyorkabundance.substack.com/ and https://newyorkabundance.substack.com/about (Substack newsletter \"Friends of New York City Abundance\" by Zachary Thomas); corroborated by Manhattan CB3 Parks Committee reports referencing him as a Parks Committee member (e.g., https://www.nycuriosity.com/p/april-parks-committee-report-for)",
+  "notes": "The auto-transcribed name is correct (no misspelling). Zachary Thomas is a verifiable public/civic figure: a member of Manhattan Community Board 3's Parks Committee since summer 2024 and author of the \"Friends of New York City Abundance\" Substack, where he writes extensively about NYC Parks staffing, hiring, and resident-initiated park improvements (e.g., tree guards at Tompkins Square Park). This subject matter matches the testimony quote about making it easier for Parks to hire/retain quality candidates so resident-initiated projects get executed, giving high confidence this is the same person. The stated affiliation (CB3 Parks Committee member who recently moved to Long Island City) is consistent with his public profile. Note: he sits on a Manhattan community board while now residing in Queens (LIC), which is why he testified at the Queens hearing — community board membership and residence can differ during a transition. The official NYC.gov CB3 committee-members page (https://www.nyc.gov/site/manhattancb3/about/committee-members.page) returned HTTP 403 to automated fetch but appears in search results listing him; the Substack and CB3 parks-report sources independently confirm the identity and spelling."
+ },
+ {
+  "original_name": "Phil Wong",
+  "corrected_name": "Phil Wong",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "New York City Council Member, District 30 (Queens) — Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park",
+  "verify_source": "https://council.nyc.gov/district-30/ (official NYC Council page titled \"District 30 - Phil Wong\"); corroborated by biography page https://council.nyc.gov/phil-wong/ and https://en.wikipedia.org/wiki/Phil_Wong",
+  "notes": "The transcribed name was already correct — no correction needed. Phil Wong is the Council Member for NYC's 30th Council District, covering exactly the Queens neighborhoods listed in the transcript (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park). A Democrat, he was elected in 2025 and took office in 2026, succeeding term-limited Robert Holden, for whom Wong previously served as Budget Director. His budget background is consistent with the testimony content about cost-effectiveness reviews and tying contracts to outcomes. Confirmed against the official NYC Council roster/district page, his council biography page, and Wikipedia. Confidence is high."
+ },
+ {
+  "original_name": "Helen Zhang",
+  "corrected_name": "Helen Zhang",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Co-founder and co-owner of Ziggy's Roman Cafe, a family-friendly Italian restaurant at 15 Main Street, DUMBO, Brooklyn (opened November 13, 2025). Former restaurant publicist with ~15 years in hospitality PR. Co-owns the restaurant with her husband Igor Hadzismajlovic, co-founder of the Employees Only cocktail bar.",
+  "verify_source": "https://brooklynbridgeparents.com/meet-creative-brooklyn-mom-and-ziggys-roman-cafe-co-founder-helen-zhang/ (profile of Helen Zhang as Ziggy's Roman Cafe co-founder); corroborated by https://www.amny.com/lifestyle/eat-and-drink/ziggys-roman-cafe-opens-dumbo-what-to-know/ and https://appetitomagazine.com/news/ziggys-roman-cafe-finds-its-place-in-dumbo",
+  "notes": "The transcribed name \"Helen Zhang\" is correct, not garbled — she is the publicly named co-founder/co-owner of Ziggy's Roman Cafe at 15 Main Street, DUMBO, Brooklyn, confirmed across multiple independent sources (Brooklyn Bridge Parents profile, amNewYork, Appetito, Hospitality Design, Knockturnal). The restaurant address and \"full-service restaurant\" description match exactly. The testimony quote about a five-month fight to put tables outside the front door is consistent with a new (Nov 2025) DUMBO restaurant owner navigating NYC's outdoor/sidewalk dining permitting process. One contextual note for the tracker: the transcript places this at the COGE Round 1 QUEENS hearing, but the witness/business is in Brooklyn; she is noted as having testified online, so a remote Brooklyn business owner appearing at a Queens session is plausible and not a reason to doubt the identity. Identity confidence is high."
+ },
+ {
+  "original_name": "Megan Rickerson",
+  "corrected_name": "Megan Rickerson",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Owner of Someday Bar, a women-owned bar at 364 Atlantic Avenue in Boerum Hill, Brooklyn (opened July 2019)",
+  "verify_source": "LinkedIn profile (https://www.linkedin.com/in/megan-rickerson-174914181/) listing \"Megan Rickerson - Someday Bar\"; corroborated by Atlantic Avenue LDC profile (https://atlanticave.org/someday-bar-pulseofbrooklyn/) and Someday Bar's own site (https://www.somedaybarnyc.com/about/)",
+  "notes": "The Whisper transcription was already correct. Megan Rickerson is publicly and consistently identified as the owner of Someday Bar in Boerum Hill, Brooklyn across her LinkedIn, the bar's website, Atlantic Avenue LDC, and press coverage (Brooklyn Paper, BroadwayWorld). Her testimony about small-business permitting delays (\"six plus months to get going\") is consistent with a bar/restaurant owner's perspective. No correction to spelling or identity needed; affiliation matches the stated role."
+ },
+ {
+  "original_name": "Sumana Harihareswara",
+  "corrected_name": "Sumana Harihareswara",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Founder, Changeset Consulting, LLC (NYC-based open-source software project/release management); longtime open-source contributor and project manager (Python Software Foundation, Wikimedia, Mozilla, GNOME, EFF, etc.)",
+  "verify_source": "https://changeset.nyc/about-us/ and https://harihareswara.net/about/ (also LinkedIn https://www.linkedin.com/in/sumanah/)",
+  "notes": "The transcribed name is already correct — Sumana Harihareswara is a well-known figure in the open-source/civic-tech community, so Whisper rendered the unusual name accurately. She is NYC-based (founded Changeset Consulting in 2015) and is a prominent open-source advocate, which matches both the \"software professional (testified online)\" role and the testimony quote about closed-source software reducing efficiency (her signature theme: open source as a public good). The transcript's cited references to \"beta NYC\" and \"18F\" almost certainly refer to BetaNYC (the NYC civic-technology organization) and 18F (the former U.S. federal digital-services agency) — well-known civic-tech touchstones she would naturally invoke, not personal employers. Public records directly confirm she lives in NYC and runs Changeset Consulting; I did not find a direct record tying her to BetaNYC or 18F as an employee, but those appear in her testimony as cited examples, not as her affiliation. Identity and spelling confirmed with high confidence."
+ },
+ {
+  "original_name": "Ligia Gualpa",
+  "corrected_name": "Ligia Guallpa",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Co-founder and Executive Director, Worker's Justice Project (also co-founder of Los Deliveristas Unidos)",
+  "verify_source": "LinkedIn (linkedin.com/in/ligia-m-guallpa-7bba0714/); North Star Fund profile (northstarfund.org/people/ligia-m-guallpa/); NYS Assembly testimony PDF titled \"TESTIMONY Ligia Guallpa Executive Director Worker's Justice Project\" (nyassembly.gov/write/upload/publichearing/001445/005748.pdf); NYC Mayor's Office press release on the nation's first Deliverista Hub (nyc.gov/mayors-office/news/2026/04/...)",
+  "notes": "High-confidence correction. The transcribed surname \"Gualpa\" is a Whisper misspelling of \"Guallpa\" (double-L). Ligia M. Guallpa is the co-founder and Executive Director of the Worker's Justice Project (founded 2010) and co-founder of Los Deliveristas Unidos, the NYC delivery-worker organizing campaign. Her stated role (executive director, delivery/day-laborer organizing) matches exactly, and the testimony quote about \"Deliverista Hubs\" maps directly to WJP's flagship initiative — the worker-designed rest and e-bike charging hubs for delivery workers (the first opened at City Hall Park in April 2026, announced jointly with Mayor Mamdani and Sen. Schumer). Identity is unambiguous given the affiliation, role, and quote content all align."
+ },
+ {
+  "original_name": "Antonio Solis",
+  "corrected_name": "Antonio Solís",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Delivery worker (deliverista) in Astoria, Queens, and a leader/organizer with Los Deliveristas Unidos, the app-based delivery worker organizing project of the Workers Justice Project",
+  "verify_source": "Dissent Magazine, \"Transcript: Courier Class War, with Antonio Solis\" (https://www.dissentmagazine.org/blog/transcript-courier-class-war-with-antonio-solis/); also covered by THE CITY (https://www.thecity.nyc/2023/06/11/app-based-food-delivery-workers-landmark-minimum-pay-rate/) and Documented NY (https://documentedny.com/2022/11/22/delivery-workers-app-new-york-minimum-wage/), all identifying Antonio \"Toño\" Solís as an Astoria delivery worker and Los Deliveristas Unidos / Workers Justice Project leader",
+  "notes": "The transcribed name is essentially correct. \"Antonio Solís\" is a well-documented, prominent leader of Los Deliveristas Unidos (the deliverista arm of the Workers Justice Project) based in Astoria, Queens — a strong match for a delivery worker who testified in Spanish via interpreter at the COGE Queens hearing about street safety and the lack of safe infrastructure. The only refinement is the accent: Spanish-language and some press sources render it \"Solís,\" though most English-language NYC press (THE CITY, Streetsblog, LaborPress) spell it \"Solis\" without the accent. Either spelling refers to the same person; corrected_name uses the accented Spanish form. He is also nicknamed \"Toño.\" Confidence is high based on the exact name + matching role (Workers Justice Project delivery worker), Queens base, and consistent advocacy on delivery-worker safety and conditions."
+ },
+ {
+  "original_name": "Frank Morano",
+  "corrected_name": "Frank Morano",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "New York City Council Member, District 51 (Staten Island South Shore), Republican",
+  "verify_source": "https://council.nyc.gov/frank-morano/ (official NYC Council member page) and https://council.nyc.gov/district-51/ (confirms District 51 = Staten Island South Shore); also Wikipedia (https://en.wikipedia.org/wiki/Frank_Morano) and City & State NY coverage of his 2025 Staten Island special election win.",
+  "notes": "Name was transcribed correctly — no spelling correction needed. Frank Morano is a real, well-documented public figure: NYC Council Member for District 51, which covers Staten Island's South Shore (Tottenville, Great Kills, Eltingville, Annadale, etc.). Elected in a 2025 special election to succeed Joe Borelli, then won the June primary and November general election the same year. Republican. Former radio/TV host. The stated affiliation in the transcript (NYC Council Member, Staten Island South Shore) matches the official roster exactly. Identity confirmed with high confidence against the official NYC Council site."
+ }
+]
