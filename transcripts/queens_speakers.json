@@ -1,0 +1,376 @@
+[
+  {
+    "name": "Frank Morano",
+    "name_as_heard": "Frank Moreno",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, Staten Island South Shore (testified online)",
+    "role_type": "Elected official",
+    "t": 541,
+    "topics": ["community boards", "appointments", "council districts", "redistricting", "accountability"],
+    "proposals": [
+      "Put a ballot measure allowing city council members to appoint one half of the members of their local community boards (currently appointed exclusively by borough presidents)",
+      "Make community district boundaries coterminous with city council district boundaries to reduce overlap, duplication and confusion over who represents residents"
+    ],
+    "quote": "People don't care how many meetings were held. They care whether their pothole was filled."
+  },
+  {
+    "name": "Ligia Gualpa",
+    "name_as_heard": "Ligia Gualpa / Ligia Walpa",
+    "name_confidence": "medium",
+    "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
+    "role_type": "Advocacy org",
+    "t": 2865,
+    "topics": ["delivery workers", "public space", "e-bike charging", "street design", "Deliverista Hub"],
+    "proposals": [
+      "Redesign public spaces and streets to also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who work on them",
+      "Build more Deliverista Hubs across the city to give delivery workers dignified places to rest, charge e-bike batteries and access basic resources",
+      "Create dedicated delivery zones and e-bike charging/parking infrastructure to address neighborhood complaints about bikes parking on sidewalks",
+      "Streamline the interagency coordination (Parks, DOT, FDNY, Landmarks) and e-bike-charging testing/permitting that delayed the first hub by five years"
+    ],
+    "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like."
+  },
+  {
+    "name": "Anne Marie Gray",
+    "name_as_heard": "Ann Marie Gray",
+    "name_confidence": "high",
+    "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
+    "role_type": "Advocacy org",
+    "t": 3090,
+    "topics": ["housing", "permitting reform", "building code", "landmarks", "affordability"],
+    "proposals": [
+      "Implement the SPEED task force permitting reforms and give the Department of Buildings power to amend the building code via rulemaking (preserving council legislative authority)",
+      "Reform the Landmarks Preservation Commission process so LPC weighs the 1.4% vacancy rate and net loss of housing units in applications, especially townhome conversions in districts like the West Village",
+      "Have LPC and City Planning analyze the effect of historic districts on future housing opportunity sites"
+    ],
+    "quote": "We really must take a more well-rounded view of neighborhood character... so too are the New Yorkers that live in them."
+  },
+  {
+    "name": "Antonio Solis",
+    "name_as_heard": "Antonio Solis (introduced as Antonio Martinez)",
+    "name_confidence": "medium",
+    "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
+    "role_type": "Labor",
+    "t": 4061,
+    "topics": ["delivery workers", "bike lanes", "public space", "Deliverista Hub", "street safety"],
+    "proposals": [
+      "Build safe infrastructure for delivery workers, including more protected bicycle lanes and dignified places to park and rest between deliveries",
+      "Expand worker-run Deliverista Hubs, designed by and for delivery workers rather than corporations, as dedicated spaces with tools, rights education and collective organizing"
+    ],
+    "quote": "In reality, the streets have become our place of work, but every day we encounter and face danger due to the lack of safe infrastructure."
+  },
+  {
+    "name": "Ashley Graber",
+    "name_as_heard": "Ashley Graber",
+    "name_confidence": "high",
+    "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
+    "role_type": "Business/industry",
+    "t": 4464,
+    "topics": ["parking fines", "commercial vehicles", "small business", "stipulated fines", "loading"],
+    "proposals": [
+      "Reform how the city handles parking fines for small local trucking businesses, which spend tens of thousands a year on unavoidable tickets",
+      "Reconsider the commercial abatement program, whose stipulated fines were raised under Mayor Adams to near the full ticket value while forcing businesses to give up the right to contest tickets",
+      "Apply the 'expeditious delivery service' dismissal standard consistently across similar tickets",
+      "Convene a cross-agency meeting of small local trucking businesses to develop safe, affordable parking solutions"
+    ],
+    "quote": "We do spend tens of thousands of dollars a year on unavoidable parking tickets... the city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
+  },
+  {
+    "name": "Sumana Harihareswara",
+    "name_as_heard": "Sumana Harihaswawa / Sumana",
+    "name_confidence": "medium",
+    "affiliation": "Software professional (testified online); cited beta NYC and 18F",
+    "role_type": "Civic-tech",
+    "t": 4633,
+    "topics": ["procurement", "open source software", "interoperability", "security", "Chapter 13"],
+    "proposals": [
+      "Amend Chapter 13 (procurement) of the charter to favor open-source software in procurement regulations",
+      "Add procurement rules that advantage software solutions whose source code the city can inspect and fix, improving security, efficiency and vendor independence",
+      "Enable joint software development and cost-sharing with other municipalities, borrowing guidelines from 18F and prior council recommendations"
+    ],
+    "quote": "When we buy or build software that only a few people can ever improve or look at because it's closed source, then that reduces efficiency."
+  },
+  {
+    "name": "Cordell Schachter",
+    "name_as_heard": "Cordell Shactor",
+    "name_confidence": "medium",
+    "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+    "role_type": "Civic-tech",
+    "t": 4858,
+    "topics": ["IT governance", "cybersecurity", "procurement", "IT hiring", "AI", "modernization"],
+    "proposals": [
+      "Create a City Hall IT chief investment officer and an OMB project-review function to approve, monitor and publicly report on major IT investments",
+      "Re-establish a separate New York City cybersecurity agency (cyber command) instead of housing it within OTI",
+      "Streamline IT hiring and workforce development via a multidisciplinary board working with state authorities, labor, academia and the private sector",
+      "Require agencies to pilot first and purchase second, using challenge-based procurement and demonstration projects",
+      "Mandate a modernization roadmap for obsolete systems using agile delivery and pilot-based purchasing",
+      "Use automation and AI strategically and safely so employees focus on higher-value work"
+    ],
+    "quote": "New York City cannot deliver 21st century government with 20th century technology governance."
+  },
+  {
+    "name": "Honda Wang",
+    "name_as_heard": "Honda Wang",
+    "name_confidence": "low",
+    "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
+    "role_type": "Labor",
+    "t": 5063,
+    "topics": ["civil service", "charter scope", "hiring", "pay disparity", "labor relations"],
+    "proposals": [
+      "Keep civil service reform out of the charter commission's work, as most civil-service dysfunction is a management issue outside the commission's purview",
+      "Fix rather than eliminate civil service problems (typo-riddled exams, infrequent exams, misuse of titles) through management respecting the system and engaging unions",
+      "Focus on shortening the 14-15 month hiring timeline and raising public-sector pay rather than stripping job protections",
+      "Suggested the commission instead reconsider the role of the borough presidents"
+    ],
+    "quote": "Asking the charter commission to appease our civil service system and eliminate guardrails because of mismanagement would be the equivalent of asking the FAA to relax its airline safety standards after a plane crash because of Boeing's mismanagement."
+  },
+  {
+    "name": "Payway",
+    "name_as_heard": "Payway / Pay way",
+    "name_confidence": "low",
+    "affiliation": "Co-owner of Zazza restaurant (Southeast Asian community, Queens); board director of a NYC restaurant group",
+    "role_type": "Business/industry",
+    "t": 5959,
+    "topics": ["outdoor dining", "revocable consent", "open streets", "small business fees", "merchant associations"],
+    "proposals": [
+      "Eliminate the revocable consent requirement for outdoor dining to cut costs and shorten the approval process by several months",
+      "Reduce the stacked application, construction, storage and legal fees (over $3,700 for one Queens sidewalk-dining location) that make outdoor dining a luxury only wealthy restaurants can afford",
+      "Allow open-streets funding to go directly to local merchant associations rather than requiring $100,000 in the bank to qualify for SBS funding"
+    ],
+    "quote": "Outdoor dining actually largely become a luxury for the well-funded restaurant in a wealthy neighborhood."
+  },
+  {
+    "name": "Rajesh Sankat",
+    "name_as_heard": "Rajesh Sankat",
+    "name_confidence": "high",
+    "affiliation": "Program strategist and civic designer at three by three, a community-centered design studio in Brooklyn",
+    "role_type": "Civic-tech",
+    "t": 6206,
+    "topics": ["AI infrastructure", "data centers", "public accountability", "community governance", "efficiency"],
+    "proposals": [
+      "Treat AI as civic infrastructure that communities can collectively shape, govern and benefit from, rather than a private product to consume",
+      "Pilot community-controlled essential infrastructure such as community-led data centers, modeled on community solar and community mesh networks",
+      "Broaden the charter's definition of government efficiency to mean building systems that are public, accountable and trusted, not just adopting more technology"
+    ],
+    "quote": "When something shapes all of our lives, we don't leave it entirely to private actors. And that is what is happening with AI."
+  },
+  {
+    "name": "Helen Zhang",
+    "name_as_heard": "Helen Zhang",
+    "name_confidence": "high",
+    "affiliation": "Owner of Ziggy's Roman Cafe, a full-service restaurant at 15 Main Street, Dumbo, Brooklyn (testified online)",
+    "role_type": "Business/industry",
+    "t": 6490,
+    "topics": ["outdoor dining", "revocable consent", "permitting delay", "small business", "lost revenue"],
+    "proposals": [
+      "Eliminate the revocable consent requirement, which added nearly two months to her outdoor-dining permit with no meaningful public benefit and cost roughly six and a half weeks of lost outdoor revenue",
+      "Streamline the process so restaurants can get permits in weeks instead of half a year"
+    ],
+    "quote": "I spent five months fighting for the right to put tables outside my front door. Please, I would love to make sure no one else does the same."
+  },
+  {
+    "name": "Michael Kelly",
+    "name_as_heard": "Michael Kelly",
+    "name_confidence": "high",
+    "affiliation": "Outdoor-dining permit expediter who filed 400+ sidewalk, roadway and closed-cafe applications for clients (testified online)",
+    "role_type": "Business/industry",
+    "t": 6700,
+    "topics": ["outdoor dining", "temporary operating letters", "community board hearings", "revocable consent", "public hearing fees"],
+    "proposals": [
+      "Bring back temporary operating letters so restaurants can begin operating after DOT plan approval and community board review instead of waiting on full processing",
+      "Streamline so combined roadway and sidewalk applications filed together are heard at the same community board hearing rather than separately",
+      "Eliminate the DOT roadway-cafe public hearing, which duplicates the community-board hearing, delays projects by months and costs restaurants about $783 in newspaper legal notices",
+      "Speed up issuance of revocable consent and the contract signing/registration steps that add about three months"
+    ],
+    "quote": "The main complaint is that they paid the fee and cannot operate."
+  },
+  {
+    "name": "Megan Rickerson",
+    "name_as_heard": "Megan Rickerson",
+    "name_confidence": "high",
+    "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+    "role_type": "Business/industry",
+    "t": 6873,
+    "topics": ["outdoor dining", "revocable consent", "small business costs", "delivery workers", "permitting delay"],
+    "proposals": [
+      "Eliminate or streamline the revocable consent requirement and reduce the stacked annual fees that push outdoor dining costs to roughly $70,000 over time (with ~$10,000/year to rebuild)",
+      "Speed up the six-plus-month approval timeline so restaurants don't miss peak season and lose revenue",
+      "Support delivery-worker infrastructure (such as the Deliverista Hub) that keeps drivers safe"
+    ],
+    "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed."
+  },
+  {
+    "name": "Pritya Shrimali",
+    "name_as_heard": "Pritya Shrimali / Pritya",
+    "name_confidence": "medium",
+    "affiliation": "Recent NYC high school graduate and New Jersey resident researching federal superfund and urban environmental remediation policy",
+    "role_type": "Academic",
+    "t": 7131,
+    "topics": ["environmental remediation", "superfund", "Newtown Creek", "interagency planning", "brownfields"],
+    "proposals": [
+      "Add a charter amendment establishing an integrated remediation planning (IRP) requirement for contaminated sites above a defined threshold",
+      "When a site hits a cleanup milestone, require DEP, Design and Construction, and City Planning to convene within 180 days and develop a joint remediation and land-use plan with binding, timelined community benefit commitments (amending Chapter 57, alongside Sections 1404 and 192E)",
+      "Establish a three-tiered liability allocation system under the polluter-pays principle, with funding adjusted for inflation"
+    ],
+    "quote": "A child born in this neighborhood today will be finishing elementary school before the cleanup even begins."
+  },
+  {
+    "name": "Deborah Green",
+    "name_as_heard": "Deborah Green",
+    "name_confidence": "high",
+    "affiliation": "Resident of Long Island City, Queens; registered Democrat / longtime independent",
+    "role_type": "Resident",
+    "t": 7328,
+    "topics": ["open primaries", "election reform", "independent voters", "disenfranchisement", "ballot referendum"],
+    "proposals": [
+      "Put open primaries on the New York City ballot this November so all registered city voters, including unaffiliated voters, can participate in primaries"
+    ],
+    "quote": "What better way to restore faith in government than by ending the longstanding disenfranchisement of almost a quarter of the electorate?"
+  },
+  {
+    "name": "Mary Anil",
+    "name_as_heard": "Mary Anil",
+    "name_confidence": "medium",
+    "affiliation": "Astoria, Queens resident (29 years); NYC government employee since 2007; MPA from Baruch, PhD from CUNY Graduate Center",
+    "role_type": "Resident",
+    "t": 7748,
+    "topics": ["term limits", "incumbents", "elections", "governance", "ballot question"],
+    "proposals": [
+      "Add a ballot question (under Charter Chapter 50, term limits) requiring incumbent elected officials who run for other local, state or national offices to either take an unpaid leave of absence while campaigning or wait until they finish their term to run",
+      "Also plans to submit testimony on Chapter 36 (Equal Employment Practices Commission) and Section 31 (advice and consent for corporation counsel and other positions)"
+    ],
+    "quote": "If many incumbents are running for other offices in competitive elections and are campaigning for six or ten months, then I worry about our governance."
+  },
+  {
+    "name": "Damian Archibald",
+    "name_as_heard": "Damian (Damien) Archvald",
+    "name_confidence": "low",
+    "affiliation": "Anesthesiologist at Elmhurst Hospital, Queens; resident of Long Island City",
+    "role_type": "Labor",
+    "t": 7989,
+    "topics": ["public health", "health in all policies", "hospitals", "sectoral bargaining", "delivery workers"],
+    "proposals": [
+      "Amend the city charter to add a 'health in all policies' section integrating health services so agencies like Transportation and City Planning work together with health",
+      "Integrate the New York City health sector under a single contract per health-worker type and pursue sectoral bargaining for health workers (his hospital has at least 10 uncoordinated unions)",
+      "Support delivery-worker public-space and safety improvements, framing street and public-space conditions as a public health issue"
+    ],
+    "quote": "The state of our public spaces and roads are a public health issue."
+  },
+  {
+    "name": "Henry Smith",
+    "name_as_heard": "Henry Smith",
+    "name_confidence": "medium",
+    "affiliation": "Director of economic development, Long Island City Partnership / LIC Business Improvement District (testified online)",
+    "role_type": "Business/industry",
+    "t": 8256,
+    "topics": ["public space", "BIDs", "maintenance", "311", "street lighting", "contracting delays"],
+    "proposals": [
+      "Reduce barriers to creating public-space events and amenities (high insurance requirements, extensive Public Design Commission process, long contracting timelines)",
+      "Require maintenance plans for long-term parks and public spaces so responsibility for sites like Dutch Kills Green isn't dropped between agencies",
+      "Improve the 311 system's communication and follow-up so quality-of-life and streetscape cases aren't closed without resolution",
+      "Speed up DOT's response to streetscape lighting requests stuck in contracting delays for years"
+    ],
+    "quote": "If a resource is not being used, you can't navigate it... it has really been a problem with not only just cases being closed immediately but also to have the follow-up."
+  },
+  {
+    "name": "Phil Wong",
+    "name_as_heard": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+    "role_type": "Elected official",
+    "t": 8450,
+    "topics": ["budget", "rainy day fund", "homeless shelters", "school consolidation", "water rates"],
+    "proposals": [
+      "Require honest multi-year budget baselines in the charter and fix the rainy day fund so the city saves for crises",
+      "Require the Mayor's Management Report to report whether programs actually work, not just spending",
+      "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night, $128,000/year per person) and tie contracts to real outcomes",
+      "Require a consolidation process for the 200+ schools with fewer than 100 students and end the hold-harmless policy that funds 'ghost students' (~$250 million)",
+      "Prohibit diverting water-bill ratepayer funds ($313 million) into general city expenses"
+    ],
+    "quote": "We've been lying to ourselves in the budget, chronically under budgeting the same line items year after year and acting surprised when the bills come due."
+  },
+  {
+    "name": "India Bee",
+    "name_as_heard": "India Bee",
+    "name_confidence": "medium",
+    "affiliation": "Local beekeeper; founder of a sensory-inclusion pop-up organization; parent and disability advocate (CUNY graduate degree in disability studies)",
+    "role_type": "Advocacy org",
+    "t": 8928,
+    "topics": ["sensory inclusion", "neurodivergent community", "accessibility", "public space", "dedicated spaces"],
+    "proposals": [
+      "Create dedicated sensory-inclusive spaces (with dim lights and calming touches) in public places for the neurodivergent community",
+      "Have the city work with her organization to provide sensory supports such as headphones, fidget spinners and weighted vests in public spaces and restaurants (like a 'busy bag' menu item)"
+    ],
+    "quote": "The city is beautiful, noisy chaos, and a lot of our loved ones cannot function in that... allow us to hold on to the pole and support our loved ones."
+  },
+  {
+    "name": "Alan Cox",
+    "name_as_heard": "Alan Cox / Allen Cox",
+    "name_confidence": "high",
+    "affiliation": "Community health outreach worker with COAP (Coalition for Positive Health Empowerment); lifelong New Yorker, Bronx resident; independent voter",
+    "role_type": "Nonprofit",
+    "t": 9112,
+    "topics": ["open primaries", "independent voters", "election reform", "disenfranchisement", "voting rights"],
+    "proposals": [
+      "Open the primaries so the roughly 1.2 million independent New Yorkers shut out of primary voting can participate, as about 85% of U.S. cities do"
+    ],
+    "quote": "We have a system where 1.2 million folks who are independents are shut out of voting in the primaries. And that's where most decisions are made."
+  },
+  {
+    "name": "Taiwan Green",
+    "name_as_heard": "Taiwan Green ('Mr. Fingers')",
+    "name_confidence": "high",
+    "affiliation": "Music educator, community advocate and small business owner; lifelong resident of Southeast Queens",
+    "role_type": "Resident",
+    "t": 9299,
+    "topics": ["sanitation", "public restrooms", "interagency coordination", "Jamaica task force", "transportation impact"],
+    "proposals": [
+      "Have city agencies work with residents in a coordinated, sustained way on quality-of-life concerns rather than leaving cleanups to volunteers",
+      "Add public garbage cans along Jamaica Avenue and create accessible public restrooms near the busy Jamaica transit hubs",
+      "Create a dedicated Jamaica task force bringing together Sanitation, DOT, MTA, NYPD and local businesses/community leaders",
+      "Conduct regular impact assessments and gather meaningful resident/business feedback before implementing major transportation and bus-lane changes, and better promote hearings"
+    ],
+    "quote": "We were very hard to remove litter and improve the area. Unfortunately, by the very next day, it looked as though we had never been there."
+  },
+  {
+    "name": "Terry Renee",
+    "name_as_heard": "Terry Renee",
+    "name_confidence": "medium",
+    "affiliation": "Community health worker who attends public hearings across New York City",
+    "role_type": "Resident",
+    "t": 9469,
+    "topics": ["public outreach", "hearing notice", "civic engagement", "representation", "communication"],
+    "proposals": [
+      "Have the commission do far more to publicize public hearings through multiple channels (social media, snail mail, varied formats) so communities and business owners actually find out about them and can participate"
+    ],
+    "quote": "If a resource is not being used... you might as well not have it exist. It's the same thing as if it doesn't exist because you can't navigate it."
+  },
+  {
+    "name": "Zachary Thomas",
+    "name_as_heard": "Zachary Thomas",
+    "name_confidence": "high",
+    "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+    "role_type": "Government body",
+    "t": 9713,
+    "topics": ["parks", "tree guards", "procurement", "agency hiring", "government responsiveness"],
+    "proposals": [
+      "Make it easier for Parks and other agencies to hire and retain quality candidates so resident-initiated projects (like an approved, funded tree guard delayed five months) actually get executed",
+      "Examine procurement rules and raise the direct-purchase threshold in Chapter 13 so agencies can respond to routine resident requests like installing tree guards, exempting routine purchases from the full capital process"
+    ],
+    "quote": "Since January 30th, the New York Knicks basketball team has played 54 basketball games... Our city's administrative apparatus requires more time to install a single tree guard."
+  },
+  {
+    "name": "Robert Brown",
+    "name_as_heard": "Robert Brown (name not restated; introduced by chair with Zachary Thomas)",
+    "name_confidence": "low",
+    "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
+    "role_type": "Resident",
+    "t": 9878,
+    "topics": ["open primaries", "housing", "red tape", "small business", "procurement"],
+    "proposals": [
+      "Advocate for open primaries so independents and younger longtime residents who feel excluded from the major parties can participate",
+      "Cut red tape and bureaucracy (without sacrificing safety) to build more housing and infrastructure that all citizens can access",
+      "Improve outreach so small and startup businesses can obtain city procurement opportunities and contracts"
+    ],
+    "quote": "We all pay taxes, we all contribute to this city, we should all have a fair shot."
+  }
+]

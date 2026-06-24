@@ -1,0 +1,550 @@
+{
+ "video": "m_5OyXGAhIQ",
+ "extracted": 25,
+ "assignments": [
+  {
+   "name": "Frank Morano",
+   "name_confidence": "high",
+   "affiliation": "New York City Council Member, Staten Island South Shore (testified online)",
+   "role_type": "Elected official",
+   "t": 541,
+   "quote": "People don't care how many meetings were held. They care whether their pothole was filled.",
+   "target": "new",
+   "new_idea": {
+    "id": "reform-community-board-appointments-and-boundaries",
+    "title": "Let council members appoint community board members and align district boundaries",
+    "category": "Land use & planning",
+    "summary": "Put a ballot measure letting city council members appoint half of their local community board members, currently appointed solely by borough presidents. Make community district boundaries coterminous with council district boundaries to reduce overlap, duplication and confusion over who represents residents."
+   }
+  },
+  {
+   "name": "Ligia Gualpa",
+   "name_confidence": "medium",
+   "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
+   "role_type": "Advocacy org",
+   "t": 2865,
+   "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like.",
+   "target": "new",
+   "new_idea": {
+    "id": "build-deliverista-hubs-and-worker-public-space",
+    "title": "Design streets as workplaces and build Deliverista Hubs for delivery workers",
+    "category": "Street safety & public realm",
+    "summary": "Redesign public spaces and streets so they also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who use them. Build more Deliverista Hubs with rest space, e-bike charging and dedicated delivery zones, and streamline the interagency coordination and e-bike-charging permitting that delayed the first hub by five years."
+   }
+  },
+  {
+   "name": "Anne Marie Gray",
+   "name_confidence": "high",
+   "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
+   "role_type": "Advocacy org",
+   "t": 3090,
+   "quote": "We really must take a more well-rounded view of neighborhood character... so too are the New Yorkers that live in them.",
+   "target": "existing",
+   "idea_id": "consolidate-and-speed-permitting"
+  },
+  {
+   "name": "Anne Marie Gray",
+   "name_confidence": "high",
+   "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
+   "role_type": "Advocacy org",
+   "t": 3090,
+   "quote": "Reform the Landmarks Preservation Commission process so LPC weighs the 1.4% vacancy rate and net loss of housing units, especially townhome conversions in districts like the West Village.",
+   "target": "new",
+   "new_idea": {
+    "id": "reform-landmarks-process-to-weigh-housing-loss",
+    "title": "Make landmarking weigh the loss of housing it causes",
+    "category": "Land use & planning",
+    "summary": "Reform the Landmarks Preservation Commission so it weighs the 1.4% vacancy rate and net loss of housing units when reviewing applications, especially townhome conversions in historic districts. Require LPC and City Planning to analyze how historic districts affect future housing opportunity sites."
+   }
+  },
+  {
+   "name": "Antonio Solis",
+   "name_confidence": "medium",
+   "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
+   "role_type": "Labor",
+   "t": 4061,
+   "quote": "In reality, the streets have become our place of work, but every day we encounter and face danger due to the lack of safe infrastructure.",
+   "target": "new",
+   "new_idea": {
+    "id": "build-deliverista-hubs-and-worker-public-space",
+    "title": "Design streets as workplaces and build Deliverista Hubs for delivery workers",
+    "category": "Street safety & public realm",
+    "summary": "Redesign public spaces and streets so they also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who use them. Build more Deliverista Hubs with rest space, e-bike charging and dedicated delivery zones, and streamline the interagency coordination and e-bike-charging permitting that delayed the first hub by five years."
+   }
+  },
+  {
+   "name": "Ashley Graber",
+   "name_confidence": "high",
+   "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
+   "role_type": "Business/industry",
+   "t": 4464,
+   "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream.",
+   "target": "new",
+   "new_idea": {
+    "id": "reform-commercial-vehicle-parking-fines",
+    "title": "Reform parking fines treated as unavoidable for commercial vehicles",
+    "category": "MWBE & small business",
+    "summary": "Reform how the city handles parking fines for small local trucking and moving businesses, which spend tens of thousands a year on unavoidable tickets. Reconsider the stipulated-fine program that forces businesses to give up the right to contest tickets, apply the 'expeditious delivery service' dismissal standard consistently, and convene cross-agency talks on safe, affordable commercial parking."
+   }
+  },
+  {
+   "name": "Sumana Harihareswara",
+   "name_confidence": "medium",
+   "affiliation": "Software professional (testified online); cited beta NYC and 18F",
+   "role_type": "Civic-tech",
+   "t": 4633,
+   "quote": "When we buy or build software that only a few people can ever improve or look at because it's closed source, then that reduces efficiency.",
+   "target": "existing",
+   "idea_id": "build-in-house-digital-teams-not-big-it-contracts"
+  },
+  {
+   "name": "Cordell Schachter",
+   "name_confidence": "medium",
+   "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+   "role_type": "Civic-tech",
+   "t": 4858,
+   "quote": "New York City cannot deliver 21st century government with 20th century technology governance.",
+   "target": "existing",
+   "idea_id": "unified-technology-leadership-and-software-as-a-service"
+  },
+  {
+   "name": "Cordell Schachter",
+   "name_confidence": "medium",
+   "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+   "role_type": "Civic-tech",
+   "t": 4858,
+   "quote": "Require agencies to pilot first and purchase second, using challenge-based procurement and demonstration projects.",
+   "target": "existing",
+   "idea_id": "create-pathways-for-civic-tech-pilots"
+  },
+  {
+   "name": "Cordell Schachter",
+   "name_confidence": "medium",
+   "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+   "role_type": "Civic-tech",
+   "t": 4858,
+   "quote": "Streamline IT hiring and workforce development via a multidisciplinary board working with state authorities, labor, academia and the private sector.",
+   "target": "existing",
+   "idea_id": "modernize-civil-service-hiring"
+  },
+  {
+   "name": "Honda Wang",
+   "name_confidence": "low",
+   "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
+   "role_type": "Labor",
+   "t": 5063,
+   "quote": "Asking the charter commission to eliminate guardrails because of mismanagement would be the equivalent of asking the FAA to relax airline safety standards after a plane crash because of Boeing's mismanagement.",
+   "target": "existing",
+   "idea_id": "modernize-civil-service-hiring"
+  },
+  {
+   "name": "Payway",
+   "name_confidence": "low",
+   "affiliation": "Co-owner of Zazza restaurant (Southeast Asian community, Queens); board director of a NYC restaurant group",
+   "role_type": "Business/industry",
+   "t": 5959,
+   "quote": "Outdoor dining actually largely become a luxury for the well-funded restaurant in a wealthy neighborhood.",
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent"
+  },
+  {
+   "name": "Payway",
+   "name_confidence": "low",
+   "affiliation": "Co-owner of Zazza restaurant (Southeast Asian community, Queens); board director of a NYC restaurant group",
+   "role_type": "Business/industry",
+   "t": 5959,
+   "quote": "Allow open-streets funding to go directly to local merchant associations rather than requiring $100,000 in the bank to qualify for SBS funding.",
+   "target": "existing",
+   "idea_id": "tax-vacant-storefronts-and-fund-local-development-orgs"
+  },
+  {
+   "name": "Rajesh Sankat",
+   "name_confidence": "high",
+   "affiliation": "Program strategist and civic designer at three by three, a community-centered design studio in Brooklyn",
+   "role_type": "Civic-tech",
+   "t": 6206,
+   "quote": "When something shapes all of our lives, we don't leave it entirely to private actors. And that is what is happening with AI.",
+   "target": "new",
+   "new_idea": {
+    "id": "treat-ai-as-community-governed-civic-infrastructure",
+    "title": "Treat AI and data centers as community-governed civic infrastructure",
+    "category": "AI governance",
+    "summary": "Treat AI as civic infrastructure that communities can collectively shape, govern and benefit from, not a private product to consume. Pilot community-controlled essential infrastructure such as community-led data centers, modeled on community solar and mesh networks, and broaden the charter's definition of efficiency to mean public, accountable and trusted systems."
+   }
+  },
+  {
+   "name": "Helen Zhang",
+   "name_confidence": "high",
+   "affiliation": "Owner of Ziggy's Roman Cafe, a full-service restaurant at 15 Main Street, Dumbo, Brooklyn (testified online)",
+   "role_type": "Business/industry",
+   "t": 6490,
+   "quote": "I spent five months fighting for the right to put tables outside my front door. Please, I would love to make sure no one else does the same.",
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent"
+  },
+  {
+   "name": "Michael Kelly",
+   "name_confidence": "high",
+   "affiliation": "Outdoor-dining permit expediter who filed 400+ sidewalk, roadway and closed-cafe applications for clients (testified online)",
+   "role_type": "Business/industry",
+   "t": 6700,
+   "quote": "The main complaint is that they paid the fee and cannot operate.",
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent"
+  },
+  {
+   "name": "Megan Rickerson",
+   "name_confidence": "high",
+   "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+   "role_type": "Business/industry",
+   "t": 6873,
+   "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed.",
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent"
+  },
+  {
+   "name": "Megan Rickerson",
+   "name_confidence": "high",
+   "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+   "role_type": "Business/industry",
+   "t": 6873,
+   "quote": "Support delivery-worker infrastructure (such as the Deliverista Hub) that keeps drivers safe.",
+   "target": "new",
+   "new_idea": {
+    "id": "build-deliverista-hubs-and-worker-public-space",
+    "title": "Design streets as workplaces and build Deliverista Hubs for delivery workers",
+    "category": "Street safety & public realm",
+    "summary": "Redesign public spaces and streets so they also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who use them. Build more Deliverista Hubs with rest space, e-bike charging and dedicated delivery zones, and streamline the interagency coordination and e-bike-charging permitting that delayed the first hub by five years."
+   }
+  },
+  {
+   "name": "Pritya Shrimali",
+   "name_confidence": "medium",
+   "affiliation": "Recent NYC high school graduate and New Jersey resident researching federal superfund and urban environmental remediation policy",
+   "role_type": "Academic",
+   "t": 7131,
+   "quote": "A child born in this neighborhood today will be finishing elementary school before the cleanup even begins.",
+   "target": "new",
+   "new_idea": {
+    "id": "integrated-remediation-planning-for-contaminated-sites",
+    "title": "Require integrated remediation and land-use planning for contaminated sites",
+    "category": "Land use & planning",
+    "summary": "Add a charter requirement for integrated remediation planning at contaminated sites above a defined threshold. When a site hits a cleanup milestone, require DEP, Design and Construction, and City Planning to convene within 180 days and develop a joint remediation and land-use plan with binding, timelined community-benefit commitments, plus a tiered polluter-pays liability system."
+   }
+  },
+  {
+   "name": "Deborah Green",
+   "name_confidence": "high",
+   "affiliation": "Resident of Long Island City, Queens; registered Democrat / longtime independent",
+   "role_type": "Resident",
+   "t": 7328,
+   "quote": "What better way to restore faith in government than by ending the longstanding disenfranchisement of almost a quarter of the electorate?",
+   "target": "existing",
+   "idea_id": "open-primaries-for-unaffiliated-voters"
+  },
+  {
+   "name": "Mary Anil",
+   "name_confidence": "medium",
+   "affiliation": "Astoria, Queens resident (29 years); NYC government employee since 2007; MPA from Baruch, PhD from CUNY Graduate Center",
+   "role_type": "Resident",
+   "t": 7748,
+   "quote": "If many incumbents are running for other offices in competitive elections and are campaigning for six or ten months, then I worry about our governance.",
+   "target": "new",
+   "new_idea": {
+    "id": "require-incumbents-to-pause-when-seeking-other-office",
+    "title": "Make incumbents take leave or wait when running for another office",
+    "category": "Elections & voting",
+    "summary": "Add a ballot question requiring incumbent elected officials who run for other local, state or national offices to either take an unpaid leave of absence while campaigning or wait until they finish their term to run. The aim is to protect governance when officials campaign for six to ten months while still in office."
+   }
+  },
+  {
+   "name": "Damian Archibald",
+   "name_confidence": "low",
+   "affiliation": "Anesthesiologist at Elmhurst Hospital, Queens; resident of Long Island City",
+   "role_type": "Labor",
+   "t": 7989,
+   "quote": "The state of our public spaces and roads are a public health issue.",
+   "target": "new",
+   "new_idea": {
+    "id": "health-in-all-policies-and-sectoral-health-bargaining",
+    "title": "Add health in all policies and consolidate health-worker bargaining",
+    "category": "Labor & workforce",
+    "summary": "Amend the charter to add a 'health in all policies' section so agencies like Transportation and City Planning coordinate with health. Integrate the city health sector under a single contract per health-worker type and pursue sectoral bargaining, since one hospital can have ten or more uncoordinated unions, and treat public-space and street conditions as a public health issue."
+   }
+  },
+  {
+   "name": "Henry Smith",
+   "name_confidence": "medium",
+   "affiliation": "Director of economic development, Long Island City Partnership / LIC Business Improvement District (testified online)",
+   "role_type": "Business/industry",
+   "t": 8256,
+   "quote": "It has really been a problem with not only just cases being closed immediately but also to have the follow-up.",
+   "target": "new",
+   "new_idea": {
+    "id": "maintain-public-spaces-and-fix-311-followup",
+    "title": "Require maintenance plans for public spaces and fix 311 follow-up",
+    "category": "Street safety & public realm",
+    "summary": "Reduce barriers to creating public-space events and amenities, such as high insurance requirements, the Public Design Commission process and long contracting timelines. Require maintenance plans so responsibility for long-term parks isn't dropped between agencies, fix 311 so quality-of-life cases aren't closed without resolution, and speed DOT's response to streetscape lighting requests stuck in contracting."
+   }
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+   "role_type": "Elected official",
+   "t": 8450,
+   "quote": "We've been lying to ourselves in the budget, chronically under budgeting the same line items year after year and acting surprised when the bills come due.",
+   "target": "existing",
+   "idea_id": "enforceable-rainy-day-fund-and-honest-budgeting"
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+   "role_type": "Elected official",
+   "t": 8450,
+   "quote": "Require the Mayor's Management Report to report whether programs actually work, not just spending.",
+   "target": "existing",
+   "idea_id": "modernize-mayors-management-report-and-neighborhood-data"
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+   "role_type": "Elected official",
+   "t": 8450,
+   "quote": "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night) and tie contracts to real outcomes.",
+   "target": "existing",
+   "idea_id": "comprehensive-procurement-reform"
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+   "role_type": "Elected official",
+   "t": 8450,
+   "quote": "Require a consolidation process for the 200+ schools with fewer than 100 students and end the hold-harmless policy that funds ghost students.",
+   "target": "new",
+   "new_idea": {
+    "id": "consolidate-underenrolled-schools-and-end-ghost-funding",
+    "title": "Consolidate under-enrolled schools and stop funding ghost students",
+    "category": "Child care & education",
+    "summary": "Require a consolidation process for the 200-plus schools with fewer than 100 students and end the hold-harmless policy that funds roughly $250 million in 'ghost students.' The aim is to match school funding to actual enrollment and free up resources."
+   }
+  },
+  {
+   "name": "India Bee",
+   "name_confidence": "medium",
+   "affiliation": "Local beekeeper; founder of a sensory-inclusion pop-up organization; parent and disability advocate (CUNY graduate degree in disability studies)",
+   "role_type": "Advocacy org",
+   "t": 8928,
+   "quote": "The city is beautiful, noisy chaos, and a lot of our loved ones cannot function in that... allow us to hold on to the pole and support our loved ones.",
+   "target": "new",
+   "new_idea": {
+    "id": "create-sensory-inclusive-public-spaces",
+    "title": "Create sensory-inclusive spaces and supports in public places",
+    "category": "Street safety & public realm",
+    "summary": "Create dedicated sensory-inclusive spaces with dim lights and calming touches in public places for the neurodivergent community. Have the city work with sensory-inclusion organizations to provide supports such as headphones, fidget spinners and weighted vests in public spaces and restaurants."
+   }
+  },
+  {
+   "name": "Alan Cox",
+   "name_confidence": "high",
+   "affiliation": "Community health outreach worker with COAP (Coalition for Positive Health Empowerment); lifelong New Yorker, Bronx resident; independent voter",
+   "role_type": "Nonprofit",
+   "t": 9112,
+   "quote": "We have a system where 1.2 million folks who are independents are shut out of voting in the primaries. And that's where most decisions are made.",
+   "target": "existing",
+   "idea_id": "open-primaries-for-unaffiliated-voters"
+  },
+  {
+   "name": "Taiwan Green",
+   "name_confidence": "high",
+   "affiliation": "Music educator, community advocate and small business owner; lifelong resident of Southeast Queens",
+   "role_type": "Resident",
+   "t": 9299,
+   "quote": "We were very hard to remove litter and improve the area. Unfortunately, by the very next day, it looked as though we had never been there.",
+   "target": "new",
+   "new_idea": {
+    "id": "coordinate-agencies-on-neighborhood-quality-of-life",
+    "title": "Coordinate agencies on neighborhood sanitation and quality of life",
+    "category": "Street safety & public realm",
+    "summary": "Have city agencies work with residents in a coordinated, sustained way on quality-of-life concerns rather than leaving cleanups to volunteers. Add public garbage cans and accessible restrooms near busy transit hubs, create a dedicated Jamaica task force across Sanitation, DOT, MTA and NYPD, and run impact assessments and gather resident feedback before major transportation changes."
+   }
+  },
+  {
+   "name": "Terry Renee",
+   "name_confidence": "medium",
+   "affiliation": "Community health worker who attends public hearings across New York City",
+   "role_type": "Resident",
+   "t": 9469,
+   "quote": "If a resource is not being used... you might as well not have it exist. It's the same thing as if it doesn't exist because you can't navigate it.",
+   "target": "new",
+   "new_idea": {
+    "id": "publicize-hearings-and-improve-civic-outreach",
+    "title": "Publicize public hearings widely so communities can participate",
+    "category": "Open data & transparency",
+    "summary": "Have the commission and the city do far more to publicize public hearings through multiple channels, including social media, mail and varied formats, so communities and business owners actually learn about them and can participate. The argument is that under-publicized hearings are effectively useless."
+   }
+  },
+  {
+   "name": "Zachary Thomas",
+   "name_confidence": "high",
+   "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+   "role_type": "Government body",
+   "t": 9713,
+   "quote": "Since January 30th, the New York Knicks have played 54 basketball games... Our city's administrative apparatus requires more time to install a single tree guard.",
+   "target": "existing",
+   "idea_id": "comprehensive-procurement-reform"
+  },
+  {
+   "name": "Zachary Thomas",
+   "name_confidence": "high",
+   "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+   "role_type": "Government body",
+   "t": 9713,
+   "quote": "Make it easier for Parks and other agencies to hire and retain quality candidates so resident-initiated projects actually get executed.",
+   "target": "existing",
+   "idea_id": "modernize-civil-service-hiring"
+  },
+  {
+   "name": "Robert Brown",
+   "name_confidence": "low",
+   "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
+   "role_type": "Resident",
+   "t": 9878,
+   "quote": "We all pay taxes, we all contribute to this city, we should all have a fair shot.",
+   "target": "existing",
+   "idea_id": "open-primaries-for-unaffiliated-voters"
+  },
+  {
+   "name": "Robert Brown",
+   "name_confidence": "low",
+   "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
+   "role_type": "Resident",
+   "t": 9878,
+   "quote": "Cut red tape and bureaucracy, without sacrificing safety, to build more housing and infrastructure that all citizens can access.",
+   "target": "existing",
+   "idea_id": "consolidate-and-speed-permitting"
+  },
+  {
+   "name": "Robert Brown",
+   "name_confidence": "low",
+   "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
+   "role_type": "Resident",
+   "t": 9878,
+   "quote": "Improve outreach so small and startup businesses can obtain city procurement opportunities and contracts.",
+   "target": "existing",
+   "idea_id": "improve-access-to-capital-for-immigrant-small-business"
+  }
+ ],
+ "new_ideas": [
+  {
+   "id": "reform-community-board-appointments-and-boundaries",
+   "title": "Let council members appoint community board members and align district boundaries",
+   "category": "Land use & planning",
+   "summary": "Put a ballot measure letting city council members appoint half of their local community board members, currently appointed solely by borough presidents. Make community district boundaries coterminous with council district boundaries to reduce overlap, duplication and confusion over who represents residents."
+  },
+  {
+   "id": "build-deliverista-hubs-and-worker-public-space",
+   "title": "Design streets as workplaces and build Deliverista Hubs for delivery workers",
+   "category": "Street safety & public realm",
+   "summary": "Redesign public spaces and streets so they also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who use them. Build more Deliverista Hubs with rest space, e-bike charging and dedicated delivery zones, and streamline the interagency coordination and e-bike-charging permitting that delayed the first hub by five years."
+  },
+  {
+   "id": "reform-landmarks-process-to-weigh-housing-loss",
+   "title": "Make landmarking weigh the loss of housing it causes",
+   "category": "Land use & planning",
+   "summary": "Reform the Landmarks Preservation Commission so it weighs the 1.4% vacancy rate and net loss of housing units when reviewing applications, especially townhome conversions in historic districts. Require LPC and City Planning to analyze how historic districts affect future housing opportunity sites."
+  },
+  {
+   "id": "reform-commercial-vehicle-parking-fines",
+   "title": "Reform parking fines treated as unavoidable for commercial vehicles",
+   "category": "MWBE & small business",
+   "summary": "Reform how the city handles parking fines for small local trucking and moving businesses, which spend tens of thousands a year on unavoidable tickets. Reconsider the stipulated-fine program that forces businesses to give up the right to contest tickets, apply the 'expeditious delivery service' dismissal standard consistently, and convene cross-agency talks on safe, affordable commercial parking."
+  },
+  {
+   "id": "treat-ai-as-community-governed-civic-infrastructure",
+   "title": "Treat AI and data centers as community-governed civic infrastructure",
+   "category": "AI governance",
+   "summary": "Treat AI as civic infrastructure that communities can collectively shape, govern and benefit from, not a private product to consume. Pilot community-controlled essential infrastructure such as community-led data centers, modeled on community solar and mesh networks, and broaden the charter's definition of efficiency to mean public, accountable and trusted systems."
+  },
+  {
+   "id": "integrated-remediation-planning-for-contaminated-sites",
+   "title": "Require integrated remediation and land-use planning for contaminated sites",
+   "category": "Land use & planning",
+   "summary": "Add a charter requirement for integrated remediation planning at contaminated sites above a defined threshold. When a site hits a cleanup milestone, require DEP, Design and Construction, and City Planning to convene within 180 days and develop a joint remediation and land-use plan with binding, timelined community-benefit commitments, plus a tiered polluter-pays liability system."
+  },
+  {
+   "id": "require-incumbents-to-pause-when-seeking-other-office",
+   "title": "Make incumbents take leave or wait when running for another office",
+   "category": "Elections & voting",
+   "summary": "Add a ballot question requiring incumbent elected officials who run for other local, state or national offices to either take an unpaid leave of absence while campaigning or wait until they finish their term to run. The aim is to protect governance when officials campaign for six to ten months while still in office."
+  },
+  {
+   "id": "health-in-all-policies-and-sectoral-health-bargaining",
+   "title": "Add health in all policies and consolidate health-worker bargaining",
+   "category": "Labor & workforce",
+   "summary": "Amend the charter to add a 'health in all policies' section so agencies like Transportation and City Planning coordinate with health. Integrate the city health sector under a single contract per health-worker type and pursue sectoral bargaining, since one hospital can have ten or more uncoordinated unions, and treat public-space and street conditions as a public health issue."
+  },
+  {
+   "id": "maintain-public-spaces-and-fix-311-followup",
+   "title": "Require maintenance plans for public spaces and fix 311 follow-up",
+   "category": "Street safety & public realm",
+   "summary": "Reduce barriers to creating public-space events and amenities, such as high insurance requirements, the Public Design Commission process and long contracting timelines. Require maintenance plans so responsibility for long-term parks isn't dropped between agencies, fix 311 so quality-of-life cases aren't closed without resolution, and speed DOT's response to streetscape lighting requests stuck in contracting."
+  },
+  {
+   "id": "consolidate-underenrolled-schools-and-end-ghost-funding",
+   "title": "Consolidate under-enrolled schools and stop funding ghost students",
+   "category": "Child care & education",
+   "summary": "Require a consolidation process for the 200-plus schools with fewer than 100 students and end the hold-harmless policy that funds roughly $250 million in 'ghost students.' The aim is to match school funding to actual enrollment and free up resources."
+  },
+  {
+   "id": "create-sensory-inclusive-public-spaces",
+   "title": "Create sensory-inclusive spaces and supports in public places",
+   "category": "Street safety & public realm",
+   "summary": "Create dedicated sensory-inclusive spaces with dim lights and calming touches in public places for the neurodivergent community. Have the city work with sensory-inclusion organizations to provide supports such as headphones, fidget spinners and weighted vests in public spaces and restaurants."
+  },
+  {
+   "id": "coordinate-agencies-on-neighborhood-quality-of-life",
+   "title": "Coordinate agencies on neighborhood sanitation and quality of life",
+   "category": "Street safety & public realm",
+   "summary": "Have city agencies work with residents in a coordinated, sustained way on quality-of-life concerns rather than leaving cleanups to volunteers. Add public garbage cans and accessible restrooms near busy transit hubs, create a dedicated Jamaica task force across Sanitation, DOT, MTA and NYPD, and run impact assessments and gather resident feedback before major transportation changes."
+  },
+  {
+   "id": "publicize-hearings-and-improve-civic-outreach",
+   "title": "Publicize public hearings widely so communities can participate",
+   "category": "Open data & transparency",
+   "summary": "Have the commission and the city do far more to publicize public hearings through multiple channels, including social media, mail and varied formats, so communities and business owners actually learn about them and can participate. The argument is that under-publicized hearings are effectively useless."
+  }
+ ],
+ "existing_targets": [
+  "consolidate-and-speed-permitting",
+  "build-in-house-digital-teams-not-big-it-contracts",
+  "unified-technology-leadership-and-software-as-a-service",
+  "create-pathways-for-civic-tech-pilots",
+  "modernize-civil-service-hiring",
+  "fix-outdoor-dining-revocable-consent",
+  "tax-vacant-storefronts-and-fund-local-development-orgs",
+  "open-primaries-for-unaffiliated-voters",
+  "enforceable-rainy-day-fund-and-honest-budgeting",
+  "modernize-mayors-management-report-and-neighborhood-data",
+  "comprehensive-procurement-reform",
+  "improve-access-to-capital-for-immigrant-small-business"
+ ],
+ "new_targets": [
+  "reform-community-board-appointments-and-boundaries",
+  "build-deliverista-hubs-and-worker-public-space",
+  "reform-landmarks-process-to-weigh-housing-loss",
+  "reform-commercial-vehicle-parking-fines",
+  "treat-ai-as-community-governed-civic-infrastructure",
+  "integrated-remediation-planning-for-contaminated-sites",
+  "require-incumbents-to-pause-when-seeking-other-office",
+  "health-in-all-policies-and-sectoral-health-bargaining",
+  "maintain-public-spaces-and-fix-311-followup",
+  "consolidate-underenrolled-schools-and-end-ghost-funding",
+  "create-sensory-inclusive-public-spaces",
+  "coordinate-agencies-on-neighborhood-quality-of-life",
+  "publicize-hearings-and-improve-civic-outreach"
+ ]
+}
