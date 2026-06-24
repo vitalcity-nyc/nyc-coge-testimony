@@ -1747,6 +1747,37 @@
   ]
  },
  {
+  "id": "reform-commercial-vehicle-parking-fines",
+  "title": "Reform parking fines treated as unavoidable for commercial vehicles",
+  "category": "MWBE & small business",
+  "summary": "Reform how the city handles parking fines for small local trucking and moving businesses, which spend tens of thousands a year on unavoidable tickets. Reconsider the stipulated-fine program that forces businesses to give up the right to contest tickets, apply the 'expeditious delivery service' dismissal standard consistently, and convene cross-agency talks on safe, affordable commercial parking.",
+  "proponent_count": 2,
+  "hearings": [
+   "Queens",
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Ashley Graber",
+    "name_confidence": "high",
+    "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
+    "role_type": "Business/industry",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4464s",
+    "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
+   },
+   {
+    "name": "Belkis Lora",
+    "name_confidence": "high",
+    "affiliation": "Founder and CEO, Grand Slam (banquet hall / event business, Bronx, 18 years; second location in Manhattan)",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5479s",
+    "quote": "We've been requested to the DOT to give us a loading zone for the business on the block, but other people are not respecting that sign... they give us a ticket every two minutes. It's becoming like another rent to us."
+   }
+  ]
+ },
+ {
   "id": "reform-community-board-appointments-and-boundaries",
   "title": "Let council members appoint community board members and align district boundaries",
   "category": "Land use & planning",
@@ -1785,27 +1816,6 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=3090s",
     "quote": "Reform the Landmarks Preservation Commission process so LPC weighs the 1.4% vacancy rate and net loss of housing units, especially townhome conversions in districts like the West Village."
-   }
-  ]
- },
- {
-  "id": "reform-commercial-vehicle-parking-fines",
-  "title": "Reform parking fines treated as unavoidable for commercial vehicles",
-  "category": "MWBE & small business",
-  "summary": "Reform how the city handles parking fines for small local trucking and moving businesses, which spend tens of thousands a year on unavoidable tickets. Reconsider the stipulated-fine program that forces businesses to give up the right to contest tickets, apply the 'expeditious delivery service' dismissal standard consistently, and convene cross-agency talks on safe, affordable commercial parking.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Ashley Graber",
-    "name_confidence": "high",
-    "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
-    "role_type": "Business/industry",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4464s",
-    "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
    }
   ]
  },
@@ -1995,6 +2005,153 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9469s",
     "quote": "If a resource is not being used... you might as well not have it exist. It's the same thing as if it doesn't exist because you can't navigate it."
+   }
+  ]
+ },
+ {
+  "id": "plan-and-coordinate-energy-and-port-infrastructure",
+  "title": "Plan energy and port infrastructure proactively and coordinate across agencies and utilities",
+  "category": "Capital projects",
+  "summary": "Treat the city's ability to plan for and deliver critical infrastructure on time as a core measure of government efficiency, since fragmented planning and weak coordination impose real costs on New Yorkers. Have the city proactively invest in port and waterfront facilities and ready the electric grid (transmission, substations, points of interconnection) for large-scale renewable generation, including offshore wind. Improve coordination among city agencies, Con Edison and other utilities, and infrastructure developers so upgrades are planned before they become constraints, and do the work with union labor.",
+  "proponent_count": 1,
+  "hearings": [
+   "Manhattan"
+  ],
+  "proponents": [
+   {
+    "name": "Nick Guargiglia",
+    "name_confidence": "high",
+    "affiliation": "New York Offshore Wind Alliance (also Alliance for Clean Energy New York); advocacy manager",
+    "role_type": "Advocacy org",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6844s",
+    "quote": "Infrastructure delays are themselves a form of government inefficiency. When projects are slowed by fragmented planning, insufficient coordination, duplicative processes, or a lack of long-term investment, New Yorkers ultimately bear the cost."
+   }
+  ]
+ },
+ {
+  "id": "rethink-standardized-testing-and-expand-alternative-schools",
+  "title": "Rethink standardized testing and expand alternative school models",
+  "category": "Child care & education",
+  "summary": "A resident testified that Common Core and standardized testing crush creativity and disproportionately harm neurodivergent students, framing education as the city's hidden infrastructure. He urged the commission to use the charter to move away from high-stakes standardized testing and to support alternative models such as democratic and Sudbury-style schools, philosophy and meditation offerings, and curricula that accommodate diverse learners. The proposal asks the charter to address educational quality and options rather than treating them as outside its scope.",
+  "proponent_count": 1,
+  "hearings": [
+   "Manhattan"
+  ],
+  "proponents": [
+   {
+    "name": "Marco Tang",
+    "name_confidence": "high",
+    "affiliation": "Resident (self-described NYC resident, neurodivergent former student)",
+    "role_type": "Resident",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9991s",
+    "quote": "I am Marco Tang. I'm an NYC resident... education is the hidden infrastructure for everybody... common core and standardized testing have crushed this initiative so hard."
+   }
+  ]
+ },
+ {
+  "id": "require-small-business-impact-statement-on-legislation",
+  "title": "Require a small-business impact statement on city legislation and rules",
+  "category": "MWBE & small business",
+  "summary": "Require a small-business economic impact statement for every piece of legislation, regulation or major policy affecting businesses, assessing not just whether something helps the economy but what it costs an owner-operated small business in time, paperwork, compliance, risk and money. Pair this with a 'listen before legislating' practice that brings actual shop owners to the table before mandates are created, since small businesses lack the government-affairs staff, lawyers and time to track new rules. The goal is a practical bridge between the people writing policy and the people living with its consequences.",
+  "proponent_count": 1,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Patrick Hall",
+    "name_confidence": "high",
+    "affiliation": "Elan Flowers (co-owner, Tribeca storefront florist since 1983)",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1547s",
+    "quote": "My name is Patrick Hall and my wife Christine and I own a small business called Elan Flowers in Tribeca. It's a storefront business that has been serving New York since 1983."
+   }
+  ]
+ },
+ {
+  "id": "combat-sex-trafficking-with-enforcement-and-data-sharing",
+  "title": "Combat sex trafficking with enforcement, data-sharing and a public offender database",
+  "category": "Street safety & public realm",
+  "summary": "Treat sex trafficking as a top public-safety priority and have the city pursue it more aggressively and visibly. Proposals include collaborating with international and state law enforcement (Interpol, NYPD, state police) to share trafficking data, holding complicit businesses, banks and hotels accountable, and creating a more visible public database of people and entities associated with trafficking. The witness also urged stronger public condemnation and a culture of reporting, plus concrete prevention action steps from the city.",
+  "proponent_count": 1,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Madison Weissenberger",
+    "name_confidence": "high",
+    "affiliation": "Resident (actress, director and content creator; moved to New York in December 2025)",
+    "role_type": "Resident",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4065s",
+    "quote": "My name is Madison E. Weisenberger, but I go by Madison Ford on stage and screen... I am talking about the crime of sex trafficking. I think we need to make sure that we're also calling it what it is. Terrorism."
+   }
+  ]
+ },
+ {
+  "id": "reform-acs-foster-care-reunification-and-permanency",
+  "title": "Make ACS foster care more efficient and rethink reunification for the youngest children",
+  "category": "Child care & education",
+  "summary": "A former foster parent testified that ACS is inefficient and ineffective, imposing a high human cost on foster children, particularly the very youngest who can spend three to five years in care from infancy. She argued that reunification is treated as a goal pursued at all costs when it should be an aspiration, and proposed two concrete fixes: a legal mechanism guaranteeing continued visitation with the foster family when a child has been in care for more than two years, and research into how often children re-enter foster care after failed reunifications so that re-entry rates inform whether reunification is judged successful.",
+  "proponent_count": 1,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Sarah Wilson",
+    "name_confidence": "high",
+    "affiliation": "Resident; former foster parent",
+    "role_type": "Resident",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5684s",
+    "quote": "I want to actually speak about the foster care system. I'm a former foster parent, and I believe that ACS is extremely inefficient and ineffective as a city agency."
+   }
+  ]
+ },
+ {
+  "id": "make-city-technology-open-source-and-participatory",
+  "title": "Make city technology open-source and participatory so residents can help build it",
+  "category": "Technology & digital services",
+  "summary": "New York City should make its public technology open and participatory, building systems open-source and in-house so residents, engineers and designers can co-build and improve public services rather than relying on corporate big-tech procurement. Francis points to Taiwan's g0v movement and digital minister Audrey Tang, where volunteers built better versions of government websites that officials folded back into public services at almost no cost, turning ordinary residents into a volunteer civic workforce, and to open systems like Estonia's X-Road and the federal 18F design system that cut agency development time. He proposes adopting open government and civic technology as a guiding philosophy for the city's broader digitalization, on behalf of the HeyMamdaniNYC coalition (Mozilla Foundation, RadicalxChange, Metagov, Decentral Park, Polis).",
+  "proponent_count": 1,
+  "hearings": [
+   "Brooklyn"
+  ],
+  "proponents": [
+   {
+    "name": "Hugh Francis",
+    "name_confidence": "high",
+    "affiliation": "HeyMamdaniNYC coalition (founder of Garden 3D); coalition includes Mozilla Foundation, RadicalxChange, Metagov, Decentral Park and Polis",
+    "role_type": "Civic-tech",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7822s",
+    "quote": "My name is Hugh Francis and I'm here on behalf of heymamdani.nyc, a coalition of New Yorkers and leading civic tech organizations who want to help this city work better. New York City can become dramatically more efficient by making its technology open and participatory to the people who live here."
+   }
+  ]
+ },
+ {
+  "id": "build-data-infrastructure-for-students-with-disabilities",
+  "title": "Build shared data infrastructure to coordinate services for students with disabilities",
+  "category": "Child care & education",
+  "summary": "A parent advocate for families with disabilities testified that the city has no single place holding a child's information and that DOE and human-resources offices do not communicate, leaving families to manage rooms of paperwork to secure services. She recommended a commission or committee, including parents of children with disabilities, to design a smoother system and to start collecting data on a community no one has been tracking. Better data infrastructure and coordination, she argued, would reduce stress on families, cut duplicative or ineffective spending and stop services from collapsing when a parent dies and a young adult is left on their own.",
+  "proponent_count": 1,
+  "hearings": [
+   "Brooklyn"
+  ],
+  "proponents": [
+   {
+    "name": "Stacey Bode",
+    "name_confidence": "high",
+    "affiliation": "Parent advocate for families with disabilities (autism); online participant",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8488s",
+    "quote": "I'm a parent advocate for families with disabilities. The DOE and the HR departments are not talking to each other... there's not one place that has all the information. Nobody's been collecting data on this community."
    }
   ]
  }
