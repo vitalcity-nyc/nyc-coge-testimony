@@ -4,12 +4,13 @@
   "title": "Open the primaries so unaffiliated voters can vote in the election that decides",
   "category": "Elections & voting",
   "summary": "Move New York City from closed partisan primaries to open or nonpartisan primaries (often paired with a top-two advancing) so the roughly 1.2 to 1.4 million unaffiliated voters can participate in the primaries that are usually determinative. Proponents argue this is a civil-rights issue (a majority of independents are people of color and many are under 40), that it raises turnout, that it pushes candidates toward broader consensus, and that independents already fund the matching-funds program with their taxes. Several urge putting it on the November ballot, building on the 2025 Charter Revision Commission record.",
-  "proponent_count": 15,
+  "proponent_count": 21,
   "hearings": [
    "Manhattan",
    "Bronx",
    "Brooklyn",
-   "Queens"
+   "Queens",
+   "Staten Island"
   ],
   "proponents": [
    {
@@ -146,6 +147,60 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9878s",
     "quote": "We all pay taxes, we all contribute to this city, we should all have a fair shot."
+   },
+   {
+    "name": "Frank Morano",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member (Staten Island)",
+    "role_type": "Elected official",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=1708s",
+    "quote": "A lot of times it feels like you need a decoder ring to determine how you vote in any given election."
+   },
+   {
+    "name": "Cheryl Williams",
+    "name_confidence": "high",
+    "affiliation": "Resident; registered independent voter and open-primaries advocate",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=4452s",
+    "quote": "As a registered independent, I help fund elections that I am barred from participating in."
+   },
+   {
+    "name": "Ed Brady",
+    "name_confidence": "high",
+    "affiliation": "Resident; Navy veteran (USS Enterprise) and lifelong independent voter",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=4661s",
+    "quote": "I voted knowing that the ballot will ultimately be tossed in the trash."
+   },
+   {
+    "name": "Jeremy Gruber",
+    "name_confidence": "high",
+    "affiliation": "Senior Vice President, Open Primaries (national organization); lawyer and election law expert",
+    "role_type": "Advocacy org",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5411s",
+    "quote": "Why Washington, D.C., and why not New York City?"
+   },
+   {
+    "name": "Danny Batista",
+    "name_confidence": "high",
+    "affiliation": "Resident; 15-year Staten Islander, board member of the St. George Civic Association, public-affairs educator",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6208s",
+    "quote": "I don't feel disenfranchised. I am disenfranchised."
+   },
+   {
+    "name": "Julia Ritchie",
+    "name_confidence": "high",
+    "affiliation": "Resident; illustrator, teaching artist and NYC DOE substitute teacher; 12-year independent voter",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6823s",
+    "quote": "Listen to us, work with us. We want to be a part of building a more effective and efficient government, but we want to do it as independent voters."
    }
   ]
  },
@@ -862,6 +917,147 @@
   ]
  },
  {
+  "id": "modernize-mayors-management-report-and-neighborhood-data",
+  "title": "Modernize the Mayor's Management Report into real-time, neighborhood-level data",
+  "category": "Open data & transparency",
+  "summary": "The Mayor's Management Report should become a frequently updated, real-time dashboard with performance data broken down by neighborhood and disaggregated by race, income and other dimensions, measuring outcomes and quality, not just outputs. Proposals include a statistically valid resident feedback survey at least every four years at the community-board level, a comprehensive citywide performance-management system, and convening tech and open-data experts periodically to set best practices. The aim is to measure how well the city does things, not merely what it does.",
+  "proponent_count": 6,
+  "hearings": [
+   "Manhattan",
+   "Brooklyn",
+   "Queens",
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Tim Tompkins",
+    "name_confidence": "high",
+    "affiliation": "NYU Marron Institute Fellow (Sustaining Places Initiative); former president, Times Square Alliance",
+    "role_type": "Academic",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=442s",
+    "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"
+   },
+   {
+    "name": "Andrew Rein",
+    "name_confidence": "high",
+    "affiliation": "Citizens Budget Commission (president)",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
+    "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program.",
+    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
+    "doc_label": "Full testimony"
+   },
+   {
+    "name": "Julie Samuels",
+    "name_confidence": "high",
+    "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
+    "role_type": "Business/industry",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s",
+    "quote": "Modernize the Mayor's Management Report into a frequently-updated, real-time-data dashboard"
+   },
+   {
+    "name": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+    "role_type": "Elected official",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
+    "quote": "Require the Mayor's Management Report to report whether programs actually work, not just spending."
+   },
+   {
+    "name": "Eugene Kim",
+    "name_confidence": "high",
+    "affiliation": "Resident; technology and legal-operations expert, operations director at a New York State public benefit corporation",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5135s",
+    "quote": "In the public sector, there is no incentive to innovate or improve because very little is objectively measured."
+   },
+   {
+    "name": "Kauran Santas",
+    "name_confidence": "low",
+    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5671s",
+    "quote": "Sunlight is the cheapest auditor."
+   }
+  ]
+ },
+ {
+  "id": "enforceable-rainy-day-fund-and-honest-budgeting",
+  "title": "Put enforceable Rainy Day Fund rules and honest baselines in the charter",
+  "category": "Budget & fiscal reserves",
+  "summary": "Create binding charter rules for the city's Revenue Stabilization (Rainy Day) Fund: mandatory formula deposits in good times, withdrawals restricted to recessions and emergencies, a target size (around 16%), and public reporting. Proponents pair this with honest multi-year budget baselines. The goal is to harden fiscal discipline so reserves are actually built and preserved rather than spent down.",
+  "proponent_count": 6,
+  "hearings": [
+   "Brooklyn",
+   "Written submission",
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Andrew Rein",
+    "name_confidence": "high",
+    "affiliation": "Citizens Budget Commission (president)",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
+    "quote": "Create charter rules to strengthen the rainy day fund: mandate deposits during good times, restrict withdrawals to recessions/emergencies, and set target-size policy",
+    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
+    "doc_label": "Full testimony"
+   },
+   {
+    "name": "Mark Levine",
+    "name_confidence": "high",
+    "affiliation": "New York City Comptroller",
+    "role_type": "Elected official",
+    "hearing": "Written submission",
+    "url": "https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/",
+    "quote": "binding Rainy Day Fund (Revenue Stabilization Fund) charter rules"
+   },
+   {
+    "name": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, District 30 (Queens)",
+    "role_type": "Elected official",
+    "hearing": "Written submission",
+    "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
+    "quote": "honest multi-year budget baselines + enforceable Rainy Day Fund rules"
+   },
+   {
+    "name": "Amanda Page-Hoongrajok",
+    "name_confidence": "medium",
+    "affiliation": "Assistant Professor of Economics, Fashion Institute of Technology (FIT)",
+    "role_type": "Academic",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=3054s",
+    "quote": "You could have painful spending cuts happening while money is just sitting in a reserve and you're not able to use it."
+   },
+   {
+    "name": "Martin Bernstein",
+    "name_confidence": "medium",
+    "affiliation": "Economist (testifying on revenue stabilization fund design)",
+    "role_type": "Academic",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=3280s",
+    "quote": "Tying the government's hands can also have real economic risks, even though these rules are certainly well-intentioned."
+   },
+   {
+    "name": "J.W. Mason",
+    "name_confidence": "high",
+    "affiliation": "Associate Professor of Economics, John Jay College, CUNY (former policy director, Working Families Party)",
+    "role_type": "Academic",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=3598s",
+    "quote": "It's a little bit of a fantasy to think that you can avoid... you actually do need to have responsible people in office."
+   }
+  ]
+ },
+ {
   "id": "fix-contract-registration-delays",
   "title": "Stop work-before-registration and put time limits on contract registration",
   "category": "Procurement & contracting",
@@ -1015,58 +1211,6 @@
   ]
  },
  {
-  "id": "modernize-mayors-management-report-and-neighborhood-data",
-  "title": "Modernize the Mayor's Management Report into real-time, neighborhood-level data",
-  "category": "Open data & transparency",
-  "summary": "The Mayor's Management Report should become a frequently updated, real-time dashboard with performance data broken down by neighborhood and disaggregated by race, income and other dimensions, measuring outcomes and quality, not just outputs. Proposals include a statistically valid resident feedback survey at least every four years at the community-board level, a comprehensive citywide performance-management system, and convening tech and open-data experts periodically to set best practices. The aim is to measure how well the city does things, not merely what it does.",
-  "proponent_count": 4,
-  "hearings": [
-   "Manhattan",
-   "Brooklyn",
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Tim Tompkins",
-    "name_confidence": "high",
-    "affiliation": "NYU Marron Institute Fellow (Sustaining Places Initiative); former president, Times Square Alliance",
-    "role_type": "Academic",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=442s",
-    "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"
-   },
-   {
-    "name": "Andrew Rein",
-    "name_confidence": "high",
-    "affiliation": "Citizens Budget Commission (president)",
-    "role_type": "Advocacy org",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
-    "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program.",
-    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
-    "doc_label": "Full testimony"
-   },
-   {
-    "name": "Julie Samuels",
-    "name_confidence": "high",
-    "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
-    "role_type": "Business/industry",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s",
-    "quote": "Modernize the Mayor's Management Report into a frequently-updated, real-time-data dashboard"
-   },
-   {
-    "name": "Phil Wong",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
-    "role_type": "Elected official",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
-    "quote": "Require the Mayor's Management Report to report whether programs actually work, not just spending."
-   }
-  ]
- },
- {
   "id": "unified-technology-leadership-and-software-as-a-service",
   "title": "Create unified technology leadership and 'commission' software instead of buying it",
   "category": "Technology & digital services",
@@ -1154,48 +1298,6 @@
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=660s",
     "quote": "We must stop defining AI solely by the risks and fear. And we need to start defining AI by what we hope these technologies can achieve for public good."
-   }
-  ]
- },
- {
-  "id": "enforceable-rainy-day-fund-and-honest-budgeting",
-  "title": "Put enforceable Rainy Day Fund rules and honest baselines in the charter",
-  "category": "Budget & fiscal reserves",
-  "summary": "Create binding charter rules for the city's Revenue Stabilization (Rainy Day) Fund: mandatory formula deposits in good times, withdrawals restricted to recessions and emergencies, a target size (around 16%), and public reporting. Proponents pair this with honest multi-year budget baselines. The goal is to harden fiscal discipline so reserves are actually built and preserved rather than spent down.",
-  "proponent_count": 3,
-  "hearings": [
-   "Brooklyn",
-   "Written submission"
-  ],
-  "proponents": [
-   {
-    "name": "Andrew Rein",
-    "name_confidence": "high",
-    "affiliation": "Citizens Budget Commission (president)",
-    "role_type": "Advocacy org",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
-    "quote": "Create charter rules to strengthen the rainy day fund: mandate deposits during good times, restrict withdrawals to recessions/emergencies, and set target-size policy",
-    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
-    "doc_label": "Full testimony"
-   },
-   {
-    "name": "Mark Levine",
-    "name_confidence": "high",
-    "affiliation": "New York City Comptroller",
-    "role_type": "Elected official",
-    "hearing": "Written submission",
-    "url": "https://comptroller.nyc.gov/newsroom/testimonies/testimony-of-new-york-city-comptroller-mark-levine-before-the-charter-revision-commission-on-government-efficiency-coge/",
-    "quote": "binding Rainy Day Fund (Revenue Stabilization Fund) charter rules"
-   },
-   {
-    "name": "Phil Wong",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, District 30 (Queens)",
-    "role_type": "Elected official",
-    "hearing": "Written submission",
-    "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
-    "quote": "honest multi-year budget baselines + enforceable Rainy Day Fund rules"
    }
   ]
  },
@@ -1778,6 +1880,96 @@
   ]
  },
  {
+  "id": "retire-obsolete-reports-and-mandates",
+  "title": "Sunset obsolete mandated reports, advisory commissions and outdated requirements",
+  "category": "Oversight & ethics",
+  "summary": "The City Council keeps adding mandated reports and advisory commissions but has no mechanism to retire ones that have outlived their usefulness, wasting agency time and resources. Proponents want to flip the Report and Advisory Board Review Commission so its recommendations eliminate reports by default unless the council affirmatively reinstates them, attach automatic four- or five-year sunsets to newly mandated reports, and strengthen the standards used to terminate them. Related asks include scrapping obsolete legal requirements such as the surety bond for public officers who handle city funds, now redundant given comptroller audits, DOI and the Conflicts of Interest Board.",
+  "proponent_count": 2,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "John Paul Lupo",
+    "name_confidence": "high",
+    "affiliation": "Founder of A.REIT Public Affairs; former Director of City Legislative Affairs and Intergovernmental Affairs, NYC City Hall",
+    "role_type": "Business/industry",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=433s",
+    "quote": "Right now the City Council is a one-way ratchet. It passes new requirements every session with no mechanism to retire old ones."
+   },
+   {
+    "name": "Stephen Lewis",
+    "name_confidence": "high",
+    "affiliation": "Counsel to the Center for New York City and State Law and adjunct professor at New York Law School; former Chief of the Legal Counsel Division, NYC Law Department",
+    "role_type": "Academic",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=698s",
+    "quote": "Sometimes these reports and advisory commissions outlive their usefulness... agencies end up spending time and resources that could be better spent in other ways."
+   }
+  ]
+ },
+ {
+  "id": "extend-ranked-choice-voting-to-all-elections",
+  "title": "Extend ranked choice voting to general elections and speed the count",
+  "category": "Elections & voting",
+  "summary": "New York City is the only jurisdiction that uses ranked choice voting in primaries but not general elections, leaving voters facing different rules for specials, primaries and generals. Proponents want RCV extended to all city elections (following the Washington, D.C. and Arlington semi-open-primary model), allowing fusion-style ballots that list party endorsements after candidate names, and charter mechanisms to accelerate the count toward first tallies within an hour of poll closing as San Francisco does.",
+  "proponent_count": 2,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Frank Morano",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member (Staten Island)",
+    "role_type": "Elected official",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=1708s",
+    "quote": "Extend ranked choice voting to the general election so voters face one consistent system instead of separate rules for specials, primaries and generals."
+   },
+   {
+    "name": "Rob Richie",
+    "name_confidence": "high",
+    "affiliation": "Head of Expand Democracy; founder and former head of FairVote (1992-2023); ranked choice voting authority",
+    "role_type": "Advocacy org",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=7040s",
+    "quote": "New York City is actually the only jurisdiction to use RCV only in the primaries, but not the general election."
+   }
+  ]
+ },
+ {
+  "id": "expand-staten-island-transit-and-bus-service",
+  "title": "Expand Staten Island bus, Bus Rapid Transit and bike infrastructure",
+  "category": "Street safety & public realm",
+  "summary": "Staten Island non-drivers struggle to get around and off the island, with a single bus route to New Jersey, a long-stalled Bus Rapid Transit project, a St. George / Bay Street North Shore transit project not slated until 2035, and bus lanes (such as on Hylan Boulevard) perpetually blocked by parked cars. Proponents want expanded bus service, delivery of the BRT and North Shore projects, enforcement of existing bus lanes, more transit funding and recognition for a borough routinely placed last, and new bike infrastructure including a bike-share or Citi Bike program.",
+  "proponent_count": 2,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Samantha Wilkinson",
+    "name_confidence": "high",
+    "affiliation": "Resident; lifelong Staten Islander, NYC DOE substitute teacher and Snug Harbor tour guide",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6406s",
+    "quote": "It is incredibly difficult to get off this island if you do not drive."
+   },
+   {
+    "name": "Melissa Caballero",
+    "name_confidence": "medium",
+    "affiliation": "Resident; Staten Island non-driver",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6596s",
+    "quote": "Those bus lanes are always occupied by cars parked there, and they never seem to move."
+   }
+  ]
+ },
+ {
   "id": "reform-community-board-appointments-and-boundaries",
   "title": "Let council members appoint community board members and align district boundaries",
   "category": "Land use & planning",
@@ -2152,6 +2344,69 @@
     "hearing": "Brooklyn",
     "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8488s",
     "quote": "I'm a parent advocate for families with disabilities. The DOE and the HR departments are not talking to each other... there's not one place that has all the information. Nobody's been collecting data on this community."
+   }
+  ]
+ },
+ {
+  "id": "streamline-ballot-access-and-petitioning",
+  "title": "Streamline ballot access by allowing filing fees in lieu of petition signatures",
+  "category": "Elections & voting",
+  "summary": "Ballot-petition signature collection imposes administrative cost and burden on candidates and the Board of Elections. Proponents want to give candidates the option of paying a filing fee instead of gathering petition signatures, as Florida does, to simplify and cheapen the process of getting on the ballot. A related ask is to repeal the 2017 term limits on community board members so experienced volunteers who know how to scrutinize developers are not pushed out.",
+  "proponent_count": 1,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Frank Morano",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member (Staten Island)",
+    "role_type": "Elected official",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=1708s",
+    "quote": "Allow candidates the option of paying a filing fee instead of collecting ballot-petition signatures, as Florida does, to save administrative cost."
+   }
+  ]
+ },
+ {
+  "id": "establish-permanent-fleet-management-department",
+  "title": "Establish a permanent Department of Fleet Management in the charter",
+  "category": "Capital projects",
+  "summary": "The city's multi-billion-dollar, 25,000-vehicle fleet is managed without a permanent charter home, leaving long-term planning and accountability vulnerable. Proponents want to establish a permanent Department of Fleet Management reporting to the Deputy Mayor for Operations, with citywide standards for fleet policy, performance, acquisition, safety, sustainability and public reporting. Centralized leadership would manage the fleet efficiently and advance Vision Zero and electrification goals.",
+  "proponent_count": 1,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Eric Richardson",
+    "name_confidence": "medium",
+    "affiliation": "Retired NYC fleet management official (23 years at Department of Citywide Administrative Services / NYC Fleet, retired July 2024)",
+    "role_type": "Government body",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=4889s",
+    "quote": "This proposal is not about correcting a failure. It is about preserving success and giving this essential function the permanence it has grown into."
+   }
+  ]
+ },
+ {
+  "id": "require-green-infrastructure-impact-disclosure",
+  "title": "Require green-infrastructure impact statements and streamline such projects",
+  "category": "Capital projects",
+  "summary": "Major capital projects do not consistently disclose their environmental and public-health performance, and green-infrastructure projects face slow approvals. Proponents want a charter-required green-infrastructure impact statement so major projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public-health benefits, plus charter mechanisms to encourage public-private partnerships and philanthropic co-investment and to streamline approvals for green-infrastructure projects.",
+  "proponent_count": 1,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Kauran Santas",
+    "name_confidence": "low",
+    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5671s",
+    "quote": "Require a 'green infrastructure impact statement' in the charter so major capital projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public health benefits."
    }
   ]
  }

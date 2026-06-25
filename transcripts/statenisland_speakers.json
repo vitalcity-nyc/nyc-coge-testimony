@@ -1,0 +1,241 @@
+[
+  {
+    "name": "John Paul Lupo",
+    "name_as_heard": "John Paul Lupo",
+    "name_confidence": "high",
+    "affiliation": "Founder of A.REIT Public Affairs; former Director of City Legislative Affairs and Intergovernmental Affairs, NYC City Hall",
+    "role_type": "Business/industry",
+    "t": 433,
+    "proposals": [
+      "Flip the Report and Advisory Board Review Commission process so reports it recommends for elimination are eliminated by default unless the City Council affirmatively extends them.",
+      "Add an automatic four-year sunset to any newly mandated report so a fresh council periodically re-evaluates whether it is still needed.",
+      "Eliminate the surety ('shorty') bond requirement for public officers who handle city funds, since modern controls (comptroller audits, DOI, Conflicts of Interest Board) make it obsolete and the city pays the premium anyway."
+    ],
+    "quote": "Right now the City Council is a one-way ratchet. It passes new requirements every session with no mechanism to retire old ones."
+  },
+  {
+    "name": "Stephen Lewis",
+    "name_as_heard": "Stefan Lewis / Stephen Lewis",
+    "name_confidence": "high",
+    "affiliation": "Counsel to the Center for New York City and State Law and adjunct professor at New York Law School; former Chief of the Legal Counsel Division, NYC Law Department",
+    "role_type": "Academic",
+    "t": 698,
+    "proposals": [
+      "Make the Report and Advisory Board Review Commission's determination final so its recommendation itself eliminates a report or advisory commission, requiring the council to pass a new local law to reinstate it.",
+      "Alternatively, require any local law mandating a report or advisory commission to carry an automatic sunset (four or five years) so all reports get a fresh hard look at regular intervals.",
+      "Review and strengthen the standards the REBRC uses when deciding which reports and advisory commissions to terminate."
+    ],
+    "quote": "Sometimes these reports and advisory commissions outlive their usefulness... agencies end up spending time and resources that could be better spent in other ways."
+  },
+  {
+    "name": "Frank Morano",
+    "name_as_heard": "Frank Moreno",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member (Staten Island)",
+    "role_type": "Elected official",
+    "t": 1708,
+    "proposals": [
+      "Extend ranked choice voting to the general election so voters face one consistent system instead of separate rules for specials, primaries and generals.",
+      "Make council-member appointments to community boards binding (half borough-president-appointed, half bindingly appointed by the local council member) so borough presidents can no longer stall a member's picks.",
+      "Make community districts co-terminus with city council districts to cut the duplication of council offices staffing two or three community boards.",
+      "Repeal the 2017 term limits on community board members to avoid pushing out experienced volunteers who know how to scrutinize developers.",
+      "Allow candidates the option of paying a filing fee instead of collecting ballot-petition signatures, as Florida does, to save administrative cost.",
+      "Make all city elections nonpartisan special-style elections with ranked choice voting, consolidating into one round and saving the cost of the June primary; explore making this a two-year commission."
+    ],
+    "quote": "A lot of times it feels like you need a decoder ring to determine how you vote in any given election."
+  },
+  {
+    "name": "Amanda Page-Hoongrajok",
+    "name_as_heard": "Amanda Page Hengra Joke / Hengra Jaka",
+    "name_confidence": "medium",
+    "affiliation": "Assistant Professor of Economics, Fashion Institute of Technology (FIT)",
+    "role_type": "Academic",
+    "t": 3054,
+    "proposals": [
+      "Do not tighten withdrawal rules on the city's revenue stabilization (rainy day) fund, because narrow triggers leave money stranded in reserve during a genuine crisis.",
+      "Do not legally mandate formula-driven rainy day fund deposits, since forcing contributions when revenue is above trend can divert money from current New Yorkers' needs.",
+      "Keep the rainy day fund flexible, relying on the city's demonstrated ability to save voluntarily (record $8.5B in reserves in FY2026) and on its other countercyclical tools."
+    ],
+    "quote": "You could have painful spending cuts happening while money is just sitting in a reserve and you're not able to use it."
+  },
+  {
+    "name": "Martin Bernstein",
+    "name_as_heard": "Martin Bernstein / Morton Bernstein",
+    "name_confidence": "medium",
+    "affiliation": "Economist (testifying on revenue stabilization fund design)",
+    "role_type": "Academic",
+    "t": 3280,
+    "proposals": [
+      "Avoid overly strict withdrawal rules on the city's reserve fund, since evidence across 23 analyses suggests strict triggers offset the stabilizing benefit of reserves.",
+      "Recognize that deposit rules can help but rigid withdrawal triggers tie a government's hands against shocks (like federal aid cuts) that don't show up in coarse recession indicators.",
+      "Weigh the real economic risks of binding rules in both directions rather than assuming hard rules only protect the city."
+    ],
+    "quote": "Tying the government's hands can also have real economic risks, even though these rules are certainly well-intentioned."
+  },
+  {
+    "name": "J.W. Mason",
+    "name_as_heard": "JW Mason / Josh Mason",
+    "name_confidence": "high",
+    "affiliation": "Associate Professor of Economics, John Jay College, CUNY (former policy director, Working Families Party)",
+    "role_type": "Academic",
+    "t": 3598,
+    "proposals": [
+      "Do not impose strict binding rules on the use of city reserve funds (including the retiree/employee health benefits trust); make adjustments through reserve contributions, which can be made up dollar-for-dollar in future years, rather than through city services.",
+      "Reject economic-trigger rules tied to national recession indicators, since New York's business cycle diverges from the nation's and city-specific indicators don't move together.",
+      "Avoid employment-based rules because real-time local employment data is unreliable and heavily revised up to a year later; rely instead on targets plus the discretion of the city's elected government."
+    ],
+    "quote": "It's a little bit of a fantasy to think that you can avoid... you actually do need to have responsible people in office."
+  },
+  {
+    "name": "Cheryl Williams",
+    "name_as_heard": "Cheryl Williams",
+    "name_confidence": "high",
+    "affiliation": "Resident; registered independent voter and open-primaries advocate",
+    "role_type": "Resident",
+    "t": 4452,
+    "proposals": [
+      "Open New York City's primary elections to independent (unaffiliated) voters so the roughly 1.2 million independents, 54% of them voters of color, are not locked out.",
+      "Treat exclusion of independents from publicly funded primaries as a civil and voting rights issue and join the 85% of major US cities that let independents vote in every election."
+    ],
+    "quote": "As a registered independent, I help fund elections that I am barred from participating in."
+  },
+  {
+    "name": "Ed Brady",
+    "name_as_heard": "Edward Brady / Ed Brady",
+    "name_confidence": "high",
+    "affiliation": "Resident; Navy veteran (USS Enterprise) and lifelong independent voter",
+    "role_type": "Resident",
+    "t": 4661,
+    "proposals": [
+      "Make opening the primaries to independent voters a priority charter reform so independents are no longer handed affidavit ballots that get tossed.",
+      "Upgrade the primaries so they work for all voters, not just party regulars, citing the fast-growing independent share of young voters."
+    ],
+    "quote": "I voted knowing that the ballot will ultimately be tossed in the trash."
+  },
+  {
+    "name": "Eric Richardson",
+    "name_as_heard": "Eric Richardson",
+    "name_confidence": "medium",
+    "affiliation": "Retired NYC fleet management official (23 years at Department of Citywide Administrative Services / NYC Fleet, retired July 2024)",
+    "role_type": "Government body",
+    "t": 4889,
+    "proposals": [
+      "Establish a permanent Department of Fleet Management in the city charter, reporting to the Deputy Mayor for Operations.",
+      "Create citywide standards for fleet policy, performance, acquisition, safety, sustainability and public reporting to improve accountability.",
+      "Give fleet management centralized leadership and long-term planning to manage the city's multi-billion-dollar, 25,000-vehicle fleet efficiently and advance Vision Zero and electrification goals."
+    ],
+    "quote": "This proposal is not about correcting a failure. It is about preserving success and giving this essential function the permanence it has grown into."
+  },
+  {
+    "name": "Eugene Kim",
+    "name_as_heard": "Eugene Kim",
+    "name_confidence": "high",
+    "affiliation": "Resident; technology and legal-operations expert, operations director at a New York State public benefit corporation",
+    "role_type": "Resident",
+    "t": 5135,
+    "proposals": [
+      "Drive savings through workflow automation, digitizing document processing and better data management rather than relying on AI.",
+      "Require transparent, objective accountability in the public sector by measuring productivity, quality and return on investment the way the private sector does.",
+      "Update legislation and regulations that block change, and hire and empower business leaders with real-world track records and genuine authority to implement reforms."
+    ],
+    "quote": "In the public sector, there is no incentive to innovate or improve because very little is objectively measured."
+  },
+  {
+    "name": "Jeremy Gruber",
+    "name_as_heard": "Jeremy Gruber",
+    "name_confidence": "high",
+    "affiliation": "Senior Vice President, Open Primaries (national organization); lawyer and election law expert",
+    "role_type": "Advocacy org",
+    "t": 5411,
+    "proposals": [
+      "Open New York City's primaries to the roughly 1.2 million independent voters (54% voters of color) who are currently shut out of the most decisive elections.",
+      "End the closed-primary system that pressures voters to register with a party whose values they don't share, noting 40% of registered Democrats don't identify as Democrats.",
+      "Follow Washington, D.C.'s 2024 voter-approved model that lets independents participate in primary elections."
+    ],
+    "quote": "Why Washington, D.C., and why not New York City?"
+  },
+  {
+    "name": "Kauran Santas",
+    "name_as_heard": "Coro Santos / Kauran Santas / Coral",
+    "name_confidence": "low",
+    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
+    "role_type": "Resident",
+    "t": 5671,
+    "proposals": [
+      "Require a 'green infrastructure impact statement' in the charter so major capital projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public health benefits.",
+      "Adopt performance-based budgeting that reports outcomes, not just where money is spent.",
+      "Create a public infrastructure transparency dashboard showing budget, timelines, delays, change orders and contract performance as an anti-waste measure.",
+      "Use charter mechanisms to encourage public-private partnerships and philanthropic co-investment in green infrastructure, and streamline approvals for green infrastructure projects."
+    ],
+    "quote": "Sunlight is the cheapest auditor."
+  },
+  {
+    "name": "Danny Batista",
+    "name_as_heard": "Danny Batista",
+    "name_confidence": "high",
+    "affiliation": "Resident; 15-year Staten Islander, board member of the St. George Civic Association, public-affairs educator",
+    "role_type": "Resident",
+    "t": 6208,
+    "proposals": [
+      "Advance a proposal to establish open primary elections so the 1.2 million independent voters are no longer shut out of the determining stage of city elections.",
+      "End the requirement to register with a political party as a condition of voting in publicly funded, publicly administered primaries."
+    ],
+    "quote": "I don't feel disenfranchised. I am disenfranchised."
+  },
+  {
+    "name": "Samantha Wilkinson",
+    "name_as_heard": "Samantha Wilkinson",
+    "name_confidence": "high",
+    "affiliation": "Resident; lifelong Staten Islander, NYC DOE substitute teacher and Snug Harbor tour guide",
+    "role_type": "Resident",
+    "t": 6406,
+    "proposals": [
+      "Expand Staten Island's bus system, especially adding more than the single existing bus route between Staten Island and New Jersey.",
+      "Finally deliver the long-stalled Bus Rapid Transit project so non-drivers can get around and off the island more easily.",
+      "Increase transit funding and recognition for Staten Island, which is routinely placed last among the boroughs."
+    ],
+    "quote": "It is incredibly difficult to get off this island if you do not drive."
+  },
+  {
+    "name": "Melissa Caballero",
+    "name_as_heard": "Melissa Caballero Obama",
+    "name_confidence": "medium",
+    "affiliation": "Resident; Staten Island non-driver",
+    "role_type": "Resident",
+    "t": 6596,
+    "proposals": [
+      "Accelerate the St. George / Bay Street North Shore transit project (slated for 2035) given its economic importance.",
+      "Enforce existing bus lanes (e.g., on Hylan Boulevard) that are perpetually blocked by parked cars so they actually speed bus service.",
+      "Build bike infrastructure on Staten Island, including a Citi Bike or bike-share program, to reduce costly car dependency."
+    ],
+    "quote": "Those bus lanes are always occupied by cars parked there, and they never seem to move."
+  },
+  {
+    "name": "Julia Ritchie",
+    "name_as_heard": "Julia Richie / Julia Ritchie",
+    "name_confidence": "high",
+    "affiliation": "Resident; illustrator, teaching artist and NYC DOE substitute teacher; 12-year independent voter",
+    "role_type": "Resident",
+    "t": 6823,
+    "proposals": [
+      "Open the primaries and let all voters, including the 1.2 million independents, take part in every step of the election process.",
+      "Stop requiring independents to register with a private party to exercise their constitutional right to vote in publicly funded elections."
+    ],
+    "quote": "Listen to us, work with us. We want to be a part of building a more effective and efficient government, but we want to do it as independent voters."
+  },
+  {
+    "name": "Rob Richie",
+    "name_as_heard": "Rob Richie",
+    "name_confidence": "high",
+    "affiliation": "Head of Expand Democracy; founder and former head of FairVote (1992-2023); ranked choice voting authority",
+    "role_type": "Advocacy org",
+    "t": 7040,
+    "proposals": [
+      "Extend ranked choice voting to all city elections, including the general election, so New York no longer uses RCV only in primaries.",
+      "Follow the Washington, D.C. and Arlington model combining semi-open primaries with ranked choice voting.",
+      "Allow ranked choice voting with fusion ballots (as done in Oregon and Vermont) listing candidates' party endorsements after their names.",
+      "Put measures in the charter to accelerate the ranked choice vote count, aiming for first tallies within an hour of poll closing as San Francisco does."
+    ],
+    "quote": "New York City is actually the only jurisdiction to use RCV only in the primaries, but not the general election."
+  }
+]
