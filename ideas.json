@@ -1030,7 +1030,7 @@
    },
    {
     "name": "Amanda Page-Hoongrajok",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Assistant Professor of Economics, Fashion Institute of Technology (FIT)",
     "role_type": "Academic",
     "hearing": "Staten Island",
@@ -1039,7 +1039,7 @@
    },
    {
     "name": "Martin Bernstein",
-    "name_confidence": "medium",
+    "name_confidence": "low",
     "affiliation": "Economist (testifying on revenue stabilization fund design)",
     "role_type": "Academic",
     "hearing": "Staten Island",
@@ -2380,8 +2380,8 @@
   "proponents": [
    {
     "name": "Eric Richardson",
-    "name_confidence": "medium",
-    "affiliation": "Retired NYC fleet management official (23 years at Department of Citywide Administrative Services / NYC Fleet, retired July 2024)",
+    "name_confidence": "high",
+    "affiliation": "Former Deputy Chief Fleet Management Officer, NYC DCAS / NYC Fleet (23 years, retired July 2024)",
     "role_type": "Government body",
     "hearing": "Staten Island",
     "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=4889s",

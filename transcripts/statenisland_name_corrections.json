@@ -1,0 +1,48 @@
+[
+ {
+  "original_name": "Kauran Santas",
+  "corrected_name": "Kauran Santas",
+  "name_verified": false,
+  "name_confidence": "low",
+  "affiliation_corrected": "Resident; infrastructure and energy-transition professional, self-identified member of a \"Riverside Conservancy\" (unverified). Note: the only organization by the exact name \"Riverside Conservancy\" is in Edgewater, Florida (Indian River Lagoon), not Staten Island; the Manhattan group is \"Riverside Park Conservancy.\" The Staten Island affiliation could not be confirmed and the org name may itself be mis-transcribed.",
+  "verify_source": "None — no public record found.",
+  "notes": "Could not confirm this person in any public record. (1) The distinctive quote \"Sunlight is the cheapest auditor\" returns zero attributable results online (only the unrelated proverb \"sunlight is the best disinfectant\"). (2) Every plausible respelling of the first name (Kiran, Karan, Kieran, Koren, Kauran) combined with surname variants (Santas, Santos, Santana) plus \"energy transition / infrastructure / New York / Staten Island / Riverside Conservancy\" yielded no matching individual. (3) \"Riverside Conservancy\" as an exact org name maps to a Florida nonprofit, not Staten Island; the nearest NYC group is the Manhattan \"Riverside Park Conservancy\" — neither lists anyone resembling this name. The June 23, 2026 COGE Staten Island hearing (Staten Island University Hospital, Regina McGinn Education Center) is confirmed real, but no witness roster naming this person was found. Profile is consistent with an ordinary resident giving public-input testimony who has no searchable public footprint. Confidence kept LOW because the transcribed name \"Kauran\" is an unusual/likely-garbled first name and the surname plus org are unverifiable — the name as given is probably partly inaccurate, but no better spelling could be confirmed. Did not fabricate a correction."
+ },
+ {
+  "original_name": "Amanda Page-Hoongrajok",
+  "corrected_name": "Amanda Page-Hoongrajok",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Assistant Professor of Economics, Fashion Institute of Technology (FIT)",
+  "verify_source": "FIT faculty/course listings and LinkedIn confirm \"Amanda Page-Hoongrajok\" as an economics professor at the Fashion Institute of Technology: https://www.linkedin.com/in/amanda-page-hoongrajok-23224241/ ; https://catalog.fitnyc.edu/undergraduate/directories/faculty/ ; Rate My Professors https://www.ratemyprofessors.com/professor/2955517",
+  "notes": "The Whisper transcription is exactly correct — the distinctive surname \"Page-Hoongrajok\" matches public records verbatim. She is confirmed as an economics professor at FIT (PhD economics, UMass Amherst; teaches macroeconomics, microeconomics, labor economics; economics minor coordinator). Her published research with J.W. Mason and Arjun Jayadev on the evolution of U.S. state-local government balance sheets (reserves, fund balances) directly aligns with her testimony quote about reserves sitting unused during spending cuts, further corroborating the identity. She has also been listed at Saint Peter's University in the Economics and Finance department; the FIT affiliation given in the transcript is accurate. Affiliation confirmed; no correction needed."
+ },
+ {
+  "original_name": "Martin Bernstein",
+  "corrected_name": "Martin Bernstein",
+  "name_verified": false,
+  "name_confidence": "low",
+  "affiliation_corrected": "Economist (academic), specific institution unconfirmed — testifying on revenue stabilization (\"rainy day\") fund design",
+  "verify_source": "No confirming public record found. Searched: NYC Comptroller COGE testimony pages (comptroller.nyc.gov), news coverage of the June 2026 COGE hearings (amNewYork, City & State, politicsny), CBPP/Pew/Tax Policy Center rainy-day-fund research, and direct name/quote searches. No COGE Staten Island witness roster is published online; the verbatim quote returns zero hits.",
+  "notes": "Could not verify a witness named \"Martin Bernstein\" (or a close phonetic variant) testifying at the COGE Round 1 Staten Island hearing (June 23, 2026) on revenue stabilization fund design. The topic is real and active: NYC Comptroller Mark Levine and Mayor Mamdani are pushing a charter amendment to add binding target/deposit/withdrawal rules to the Revenue Stabilization (rainy day) Fund, so an economist testifying on fiscal-rule design fits the hearing's subject matter. The witness's quote — cautioning that binding fiscal rules, though well-intentioned, carry real economic risks — is a recognized academic stance in the rainy-day-fund/fiscal-rules literature, but I found no source attributing it to anyone. The verbatim quote returns no web hits.\n\nNo public economist named \"Martin Bernstein\" works on this topic. The only \"Bernstein\" economists in budget/fiscal policy are national figures who do NOT match an academic testifying at a local NYC hearing: Jared Bernstein (former CEA chair, ex-CBPP, taught Columbia/NYU) and others; \"Martin\" vs \"Jared\" is not a strong Whisper substitution, so I am NOT proposing Jared Bernstein as the match. There is an unrelated \"Martin Bernstein\" LinkedIn profile in Brooklyn with no economics/fiscal footprint.\n\nAssessment: most likely an academic economist with a thin public footprint whose name Whisper rendered approximately. \"Martin Bernstein\" is an ordinary, plausible name, but because I cannot confirm the person or the spelling, I am keeping the transcribed name, marking name_verified=false, and rating confidence low (possible garble, unconfirmed) rather than fabricate a correction or affiliation."
+ },
+ {
+  "original_name": "Melissa Caballero",
+  "corrected_name": "Melissa Caballero",
+  "name_verified": false,
+  "name_confidence": "medium",
+  "affiliation_corrected": "Resident; Staten Island non-driver",
+  "verify_source": "",
+  "notes": "Witness testified as an ordinary private resident and Staten Island non-driver about cars parking in/blocking bus lanes — not in any organizational, professional, or advocacy capacity. No public record (news, official COGE transcript, LinkedIn, faculty/roster page) ties any identifiable \"Melissa Caballero\" to this June 23, 2026 COGE Staten Island hearing or to this quote. Generic web searches on the name plus Staten Island, bus lanes, and COGE returned only unrelated results (e.g., NYPD officer Melissa Eger on Staten Island bus-lane safety; multiple unrelated Melissa Caballeros in NY on LinkedIn/people-search sites in Brooklyn, East Meadow, etc.). No official COGE transcript for this hearing is published yet, so the Whisper-transcribed spelling cannot be checked against a primary source. \"Melissa Caballero\" is a common, plausible name and was likely transcribed reasonably well, but it remains unconfirmed. Kept the name as-is; confidence medium (ordinary plausible name, no garbling evident, but unverifiable). Affiliation unchanged from the transcript."
+ },
+ {
+  "original_name": "Eric Richardson",
+  "corrected_name": "Eric Richardson",
+  "name_verified": true,
+  "name_confidence": "high",
+  "affiliation_corrected": "Former Deputy Chief Fleet Management Officer, NYC Department of Citywide Administrative Services (DCAS) / NYC Fleet; retired July 2024 after a 23-year career with the City of New York. Now a road safety advisor (Together for Safer Roads; Strategic Mobility Advisor at Windels Marx Lane & Mittendorf).",
+  "verify_source": "https://www.government-fleet.com/10224314/eric-richardson-leaving-nyc-dcas-to-champion-road-safety-projects ; https://www.automotive-fleet.com/10224151/fleet-safety-champion-eric-richardson-to-retire-from-nyc-dcas",
+  "original_name_note": "n/a",
+  "notes": "CONFIRMED. The transcribed name \"Eric Richardson\" is correct (no misspelling). Multiple independent public records (Government Fleet, Automotive Fleet, NYC.gov DCAS fleet newsletters) confirm a real Eric Richardson who served ~23 years with the City of New York at DCAS, the last ~11 as NYC Deputy Chief Fleet Management Officer overseeing the largest municipal fleet in the US (30,000+ vehicles), and who retired in July 2024. This matches the transcript affiliation exactly (retired NYC fleet management official, 23 years at DCAS/NYC Fleet, retired July 2024). His COGE testimony quote about \"preserving success\" and giving \"this essential function the permanence it has grown into\" is consistent with a career fleet leader advocating for the fleet function. The specific testimony quote itself was not separately located online, but the person's identity and affiliation are fully corroborated."
+ }
+]
