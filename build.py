@@ -21,8 +21,15 @@ HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The ideas New Yorkers brought to the efficiency commission</title>
-<meta name="description" content="An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE), drawn from the hearing record. Vital City.">
+<title>Testimony to the Commission on Government Efficiency, by idea</title>
+<meta name="description" content="An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE), built from all five first-round borough hearings — __NIDEAS__ ideas across __NUNIQ__ witnesses, each linked to the hearing video or written submission.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Testimony to the Commission on Government Efficiency, by idea">
+<meta property="og:description" content="Public testimony to NYC's 2026 charter revision commission (COGE), grouped by idea so shared threads are visible — __NIDEAS__ ideas, __NUNIQ__ witnesses, all five first-round borough hearings.">
+<meta property="og:url" content="https://vitalcity-nyc.github.io/nyc-coge-testimony/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Testimony to the Commission on Government Efficiency, by idea">
+<meta name="twitter:description" content="Public testimony to NYC's 2026 charter revision commission (COGE), grouped by idea — __NIDEAS__ ideas, __NUNIQ__ witnesses, all five borough hearings.">
 <link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
 <style>
 @font-face{
@@ -202,8 +209,8 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 <body>
 
 <div class="topbar"><div class="wrap">
-  <span class="tag">Internal working tool &middot; not for publication</span>
-  <span class="tag">NYC charter revision 2026</span>
+  <span class="tag">Commission on Government Efficiency</span>
+  <span class="tag">NYC charter revision &middot; 2026</span>
 </div></div>
 
 <header class="hero"><div class="wrap">
@@ -292,7 +299,7 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
 </div></section>
 
 <footer><div class="wrap">
-  <span class="fl">Internal working tool. An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE). Covers all five first-round borough hearings (Round 1, through Staten Island, June 23, 2026); updated as written comments and further rounds come in through mid-July.</span>
+  <span class="fl">An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE). Covers all five first-round borough hearings (Round 1, through Staten Island, June 23, 2026); updated as written comments and further rounds come in through mid-July. Last updated June 25, 2026.</span>
 </div></footer>
 
 <button class="ai-btn" id="aiBtn">AI caution</button>
