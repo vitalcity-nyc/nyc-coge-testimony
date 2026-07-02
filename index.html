@@ -186,9 +186,19 @@ footer .fl{font-family:var(--sans);font-weight:300;font-size:13px;max-width:560p
   .rank{font-size:30px;min-width:0;}
   .prop{grid-template-columns:1fr;}
 }
+/* Embed mode (?embed=1): strip the nav and the oversized hero so the tool
+   sits cleanly inside a Ghost article that already has its own headline.
+   Keeps the kicker, byline, stats, scope box, the full tool, methodology
+   and the AI-caution button. */
+html.embed .topbar{display:none;}
+html.embed .hero h1{display:none;}
+html.embed .hero .dek{display:none;}
+html.embed .hero .wrap{padding-top:20px;}
+html.embed .hero .kicker{margin-bottom:10px;}
 </style>
 </head>
 <body>
+<script>if(new URLSearchParams(location.search).get('embed')==='1')document.documentElement.classList.add('embed');</script>
 
 <div class="topbar"><div class="wrap">
   <span class="tag">Commission on Government Efficiency</span>
