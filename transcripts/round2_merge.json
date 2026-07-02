@@ -1,0 +1,492 @@
+{
+  "new_ideas": [
+    {
+      "id": "reform-franchise-and-concession-review",
+      "title": "Reform franchise and concession review and let parks keep concession revenue",
+      "category": "Procurement & contracting",
+      "summary": "The Franchise and Concession Review Committee (FCRC) process is a slow, real-estate-oriented gauntlet that treats large revenue concessions, small nonprofit stewardship agreements and intangible intellectual-property licenses the same way. Proponents want the charter to narrow FCRC to city-owned real property, treat nonprofits differently from for-profits, create streamlined categories and templates for public-realm stewardship and pilots, raise review thresholds, and loosen the more onerous franchise public-hearing and advertising requirements. Several parks and conservancy witnesses also want NYC Parks to retain a meaningful share of the concession revenue generated in a given park so successful concessions help fund the maintenance and programming of the parks that make them possible."
+    },
+    {
+      "id": "streamline-city-property-disposition-and-leasing",
+      "title": "Modernize the charter process for disposing of and leasing city property",
+      "category": "Public land & EDC",
+      "summary": "The charter applies the same lengthy disposition and approval process whether the city is leasing a small lot or selling a multimillion-dollar property, adding many months of secondary review (charter section 824) that rarely draws public testimony, and requiring City Planning Commission hearings and approvals even when the city is simply moving workers into existing commercial office space with no change of use (section 195). A DCAS official urged the commission to modernize these provisions so the city can dispose of and lease property with more speed, flexibility and competitiveness while retaining meaningful public review where it matters."
+    },
+    {
+      "id": "use-development-rights-transfers-to-fund-landmark-maintenance",
+      "title": "Let city-owned landmarks use development-rights transfers to fund maintenance",
+      "category": "Capital projects",
+      "summary": "City-owned landmarks such as FDNY firehouses carry costly repair and long-term maintenance obligations without a dedicated funding source. FDNY urged the commission to let city-owned landmarks use the streamlined transfer-of-development-rights process created by the 2024 zoning resolution amendment so the proceeds can fund the repair and ongoing maintenance of landmark buildings like historic firehouses."
+    },
+    {
+      "id": "require-interagency-coordination-to-protect-street-trees",
+      "title": "Require agencies to coordinate on protecting street trees during construction",
+      "category": "Street safety & public realm",
+      "summary": "Mature street trees are needlessly removed during city construction because design decisions are made without early input from the agencies responsible for the tree canopy. An arborist urged the charter to require the Department of Design and Construction and the Department of Transportation to collaborate directly with the Department of Parks and Recreation on tree protection during the design phase, so New Yorkers do not have to choose between functional infrastructure and preserving the urban tree canopy."
+    },
+    {
+      "id": "fix-doe-substitute-teacher-suspension-process",
+      "title": "Fix the opaque DOE process for suspending and onboarding substitute teachers",
+      "category": "Child care & education",
+      "summary": "The Department of Education's process for substitute teachers is inefficient and opaque: substitutes are suspended without being told why and repeatedly, and new substitutes wait far too long to be accepted. A substitute teacher urged the commission to address these administrative delays and the lack of transparency and due process in how the DOE suspends and onboards its substitute workforce."
+    },
+    {
+      "id": "make-the-city-budget-transparent-and-community-informed",
+      "title": "Make the city budget transparent, disaggregated and open to community input",
+      "category": "Open data & transparency",
+      "summary": "City budget documents obscure how money and staffing are distributed, both across programs and across neighborhoods, and release data too late and in formats too hard to use for meaningful community engagement. Proponents want the charter to require budget-function analysis across all agencies, spatial (neighborhood/community-board-level) disaggregation of spending, plain-language explanations and public input at the rule-writing stage. They also want more time between the executive and adopted budgets, open data released within 48 hours of any budget action as ready-to-use spreadsheets, and clear flags on any large funding changes."
+    },
+    {
+      "id": "support-independent-grocers-with-shared-buying-power",
+      "title": "Give independent grocers and bodegas shared buying power through the city",
+      "category": "MWBE & small business",
+      "summary": "Independent grocers and bodegas lack the buying power and supplier-pricing leverage of large chains and are blamed for price gouging they do not control. A witness urged the city to reimagine the Economic Development Corporation to build a city-supported grocery hub with shared purchasing infrastructure that gives independent stores the same leverage as chains, and to use the city's public platform to correct misinformation about who actually drives up food prices."
+    },
+    {
+      "id": "require-free-menstrual-products-in-public-buildings",
+      "title": "Adopt free menstrual products in public buildings and improve public-space access",
+      "category": "Street safety & public realm",
+      "summary": "A witness urged New York City to proactively adopt the standards of the state's Total Access to Menstrual Products (TAMP) Act into the city charter, mandating free menstrual products in public buildings rather than waiting for a state directive. She also asked the city to recognize and bridge gaps in public-space accessibility for international students, who face restrictions using parks, open streets and libraries under strict visa conditions."
+    },
+    {
+      "id": "regulate-bicycles-and-delivery-riders",
+      "title": "Regulate bicycles and delivery riders with licensing, insurance and sidewalk rules",
+      "category": "Street safety & public realm",
+      "summary": "A resident argued that sidewalks and public spaces are designed for pedestrians and that bikes and delivery riders need regulation. He proposed requiring bike riders to obtain a license, carry insurance, register their bikes with a plate number, wear safety equipment and obey traffic laws, plus specific regulations for delivery workers and a requirement that riders dismount on sidewalks and in parks and public areas."
+    }
+  ],
+  "assignments": [
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Matthew Bridge",
+        "name_confidence": "high",
+        "affiliation": "Senior Counsel, NYC Law Department; corporation counsel's designee on the Franchise and Concession Review Committee (FCRC), testifying informationally",
+        "role_type": "Government body",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=486s",
+        "quote": "So the franchise and concession review committee is composed of six members, a designee of the mayor, a designee of the director of the office of management and budget, a designee of the corporation council, a designee of the comptroller, one additional appointee of the mayor and a designee from the borough president."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Catherine Winningham",
+        "name_confidence": "high",
+        "affiliation": "Former Senior Counsel, NYC Law Department (Legal Counsel Division), testifying in personal capacity on intellectual property/merchandise licensing",
+        "role_type": "Government body",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=958s",
+        "quote": "We're looking for a really easy amendment that just says FCRC applies to city owned real property."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Katie Denny Horowitz",
+        "name_confidence": "high",
+        "affiliation": "Executive Director, North Brooklyn Parks Alliance (nonprofit conservancy managing parks and public spaces in Greenpoint and Williamsburg)",
+        "role_type": "Nonprofit",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=2891s",
+        "quote": "We strongly feel that parks should be retaining a portion of the concession revenue... if you could just imagine that these successful concessions actually help pay for the park that makes those concessions possible."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Rebecca Macklis",
+        "name_confidence": "medium",
+        "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
+        "role_type": "Advocacy org",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3107s",
+        "quote": "Create a new category for public realm stewardship agreements. This distinction would give partners a more streamlined review than revenue generating concessions."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Heather Lubov",
+        "name_confidence": "high",
+        "affiliation": "Executive Director, City Parks Foundation",
+        "role_type": "Nonprofit",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3705s",
+        "quote": "I actually support what Katie and M.A.S. both recommend, which is treating nonprofits differently than for profits."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Deborah Kirschner",
+        "name_confidence": "high",
+        "affiliation": "Vice President of Communications and External Relations, Prospect Park Alliance",
+        "role_type": "Nonprofit",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4312s",
+        "quote": "Our recommendations include creating a guide for nonprofits to help prepare for the FCRC process, keeping in mind that many nonprofits have minimal resources for general counsel and legal support."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "Pedro Suarez",
+        "name_confidence": "high",
+        "affiliation": "Executive Director, Third Avenue Business Improvement District (501(c)(3)), South Bronx",
+        "role_type": "Nonprofit",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4543s",
+        "quote": "Nonprofits should go through a separate process or at least be treated differently from for profit entities."
+      }
+    },
+    {
+      "idea_id": "reform-franchise-and-concession-review",
+      "proponent": {
+        "name": "James Goble",
+        "name_confidence": "high",
+        "affiliation": "Works on franchise and concession agreements at the Mayor's Office of Contract Services (MOCS), testifying in personal capacity",
+        "role_type": "Government body",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5471s",
+        "quote": "One potential area of change could be making the public hearing requirements for franchises a little bit less onerous; the advertising requirements for those are much more stringent than those for concessions and those could potentially be loosened."
+      }
+    },
+    {
+      "idea_id": "create-comprehensive-citywide-plan",
+      "proponent": {
+        "name": "Rebecca Macklis",
+        "name_confidence": "medium",
+        "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
+        "role_type": "Advocacy org",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3107s",
+        "quote": "Adopt a charter mandate for comprehensive planning to align long-term goals with capital investment."
+      }
+    },
+    {
+      "idea_id": "speed-street-safety-redesigns",
+      "proponent": {
+        "name": "Anna Berlinger",
+        "name_confidence": "medium",
+        "affiliation": "Bronx and Uptown Organizer, Transportation Alternatives",
+        "role_type": "Advocacy org",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3942s",
+        "quote": "Too many life saving designs and infrastructure solutions are put on ice or watered down before they're built and some neighborhoods have had hardly any safety infrastructure at all."
+      }
+    },
+    {
+      "idea_id": "modernize-civil-service-hiring",
+      "proponent": {
+        "name": "Eric Soriano Perez",
+        "name_confidence": "medium",
+        "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
+        "role_type": "Resident",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4686s",
+        "quote": "Build a stronger talent pipeline by recruiting from universities and the private sector to make public service attractive to skilled professionals... Extend the work-from-home pilot for city employees indefinitely where data shows it improves productivity, saves money and retains talent."
+      }
+    },
+    {
+      "idea_id": "publicize-hearings-and-improve-civic-outreach",
+      "proponent": {
+        "name": "Eric Soriano Perez",
+        "name_confidence": "medium",
+        "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
+        "role_type": "Resident",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4686s",
+        "quote": "I encourage the city to partner with trusted community spaces, barbershops, salons, recreation centers, gyms, and other places where people naturally gather."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Belki Perez",
+        "name_confidence": "low",
+        "affiliation": "Bronx resident; naturalized citizen and independent (unaffiliated) voter",
+        "role_type": "Resident",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4896s",
+        "quote": "I received a letter saying that I was not allowed to vote because I'm not belong to party A or B. I hope that in the near future, I have the right to vote again."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Mike Taggriello",
+        "name_confidence": "low",
+        "affiliation": "New Yorker, block-association volunteer, veteran, and independent voter; volunteering with Veterans for All Voters (nonprofit, nonpartisan)",
+        "role_type": "Advocacy org",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5131s",
+        "quote": "Right now more than 1 million New Yorkers are shut out of the primary elections that decide who governs the city... I asked this commission to put a reform before voters that gives independent New Yorkers a meaningful vote."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Brie Daldrin",
+        "name_confidence": "low",
+        "affiliation": "Bedford-Stuyvesant resident, Gen Z open-primaries advocate",
+        "role_type": "Advocacy org",
+        "hearing": "Bronx (Round 2)",
+        "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5279s",
+        "quote": "In New York City alone over 1.2 million independent voters, a majority of whom are people of color, are completely barred from having a say and are therefore silenced from participating."
+      }
+    },
+    {
+      "idea_id": "strengthen-independent-oversight-and-ethics-agencies",
+      "proponent": {
+        "name": "Nadia Shehata",
+        "name_confidence": "high",
+        "affiliation": "Commissioner, New York City Department of Investigation (DOI)",
+        "role_type": "Government body",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=395s",
+        "quote": "DOI should be afforded budget independence to reduce the risk of city hall or the city council interference or retaliation against DOI through control of the agency's budget and staffing."
+      }
+    },
+    {
+      "idea_id": "streamline-city-property-disposition-and-leasing",
+      "proponent": {
+        "name": "PJ Berg",
+        "name_confidence": "high",
+        "affiliation": "Deputy Commissioner for Real Estate Services, NYC Department of Citywide Administrative Services (DCAS)",
+        "role_type": "Government body",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=1249s",
+        "quote": "I'm here today to ask the charter revision commission to take the opportunity to modernize these provisions and ensure that the city can operate with speed, efficiency and flexibility."
+      }
+    },
+    {
+      "idea_id": "use-development-rights-transfers-to-fund-landmark-maintenance",
+      "proponent": {
+        "name": "Fabricio Caro",
+        "name_confidence": "medium",
+        "affiliation": "Chief of Staff to the Fire Commissioner, Fire Department of New York (FDNY)",
+        "role_type": "Government body",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=1968s",
+        "quote": "We would like to use this process to fund maintenance of our landmark firehouses."
+      }
+    },
+    {
+      "idea_id": "make-edc-and-public-land-decisions-accountable",
+      "proponent": {
+        "name": "Ronald Shiffman",
+        "name_confidence": "high",
+        "affiliation": "Professor emeritus (Pratt); longtime community-development planner; former City Planning Commission member",
+        "role_type": "Academic",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=2234s",
+        "quote": "I urge this commission to define government efficiency not simply as faster approvals or fewer procedural steps, but as the capacity of public institutions to deliver justice, repair longstanding inequities, and serve all New Yorkers."
+      }
+    },
+    {
+      "idea_id": "create-comprehensive-citywide-plan",
+      "proponent": {
+        "name": "Eve Baron",
+        "name_confidence": "high",
+        "affiliation": "Urban planner and professor at Pratt Institute; member of the NYC Civic Engagement Commission; Collective for Community, Culture and the Environment",
+        "role_type": "Academic",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=2533s",
+        "quote": "What we don't have are the planning staff and resources at the community level or the guarantee of government to implement plans. What we also lack is a citywide comprehensive plan."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Caroline",
+        "name_confidence": "low",
+        "affiliation": "Independent voter, Bay Ridge, Brooklyn; former volunteer on California's Proposition 14",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3288s",
+        "quote": "Open primaries will increase voter participation. And isn't that what democracy is supposed to be about?"
+      }
+    },
+    {
+      "idea_id": "comprehensive-procurement-reform",
+      "proponent": {
+        "name": "Nancy Wang",
+        "name_confidence": "high",
+        "affiliation": "Product manager (formerly Microsoft; consulting for the State of Maryland)",
+        "role_type": "Civic-tech",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3455s",
+        "quote": "Let's amend the charter to measure procurement outcomes and make that happen."
+      }
+    },
+    {
+      "idea_id": "make-the-city-budget-transparent-and-community-informed",
+      "proponent": {
+        "name": "Selena Sue",
+        "name_confidence": "medium",
+        "affiliation": "CUNY professor focusing on community organizing and participatory democracy; volunteer researcher with the People's Budget campaign; author of 'Budget Justice'",
+        "role_type": "Academic",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3709s",
+        "quote": "Budget documents currently obfuscate patterns of distribution in the city, both across programs and across neighborhoods. We need basic transparency on spending and staffing."
+      }
+    },
+    {
+      "idea_id": "modernize-mayors-management-report-and-neighborhood-data",
+      "proponent": {
+        "name": "Saunders Ruffin",
+        "name_confidence": "medium",
+        "affiliation": "Resident of the East Village; manages the monitoring and evaluation program at NYC Emergency Management (testifying in a personal capacity)",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3899s",
+        "quote": "I believe we should codify language in the charter that establishes roles and responsibilities for creating, measuring and reporting more meaningful and analytical performance metrics."
+      }
+    },
+    {
+      "idea_id": "require-interagency-coordination-to-protect-street-trees",
+      "proponent": {
+        "name": "Olivia Goldberg",
+        "name_confidence": "high",
+        "affiliation": "ISA-certified arborist working with trees in New York City; third-party consultant on city construction projects",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=4454s",
+        "quote": "Why do we as New Yorkers have to choose between tree canopy cover and functional infrastructure?"
+      }
+    },
+    {
+      "idea_id": "fix-doe-substitute-teacher-suspension-process",
+      "proponent": {
+        "name": "Paul",
+        "name_confidence": "low",
+        "affiliation": "Substitute teacher, NYC Department of Education",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=4665s",
+        "quote": "I was not informed what I was suspended about. And I've dealt with this like two other times over the past like year and a half. And it's just very frustrating and inefficient."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Yvonne Murray",
+        "name_confidence": "high",
+        "affiliation": "Registered independent voter; poll worker (information clerk) for several decades",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=4851s",
+        "quote": "We're locked out of participating. This is one of the largest forms of voter suppression."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Vanessa Rood",
+        "name_confidence": "medium",
+        "affiliation": "Brooklyn resident of 30 years; tech startup founder; formerly founded a microfinance institution and worked with federally qualified health centers",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5037s",
+        "quote": "If it's important to participate, then let me participate either in an open primary or if you prefer, let's have a third unaffiliated primary."
+      }
+    },
+    {
+      "idea_id": "support-independent-grocers-with-shared-buying-power",
+      "proponent": {
+        "name": "Liz Peralta",
+        "name_confidence": "high",
+        "affiliation": "Economic development professional; former head of the National Supermarket Association; tech startup founder",
+        "role_type": "Business/industry",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5451s",
+        "quote": "It's time to reimagine the economic development corporation... by building the buying power solution alongside the government store and use the city's platform to correct the record on who's actually driving up prices."
+      }
+    },
+    {
+      "idea_id": "make-edc-and-public-land-decisions-accountable",
+      "proponent": {
+        "name": "Carolina Salguero",
+        "name_confidence": "high",
+        "affiliation": "Founder and Executive Director of PortSide New York, a maritime nonprofit",
+        "role_type": "Nonprofit",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5657s",
+        "quote": "We're calling for a pro growth maritime policy, for a new city agency for maritime, so maritime is no longer straining to grow."
+      }
+    },
+    {
+      "idea_id": "coordinate-agencies-on-neighborhood-quality-of-life",
+      "proponent": {
+        "name": "Tomoro Sargi",
+        "name_confidence": "low",
+        "affiliation": "Native New Yorker; high school student",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6277s",
+        "quote": "Impose stronger fines and penalties on littering, with that revenue directed to the Department of Sanitation to clean public spaces more frequently."
+      }
+    },
+    {
+      "idea_id": "require-free-menstrual-products-in-public-buildings",
+      "proponent": {
+        "name": "Pritha Mukherjee",
+        "name_confidence": "high",
+        "affiliation": "International student in New York City (from Mumbai, India)",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6448s",
+        "quote": "I really hope this commission does not simply rely on the state to give a directive and New York City should proactively take up this and recommend the city's charter to incorporate standards already issued in the TAMP Act."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Mina",
+        "name_confidence": "low",
+        "affiliation": "Independent voter, New York City",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6686s",
+        "quote": "There's no reason why we shouldn't be allowed to help decide who actually belongs on the ballot. We pay taxes like everyone else."
+      }
+    },
+    {
+      "idea_id": "open-primaries-for-unaffiliated-voters",
+      "proponent": {
+        "name": "Angel Martinez",
+        "name_confidence": "high",
+        "affiliation": "U.S. Army Reserve veteran (eight years); educator",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6800s",
+        "quote": "If 'we the people' truly means all of the people, then independent voters should not be excluded from participating in publicly funded primary elections."
+      }
+    },
+    {
+      "idea_id": "make-the-city-budget-transparent-and-community-informed",
+      "proponent": {
+        "name": "Jonathan Burke",
+        "name_confidence": "high",
+        "affiliation": "General surgery resident and doctoral student in epidemiology; volunteer budget analyst and researcher with the People's Budget",
+        "role_type": "Advocacy org",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=7014s",
+        "quote": "With this charter revision, New York City has the opportunity to lead the country by providing the time and transparency our budget process needs to cultivate real community engagement."
+      }
+    },
+    {
+      "idea_id": "regulate-bicycles-and-delivery-riders",
+      "proponent": {
+        "name": "Juan Carlos Castaneda",
+        "name_confidence": "high",
+        "affiliation": "Resident of Chelsea",
+        "role_type": "Resident",
+        "hearing": "Brooklyn (Round 2)",
+        "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=7189s",
+        "quote": "Sidewalks are public spaces designed and designated for pedestrians and not for bikes or bikers... We need regulation for bikes and bike riders."
+      }
+    }
+  ]
+}

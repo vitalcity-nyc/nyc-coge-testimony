@@ -4,13 +4,15 @@
   "title": "Open the primaries so unaffiliated voters can vote in the election that decides",
   "category": "Elections & voting",
   "summary": "Move New York City from closed partisan primaries to open or nonpartisan primaries (often paired with a top-two advancing) so the roughly 1.2 to 1.4 million unaffiliated voters can participate in the primaries that are usually determinative. Proponents argue this is a civil-rights issue (a majority of independents are people of color and many are under 40), that it raises turnout, that it pushes candidates toward broader consensus, and that independents already fund the matching-funds program with their taxes. Several urge putting it on the November ballot, building on the 2025 Charter Revision Commission record.",
-  "proponent_count": 21,
+  "proponent_count": 29,
   "hearings": [
    "Manhattan",
    "Bronx",
    "Brooklyn",
    "Queens",
-   "Staten Island"
+   "Staten Island",
+   "Bronx (Round 2)",
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
@@ -201,6 +203,78 @@
     "hearing": "Staten Island",
     "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6823s",
     "quote": "Listen to us, work with us. We want to be a part of building a more effective and efficient government, but we want to do it as independent voters."
+   },
+   {
+    "name": "Belki Perez",
+    "name_confidence": "low",
+    "affiliation": "Bronx resident; naturalized citizen and independent (unaffiliated) voter",
+    "role_type": "Resident",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4896s",
+    "quote": "I received a letter saying that I was not allowed to vote because I'm not belong to party A or B. I hope that in the near future, I have the right to vote again."
+   },
+   {
+    "name": "Mike Taggriello",
+    "name_confidence": "low",
+    "affiliation": "New Yorker, block-association volunteer, veteran, and independent voter; volunteering with Veterans for All Voters (nonprofit, nonpartisan)",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5131s",
+    "quote": "Right now more than 1 million New Yorkers are shut out of the primary elections that decide who governs the city... I asked this commission to put a reform before voters that gives independent New Yorkers a meaningful vote."
+   },
+   {
+    "name": "Brie Daldrin",
+    "name_confidence": "low",
+    "affiliation": "Bedford-Stuyvesant resident, Gen Z open-primaries advocate",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5279s",
+    "quote": "In New York City alone over 1.2 million independent voters, a majority of whom are people of color, are completely barred from having a say and are therefore silenced from participating."
+   },
+   {
+    "name": "Caroline",
+    "name_confidence": "low",
+    "affiliation": "Independent voter, Bay Ridge, Brooklyn; former volunteer on California's Proposition 14",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3288s",
+    "quote": "Open primaries will increase voter participation. And isn't that what democracy is supposed to be about?"
+   },
+   {
+    "name": "Yvonne Murray",
+    "name_confidence": "high",
+    "affiliation": "Registered independent voter; poll worker (information clerk) for several decades",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=4851s",
+    "quote": "We're locked out of participating. This is one of the largest forms of voter suppression."
+   },
+   {
+    "name": "Vanessa Rood",
+    "name_confidence": "medium",
+    "affiliation": "Brooklyn resident of 30 years; tech startup founder; formerly founded a microfinance institution and worked with federally qualified health centers",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5037s",
+    "quote": "If it's important to participate, then let me participate either in an open primary or if you prefer, let's have a third unaffiliated primary."
+   },
+   {
+    "name": "Mina",
+    "name_confidence": "low",
+    "affiliation": "Independent voter, New York City",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6686s",
+    "quote": "There's no reason why we shouldn't be allowed to help decide who actually belongs on the ballot. We pay taxes like everyone else."
+   },
+   {
+    "name": "Angel Martinez",
+    "name_confidence": "high",
+    "affiliation": "U.S. Army Reserve veteran (eight years); educator",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6800s",
+    "quote": "If 'we the people' truly means all of the people, then independent voters should not be excluded from participating in publicly funded primary elections."
    }
   ]
  },
@@ -300,6 +374,106 @@
   ]
  },
  {
+  "id": "modernize-civil-service-hiring",
+  "title": "Modernize civil-service hiring: broaden titles, relax exams, hire on skills",
+  "category": "Hiring & civil service",
+  "summary": "NYC's civil-service system has roughly 2,600 job titles, rigid exams and the 'rule of three,' and offer-to-start waits exceeding six months that act as a financial filter. Proponents want broader job titles matching the labor market, hiring on skills and experience, use of state flexibilities like NY HELPS (which NYC opted out of), AI tools to rewrite outdated specs at scale, new titles for modern product roles, and a charter-mandated multi-year workforce plan. The argument: when the city can't hire who it needs, it pays far more for contractors.",
+  "proponent_count": 9,
+  "hearings": [
+   "Brooklyn",
+   "Manhattan",
+   "Queens",
+   "Bronx (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Robert Gordon",
+    "name_confidence": "high",
+    "affiliation": "Recoding America Fund, Executive Vice President (State Initiatives); former White House Domestic Policy Council deputy",
+    "role_type": "Nonprofit",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3253s",
+    "quote": "Complexity favors the powerful and the popular... And when the city can't hire the people it needs... it hires contractors who it pays much more for.",
+    "doc_url": "https://robertmgordon.substack.com/p/the-wrong-kind-of-outlier",
+    "doc_label": "Full testimony"
+   },
+   {
+    "name": "Robert Joyce",
+    "name_confidence": "high",
+    "affiliation": "Abundance New York, Senior Policy Advisor (native Brooklynite, career public servant)",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=6859s",
+    "quote": "make staffing decisions... for the city as a whole downstream from our overall policy desired outcomes and staff from there."
+   },
+   {
+    "name": "Cherie Chung",
+    "name_confidence": "high",
+    "affiliation": "Holly (hollygov.com), Co-founder & Co-CEO; govtech AI classification/compensation/hiring platform",
+    "role_type": "Business/industry",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7530s",
+    "quote": "the system that we see in hiring is often slow not because of public servants but because... they don't have modern tools."
+   },
+   {
+    "name": "Rebecca Heywood",
+    "name_confidence": "high",
+    "affiliation": "Former NYC employee (DOT, DCAS, Emergency Management); technologist; runs the Public Sector Job Board newsletter/job board",
+    "role_type": "Civic-tech",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8985s",
+    "quote": "Create civil service pathways/titles for modern product-development roles (product managers, user researchers, data scientists) that don't fit existing IT titles",
+    "doc_url": "https://publicsectorjobboard.substack.com/p/what-i-said-to-new-york-citys-commission",
+    "doc_label": "Full testimony"
+   },
+   {
+    "name": "Martha Snow",
+    "name_confidence": "high",
+    "affiliation": "Urban Design Forum (Director of Community Design)",
+    "role_type": "Nonprofit",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4524s",
+    "quote": "Modernize civil service: remove unnecessary hiring barriers, create pay parity and performance incentives"
+   },
+   {
+    "name": "Cordell Schachter",
+    "name_confidence": "high",
+    "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+    "role_type": "Civic-tech",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4858s",
+    "quote": "Streamline IT hiring and workforce development via a multidisciplinary board working with state authorities, labor, academia and the private sector."
+   },
+   {
+    "name": "Honda Wang",
+    "name_confidence": "high",
+    "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
+    "role_type": "Labor",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=5063s",
+    "quote": "Asking the charter commission to eliminate guardrails because of mismanagement would be the equivalent of asking the FAA to relax airline safety standards after a plane crash because of Boeing's mismanagement."
+   },
+   {
+    "name": "Zachary Thomas",
+    "name_confidence": "high",
+    "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+    "role_type": "Government body",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9713s",
+    "quote": "Make it easier for Parks and other agencies to hire and retain quality candidates so resident-initiated projects actually get executed."
+   },
+   {
+    "name": "Eric Soriano Perez",
+    "name_confidence": "medium",
+    "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
+    "role_type": "Resident",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4686s",
+    "quote": "Build a stronger talent pipeline by recruiting from universities and the private sector to make public service attractive to skilled professionals... Extend the work-from-home pilot for city employees indefinitely where data shows it improves productivity, saves money and retains talent."
+   }
+  ]
+ },
+ {
   "id": "involve-building-trades-and-protect-labor-standards",
   "title": "Bring the building trades in early and don't let efficiency erode labor standards",
   "category": "Labor & workforce",
@@ -384,83 +558,158 @@
   ]
  },
  {
-  "id": "modernize-civil-service-hiring",
-  "title": "Modernize civil-service hiring: broaden titles, relax exams, hire on skills",
-  "category": "Hiring & civil service",
-  "summary": "NYC's civil-service system has roughly 2,600 job titles, rigid exams and the 'rule of three,' and offer-to-start waits exceeding six months that act as a financial filter. Proponents want broader job titles matching the labor market, hiring on skills and experience, use of state flexibilities like NY HELPS (which NYC opted out of), AI tools to rewrite outdated specs at scale, new titles for modern product roles, and a charter-mandated multi-year workforce plan. The argument: when the city can't hire who it needs, it pays far more for contractors.",
+  "id": "reform-franchise-and-concession-review",
+  "title": "Reform franchise and concession review and let parks keep concession revenue",
+  "category": "Procurement & contracting",
+  "summary": "The Franchise and Concession Review Committee (FCRC) process is a slow, real-estate-oriented gauntlet that treats large revenue concessions, small nonprofit stewardship agreements and intangible intellectual-property licenses the same way. Proponents want the charter to narrow FCRC to city-owned real property, treat nonprofits differently from for-profits, create streamlined categories and templates for public-realm stewardship and pilots, raise review thresholds, and loosen the more onerous franchise public-hearing and advertising requirements. Several parks and conservancy witnesses also want NYC Parks to retain a meaningful share of the concession revenue generated in a given park so successful concessions help fund the maintenance and programming of the parks that make them possible.",
+  "proponent_count": 8,
+  "hearings": [
+   "Bronx (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Matthew Bridge",
+    "name_confidence": "high",
+    "affiliation": "Senior Counsel, NYC Law Department; corporation counsel's designee on the Franchise and Concession Review Committee (FCRC), testifying informationally",
+    "role_type": "Government body",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=486s",
+    "quote": "So the franchise and concession review committee is composed of six members, a designee of the mayor, a designee of the director of the office of management and budget, a designee of the corporation council, a designee of the comptroller, one additional appointee of the mayor and a designee from the borough president."
+   },
+   {
+    "name": "Catherine Winningham",
+    "name_confidence": "high",
+    "affiliation": "Former Senior Counsel, NYC Law Department (Legal Counsel Division), testifying in personal capacity on intellectual property/merchandise licensing",
+    "role_type": "Government body",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=958s",
+    "quote": "We're looking for a really easy amendment that just says FCRC applies to city owned real property."
+   },
+   {
+    "name": "Katie Denny Horowitz",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, North Brooklyn Parks Alliance (nonprofit conservancy managing parks and public spaces in Greenpoint and Williamsburg)",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=2891s",
+    "quote": "We strongly feel that parks should be retaining a portion of the concession revenue... if you could just imagine that these successful concessions actually help pay for the park that makes those concessions possible."
+   },
+   {
+    "name": "Rebecca Macklis",
+    "name_confidence": "medium",
+    "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3107s",
+    "quote": "Create a new category for public realm stewardship agreements. This distinction would give partners a more streamlined review than revenue generating concessions."
+   },
+   {
+    "name": "Heather Lubov",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, City Parks Foundation",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3705s",
+    "quote": "I actually support what Katie and M.A.S. both recommend, which is treating nonprofits differently than for profits."
+   },
+   {
+    "name": "Deborah Kirschner",
+    "name_confidence": "high",
+    "affiliation": "Vice President of Communications and External Relations, Prospect Park Alliance",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4312s",
+    "quote": "Our recommendations include creating a guide for nonprofits to help prepare for the FCRC process, keeping in mind that many nonprofits have minimal resources for general counsel and legal support."
+   },
+   {
+    "name": "Pedro Suarez",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, Third Avenue Business Improvement District (501(c)(3)), South Bronx",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4543s",
+    "quote": "Nonprofits should go through a separate process or at least be treated differently from for profit entities."
+   },
+   {
+    "name": "James Goble",
+    "name_confidence": "high",
+    "affiliation": "Works on franchise and concession agreements at the Mayor's Office of Contract Services (MOCS), testifying in personal capacity",
+    "role_type": "Government body",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5471s",
+    "quote": "One potential area of change could be making the public hearing requirements for franchises a little bit less onerous; the advertising requirements for those are much more stringent than those for concessions and those could potentially be loosened."
+   }
+  ]
+ },
+ {
+  "id": "comprehensive-procurement-reform",
+  "title": "Treat procurement as central and overhaul its rules and oversight",
+  "category": "Procurement & contracting",
+  "summary": "Given roughly $40 billion a year in new contracts, proponents argue no efficiency effort can ignore procurement. Proposals include advance published procurement planning, centralized value-for-money reporting through MOCS, emergency-procurement planning, a single holistic view of all vendors to catch duplicate invoices and collusion, aggregating contracts across departments for lower unit prices, and a charter framework for centralized vendor oversight. There is internal tension over the Procurement Policy Board: some want it empowered and expanded, others want a centralized authority that takes precedence over it.",
   "proponent_count": 8,
   "hearings": [
    "Manhattan",
    "Brooklyn",
-   "Queens"
+   "Bronx",
+   "Queens",
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Robert Gordon",
+    "name": "Charles Diamond",
     "name_confidence": "high",
-    "affiliation": "Recoding America Fund, Executive Vice President (State Initiatives); former White House Domestic Policy Council deputy",
-    "role_type": "Nonprofit",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3253s",
-    "quote": "Complexity favors the powerful and the popular... And when the city can't hire the people it needs... it hires contractors who it pays much more for.",
-    "doc_url": "https://robertmgordon.substack.com/p/the-wrong-kind-of-outlier",
-    "doc_label": "Full testimony"
+    "affiliation": "Special Counsel, Mayor's Office of Contract Services (MOCS)",
+    "role_type": "Government body",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3994s",
+    "quote": "There's no way this commission can end its work without a big part of it being procurement because it is so big."
    },
    {
-    "name": "Robert Joyce",
+    "name": "Michael Hickey",
     "name_confidence": "high",
-    "affiliation": "Abundance New York, Senior Policy Advisor (native Brooklynite, career public servant)",
-    "role_type": "Advocacy org",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=6859s",
-    "quote": "make staffing decisions... for the city as a whole downstream from our overall policy desired outcomes and staff from there."
-   },
-   {
-    "name": "Cherie Chung",
-    "name_confidence": "high",
-    "affiliation": "Holly (hollygov.com), Co-founder & Co-CEO; govtech AI classification/compensation/hiring platform",
-    "role_type": "Business/industry",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7530s",
-    "quote": "the system that we see in hiring is often slow not because of public servants but because... they don't have modern tools."
-   },
-   {
-    "name": "Rebecca Heywood",
-    "name_confidence": "high",
-    "affiliation": "Former NYC employee (DOT, DCAS, Emergency Management); technologist; runs the Public Sector Job Board newsletter/job board",
-    "role_type": "Civic-tech",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8985s",
-    "quote": "Create civil service pathways/titles for modern product-development roles (product managers, user researchers, data scientists) that don't fit existing IT titles",
-    "doc_url": "https://publicsectorjobboard.substack.com/p/what-i-said-to-new-york-citys-commission",
-    "doc_label": "Full testimony"
-   },
-   {
-    "name": "Martha Snow",
-    "name_confidence": "high",
-    "affiliation": "Urban Design Forum (Director of Community Design)",
+    "affiliation": "Citizens Committee for New York City (CitizensNYC), Chief of Strategy and Operations",
     "role_type": "Nonprofit",
     "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=4524s",
-    "quote": "Modernize civil service: remove unnecessary hiring barriers, create pay parity and performance incentives"
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=1679s",
+    "quote": "We recommend the contract administration be scaled to size and scope of funding so that community-based and hyperlocal partners are no longer excluded from competing because the administrative cost is too damn high."
    },
    {
-    "name": "Cordell Schachter",
+    "name": "Carl Hammersburg",
     "name_confidence": "high",
-    "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
-    "role_type": "Civic-tech",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4858s",
-    "quote": "Streamline IT hiring and workforce development via a multidisciplinary board working with state authorities, labor, academia and the private sector."
+    "affiliation": "SAS Institute, Senior Manager, Government and Healthcare Risk and Fraud",
+    "role_type": "Business/industry",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1663s",
+    "quote": "Just knowing that five different departments are doing business with the same company and potentially you could aggregate that contract and get a lower unit price can have a huge impact on spending."
    },
    {
-    "name": "Honda Wang",
+    "name": "Louisa Chafee",
     "name_confidence": "high",
-    "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
-    "role_type": "Labor",
+    "affiliation": "New York City Independent Budget Office (Director)",
+    "role_type": "Government body",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s",
+    "quote": "Reform the Procurement Policy Board: expand to 10 members... require it to meet four times a year, review procurements, and produce a public annual report",
+    "doc_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/city-budget-overview/2026/2026-june-coge-testimony.pdf",
+    "doc_label": "Full testimony (PDF)"
+   },
+   {
+    "name": "Jerry Hyppolite",
+    "name_confidence": "high",
+    "affiliation": "Housing Solutions of New York (Chief of Staff and Head of Government Affairs)",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5078s",
+    "quote": "Modernize procurement and payment processes — build further on the Passport system so its 'vault' documents... connect across multiple contracts instead of being re-uploaded each time"
+   },
+   {
+    "name": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+    "role_type": "Elected official",
     "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=5063s",
-    "quote": "Asking the charter commission to eliminate guardrails because of mismanagement would be the equivalent of asking the FAA to relax airline safety standards after a plane crash because of Boeing's mismanagement."
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
+    "quote": "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night) and tie contracts to real outcomes."
    },
    {
     "name": "Zachary Thomas",
@@ -469,7 +718,97 @@
     "role_type": "Government body",
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9713s",
-    "quote": "Make it easier for Parks and other agencies to hire and retain quality candidates so resident-initiated projects actually get executed."
+    "quote": "Since January 30th, the New York Knicks have played 54 basketball games... Our city's administrative apparatus requires more time to install a single tree guard."
+   },
+   {
+    "name": "Nancy Wang",
+    "name_confidence": "high",
+    "affiliation": "Product manager (formerly Microsoft; consulting for the State of Maryland)",
+    "role_type": "Civic-tech",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3455s",
+    "quote": "Let's amend the charter to measure procurement outcomes and make that happen."
+   }
+  ]
+ },
+ {
+  "id": "modernize-mayors-management-report-and-neighborhood-data",
+  "title": "Modernize the Mayor's Management Report into real-time, neighborhood-level data",
+  "category": "Open data & transparency",
+  "summary": "The Mayor's Management Report should become a frequently updated, real-time dashboard with performance data broken down by neighborhood and disaggregated by race, income and other dimensions, measuring outcomes and quality, not just outputs. Proposals include a statistically valid resident feedback survey at least every four years at the community-board level, a comprehensive citywide performance-management system, and convening tech and open-data experts periodically to set best practices. The aim is to measure how well the city does things, not merely what it does.",
+  "proponent_count": 7,
+  "hearings": [
+   "Manhattan",
+   "Brooklyn",
+   "Queens",
+   "Staten Island",
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Tim Tompkins",
+    "name_confidence": "high",
+    "affiliation": "NYU Marron Institute Fellow (Sustaining Places Initiative); former president, Times Square Alliance",
+    "role_type": "Academic",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=442s",
+    "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"
+   },
+   {
+    "name": "Andrew Rein",
+    "name_confidence": "high",
+    "affiliation": "Citizens Budget Commission (president)",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
+    "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program.",
+    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
+    "doc_label": "Full testimony"
+   },
+   {
+    "name": "Julie Samuels",
+    "name_confidence": "high",
+    "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
+    "role_type": "Business/industry",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s",
+    "quote": "Modernize the Mayor's Management Report into a frequently-updated, real-time-data dashboard"
+   },
+   {
+    "name": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+    "role_type": "Elected official",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
+    "quote": "Require the Mayor's Management Report to report whether programs actually work, not just spending."
+   },
+   {
+    "name": "Eugene Kim",
+    "name_confidence": "high",
+    "affiliation": "Resident; technology and legal-operations expert, operations director at a New York State public benefit corporation",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5135s",
+    "quote": "In the public sector, there is no incentive to innovate or improve because very little is objectively measured."
+   },
+   {
+    "name": "Kauran Santas",
+    "name_confidence": "low",
+    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5671s",
+    "quote": "Sunlight is the cheapest auditor."
+   },
+   {
+    "name": "Saunders Ruffin",
+    "name_confidence": "medium",
+    "affiliation": "Resident of the East Village; manages the monitoring and evaluation program at NYC Emergency Management (testifying in a personal capacity)",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3899s",
+    "quote": "I believe we should codify language in the charter that establishes roles and responsibilities for creating, measuring and reporting more meaningful and analytical performance metrics."
    }
   ]
  },
@@ -553,86 +892,6 @@
   ]
  },
  {
-  "id": "comprehensive-procurement-reform",
-  "title": "Treat procurement as central and overhaul its rules and oversight",
-  "category": "Procurement & contracting",
-  "summary": "Given roughly $40 billion a year in new contracts, proponents argue no efficiency effort can ignore procurement. Proposals include advance published procurement planning, centralized value-for-money reporting through MOCS, emergency-procurement planning, a single holistic view of all vendors to catch duplicate invoices and collusion, aggregating contracts across departments for lower unit prices, and a charter framework for centralized vendor oversight. There is internal tension over the Procurement Policy Board: some want it empowered and expanded, others want a centralized authority that takes precedence over it.",
-  "proponent_count": 7,
-  "hearings": [
-   "Manhattan",
-   "Bronx",
-   "Brooklyn",
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Charles Diamond",
-    "name_confidence": "high",
-    "affiliation": "Special Counsel, Mayor's Office of Contract Services (MOCS)",
-    "role_type": "Government body",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3994s",
-    "quote": "There's no way this commission can end its work without a big part of it being procurement because it is so big."
-   },
-   {
-    "name": "Michael Hickey",
-    "name_confidence": "high",
-    "affiliation": "Citizens Committee for New York City (CitizensNYC), Chief of Strategy and Operations",
-    "role_type": "Nonprofit",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=1679s",
-    "quote": "We recommend the contract administration be scaled to size and scope of funding so that community-based and hyperlocal partners are no longer excluded from competing because the administrative cost is too damn high."
-   },
-   {
-    "name": "Carl Hammersburg",
-    "name_confidence": "high",
-    "affiliation": "SAS Institute, Senior Manager, Government and Healthcare Risk and Fraud",
-    "role_type": "Business/industry",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1663s",
-    "quote": "Just knowing that five different departments are doing business with the same company and potentially you could aggregate that contract and get a lower unit price can have a huge impact on spending."
-   },
-   {
-    "name": "Louisa Chafee",
-    "name_confidence": "high",
-    "affiliation": "New York City Independent Budget Office (Director)",
-    "role_type": "Government body",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=3864s",
-    "quote": "Reform the Procurement Policy Board: expand to 10 members... require it to meet four times a year, review procurements, and produce a public annual report",
-    "doc_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/city-budget-overview/2026/2026-june-coge-testimony.pdf",
-    "doc_label": "Full testimony (PDF)"
-   },
-   {
-    "name": "Jerry Hyppolite",
-    "name_confidence": "high",
-    "affiliation": "Housing Solutions of New York (Chief of Staff and Head of Government Affairs)",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5078s",
-    "quote": "Modernize procurement and payment processes — build further on the Passport system so its 'vault' documents... connect across multiple contracts instead of being re-uploaded each time"
-   },
-   {
-    "name": "Phil Wong",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
-    "role_type": "Elected official",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
-    "quote": "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night) and tie contracts to real outcomes."
-   },
-   {
-    "name": "Zachary Thomas",
-    "name_confidence": "high",
-    "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
-    "role_type": "Government body",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9713s",
-    "quote": "Since January 30th, the New York Knicks have played 54 basketball games... Our city's administrative apparatus requires more time to install a single tree guard."
-   }
-  ]
- },
- {
   "id": "fix-outdoor-dining-revocable-consent",
   "title": "Run outdoor dining on DOT permits, not revocable consents",
   "category": "Permitting & licensing",
@@ -706,72 +965,6 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6873s",
     "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed."
-   }
-  ]
- },
- {
-  "id": "fix-mwbe-program-and-procurement-disparity",
-  "title": "Fix the MWBE program: raise caps, close the disparity, open subcontracting",
-  "category": "MWBE & small business",
-  "summary": "MWBE firms face a stark procurement disparity (roughly 78% got no contracts in FY25, with average MWBE contracts far below non-certified firms), low contract caps (such as the $25,000 DOE cap), burdensome paperwork and outdated certification websites. Proponents want caps raised for proven vendors, the application streamlined, prime contractors required to subcontract local small and micro businesses, and a transparent single contracting and reimbursement system. The throughline is keeping procurement dollars with local New Yorkers and letting small community-rooted providers actually compete.",
-  "proponent_count": 6,
-  "hearings": [
-   "Bronx"
-  ],
-  "proponents": [
-   {
-    "name": "Maurelhena Walles",
-    "name_confidence": "high",
-    "affiliation": "Equity Design Inc. (founder and CEO); NYC/NYS MWBE",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=630s",
-    "quote": "Raise or allow upward revision of the $25,000 MWBE contract cap with DOE for proven, established vendors"
-   },
-   {
-    "name": "Dr. Constance Barnes",
-    "name_confidence": "high",
-    "affiliation": "UnmaskEDU, LLC (founder); Chair, Economic Development Committee, Bronx Community Board 8",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1390s",
-    "quote": "Streamline the MWBE application paperwork (e.g., accommodate applicants whose landlords don't provide rent receipts)"
-   },
-   {
-    "name": "Yoxagna Canaan",
-    "name_confidence": "high",
-    "affiliation": "Balance, Money And Mind, LLC (founder/owner), Bronx; CPA; financial literacy, bookkeeping, tax; NYC MWBE",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=3690s",
-    "quote": "whoever earned those contract can be secured that they hire or should contract a small and micro businesses from the Bronx to ensure that those resource from New Yorkers always stay in New York."
-   },
-   {
-    "name": "Aneesa Waheed",
-    "name_confidence": "high",
-    "affiliation": "Tara Kitchen (founder and executive chef), Moroccan restaurant group (Tribeca + Capital Region NY); NYS 2024 SBA Small Business Person of the Year",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7270s",
-    "quote": "I'm really interested in micropurchasing and if that is something that could be made transparent and ... accessible to small businesses like myself. It's really the difference between us surviving and going out of business."
-   },
-   {
-    "name": "Sarah Espillat",
-    "name_confidence": "high",
-    "affiliation": "MWBE-certified business owner; mental health / emotional coaching services for women ages 25-55",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8909s",
-    "quote": "they don't consider us like ... how can we put something together that let them see us and consider us when they get these type of contracts."
-   },
-   {
-    "name": "Pedro Suarez",
-    "name_confidence": "high",
-    "affiliation": "The Hub / Third Avenue Business Improvement District, South Bronx (Executive Director)",
-    "role_type": "Advocacy org",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4657s",
-    "quote": "Streamline city MWBE contracting/reimbursement into one transparent system (registration can take 6 months to a year)"
    }
   ]
  },
@@ -850,6 +1043,72 @@
   ]
  },
  {
+  "id": "fix-mwbe-program-and-procurement-disparity",
+  "title": "Fix the MWBE program: raise caps, close the disparity, open subcontracting",
+  "category": "MWBE & small business",
+  "summary": "MWBE firms face a stark procurement disparity (roughly 78% got no contracts in FY25, with average MWBE contracts far below non-certified firms), low contract caps (such as the $25,000 DOE cap), burdensome paperwork and outdated certification websites. Proponents want caps raised for proven vendors, the application streamlined, prime contractors required to subcontract local small and micro businesses, and a transparent single contracting and reimbursement system. The throughline is keeping procurement dollars with local New Yorkers and letting small community-rooted providers actually compete.",
+  "proponent_count": 6,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Maurelhena Walles",
+    "name_confidence": "high",
+    "affiliation": "Equity Design Inc. (founder and CEO); NYC/NYS MWBE",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=630s",
+    "quote": "Raise or allow upward revision of the $25,000 MWBE contract cap with DOE for proven, established vendors"
+   },
+   {
+    "name": "Dr. Constance Barnes",
+    "name_confidence": "high",
+    "affiliation": "UnmaskEDU, LLC (founder); Chair, Economic Development Committee, Bronx Community Board 8",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1390s",
+    "quote": "Streamline the MWBE application paperwork (e.g., accommodate applicants whose landlords don't provide rent receipts)"
+   },
+   {
+    "name": "Yoxagna Canaan",
+    "name_confidence": "high",
+    "affiliation": "Balance, Money And Mind, LLC (founder/owner), Bronx; CPA; financial literacy, bookkeeping, tax; NYC MWBE",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=3690s",
+    "quote": "whoever earned those contract can be secured that they hire or should contract a small and micro businesses from the Bronx to ensure that those resource from New Yorkers always stay in New York."
+   },
+   {
+    "name": "Aneesa Waheed",
+    "name_confidence": "high",
+    "affiliation": "Tara Kitchen (founder and executive chef), Moroccan restaurant group (Tribeca + Capital Region NY); NYS 2024 SBA Small Business Person of the Year",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7270s",
+    "quote": "I'm really interested in micropurchasing and if that is something that could be made transparent and ... accessible to small businesses like myself. It's really the difference between us surviving and going out of business."
+   },
+   {
+    "name": "Sarah Espillat",
+    "name_confidence": "high",
+    "affiliation": "MWBE-certified business owner; mental health / emotional coaching services for women ages 25-55",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8909s",
+    "quote": "they don't consider us like ... how can we put something together that let them see us and consider us when they get these type of contracts."
+   },
+   {
+    "name": "Pedro Suarez",
+    "name_confidence": "high",
+    "affiliation": "The Hub / Third Avenue Business Improvement District, South Bronx (Executive Director)",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4657s",
+    "quote": "Streamline city MWBE contracting/reimbursement into one transparent system (registration can take 6 months to a year)"
+   }
+  ]
+ },
+ {
   "id": "improve-access-to-capital-for-immigrant-small-business",
   "title": "Improve access to capital and city contracts for immigrant and minority businesses",
   "category": "MWBE & small business",
@@ -913,77 +1172,6 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9878s",
     "quote": "Improve outreach so small and startup businesses can obtain city procurement opportunities and contracts."
-   }
-  ]
- },
- {
-  "id": "modernize-mayors-management-report-and-neighborhood-data",
-  "title": "Modernize the Mayor's Management Report into real-time, neighborhood-level data",
-  "category": "Open data & transparency",
-  "summary": "The Mayor's Management Report should become a frequently updated, real-time dashboard with performance data broken down by neighborhood and disaggregated by race, income and other dimensions, measuring outcomes and quality, not just outputs. Proposals include a statistically valid resident feedback survey at least every four years at the community-board level, a comprehensive citywide performance-management system, and convening tech and open-data experts periodically to set best practices. The aim is to measure how well the city does things, not merely what it does.",
-  "proponent_count": 6,
-  "hearings": [
-   "Manhattan",
-   "Brooklyn",
-   "Queens",
-   "Staten Island"
-  ],
-  "proponents": [
-   {
-    "name": "Tim Tompkins",
-    "name_confidence": "high",
-    "affiliation": "NYU Marron Institute Fellow (Sustaining Places Initiative); former president, Times Square Alliance",
-    "role_type": "Academic",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=442s",
-    "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"
-   },
-   {
-    "name": "Andrew Rein",
-    "name_confidence": "high",
-    "affiliation": "Citizens Budget Commission (president)",
-    "role_type": "Advocacy org",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=1841s",
-    "quote": "The charter should require the MMR to include input, output, outcome, quality, and efficiency indicators for each agency and program.",
-    "doc_url": "https://cbcny.org/advocacy/testimony-proposing-new-york-city-charter-changes-improve-efficiency-and-rainy-day-fund",
-    "doc_label": "Full testimony"
-   },
-   {
-    "name": "Julie Samuels",
-    "name_confidence": "high",
-    "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
-    "role_type": "Business/industry",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s",
-    "quote": "Modernize the Mayor's Management Report into a frequently-updated, real-time-data dashboard"
-   },
-   {
-    "name": "Phil Wong",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
-    "role_type": "Elected official",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8450s",
-    "quote": "Require the Mayor's Management Report to report whether programs actually work, not just spending."
-   },
-   {
-    "name": "Eugene Kim",
-    "name_confidence": "high",
-    "affiliation": "Resident; technology and legal-operations expert, operations director at a New York State public benefit corporation",
-    "role_type": "Resident",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5135s",
-    "quote": "In the public sector, there is no incentive to innovate or improve because very little is objectively measured."
-   },
-   {
-    "name": "Kauran Santas",
-    "name_confidence": "low",
-    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
-    "role_type": "Resident",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5671s",
-    "quote": "Sunlight is the cheapest auditor."
    }
   ]
  },
@@ -1058,6 +1246,268 @@
   ]
  },
  {
+  "id": "create-comprehensive-citywide-plan",
+  "title": "Mandate a comprehensive citywide plan and support community boards",
+  "category": "Land use & planning",
+  "summary": "The charter should mandate a comprehensive plan: a citywide needs assessment, growth plan, future land-use map, community engagement and a 10-year capital plan focused on underserved neighborhoods, modeled on the citywide waterfront plan. Proponents pair this with an independent Community Board central office (like the IBO) to give community boards planning, technology, HR, legal and procurement support, and with reforming ULURP for public infrastructure so projects aren't stalled. The aim is equitable, data-driven service delivery and land use rather than ad hoc decisions.",
+  "proponent_count": 5,
+  "hearings": [
+   "Brooklyn",
+   "Manhattan",
+   "Written submission",
+   "Bronx (Round 2)",
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Spencer A. Williams",
+    "name_confidence": "high",
+    "affiliation": "Director of Land Use and Topography, Office of the Brooklyn Borough President Antonio Reynoso",
+    "role_type": "Elected official",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=5805s",
+    "quote": "the comprehensive plan should include at a minimum just a simple statement that requires the city to do a comprehensive plan.",
+    "doc_url": "https://www.brooklynbp.nyc.gov/charter-revision-commission-to-strengthen-government-efficiency-brooklyn-hearing/",
+    "doc_label": "Full testimony"
+   },
+   {
+    "name": "Catherine Vaughan",
+    "name_confidence": "high",
+    "affiliation": "Abundance New York (Co-Founder and Executive Director); Brooklyn Community Board 6 member (Park Slope)",
+    "role_type": "Advocacy org",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8171s",
+    "quote": "Reform ULURP for public infrastructure: waive ULURP for public-facility projects under $5 million and expedite review in districts not carrying their fair share",
+    "doc_url": "https://www.abundanceny.org/recommendations",
+    "doc_label": "Abundance NY recommendations"
+   },
+   {
+    "name": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, District 30 (Queens)",
+    "role_type": "Elected official",
+    "hearing": "Written submission",
+    "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
+    "quote": "consolidation review for under-enrolled schools; address property-tax disparities"
+   },
+   {
+    "name": "Rebecca Macklis",
+    "name_confidence": "medium",
+    "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3107s",
+    "quote": "Adopt a charter mandate for comprehensive planning to align long-term goals with capital investment."
+   },
+   {
+    "name": "Eve Baron",
+    "name_confidence": "high",
+    "affiliation": "Urban planner and professor at Pratt Institute; member of the NYC Civic Engagement Commission; Collective for Community, Culture and the Environment",
+    "role_type": "Academic",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=2533s",
+    "quote": "What we don't have are the planning staff and resources at the community level or the guarantee of government to implement plans. What we also lack is a citywide comprehensive plan."
+   }
+  ]
+ },
+ {
+  "id": "unified-technology-leadership-and-software-as-a-service",
+  "title": "Create unified technology leadership and 'commission' software instead of buying it",
+  "category": "Technology & digital services",
+  "summary": "The city needs senior unified technology leadership (a deputy mayor for transformation, a chief digital officer reporting to the mayor and OMB, or a permanent charter commission on digital transformation) with a real budget line and agencies reporting up. Proponents argue software is not a one-time good like buses or pencils: the city should 'commission' it and keep the builder on the hook for updates, security and fixes, and modernize procurement for SaaS and AI sold on subscription rather than the capital-expenditure RFP model that pushes startups out. Staying current is described as a permanent condition of governing.",
+  "proponent_count": 4,
+  "hearings": [
+   "Manhattan",
+   "Brooklyn",
+   "Queens"
+  ],
+  "proponents": [
+   {
+    "name": "Tristan Louis",
+    "name_confidence": "high",
+    "affiliation": "President & CEO of Casebook PBC, a public benefit corporation govtech (human-services case-management SaaS) company; NYC resident/technology entrepreneur",
+    "role_type": "Business/industry",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6287s",
+    "quote": "Modernize procurement for SaaS/AI sold on subscription/usage (operating budget) rather than the prepackaged, capital-expenditure RFP model that pushes startups out"
+   },
+   {
+    "name": "Julie Samuels",
+    "name_confidence": "high",
+    "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
+    "role_type": "Business/industry",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s",
+    "quote": "we need to fundamentally accept that we need a unified technology leadership in the city."
+   },
+   {
+    "name": "Andrew Rasiej",
+    "name_confidence": "high",
+    "affiliation": "Civic Hall at Union Square (founder)",
+    "role_type": "Civic-tech",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7065s",
+    "quote": "Staying current isn't the project you finish, it's the permanent condition of governing from now on."
+   },
+   {
+    "name": "Cordell Schachter",
+    "name_confidence": "high",
+    "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+    "role_type": "Civic-tech",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4858s",
+    "quote": "New York City cannot deliver 21st century government with 20th century technology governance."
+   }
+  ]
+ },
+ {
+  "id": "reduce-occupational-licensing-barriers",
+  "title": "Lower occupational-licensing and home-business barriers for small operators",
+  "category": "MWBE & small business",
+  "summary": "Costly and burdensome licensing requirements push people into unlicensed work or out of business: contractor licenses and insurance, a new DOB superintendent mandate, the New York State natural-hair-braiding license (14 weeks of school plus an exam for chemical-free work), and Article 20-C food licensing. Proponents want lower-cost or alternative pathways, exemptions where requirements don't fit the work (braiding, low-volume cannabis), legal ways for mothers to run home-based businesses, and clearer multilingual guidance and workshops for first-time owners.",
+  "proponent_count": 4,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Mariame Diallo",
+    "name_confidence": "high",
+    "affiliation": "Owner, hair-braiding salon(s); described as secretary/director of the Guinea-USA Chamber of Commerce",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8355s",
+    "quote": "in many states, they don't require a license to braid a hair because when we braid hair, we don't use no chemical product ... that's a very big barrier for many talented women who want to work."
+   },
+   {
+    "name": "Pascal A. Ouedraogo",
+    "name_confidence": "high",
+    "affiliation": "AK General Contractor Corp (Bronx); licensed general contractor (CEO)",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8593s",
+    "quote": "the building department changed the law if you got like some project you have to hiding ... superintendent that's the extra money we have to pay and we don't have enough budget."
+   },
+   {
+    "name": "Glenny Payano",
+    "name_confidence": "high",
+    "affiliation": "Founder, Victimas Directas (Bronx domestic-violence nonprofit / Women's Service Club, 501(c)(3))",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7946s",
+    "quote": "Create programs/licensing pathways so moms can legally run a business from home (or affordable local space) without getting ticketed"
+   },
+   {
+    "name": "Mayerlyn Suarez",
+    "name_confidence": "high",
+    "affiliation": "Founder of a NYC small business making artisanal paletas (multicultural flavors); immigrant entrepreneur",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=9216s",
+    "quote": "it can be difficult to know exactly what is expected ... Additional support such as educational workshops, clear checklists, multilingual resources, and easier technical assistant will make a significant difference."
+   }
+  ]
+ },
+ {
+  "id": "make-edc-and-public-land-decisions-accountable",
+  "title": "Make EDC and public-land decisions transparent and community-accountable",
+  "category": "Public land & EDC",
+  "summary": "Proponents argue the Economic Development Corporation's public engagement is a sham that ignores community and maritime input, and that public-land decisions strip power from the communities forced to live with them. They call for charter requirements to disclose all leases, dispositions and redevelopment agreements before finalization, a community pre-approval standard, an independent body to audit public-land decisions against public-benefit standards, displacement-impact assessments for legacy small-business tenants, and structures like a maritime community board to give the public real voice.",
+  "proponent_count": 4,
+  "hearings": [
+   "Brooklyn",
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Lola Star",
+    "name_confidence": "high",
+    "affiliation": "Small business owner and artist, Coney Island; founder of Lola Star Souvenir Boutique (est. 2001) and the 'Save Coney Island' advocacy group; created Dreamland Roller Rink",
+    "role_type": "Business/industry",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=10191s",
+    "quote": "Public land belongs to the people of New York but too often decisions are made through systems that strip power from the communities who are forced to live with the consequences."
+   },
+   {
+    "name": "David Sheldon",
+    "name_confidence": "high",
+    "affiliation": "Save Our Seaport (South Street Seaport preservation group); public member, Manhattan Community Board 1 (waterfront); retired AFM Local 802; mariner",
+    "role_type": "Resident",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9213s",
+    "quote": "as a measure of efficiency, as a savings of both time and money, perhaps the EDC can just do away with the sham of public engagement."
+   },
+   {
+    "name": "Ronald Shiffman",
+    "name_confidence": "high",
+    "affiliation": "Professor emeritus (Pratt); longtime community-development planner; former City Planning Commission member",
+    "role_type": "Academic",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=2234s",
+    "quote": "I urge this commission to define government efficiency not simply as faster approvals or fewer procedural steps, but as the capacity of public institutions to deliver justice, repair longstanding inequities, and serve all New Yorkers."
+   },
+   {
+    "name": "Carolina Salguero",
+    "name_confidence": "high",
+    "affiliation": "Founder and Executive Director of PortSide New York, a maritime nonprofit",
+    "role_type": "Nonprofit",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5657s",
+    "quote": "We're calling for a pro growth maritime policy, for a new city agency for maritime, so maritime is no longer straining to grow."
+   }
+  ]
+ },
+ {
+  "id": "build-a-dedicated-capital-delivery-authority",
+  "title": "Speed capital delivery with a dedicated authority and front-end planning",
+  "category": "Capital projects",
+  "summary": "Non-school city capital building suffers from high DDC admin costs and decade-long timelines, so proponents ask what the equivalent of the School Construction Authority should be for libraries, cultural and other facilities, and want a coordinated citywide capital planning process with shared data, qualifications-based selection, expanded design-build and best-value procurement, and delegated authority pushed down into agencies. The recurring theme is 'do it once and do it right' through more front-end planning and clearer authority, rather than routing every decision to the top.",
+  "proponent_count": 4,
+  "hearings": [
+   "Manhattan"
+  ],
+  "proponents": [
+   {
+    "name": "Gale Brewer",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, District 6 (Manhattan); former Manhattan Borough President",
+    "role_type": "Elected official",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=5582s",
+    "quote": "Who's the equivalent of the school construction authority for the building world? That would be everything else."
+   },
+   {
+    "name": "Craig Covil",
+    "name_confidence": "high",
+    "affiliation": "Design-Build Institute of America (DBIA) NYC Metro Region, Chair/President; C2 Consulting LLC",
+    "role_type": "Business/industry",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6079s",
+    "quote": "Design build delivers projects faster and more efficiently than design bid build... It is a tool in the toolbox."
+   },
+   {
+    "name": "Bria Donohue",
+    "name_confidence": "high",
+    "affiliation": "American Institute of Architects New York (AIA NY), Director of Government Affairs",
+    "role_type": "Business/industry",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7928s",
+    "quote": "Smart comprehensive planning enables the city to deliver quality projects with the mentality of do it once and do it right."
+   },
+   {
+    "name": "Taylor Palmer",
+    "name_confidence": "high",
+    "affiliation": "American Council of Engineering Companies of New York (ACEC New York), Director of Government Relations, NYC",
+    "role_type": "Business/industry",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3297s",
+    "quote": "Provide OMB clarity/consistency on capital eligibility so determinations are firm and uniform across projects",
+    "doc_url": "https://cdn.ymaws.com/acecny.org/resource/resmgr/advocacy4/acec_ny_coge_testimony__1_.pdf",
+    "doc_label": "Full testimony (PDF)"
+   }
+  ]
+ },
+ {
   "id": "fix-contract-registration-delays",
   "title": "Stop work-before-registration and put time limits on contract registration",
   "category": "Procurement & contracting",
@@ -1113,150 +1563,42 @@
   ]
  },
  {
-  "id": "build-a-dedicated-capital-delivery-authority",
-  "title": "Speed capital delivery with a dedicated authority and front-end planning",
-  "category": "Capital projects",
-  "summary": "Non-school city capital building suffers from high DDC admin costs and decade-long timelines, so proponents ask what the equivalent of the School Construction Authority should be for libraries, cultural and other facilities, and want a coordinated citywide capital planning process with shared data, qualifications-based selection, expanded design-build and best-value procurement, and delegated authority pushed down into agencies. The recurring theme is 'do it once and do it right' through more front-end planning and clearer authority, rather than routing every decision to the top.",
-  "proponent_count": 4,
+  "id": "audit-and-modernize-government-websites-and-open-data",
+  "title": "Audit and modernize government websites and open data with AI access",
+  "category": "Open data & transparency",
+  "summary": "City and agency websites are riddled with redundant sites, dead links, wrong contact info and out-of-service numbers that strain 311 and waste staff hours, while open-data tools like Checkbook NYC stop at the unit of appropriation and are hard to use. Proponents want a low-cost audit of all agency sites, AI tools (such as a Boston-style Model Context Protocol server) that let residents query open data in plain language, and breaking down agency data silos starting with lower-risk open data while building governance.",
+  "proponent_count": 3,
   "hearings": [
-   "Manhattan"
+   "Bronx",
+   "Brooklyn"
   ],
   "proponents": [
    {
-    "name": "Gale Brewer",
+    "name": "Jenessa Jules",
     "name_confidence": "high",
-    "affiliation": "New York City Council Member, District 6 (Manhattan); former Manhattan Borough President",
-    "role_type": "Elected official",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=5582s",
-    "quote": "Who's the equivalent of the school construction authority for the building world? That would be everything else."
-   },
-   {
-    "name": "Craig Covil",
-    "name_confidence": "high",
-    "affiliation": "Design-Build Institute of America (DBIA) NYC Metro Region, Chair/President; C2 Consulting LLC",
-    "role_type": "Business/industry",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6079s",
-    "quote": "Design build delivers projects faster and more efficiently than design bid build... It is a tool in the toolbox."
-   },
-   {
-    "name": "Bria Donohue",
-    "name_confidence": "high",
-    "affiliation": "American Institute of Architects New York (AIA NY), Director of Government Affairs",
-    "role_type": "Business/industry",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7928s",
-    "quote": "Smart comprehensive planning enables the city to deliver quality projects with the mentality of do it once and do it right."
-   },
-   {
-    "name": "Taylor Palmer",
-    "name_confidence": "high",
-    "affiliation": "American Council of Engineering Companies of New York (ACEC New York), Director of Government Relations, NYC",
-    "role_type": "Business/industry",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=3297s",
-    "quote": "Provide OMB clarity/consistency on capital eligibility so determinations are firm and uniform across projects",
-    "doc_url": "https://cdn.ymaws.com/acecny.org/resource/resmgr/advocacy4/acec_ny_coge_testimony__1_.pdf",
-    "doc_label": "Full testimony (PDF)"
-   }
-  ]
- },
- {
-  "id": "reduce-occupational-licensing-barriers",
-  "title": "Lower occupational-licensing and home-business barriers for small operators",
-  "category": "MWBE & small business",
-  "summary": "Costly and burdensome licensing requirements push people into unlicensed work or out of business: contractor licenses and insurance, a new DOB superintendent mandate, the New York State natural-hair-braiding license (14 weeks of school plus an exam for chemical-free work), and Article 20-C food licensing. Proponents want lower-cost or alternative pathways, exemptions where requirements don't fit the work (braiding, low-volume cannabis), legal ways for mothers to run home-based businesses, and clearer multilingual guidance and workshops for first-time owners.",
-  "proponent_count": 4,
-  "hearings": [
-   "Bronx"
-  ],
-  "proponents": [
-   {
-    "name": "Mariame Diallo",
-    "name_confidence": "high",
-    "affiliation": "Owner, hair-braiding salon(s); described as secretary/director of the Guinea-USA Chamber of Commerce",
+    "affiliation": "South Bronx small business owner (cannabis space) and analyst",
     "role_type": "Business/industry",
     "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8355s",
-    "quote": "in many states, they don't require a license to braid a hair because when we braid hair, we don't use no chemical product ... that's a very big barrier for many talented women who want to work."
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=6533s",
+    "quote": "doing an audit of all of the different agencies and department sites could be something that would be a lowcost way to address that issue."
    },
    {
-    "name": "Pascal A. Ouedraogo",
+    "name": "Margaret Brown",
     "name_confidence": "high",
-    "affiliation": "AK General Contractor Corp (Bronx); licensed general contractor (CEO)",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=8593s",
-    "quote": "the building department changed the law if you got like some project you have to hiding ... superintendent that's the extra money we have to pay and we don't have enough budget."
-   },
-   {
-    "name": "Glenny Payano",
-    "name_confidence": "high",
-    "affiliation": "Founder, Victimas Directas (Bronx domestic-violence nonprofit / Women's Service Club, 501(c)(3))",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=7946s",
-    "quote": "Create programs/licensing pathways so moms can legally run a business from home (or affordable local space) without getting ticketed"
-   },
-   {
-    "name": "Mayerlyn Suarez",
-    "name_confidence": "high",
-    "affiliation": "Founder of a NYC small business making artisanal paletas (multicultural flavors); immigrant entrepreneur",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=9216s",
-    "quote": "it can be difficult to know exactly what is expected ... Additional support such as educational workshops, clear checklists, multilingual resources, and easier technical assistant will make a significant difference."
-   }
-  ]
- },
- {
-  "id": "unified-technology-leadership-and-software-as-a-service",
-  "title": "Create unified technology leadership and 'commission' software instead of buying it",
-  "category": "Technology & digital services",
-  "summary": "The city needs senior unified technology leadership (a deputy mayor for transformation, a chief digital officer reporting to the mayor and OMB, or a permanent charter commission on digital transformation) with a real budget line and agencies reporting up. Proponents argue software is not a one-time good like buses or pencils: the city should 'commission' it and keep the builder on the hook for updates, security and fixes, and modernize procurement for SaaS and AI sold on subscription rather than the capital-expenditure RFP model that pushes startups out. Staying current is described as a permanent condition of governing.",
-  "proponent_count": 4,
-  "hearings": [
-   "Manhattan",
-   "Brooklyn",
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Tristan Louis",
-    "name_confidence": "high",
-    "affiliation": "President & CEO of Casebook PBC, a public benefit corporation govtech (human-services case-management SaaS) company; NYC resident/technology entrepreneur",
-    "role_type": "Business/industry",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6287s",
-    "quote": "Modernize procurement for SaaS/AI sold on subscription/usage (operating budget) rather than the prepackaged, capital-expenditure RFP model that pushes startups out"
-   },
-   {
-    "name": "Julie Samuels",
-    "name_confidence": "high",
-    "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
-    "role_type": "Business/industry",
+    "affiliation": "City employee at an unnamed mayoral agency (testifying in personal capacity)",
+    "role_type": "Government body",
     "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=4982s",
-    "quote": "we need to fundamentally accept that we need a unified technology leadership in the city."
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=469s",
+    "quote": "Have the city stand up a Model Context Protocol (MCP) server like Boston's that lets AI securely interact with city open data and reduces hallucinations when residents query public data"
    },
    {
-    "name": "Andrew Rasiej",
-    "name_confidence": "high",
-    "affiliation": "Civic Hall at Union Square (founder)",
-    "role_type": "Civic-tech",
+    "name": "Ralph Yozzo",
+    "name_confidence": "medium",
+    "affiliation": "Lifelong New Yorker; former Community Education Council member; software/transparency developer; past City Council candidate (D36, 2021)",
+    "role_type": "Resident",
     "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=7065s",
-    "quote": "Staying current isn't the project you finish, it's the permanent condition of governing from now on."
-   },
-   {
-    "name": "Cordell Schachter",
-    "name_confidence": "high",
-    "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
-    "role_type": "Civic-tech",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4858s",
-    "quote": "New York City cannot deliver 21st century government with 20th century technology governance."
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9842s",
+    "quote": "Efficiency also means possible cuts, right? I barely hear anyone talking about cuts."
    }
   ]
  },
@@ -1302,91 +1644,6 @@
   ]
  },
  {
-  "id": "audit-and-modernize-government-websites-and-open-data",
-  "title": "Audit and modernize government websites and open data with AI access",
-  "category": "Open data & transparency",
-  "summary": "City and agency websites are riddled with redundant sites, dead links, wrong contact info and out-of-service numbers that strain 311 and waste staff hours, while open-data tools like Checkbook NYC stop at the unit of appropriation and are hard to use. Proponents want a low-cost audit of all agency sites, AI tools (such as a Boston-style Model Context Protocol server) that let residents query open data in plain language, and breaking down agency data silos starting with lower-risk open data while building governance.",
-  "proponent_count": 3,
-  "hearings": [
-   "Bronx",
-   "Brooklyn"
-  ],
-  "proponents": [
-   {
-    "name": "Jenessa Jules",
-    "name_confidence": "high",
-    "affiliation": "South Bronx small business owner (cannabis space) and analyst",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=6533s",
-    "quote": "doing an audit of all of the different agencies and department sites could be something that would be a lowcost way to address that issue."
-   },
-   {
-    "name": "Margaret Brown",
-    "name_confidence": "high",
-    "affiliation": "City employee at an unnamed mayoral agency (testifying in personal capacity)",
-    "role_type": "Government body",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=469s",
-    "quote": "Have the city stand up a Model Context Protocol (MCP) server like Boston's that lets AI securely interact with city open data and reduces hallucinations when residents query public data"
-   },
-   {
-    "name": "Ralph Yozzo",
-    "name_confidence": "medium",
-    "affiliation": "Lifelong New Yorker; former Community Education Council member; software/transparency developer; past City Council candidate (D36, 2021)",
-    "role_type": "Resident",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9842s",
-    "quote": "Efficiency also means possible cuts, right? I barely hear anyone talking about cuts."
-   }
-  ]
- },
- {
-  "id": "create-comprehensive-citywide-plan",
-  "title": "Mandate a comprehensive citywide plan and support community boards",
-  "category": "Land use & planning",
-  "summary": "The charter should mandate a comprehensive plan: a citywide needs assessment, growth plan, future land-use map, community engagement and a 10-year capital plan focused on underserved neighborhoods, modeled on the citywide waterfront plan. Proponents pair this with an independent Community Board central office (like the IBO) to give community boards planning, technology, HR, legal and procurement support, and with reforming ULURP for public infrastructure so projects aren't stalled. The aim is equitable, data-driven service delivery and land use rather than ad hoc decisions.",
-  "proponent_count": 3,
-  "hearings": [
-   "Manhattan",
-   "Brooklyn",
-   "Written submission"
-  ],
-  "proponents": [
-   {
-    "name": "Spencer A. Williams",
-    "name_confidence": "high",
-    "affiliation": "Director of Land Use and Topography, Office of the Brooklyn Borough President Antonio Reynoso",
-    "role_type": "Elected official",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=5805s",
-    "quote": "the comprehensive plan should include at a minimum just a simple statement that requires the city to do a comprehensive plan.",
-    "doc_url": "https://www.brooklynbp.nyc.gov/charter-revision-commission-to-strengthen-government-efficiency-brooklyn-hearing/",
-    "doc_label": "Full testimony"
-   },
-   {
-    "name": "Catherine Vaughan",
-    "name_confidence": "high",
-    "affiliation": "Abundance New York (Co-Founder and Executive Director); Brooklyn Community Board 6 member (Park Slope)",
-    "role_type": "Advocacy org",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8171s",
-    "quote": "Reform ULURP for public infrastructure: waive ULURP for public-facility projects under $5 million and expedite review in districts not carrying their fair share",
-    "doc_url": "https://www.abundanceny.org/recommendations",
-    "doc_label": "Abundance NY recommendations"
-   },
-   {
-    "name": "Phil Wong",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, District 30 (Queens)",
-    "role_type": "Elected official",
-    "hearing": "Written submission",
-    "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
-    "quote": "consolidation review for under-enrolled schools; address property-tax disparities"
-   }
-  ]
- },
- {
   "id": "create-pathways-for-civic-tech-pilots",
   "title": "Create paid pilot pathways and a sandbox for civic-tech founders",
   "category": "Technology & digital services",
@@ -1424,6 +1681,129 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4858s",
     "quote": "Require agencies to pilot first and purchase second, using challenge-based procurement and demonstration projects."
+   }
+  ]
+ },
+ {
+  "id": "build-deliverista-hubs-and-worker-public-space",
+  "title": "Design streets as workplaces and build Deliverista Hubs for delivery workers",
+  "category": "Street safety & public realm",
+  "summary": "Redesign public spaces and streets so they also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who use them. Build more Deliverista Hubs with rest space, e-bike charging and dedicated delivery zones, and streamline the interagency coordination and e-bike-charging permitting that delayed the first hub by five years.",
+  "proponent_count": 3,
+  "hearings": [
+   "Queens"
+  ],
+  "proponents": [
+   {
+    "name": "Ligia Guallpa",
+    "name_confidence": "high",
+    "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
+    "role_type": "Advocacy org",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=2865s",
+    "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like."
+   },
+   {
+    "name": "Antonio Solís",
+    "name_confidence": "high",
+    "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
+    "role_type": "Labor",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4061s",
+    "quote": "In reality, the streets have become our place of work, but every day we encounter and face danger due to the lack of safe infrastructure."
+   },
+   {
+    "name": "Megan Rickerson",
+    "name_confidence": "high",
+    "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+    "role_type": "Business/industry",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6873s",
+    "quote": "Support delivery-worker infrastructure (such as the Deliverista Hub) that keeps drivers safe."
+   }
+  ]
+ },
+ {
+  "id": "speed-street-safety-redesigns",
+  "title": "Speed up tested street-safety redesigns and expand automated enforcement",
+  "category": "Street safety & public realm",
+  "summary": "Standard, already-tested street safety redesigns (protected bike lanes, bus lanes, daylighting, sidewalk expansions) take years because of additional outreach rounds, duplicative FDNY objection requirements and slow DDC delivery. Proponents want shorter timelines, a sensible deadline for or removal of firehouse comment requirements, traffic enforcement returned to DOT, and authority for the city to expand speed cameras and automated enforcement without repeatedly begging the state. One argues Vision Zero has failed after a decade because of these delays, which cost time, money and lives.",
+  "proponent_count": 3,
+  "hearings": [
+   "Manhattan",
+   "Bronx (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Corey Hannigan",
+    "name_confidence": "high",
+    "affiliation": "Transportation Alternatives, Government Relations Director for Safe Streets",
+    "role_type": "Advocacy org",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7430s",
+    "quote": "When a protected bike lane is proposed and presented to a community, the DOT has already conducted months of outreach, analysis, and research... From there, additional months of outreach and delays cost time, money, and lives."
+   },
+   {
+    "name": "Pedro Rodriguez",
+    "name_confidence": "high",
+    "affiliation": "Resident; founder/organizer of Neighbors for a Safer Austin Street; Queens Community Board 6 member; street safety advocate (Forest Hills)",
+    "role_type": "Resident",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9762s",
+    "quote": "Let's be honest, vision zero has been a failure. He's been active for about 10 years and we are nowhere near zero."
+   },
+   {
+    "name": "Anna Berlinger",
+    "name_confidence": "medium",
+    "affiliation": "Bronx and Uptown Organizer, Transportation Alternatives",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3942s",
+    "quote": "Too many life saving designs and infrastructure solutions are put on ice or watered down before they're built and some neighborhoods have had hardly any safety infrastructure at all."
+   }
+  ]
+ },
+ {
+  "id": "strengthen-independent-oversight-and-ethics-agencies",
+  "title": "Strengthen and independently fund watchdog and ethics agencies",
+  "category": "Oversight & ethics",
+  "summary": "Independent oversight agencies (DOI, Conflicts of Interest Board) must seek funding from the very officials they regulate, so proponents want independent budgeting (a set percentage of the city budget), removal-for-cause protections and fixed terms for the DOI commissioner, more transparent COIB ethics guidance, and lobbying oversight moved into a more independent ethics commission. They argue strong watchdogs save money, citing inspectors general returning $17 for every $1 invested, and frame the reforms as a response to corruption and a shrunken DOI.",
+  "proponent_count": 3,
+  "hearings": [
+   "Manhattan",
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Grace Rauh",
+    "name_confidence": "high",
+    "affiliation": "Citizens Union (Executive Director)",
+    "role_type": "Advocacy org",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8447s",
+    "quote": "Strong watchdogs save taxpayer dollars by preventing fraud, waste, and abuse... offices of Inspector General are known to generate $17 in returns for every $1 invested.",
+    "doc_url": "https://citizensunion.org/portfolio-item/citizens-union-calls-on-charter-revision-commissions-to-implement-bold-reforms-to-strengthen-democracy-and-government-accountability/",
+    "doc_label": "Citizens Union statement"
+   },
+   {
+    "name": "Rachael Fauss",
+    "name_confidence": "high",
+    "affiliation": "Reinvent Albany (Senior Policy Advisor)",
+    "role_type": "Advocacy org",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9206s",
+    "quote": "We believe the commission must respond to this eruption of corruption by taking steps to strengthen New York City's frontline ethics agencies in particular the department of investigation and conflicts of interest board.",
+    "doc_url": "https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/",
+    "doc_label": "Reinvent Albany statement"
+   },
+   {
+    "name": "Nadia Shehata",
+    "name_confidence": "high",
+    "affiliation": "Commissioner, New York City Department of Investigation (DOI)",
+    "role_type": "Government body",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=395s",
+    "quote": "DOI should be afforded budget independence to reduce the risk of city hall or the city council interference or retaliation against DOI through control of the agency's budget and staffing."
    }
   ]
  },
@@ -1468,41 +1848,123 @@
   ]
  },
  {
-  "id": "build-deliverista-hubs-and-worker-public-space",
-  "title": "Design streets as workplaces and build Deliverista Hubs for delivery workers",
+  "id": "coordinate-agencies-on-neighborhood-quality-of-life",
+  "title": "Coordinate agencies on neighborhood sanitation and quality of life",
   "category": "Street safety & public realm",
-  "summary": "Redesign public spaces and streets so they also function as workplaces for the roughly 80,000 delivery workers and 20,000 day laborers who use them. Build more Deliverista Hubs with rest space, e-bike charging and dedicated delivery zones, and streamline the interagency coordination and e-bike-charging permitting that delayed the first hub by five years.",
-  "proponent_count": 3,
+  "summary": "Have city agencies work with residents in a coordinated, sustained way on quality-of-life concerns rather than leaving cleanups to volunteers. Add public garbage cans and accessible restrooms near busy transit hubs, create a dedicated Jamaica task force across Sanitation, DOT, MTA and NYPD, and run impact assessments and gather resident feedback before major transportation changes.",
+  "proponent_count": 2,
   "hearings": [
-   "Queens"
+   "Queens",
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Ligia Guallpa",
+    "name": "Taiwan Green",
     "name_confidence": "high",
-    "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
+    "affiliation": "Music educator, community advocate and small business owner; lifelong resident of Southeast Queens",
+    "role_type": "Resident",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9299s",
+    "quote": "We were very hard to remove litter and improve the area. Unfortunately, by the very next day, it looked as though we had never been there."
+   },
+   {
+    "name": "Tomoro Sargi",
+    "name_confidence": "low",
+    "affiliation": "Native New Yorker; high school student",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6277s",
+    "quote": "Impose stronger fines and penalties on littering, with that revenue directed to the Department of Sanitation to clean public spaces more frequently."
+   }
+  ]
+ },
+ {
+  "id": "expand-staten-island-transit-and-bus-service",
+  "title": "Expand Staten Island bus, Bus Rapid Transit and bike infrastructure",
+  "category": "Street safety & public realm",
+  "summary": "Staten Island non-drivers struggle to get around and off the island, with a single bus route to New Jersey, a long-stalled Bus Rapid Transit project, a St. George / Bay Street North Shore transit project not slated until 2035, and bus lanes (such as on Hylan Boulevard) perpetually blocked by parked cars. Proponents want expanded bus service, delivery of the BRT and North Shore projects, enforcement of existing bus lanes, more transit funding and recognition for a borough routinely placed last, and new bike infrastructure including a bike-share or Citi Bike program.",
+  "proponent_count": 2,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Samantha Wilkinson",
+    "name_confidence": "high",
+    "affiliation": "Resident; lifelong Staten Islander, NYC DOE substitute teacher and Snug Harbor tour guide",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6406s",
+    "quote": "It is incredibly difficult to get off this island if you do not drive."
+   },
+   {
+    "name": "Melissa Caballero",
+    "name_confidence": "medium",
+    "affiliation": "Resident; Staten Island non-driver",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6596s",
+    "quote": "Those bus lanes are always occupied by cars parked there, and they never seem to move."
+   }
+  ]
+ },
+ {
+  "id": "extend-ranked-choice-voting-to-all-elections",
+  "title": "Extend ranked choice voting to general elections and speed the count",
+  "category": "Elections & voting",
+  "summary": "New York City is the only jurisdiction that uses ranked choice voting in primaries but not general elections, leaving voters facing different rules for specials, primaries and generals. Proponents want RCV extended to all city elections (following the Washington, D.C. and Arlington semi-open-primary model), allowing fusion-style ballots that list party endorsements after candidate names, and charter mechanisms to accelerate the count toward first tallies within an hour of poll closing as San Francisco does.",
+  "proponent_count": 2,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Frank Morano",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member (Staten Island)",
+    "role_type": "Elected official",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=1708s",
+    "quote": "Extend ranked choice voting to the general election so voters face one consistent system instead of separate rules for specials, primaries and generals."
+   },
+   {
+    "name": "Rob Richie",
+    "name_confidence": "high",
+    "affiliation": "Head of Expand Democracy; founder and former head of FairVote (1992-2023); ranked choice voting authority",
     "role_type": "Advocacy org",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=2865s",
-    "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like."
-   },
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=7040s",
+    "quote": "New York City is actually the only jurisdiction to use RCV only in the primaries, but not the general election."
+   }
+  ]
+ },
+ {
+  "id": "include-independent-providers-in-child-care-expansion",
+  "title": "Include independent and family child-care providers in any expansion",
+  "category": "Child care & education",
+  "summary": "Any expansion of child care (2K/3K, subsidies) should include independent and family-based providers rather than forcing them into networks that strip their independence and add layered oversight, and should preserve parents' freedom to choose the program that fits their child. Proponents want existing licensed capacity used to cut the 25,000-plus child waitlist, vouchers restored for children not in networks and under age two, after-school care funded for 3- and 4-year-olds, and financing for home-based providers to expand. The warning: independent providers are falling behind and closing.",
+  "proponent_count": 2,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
    {
-    "name": "Antonio Solís",
+    "name": "Aneydy Paniagua",
     "name_confidence": "high",
-    "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
-    "role_type": "Labor",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4061s",
-    "quote": "In reality, the streets have become our place of work, but every day we encounter and face danger due to the lack of safe infrastructure."
-   },
-   {
-    "name": "Megan Rickerson",
-    "name_confidence": "high",
-    "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+    "affiliation": "Independent family child care provider, Bronx (Andeliz Paniagua, Leslie Daycare, Bronx NY 10471; NYS license 933805)",
     "role_type": "Business/industry",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6873s",
-    "quote": "Support delivery-worker infrastructure (such as the Deliverista Hub) that keeps drivers safe."
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1120s",
+    "quote": "any kind of expansion of the child care can be included for the providers, independent providers ... and can guarantee that no child, family or educator can be left behind."
+   },
+   {
+    "name": "Michelle Minaya",
+    "name_confidence": "high",
+    "affiliation": "Family child care provider (5 years), Bronx",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=2753s",
+    "quote": "the 2K and 3K program forces you to join a network ... there is nothing being done about these providers who are going to fall behind and eventually have to close their doors."
    }
   ]
  },
@@ -1539,127 +2001,186 @@
   ]
  },
  {
-  "id": "strengthen-independent-oversight-and-ethics-agencies",
-  "title": "Strengthen and independently fund watchdog and ethics agencies",
-  "category": "Oversight & ethics",
-  "summary": "Independent oversight agencies (DOI, Conflicts of Interest Board) must seek funding from the very officials they regulate, so proponents want independent budgeting (a set percentage of the city budget), removal-for-cause protections and fixed terms for the DOI commissioner, more transparent COIB ethics guidance, and lobbying oversight moved into a more independent ethics commission. They argue strong watchdogs save money, citing inspectors general returning $17 for every $1 invested, and frame the reforms as a response to corruption and a shrunken DOI.",
+  "id": "make-the-city-budget-transparent-and-community-informed",
+  "title": "Make the city budget transparent, disaggregated and open to community input",
+  "category": "Open data & transparency",
+  "summary": "City budget documents obscure how money and staffing are distributed, both across programs and across neighborhoods, and release data too late and in formats too hard to use for meaningful community engagement. Proponents want the charter to require budget-function analysis across all agencies, spatial (neighborhood/community-board-level) disaggregation of spending, plain-language explanations and public input at the rule-writing stage. They also want more time between the executive and adopted budgets, open data released within 48 hours of any budget action as ready-to-use spreadsheets, and clear flags on any large funding changes.",
   "proponent_count": 2,
   "hearings": [
-   "Manhattan"
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Grace Rauh",
-    "name_confidence": "high",
-    "affiliation": "Citizens Union (Executive Director)",
-    "role_type": "Advocacy org",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=8447s",
-    "quote": "Strong watchdogs save taxpayer dollars by preventing fraud, waste, and abuse... offices of Inspector General are known to generate $17 in returns for every $1 invested.",
-    "doc_url": "https://citizensunion.org/portfolio-item/citizens-union-calls-on-charter-revision-commissions-to-implement-bold-reforms-to-strengthen-democracy-and-government-accountability/",
-    "doc_label": "Citizens Union statement"
+    "name": "Selena Sue",
+    "name_confidence": "medium",
+    "affiliation": "CUNY professor focusing on community organizing and participatory democracy; volunteer researcher with the People's Budget campaign; author of 'Budget Justice'",
+    "role_type": "Academic",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=3709s",
+    "quote": "Budget documents currently obfuscate patterns of distribution in the city, both across programs and across neighborhoods. We need basic transparency on spending and staffing."
    },
    {
-    "name": "Rachael Fauss",
+    "name": "Jonathan Burke",
     "name_confidence": "high",
-    "affiliation": "Reinvent Albany (Senior Policy Advisor)",
+    "affiliation": "General surgery resident and doctoral student in epidemiology; volunteer budget analyst and researcher with the People's Budget",
     "role_type": "Advocacy org",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9206s",
-    "quote": "We believe the commission must respond to this eruption of corruption by taking steps to strengthen New York City's frontline ethics agencies in particular the department of investigation and conflicts of interest board.",
-    "doc_url": "https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/",
-    "doc_label": "Reinvent Albany statement"
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=7014s",
+    "quote": "With this charter revision, New York City has the opportunity to lead the country by providing the time and transparency our budget process needs to cultivate real community engagement."
    }
   ]
  },
  {
-  "id": "speed-street-safety-redesigns",
-  "title": "Speed up tested street-safety redesigns and expand automated enforcement",
-  "category": "Street safety & public realm",
-  "summary": "Standard, already-tested street safety redesigns (protected bike lanes, bus lanes, daylighting, sidewalk expansions) take years because of additional outreach rounds, duplicative FDNY objection requirements and slow DDC delivery. Proponents want shorter timelines, a sensible deadline for or removal of firehouse comment requirements, traffic enforcement returned to DOT, and authority for the city to expand speed cameras and automated enforcement without repeatedly begging the state. One argues Vision Zero has failed after a decade because of these delays, which cost time, money and lives.",
-  "proponent_count": 2,
-  "hearings": [
-   "Manhattan"
-  ],
-  "proponents": [
-   {
-    "name": "Corey Hannigan",
-    "name_confidence": "high",
-    "affiliation": "Transportation Alternatives, Government Relations Director for Safe Streets",
-    "role_type": "Advocacy org",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=7430s",
-    "quote": "When a protected bike lane is proposed and presented to a community, the DOT has already conducted months of outreach, analysis, and research... From there, additional months of outreach and delays cost time, money, and lives."
-   },
-   {
-    "name": "Pedro Rodriguez",
-    "name_confidence": "high",
-    "affiliation": "Resident; founder/organizer of Neighbors for a Safer Austin Street; Queens Community Board 6 member; street safety advocate (Forest Hills)",
-    "role_type": "Resident",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9762s",
-    "quote": "Let's be honest, vision zero has been a failure. He's been active for about 10 years and we are nowhere near zero."
-   }
-  ]
- },
- {
-  "id": "include-independent-providers-in-child-care-expansion",
-  "title": "Include independent and family child-care providers in any expansion",
-  "category": "Child care & education",
-  "summary": "Any expansion of child care (2K/3K, subsidies) should include independent and family-based providers rather than forcing them into networks that strip their independence and add layered oversight, and should preserve parents' freedom to choose the program that fits their child. Proponents want existing licensed capacity used to cut the 25,000-plus child waitlist, vouchers restored for children not in networks and under age two, after-school care funded for 3- and 4-year-olds, and financing for home-based providers to expand. The warning: independent providers are falling behind and closing.",
-  "proponent_count": 2,
-  "hearings": [
-   "Bronx"
-  ],
-  "proponents": [
-   {
-    "name": "Aneydy Paniagua",
-    "name_confidence": "high",
-    "affiliation": "Independent family child care provider, Bronx (Andeliz Paniagua, Leslie Daycare, Bronx NY 10471; NYS license 933805)",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1120s",
-    "quote": "any kind of expansion of the child care can be included for the providers, independent providers ... and can guarantee that no child, family or educator can be left behind."
-   },
-   {
-    "name": "Michelle Minaya",
-    "name_confidence": "high",
-    "affiliation": "Family child care provider (5 years), Bronx",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=2753s",
-    "quote": "the 2K and 3K program forces you to join a network ... there is nothing being done about these providers who are going to fall behind and eventually have to close their doors."
-   }
-  ]
- },
- {
-  "id": "speed-rental-voucher-and-shelter-housing-placement",
-  "title": "Speed rental-voucher processing and stop warehousing people in shelter",
-  "category": "Housing & shelter",
-  "summary": "People with approved apartments or rental-assistance vouchers (CityFHEPS/FHEPS) wait three to four months on processing, documentation and checks, so landlords give up holding units and eligible families stay stranded in shelter. Proponents want voucher processing to actually meet the 30-45 day target, the administrative delays and lack of continuity among HRA, HPD and DHS fixed, and the inefficiencies of the agency-nonprofit-contractor shelter network addressed. One shelter resident describes the system as 'warehousing women' while the city hemorrhages money on contracts that aren't delivering.",
+  "id": "match-residential-growth-with-school-siting-and-infrastructure",
+  "title": "Match residential growth with school siting and infrastructure investment",
+  "category": "Land use & planning",
+  "summary": "When the city incentivizes residential growth, it fails to match it with the infrastructure the moment demands (schools, crossing guards, pedestrian safety, sanitation), and the process for siting schools is badly outdated, with schools placed in former post offices and retail stores. Proponents want the school-siting process revised, better coordination among the six or seven agencies that cause delays, and growth incentives paired with infrastructure. A separate written submission adds consolidation review for under-enrolled schools.",
   "proponent_count": 2,
   "hearings": [
    "Manhattan",
+   "Written submission"
+  ],
+  "proponents": [
+   {
+    "name": "Tricia Joyce",
+    "name_confidence": "high",
+    "affiliation": "Lower Manhattan/Tribeca resident and business owner; chair, Youth & Education Committee, Manhattan Community Board 1 (speaking for herself)",
+    "role_type": "Resident",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10727s",
+    "quote": "The success of that incentivization created challenges the city somehow failed to anticipate and it was never matched with the infrastructure investment the moment demanded."
+   },
+   {
+    "name": "Phil Wong",
+    "name_confidence": "high",
+    "affiliation": "New York City Council Member, District 30 (Queens)",
+    "role_type": "Elected official",
+    "hearing": "Written submission",
+    "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
+    "quote": "consolidation review for under-enrolled schools"
+   }
+  ]
+ },
+ {
+  "id": "protect-industrial-businesses-and-ibsp-funding",
+  "title": "Protect industrial businesses and reverse IBSP defunding",
+  "category": "MWBE & small business",
+  "summary": "The Industrial Business Service Provider (IBSP) program, nearly 40 years old, is scheduled to be defunded citywide, which proponents say would eliminate one of the few consistent voices connecting industrial businesses to city government. They want the defunding reversed, stronger protections for IBZ-zoned land, better infrastructure responsiveness in industrial corridors and a real seat for industrial businesses at economic-development planning. The IBSP-funded teams are described as a lifeline for the industrial sector.",
+  "proponent_count": 2,
+  "hearings": [
    "Bronx"
   ],
   "proponents": [
    {
-    "name": "Lauren Napier",
+    "name": "Daniel Garcia",
     "name_confidence": "high",
-    "affiliation": "Resident (currently in a DHS women's shelter; former six-figure earner), Manhattan",
-    "role_type": "Resident",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10204s",
-    "quote": "The shelter is what I feel... is really warehousing women. We are not being processed and we are being held there... the city is hemorrhaging money."
-   },
-   {
-    "name": "Jessica Lopez",
-    "name_confidence": "high",
-    "affiliation": "Licensed real estate agent, Bronx (Keller New York); ~22 years in real estate with property management background; works with rental subsidy programs",
+    "affiliation": "Salsa Catering & Special Events (founder/owner/CEO); MWBE; Port Morris Industrial Business Zone, Bronx",
     "role_type": "Business/industry",
     "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=9010s",
-    "quote": "having a voucher does not mean they have a home ... I've personally had families wait 3 to four months after submitting everything before receiving final approval to move in."
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1878s",
+    "quote": "Reverse the planned defunding of the Industrial Business Service Provider (IBSP) program that funds the BACH industrial team, which is a 'lifeline' for industrial businesses"
+   },
+   {
+    "name": "Charles Dilone",
+    "name_confidence": "high",
+    "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx) [org name unverified]",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4268s",
+    "quote": "The industrial business service providing program ... is now scheduled to be defunded citywide ... Cutting this program would eliminate one of the few consistent voices for the industrial sector."
+   }
+  ]
+ },
+ {
+  "id": "publicize-hearings-and-improve-civic-outreach",
+  "title": "Publicize public hearings widely so communities can participate",
+  "category": "Open data & transparency",
+  "summary": "Have the commission and the city do far more to publicize public hearings through multiple channels, including social media, mail and varied formats, so communities and business owners actually learn about them and can participate. The argument is that under-publicized hearings are effectively useless.",
+  "proponent_count": 2,
+  "hearings": [
+   "Queens",
+   "Bronx (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Terry Renee",
+    "name_confidence": "low",
+    "affiliation": "Community health worker who attends public hearings across New York City",
+    "role_type": "Resident",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9469s",
+    "quote": "If a resource is not being used... you might as well not have it exist. It's the same thing as if it doesn't exist because you can't navigate it."
+   },
+   {
+    "name": "Eric Soriano Perez",
+    "name_confidence": "medium",
+    "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
+    "role_type": "Resident",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4686s",
+    "quote": "I encourage the city to partner with trusted community spaces, barbershops, salons, recreation centers, gyms, and other places where people naturally gather."
+   }
+  ]
+ },
+ {
+  "id": "reform-commercial-vehicle-parking-fines",
+  "title": "Reform parking fines treated as unavoidable for commercial vehicles",
+  "category": "MWBE & small business",
+  "summary": "Reform how the city handles parking fines for small local trucking and moving businesses, which spend tens of thousands a year on unavoidable tickets. Reconsider the stipulated-fine program that forces businesses to give up the right to contest tickets, apply the 'expeditious delivery service' dismissal standard consistently, and convene cross-agency talks on safe, affordable commercial parking.",
+  "proponent_count": 2,
+  "hearings": [
+   "Queens",
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Ashley Graber",
+    "name_confidence": "high",
+    "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
+    "role_type": "Business/industry",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4464s",
+    "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
+   },
+   {
+    "name": "Belkis Lora",
+    "name_confidence": "high",
+    "affiliation": "Founder and CEO, Grand Slam (banquet hall / event business, Bronx, 18 years; second location in Manhattan)",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5479s",
+    "quote": "We've been requested to the DOT to give us a loading zone for the business on the block, but other people are not respecting that sign... they give us a ticket every two minutes. It's becoming like another rent to us."
+   }
+  ]
+ },
+ {
+  "id": "rein-in-monopoly-and-ai-masquerade-in-procurement",
+  "title": "Rein in vendor monopolies and AI masquerade in city contracting",
+  "category": "Procurement & contracting",
+  "summary": "Proponents want the city to scrutinize vendors that exploit captive users and game procurement: investigate Securus's growing monopoly over prison communications (it acquired JPay and charges roughly $6.50 per money transfer) and inflated prices charged to incarcerated families, and regulate AI in the bidding process so procurement officers verify that bid content was actually created by the bidding business rather than AI-generated. Both aim to level the playing field and stop vendors from pilfering struggling families' money.",
+  "proponent_count": 2,
+  "hearings": [
+   "Brooklyn",
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Robin Graham",
+    "name_confidence": "high",
+    "affiliation": "Mentor/advocate for incarcerated and returning citizens and their families (24 years)",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8654s",
+    "quote": "can we take the technology out of the hands of those vendors who are pilfering the pockets of the loved ones who are already struggling."
+   },
+   {
+    "name": "Gregory Hernandez",
+    "name_confidence": "high",
+    "affiliation": "Green Canvas Productions (founder/CEO), Bronx video production company; MBE certified, NYC DOE vendor; also founder, Bronx Independent Cinema Center",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4897s",
+    "quote": "can we regulate AI in the sense of ... make sure that content that is created during the bidding process is actually created by that particular individual or that business entity and not created by AI."
    }
   ]
  },
@@ -1698,66 +2219,6 @@
   ]
  },
  {
-  "id": "make-edc-and-public-land-decisions-accountable",
-  "title": "Make EDC and public-land decisions transparent and community-accountable",
-  "category": "Public land & EDC",
-  "summary": "Proponents argue the Economic Development Corporation's public engagement is a sham that ignores community and maritime input, and that public-land decisions strip power from the communities forced to live with them. They call for charter requirements to disclose all leases, dispositions and redevelopment agreements before finalization, a community pre-approval standard, an independent body to audit public-land decisions against public-benefit standards, displacement-impact assessments for legacy small-business tenants, and structures like a maritime community board to give the public real voice.",
-  "proponent_count": 2,
-  "hearings": [
-   "Brooklyn"
-  ],
-  "proponents": [
-   {
-    "name": "Lola Star",
-    "name_confidence": "high",
-    "affiliation": "Small business owner and artist, Coney Island; founder of Lola Star Souvenir Boutique (est. 2001) and the 'Save Coney Island' advocacy group; created Dreamland Roller Rink",
-    "role_type": "Business/industry",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=10191s",
-    "quote": "Public land belongs to the people of New York but too often decisions are made through systems that strip power from the communities who are forced to live with the consequences."
-   },
-   {
-    "name": "David Sheldon",
-    "name_confidence": "high",
-    "affiliation": "Save Our Seaport (South Street Seaport preservation group); public member, Manhattan Community Board 1 (waterfront); retired AFM Local 802; mariner",
-    "role_type": "Resident",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=9213s",
-    "quote": "as a measure of efficiency, as a savings of both time and money, perhaps the EDC can just do away with the sham of public engagement."
-   }
-  ]
- },
- {
-  "id": "protect-industrial-businesses-and-ibsp-funding",
-  "title": "Protect industrial businesses and reverse IBSP defunding",
-  "category": "MWBE & small business",
-  "summary": "The Industrial Business Service Provider (IBSP) program, nearly 40 years old, is scheduled to be defunded citywide, which proponents say would eliminate one of the few consistent voices connecting industrial businesses to city government. They want the defunding reversed, stronger protections for IBZ-zoned land, better infrastructure responsiveness in industrial corridors and a real seat for industrial businesses at economic-development planning. The IBSP-funded teams are described as a lifeline for the industrial sector.",
-  "proponent_count": 2,
-  "hearings": [
-   "Bronx"
-  ],
-  "proponents": [
-   {
-    "name": "Daniel Garcia",
-    "name_confidence": "high",
-    "affiliation": "Salsa Catering & Special Events (founder/owner/CEO); MWBE; Port Morris Industrial Business Zone, Bronx",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1878s",
-    "quote": "Reverse the planned defunding of the Industrial Business Service Provider (IBSP) program that funds the BACH industrial team, which is a 'lifeline' for industrial businesses"
-   },
-   {
-    "name": "Charles Dilone",
-    "name_confidence": "high",
-    "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx) [org name unverified]",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4268s",
-    "quote": "The industrial business service providing program ... is now scheduled to be defunded citywide ... Cutting this program would eliminate one of the few consistent voices for the industrial sector."
-   }
-  ]
- },
- {
   "id": "shift-budget-toward-prevention-and-community-safety",
   "title": "Shift spending toward prevention and a separate community-safety response",
   "category": "Budget & fiscal reserves",
@@ -1789,95 +2250,33 @@
   ]
  },
  {
-  "id": "match-residential-growth-with-school-siting-and-infrastructure",
-  "title": "Match residential growth with school siting and infrastructure investment",
-  "category": "Land use & planning",
-  "summary": "When the city incentivizes residential growth, it fails to match it with the infrastructure the moment demands (schools, crossing guards, pedestrian safety, sanitation), and the process for siting schools is badly outdated, with schools placed in former post offices and retail stores. Proponents want the school-siting process revised, better coordination among the six or seven agencies that cause delays, and growth incentives paired with infrastructure. A separate written submission adds consolidation review for under-enrolled schools.",
+  "id": "speed-rental-voucher-and-shelter-housing-placement",
+  "title": "Speed rental-voucher processing and stop warehousing people in shelter",
+  "category": "Housing & shelter",
+  "summary": "People with approved apartments or rental-assistance vouchers (CityFHEPS/FHEPS) wait three to four months on processing, documentation and checks, so landlords give up holding units and eligible families stay stranded in shelter. Proponents want voucher processing to actually meet the 30-45 day target, the administrative delays and lack of continuity among HRA, HPD and DHS fixed, and the inefficiencies of the agency-nonprofit-contractor shelter network addressed. One shelter resident describes the system as 'warehousing women' while the city hemorrhages money on contracts that aren't delivering.",
   "proponent_count": 2,
   "hearings": [
    "Manhattan",
-   "Written submission"
-  ],
-  "proponents": [
-   {
-    "name": "Tricia Joyce",
-    "name_confidence": "high",
-    "affiliation": "Lower Manhattan/Tribeca resident and business owner; chair, Youth & Education Committee, Manhattan Community Board 1 (speaking for herself)",
-    "role_type": "Resident",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10727s",
-    "quote": "The success of that incentivization created challenges the city somehow failed to anticipate and it was never matched with the infrastructure investment the moment demanded."
-   },
-   {
-    "name": "Phil Wong",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, District 30 (Queens)",
-    "role_type": "Elected official",
-    "hearing": "Written submission",
-    "url": "https://qns.com/2026/06/cm-wong-nyc-commission-district-30/",
-    "quote": "consolidation review for under-enrolled schools"
-   }
-  ]
- },
- {
-  "id": "rein-in-monopoly-and-ai-masquerade-in-procurement",
-  "title": "Rein in vendor monopolies and AI masquerade in city contracting",
-  "category": "Procurement & contracting",
-  "summary": "Proponents want the city to scrutinize vendors that exploit captive users and game procurement: investigate Securus's growing monopoly over prison communications (it acquired JPay and charges roughly $6.50 per money transfer) and inflated prices charged to incarcerated families, and regulate AI in the bidding process so procurement officers verify that bid content was actually created by the bidding business rather than AI-generated. Both aim to level the playing field and stop vendors from pilfering struggling families' money.",
-  "proponent_count": 2,
-  "hearings": [
-   "Bronx",
-   "Brooklyn"
-  ],
-  "proponents": [
-   {
-    "name": "Robin Graham",
-    "name_confidence": "high",
-    "affiliation": "Mentor/advocate for incarcerated and returning citizens and their families (24 years)",
-    "role_type": "Advocacy org",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8654s",
-    "quote": "can we take the technology out of the hands of those vendors who are pilfering the pockets of the loved ones who are already struggling."
-   },
-   {
-    "name": "Gregory Hernandez",
-    "name_confidence": "high",
-    "affiliation": "Green Canvas Productions (founder/CEO), Bronx video production company; MBE certified, NYC DOE vendor; also founder, Bronx Independent Cinema Center",
-    "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4897s",
-    "quote": "can we regulate AI in the sense of ... make sure that content that is created during the bidding process is actually created by that particular individual or that business entity and not created by AI."
-   }
-  ]
- },
- {
-  "id": "reform-commercial-vehicle-parking-fines",
-  "title": "Reform parking fines treated as unavoidable for commercial vehicles",
-  "category": "MWBE & small business",
-  "summary": "Reform how the city handles parking fines for small local trucking and moving businesses, which spend tens of thousands a year on unavoidable tickets. Reconsider the stipulated-fine program that forces businesses to give up the right to contest tickets, apply the 'expeditious delivery service' dismissal standard consistently, and convene cross-agency talks on safe, affordable commercial parking.",
-  "proponent_count": 2,
-  "hearings": [
-   "Queens",
    "Bronx"
   ],
   "proponents": [
    {
-    "name": "Ashley Graber",
+    "name": "Lauren Napier",
     "name_confidence": "high",
-    "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
-    "role_type": "Business/industry",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=4464s",
-    "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
+    "affiliation": "Resident (currently in a DHS women's shelter; former six-figure earner), Manhattan",
+    "role_type": "Resident",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=10204s",
+    "quote": "The shelter is what I feel... is really warehousing women. We are not being processed and we are being held there... the city is hemorrhaging money."
    },
    {
-    "name": "Belkis Lora",
+    "name": "Jessica Lopez",
     "name_confidence": "high",
-    "affiliation": "Founder and CEO, Grand Slam (banquet hall / event business, Bronx, 18 years; second location in Manhattan)",
+    "affiliation": "Licensed real estate agent, Bronx (Keller New York); ~22 years in real estate with property management background; works with rental subsidy programs",
     "role_type": "Business/industry",
     "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=5479s",
-    "quote": "We've been requested to the DOT to give us a loading zone for the business on the block, but other people are not respecting that sign... they give us a ticket every two minutes. It's becoming like another rent to us."
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=9010s",
+    "quote": "having a voucher does not mean they have a home ... I've personally had families wait 3 to four months after submitting everything before receiving final approval to move in."
    }
   ]
  },
@@ -1912,171 +2311,6 @@
   ]
  },
  {
-  "id": "extend-ranked-choice-voting-to-all-elections",
-  "title": "Extend ranked choice voting to general elections and speed the count",
-  "category": "Elections & voting",
-  "summary": "New York City is the only jurisdiction that uses ranked choice voting in primaries but not general elections, leaving voters facing different rules for specials, primaries and generals. Proponents want RCV extended to all city elections (following the Washington, D.C. and Arlington semi-open-primary model), allowing fusion-style ballots that list party endorsements after candidate names, and charter mechanisms to accelerate the count toward first tallies within an hour of poll closing as San Francisco does.",
-  "proponent_count": 2,
-  "hearings": [
-   "Staten Island"
-  ],
-  "proponents": [
-   {
-    "name": "Frank Morano",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member (Staten Island)",
-    "role_type": "Elected official",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=1708s",
-    "quote": "Extend ranked choice voting to the general election so voters face one consistent system instead of separate rules for specials, primaries and generals."
-   },
-   {
-    "name": "Rob Richie",
-    "name_confidence": "high",
-    "affiliation": "Head of Expand Democracy; founder and former head of FairVote (1992-2023); ranked choice voting authority",
-    "role_type": "Advocacy org",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=7040s",
-    "quote": "New York City is actually the only jurisdiction to use RCV only in the primaries, but not the general election."
-   }
-  ]
- },
- {
-  "id": "expand-staten-island-transit-and-bus-service",
-  "title": "Expand Staten Island bus, Bus Rapid Transit and bike infrastructure",
-  "category": "Street safety & public realm",
-  "summary": "Staten Island non-drivers struggle to get around and off the island, with a single bus route to New Jersey, a long-stalled Bus Rapid Transit project, a St. George / Bay Street North Shore transit project not slated until 2035, and bus lanes (such as on Hylan Boulevard) perpetually blocked by parked cars. Proponents want expanded bus service, delivery of the BRT and North Shore projects, enforcement of existing bus lanes, more transit funding and recognition for a borough routinely placed last, and new bike infrastructure including a bike-share or Citi Bike program.",
-  "proponent_count": 2,
-  "hearings": [
-   "Staten Island"
-  ],
-  "proponents": [
-   {
-    "name": "Samantha Wilkinson",
-    "name_confidence": "high",
-    "affiliation": "Resident; lifelong Staten Islander, NYC DOE substitute teacher and Snug Harbor tour guide",
-    "role_type": "Resident",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6406s",
-    "quote": "It is incredibly difficult to get off this island if you do not drive."
-   },
-   {
-    "name": "Melissa Caballero",
-    "name_confidence": "medium",
-    "affiliation": "Resident; Staten Island non-driver",
-    "role_type": "Resident",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=6596s",
-    "quote": "Those bus lanes are always occupied by cars parked there, and they never seem to move."
-   }
-  ]
- },
- {
-  "id": "reform-community-board-appointments-and-boundaries",
-  "title": "Let council members appoint community board members and align district boundaries",
-  "category": "Land use & planning",
-  "summary": "Put a ballot measure letting city council members appoint half of their local community board members, currently appointed solely by borough presidents. Make community district boundaries coterminous with council district boundaries to reduce overlap, duplication and confusion over who represents residents.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Frank Morano",
-    "name_confidence": "high",
-    "affiliation": "New York City Council Member, Staten Island South Shore (testified online)",
-    "role_type": "Elected official",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=541s",
-    "quote": "People don't care how many meetings were held. They care whether their pothole was filled."
-   }
-  ]
- },
- {
-  "id": "reform-landmarks-process-to-weigh-housing-loss",
-  "title": "Make landmarking weigh the loss of housing it causes",
-  "category": "Land use & planning",
-  "summary": "Reform the Landmarks Preservation Commission so it weighs the 1.4% vacancy rate and net loss of housing units when reviewing applications, especially townhome conversions in historic districts. Require LPC and City Planning to analyze how historic districts affect future housing opportunity sites.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Annemarie Gray",
-    "name_confidence": "high",
-    "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
-    "role_type": "Advocacy org",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=3090s",
-    "quote": "Reform the Landmarks Preservation Commission process so LPC weighs the 1.4% vacancy rate and net loss of housing units, especially townhome conversions in districts like the West Village."
-   }
-  ]
- },
- {
-  "id": "treat-ai-as-community-governed-civic-infrastructure",
-  "title": "Treat AI and data centers as community-governed civic infrastructure",
-  "category": "AI governance",
-  "summary": "Treat AI as civic infrastructure that communities can collectively shape, govern and benefit from, not a private product to consume. Pilot community-controlled essential infrastructure such as community-led data centers, modeled on community solar and mesh networks, and broaden the charter's definition of efficiency to mean public, accountable and trusted systems.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Rajesh Sankat",
-    "name_confidence": "high",
-    "affiliation": "Program strategist and civic designer at three by three, a community-centered design studio in Brooklyn",
-    "role_type": "Civic-tech",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6206s",
-    "quote": "When something shapes all of our lives, we don't leave it entirely to private actors. And that is what is happening with AI."
-   }
-  ]
- },
- {
-  "id": "integrated-remediation-planning-for-contaminated-sites",
-  "title": "Require integrated remediation and land-use planning for contaminated sites",
-  "category": "Land use & planning",
-  "summary": "Add a charter requirement for integrated remediation planning at contaminated sites above a defined threshold. When a site hits a cleanup milestone, require DEP, Design and Construction, and City Planning to convene within 180 days and develop a joint remediation and land-use plan with binding, timelined community-benefit commitments, plus a tiered polluter-pays liability system.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Pritya Shrimali",
-    "name_confidence": "low",
-    "affiliation": "Recent NYC high school graduate and New Jersey resident researching federal superfund and urban environmental remediation policy",
-    "role_type": "Academic",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7131s",
-    "quote": "A child born in this neighborhood today will be finishing elementary school before the cleanup even begins."
-   }
-  ]
- },
- {
-  "id": "require-incumbents-to-pause-when-seeking-other-office",
-  "title": "Make incumbents take leave or wait when running for another office",
-  "category": "Elections & voting",
-  "summary": "Add a ballot question requiring incumbent elected officials who run for other local, state or national offices to either take an unpaid leave of absence while campaigning or wait until they finish their term to run. The aim is to protect governance when officials campaign for six to ten months while still in office.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Mary Anil",
-    "name_confidence": "low",
-    "affiliation": "Astoria, Queens resident (29 years); NYC government employee since 2007; MPA from Baruch, PhD from CUNY Graduate Center",
-    "role_type": "Resident",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7748s",
-    "quote": "If many incumbents are running for other offices in competitive elections and are campaigning for six or ten months, then I worry about our governance."
-   }
-  ]
- },
- {
   "id": "health-in-all-policies-and-sectoral-health-bargaining",
   "title": "Add health in all policies and consolidate health-worker bargaining",
   "category": "Labor & workforce",
@@ -2098,23 +2332,65 @@
   ]
  },
  {
-  "id": "maintain-public-spaces-and-fix-311-followup",
-  "title": "Require maintenance plans for public spaces and fix 311 follow-up",
+  "id": "require-free-menstrual-products-in-public-buildings",
+  "title": "Adopt free menstrual products in public buildings and improve public-space access",
   "category": "Street safety & public realm",
-  "summary": "Reduce barriers to creating public-space events and amenities, such as high insurance requirements, the Public Design Commission process and long contracting timelines. Require maintenance plans so responsibility for long-term parks isn't dropped between agencies, fix 311 so quality-of-life cases aren't closed without resolution, and speed DOT's response to streetscape lighting requests stuck in contracting.",
+  "summary": "A witness urged New York City to proactively adopt the standards of the state's Total Access to Menstrual Products (TAMP) Act into the city charter, mandating free menstrual products in public buildings rather than waiting for a state directive. She also asked the city to recognize and bridge gaps in public-space accessibility for international students, who face restrictions using parks, open streets and libraries under strict visa conditions.",
   "proponent_count": 1,
   "hearings": [
-   "Queens"
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Henry Smith",
+    "name": "Pritha Mukherjee",
     "name_confidence": "high",
-    "affiliation": "Director of economic development, Long Island City Partnership / LIC Business Improvement District (testified online)",
-    "role_type": "Business/industry",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8256s",
-    "quote": "It has really been a problem with not only just cases being closed immediately but also to have the follow-up."
+    "affiliation": "International student in New York City (from Mumbai, India)",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=6448s",
+    "quote": "I really hope this commission does not simply rely on the state to give a directive and New York City should proactively take up this and recommend the city's charter to incorporate standards already issued in the TAMP Act."
+   }
+  ]
+ },
+ {
+  "id": "build-data-infrastructure-for-students-with-disabilities",
+  "title": "Build shared data infrastructure to coordinate services for students with disabilities",
+  "category": "Child care & education",
+  "summary": "A parent advocate for families with disabilities testified that the city has no single place holding a child's information and that DOE and human-resources offices do not communicate, leaving families to manage rooms of paperwork to secure services. She recommended a commission or committee, including parents of children with disabilities, to design a smoother system and to start collecting data on a community no one has been tracking. Better data infrastructure and coordination, she argued, would reduce stress on families, cut duplicative or ineffective spending and stop services from collapsing when a parent dies and a young adult is left on their own.",
+  "proponent_count": 1,
+  "hearings": [
+   "Brooklyn"
+  ],
+  "proponents": [
+   {
+    "name": "Stacey Bode",
+    "name_confidence": "high",
+    "affiliation": "Parent advocate for families with disabilities (autism); online participant",
+    "role_type": "Advocacy org",
+    "hearing": "Brooklyn",
+    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8488s",
+    "quote": "I'm a parent advocate for families with disabilities. The DOE and the HR departments are not talking to each other... there's not one place that has all the information. Nobody's been collecting data on this community."
+   }
+  ]
+ },
+ {
+  "id": "combat-sex-trafficking-with-enforcement-and-data-sharing",
+  "title": "Combat sex trafficking with enforcement, data-sharing and a public offender database",
+  "category": "Street safety & public realm",
+  "summary": "Treat sex trafficking as a top public-safety priority and have the city pursue it more aggressively and visibly. Proposals include collaborating with international and state law enforcement (Interpol, NYPD, state police) to share trafficking data, holding complicit businesses, banks and hotels accountable, and creating a more visible public database of people and entities associated with trafficking. The witness also urged stronger public condemnation and a culture of reporting, plus concrete prevention action steps from the city.",
+  "proponent_count": 1,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Madison Weissenberger",
+    "name_confidence": "high",
+    "affiliation": "Resident (actress, director and content creator; moved to New York in December 2025)",
+    "role_type": "Resident",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4065s",
+    "quote": "My name is Madison E. Weisenberger, but I go by Madison Ford on stage and screen... I am talking about the crime of sex trafficking. I think we need to make sure that we're also calling it what it is. Terrorism."
    }
   ]
  },
@@ -2161,128 +2437,107 @@
   ]
  },
  {
-  "id": "coordinate-agencies-on-neighborhood-quality-of-life",
-  "title": "Coordinate agencies on neighborhood sanitation and quality of life",
-  "category": "Street safety & public realm",
-  "summary": "Have city agencies work with residents in a coordinated, sustained way on quality-of-life concerns rather than leaving cleanups to volunteers. Add public garbage cans and accessible restrooms near busy transit hubs, create a dedicated Jamaica task force across Sanitation, DOT, MTA and NYPD, and run impact assessments and gather resident feedback before major transportation changes.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Taiwan Green",
-    "name_confidence": "high",
-    "affiliation": "Music educator, community advocate and small business owner; lifelong resident of Southeast Queens",
-    "role_type": "Resident",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9299s",
-    "quote": "We were very hard to remove litter and improve the area. Unfortunately, by the very next day, it looked as though we had never been there."
-   }
-  ]
- },
- {
-  "id": "publicize-hearings-and-improve-civic-outreach",
-  "title": "Publicize public hearings widely so communities can participate",
-  "category": "Open data & transparency",
-  "summary": "Have the commission and the city do far more to publicize public hearings through multiple channels, including social media, mail and varied formats, so communities and business owners actually learn about them and can participate. The argument is that under-publicized hearings are effectively useless.",
-  "proponent_count": 1,
-  "hearings": [
-   "Queens"
-  ],
-  "proponents": [
-   {
-    "name": "Terry Renee",
-    "name_confidence": "low",
-    "affiliation": "Community health worker who attends public hearings across New York City",
-    "role_type": "Resident",
-    "hearing": "Queens",
-    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=9469s",
-    "quote": "If a resource is not being used... you might as well not have it exist. It's the same thing as if it doesn't exist because you can't navigate it."
-   }
-  ]
- },
- {
-  "id": "plan-and-coordinate-energy-and-port-infrastructure",
-  "title": "Plan energy and port infrastructure proactively and coordinate across agencies and utilities",
+  "id": "establish-permanent-fleet-management-department",
+  "title": "Establish a permanent Department of Fleet Management in the charter",
   "category": "Capital projects",
-  "summary": "Treat the city's ability to plan for and deliver critical infrastructure on time as a core measure of government efficiency, since fragmented planning and weak coordination impose real costs on New Yorkers. Have the city proactively invest in port and waterfront facilities and ready the electric grid (transmission, substations, points of interconnection) for large-scale renewable generation, including offshore wind. Improve coordination among city agencies, Con Edison and other utilities, and infrastructure developers so upgrades are planned before they become constraints, and do the work with union labor.",
+  "summary": "The city's multi-billion-dollar, 25,000-vehicle fleet is managed without a permanent charter home, leaving long-term planning and accountability vulnerable. Proponents want to establish a permanent Department of Fleet Management reporting to the Deputy Mayor for Operations, with citywide standards for fleet policy, performance, acquisition, safety, sustainability and public reporting. Centralized leadership would manage the fleet efficiently and advance Vision Zero and electrification goals.",
   "proponent_count": 1,
   "hearings": [
-   "Manhattan"
+   "Staten Island"
   ],
   "proponents": [
    {
-    "name": "Nick Guargiglia",
+    "name": "Eric Richardson",
     "name_confidence": "high",
-    "affiliation": "New York Offshore Wind Alliance (also Alliance for Clean Energy New York); advocacy manager",
-    "role_type": "Advocacy org",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6844s",
-    "quote": "Infrastructure delays are themselves a form of government inefficiency. When projects are slowed by fragmented planning, insufficient coordination, duplicative processes, or a lack of long-term investment, New Yorkers ultimately bear the cost."
+    "affiliation": "Former Deputy Chief Fleet Management Officer, NYC DCAS / NYC Fleet (23 years, retired July 2024)",
+    "role_type": "Government body",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=4889s",
+    "quote": "This proposal is not about correcting a failure. It is about preserving success and giving this essential function the permanence it has grown into."
    }
   ]
  },
  {
-  "id": "rethink-standardized-testing-and-expand-alternative-schools",
-  "title": "Rethink standardized testing and expand alternative school models",
+  "id": "fix-doe-substitute-teacher-suspension-process",
+  "title": "Fix the opaque DOE process for suspending and onboarding substitute teachers",
   "category": "Child care & education",
-  "summary": "A resident testified that Common Core and standardized testing crush creativity and disproportionately harm neurodivergent students, framing education as the city's hidden infrastructure. He urged the commission to use the charter to move away from high-stakes standardized testing and to support alternative models such as democratic and Sudbury-style schools, philosophy and meditation offerings, and curricula that accommodate diverse learners. The proposal asks the charter to address educational quality and options rather than treating them as outside its scope.",
+  "summary": "The Department of Education's process for substitute teachers is inefficient and opaque: substitutes are suspended without being told why and repeatedly, and new substitutes wait far too long to be accepted. A substitute teacher urged the commission to address these administrative delays and the lack of transparency and due process in how the DOE suspends and onboards its substitute workforce.",
   "proponent_count": 1,
   "hearings": [
-   "Manhattan"
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Marco Tang",
-    "name_confidence": "high",
-    "affiliation": "Resident (self-described NYC resident, neurodivergent former student)",
+    "name": "Paul",
+    "name_confidence": "low",
+    "affiliation": "Substitute teacher, NYC Department of Education",
     "role_type": "Resident",
-    "hearing": "Manhattan",
-    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9991s",
-    "quote": "I am Marco Tang. I'm an NYC resident... education is the hidden infrastructure for everybody... common core and standardized testing have crushed this initiative so hard."
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=4665s",
+    "quote": "I was not informed what I was suspended about. And I've dealt with this like two other times over the past like year and a half. And it's just very frustrating and inefficient."
    }
   ]
  },
  {
-  "id": "require-small-business-impact-statement-on-legislation",
-  "title": "Require a small-business impact statement on city legislation and rules",
+  "id": "support-independent-grocers-with-shared-buying-power",
+  "title": "Give independent grocers and bodegas shared buying power through the city",
   "category": "MWBE & small business",
-  "summary": "Require a small-business economic impact statement for every piece of legislation, regulation or major policy affecting businesses, assessing not just whether something helps the economy but what it costs an owner-operated small business in time, paperwork, compliance, risk and money. Pair this with a 'listen before legislating' practice that brings actual shop owners to the table before mandates are created, since small businesses lack the government-affairs staff, lawyers and time to track new rules. The goal is a practical bridge between the people writing policy and the people living with its consequences.",
+  "summary": "Independent grocers and bodegas lack the buying power and supplier-pricing leverage of large chains and are blamed for price gouging they do not control. A witness urged the city to reimagine the Economic Development Corporation to build a city-supported grocery hub with shared purchasing infrastructure that gives independent stores the same leverage as chains, and to use the city's public platform to correct misinformation about who actually drives up food prices.",
   "proponent_count": 1,
   "hearings": [
-   "Bronx"
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Patrick Hall",
+    "name": "Liz Peralta",
     "name_confidence": "high",
-    "affiliation": "Elan Flowers (co-owner, Tribeca storefront florist since 1983)",
+    "affiliation": "Economic development professional; former head of the National Supermarket Association; tech startup founder",
     "role_type": "Business/industry",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1547s",
-    "quote": "My name is Patrick Hall and my wife Christine and I own a small business called Elan Flowers in Tribeca. It's a storefront business that has been serving New York since 1983."
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5451s",
+    "quote": "It's time to reimagine the economic development corporation... by building the buying power solution alongside the government store and use the city's platform to correct the record on who's actually driving up prices."
    }
   ]
  },
  {
-  "id": "combat-sex-trafficking-with-enforcement-and-data-sharing",
-  "title": "Combat sex trafficking with enforcement, data-sharing and a public offender database",
-  "category": "Street safety & public realm",
-  "summary": "Treat sex trafficking as a top public-safety priority and have the city pursue it more aggressively and visibly. Proposals include collaborating with international and state law enforcement (Interpol, NYPD, state police) to share trafficking data, holding complicit businesses, banks and hotels accountable, and creating a more visible public database of people and entities associated with trafficking. The witness also urged stronger public condemnation and a culture of reporting, plus concrete prevention action steps from the city.",
+  "id": "use-development-rights-transfers-to-fund-landmark-maintenance",
+  "title": "Let city-owned landmarks use development-rights transfers to fund maintenance",
+  "category": "Capital projects",
+  "summary": "City-owned landmarks such as FDNY firehouses carry costly repair and long-term maintenance obligations without a dedicated funding source. FDNY urged the commission to let city-owned landmarks use the streamlined transfer-of-development-rights process created by the 2024 zoning resolution amendment so the proceeds can fund the repair and ongoing maintenance of landmark buildings like historic firehouses.",
   "proponent_count": 1,
   "hearings": [
-   "Bronx"
+   "Brooklyn (Round 2)"
   ],
   "proponents": [
    {
-    "name": "Madison Weissenberger",
+    "name": "Fabricio Caro",
+    "name_confidence": "medium",
+    "affiliation": "Chief of Staff to the Fire Commissioner, Fire Department of New York (FDNY)",
+    "role_type": "Government body",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=1968s",
+    "quote": "We would like to use this process to fund maintenance of our landmark firehouses."
+   }
+  ]
+ },
+ {
+  "id": "reform-community-board-appointments-and-boundaries",
+  "title": "Let council members appoint community board members and align district boundaries",
+  "category": "Land use & planning",
+  "summary": "Put a ballot measure letting city council members appoint half of their local community board members, currently appointed solely by borough presidents. Make community district boundaries coterminous with council district boundaries to reduce overlap, duplication and confusion over who represents residents.",
+  "proponent_count": 1,
+  "hearings": [
+   "Queens"
+  ],
+  "proponents": [
+   {
+    "name": "Frank Morano",
     "name_confidence": "high",
-    "affiliation": "Resident (actress, director and content creator; moved to New York in December 2025)",
-    "role_type": "Resident",
-    "hearing": "Bronx",
-    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=4065s",
-    "quote": "My name is Madison E. Weisenberger, but I go by Madison Ford on stage and screen... I am talking about the crime of sex trafficking. I think we need to make sure that we're also calling it what it is. Terrorism."
+    "affiliation": "New York City Council Member, Staten Island South Shore (testified online)",
+    "role_type": "Elected official",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=541s",
+    "quote": "People don't care how many meetings were held. They care whether their pothole was filled."
    }
   ]
  },
@@ -2329,23 +2584,233 @@
   ]
  },
  {
-  "id": "build-data-infrastructure-for-students-with-disabilities",
-  "title": "Build shared data infrastructure to coordinate services for students with disabilities",
-  "category": "Child care & education",
-  "summary": "A parent advocate for families with disabilities testified that the city has no single place holding a child's information and that DOE and human-resources offices do not communicate, leaving families to manage rooms of paperwork to secure services. She recommended a commission or committee, including parents of children with disabilities, to design a smoother system and to start collecting data on a community no one has been tracking. Better data infrastructure and coordination, she argued, would reduce stress on families, cut duplicative or ineffective spending and stop services from collapsing when a parent dies and a young adult is left on their own.",
+  "id": "require-incumbents-to-pause-when-seeking-other-office",
+  "title": "Make incumbents take leave or wait when running for another office",
+  "category": "Elections & voting",
+  "summary": "Add a ballot question requiring incumbent elected officials who run for other local, state or national offices to either take an unpaid leave of absence while campaigning or wait until they finish their term to run. The aim is to protect governance when officials campaign for six to ten months while still in office.",
   "proponent_count": 1,
   "hearings": [
-   "Brooklyn"
+   "Queens"
   ],
   "proponents": [
    {
-    "name": "Stacey Bode",
+    "name": "Mary Anil",
+    "name_confidence": "low",
+    "affiliation": "Astoria, Queens resident (29 years); NYC government employee since 2007; MPA from Baruch, PhD from CUNY Graduate Center",
+    "role_type": "Resident",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7748s",
+    "quote": "If many incumbents are running for other offices in competitive elections and are campaigning for six or ten months, then I worry about our governance."
+   }
+  ]
+ },
+ {
+  "id": "reform-landmarks-process-to-weigh-housing-loss",
+  "title": "Make landmarking weigh the loss of housing it causes",
+  "category": "Land use & planning",
+  "summary": "Reform the Landmarks Preservation Commission so it weighs the 1.4% vacancy rate and net loss of housing units when reviewing applications, especially townhome conversions in historic districts. Require LPC and City Planning to analyze how historic districts affect future housing opportunity sites.",
+  "proponent_count": 1,
+  "hearings": [
+   "Queens"
+  ],
+  "proponents": [
+   {
+    "name": "Annemarie Gray",
     "name_confidence": "high",
-    "affiliation": "Parent advocate for families with disabilities (autism); online participant",
+    "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
     "role_type": "Advocacy org",
-    "hearing": "Brooklyn",
-    "url": "https://www.youtube.com/watch?v=lzsMs6xsxY4&t=8488s",
-    "quote": "I'm a parent advocate for families with disabilities. The DOE and the HR departments are not talking to each other... there's not one place that has all the information. Nobody's been collecting data on this community."
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=3090s",
+    "quote": "Reform the Landmarks Preservation Commission process so LPC weighs the 1.4% vacancy rate and net loss of housing units, especially townhome conversions in districts like the West Village."
+   }
+  ]
+ },
+ {
+  "id": "streamline-city-property-disposition-and-leasing",
+  "title": "Modernize the charter process for disposing of and leasing city property",
+  "category": "Public land & EDC",
+  "summary": "The charter applies the same lengthy disposition and approval process whether the city is leasing a small lot or selling a multimillion-dollar property, adding many months of secondary review (charter section 824) that rarely draws public testimony, and requiring City Planning Commission hearings and approvals even when the city is simply moving workers into existing commercial office space with no change of use (section 195). A DCAS official urged the commission to modernize these provisions so the city can dispose of and lease property with more speed, flexibility and competitiveness while retaining meaningful public review where it matters.",
+  "proponent_count": 1,
+  "hearings": [
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "PJ Berg",
+    "name_confidence": "high",
+    "affiliation": "Deputy Commissioner for Real Estate Services, NYC Department of Citywide Administrative Services (DCAS)",
+    "role_type": "Government body",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=1249s",
+    "quote": "I'm here today to ask the charter revision commission to take the opportunity to modernize these provisions and ensure that the city can operate with speed, efficiency and flexibility."
+   }
+  ]
+ },
+ {
+  "id": "plan-and-coordinate-energy-and-port-infrastructure",
+  "title": "Plan energy and port infrastructure proactively and coordinate across agencies and utilities",
+  "category": "Capital projects",
+  "summary": "Treat the city's ability to plan for and deliver critical infrastructure on time as a core measure of government efficiency, since fragmented planning and weak coordination impose real costs on New Yorkers. Have the city proactively invest in port and waterfront facilities and ready the electric grid (transmission, substations, points of interconnection) for large-scale renewable generation, including offshore wind. Improve coordination among city agencies, Con Edison and other utilities, and infrastructure developers so upgrades are planned before they become constraints, and do the work with union labor.",
+  "proponent_count": 1,
+  "hearings": [
+   "Manhattan"
+  ],
+  "proponents": [
+   {
+    "name": "Nick Guargiglia",
+    "name_confidence": "high",
+    "affiliation": "New York Offshore Wind Alliance (also Alliance for Clean Energy New York); advocacy manager",
+    "role_type": "Advocacy org",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=6844s",
+    "quote": "Infrastructure delays are themselves a form of government inefficiency. When projects are slowed by fragmented planning, insufficient coordination, duplicative processes, or a lack of long-term investment, New Yorkers ultimately bear the cost."
+   }
+  ]
+ },
+ {
+  "id": "regulate-bicycles-and-delivery-riders",
+  "title": "Regulate bicycles and delivery riders with licensing, insurance and sidewalk rules",
+  "category": "Street safety & public realm",
+  "summary": "A resident argued that sidewalks and public spaces are designed for pedestrians and that bikes and delivery riders need regulation. He proposed requiring bike riders to obtain a license, carry insurance, register their bikes with a plate number, wear safety equipment and obey traffic laws, plus specific regulations for delivery workers and a requirement that riders dismount on sidewalks and in parks and public areas.",
+  "proponent_count": 1,
+  "hearings": [
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Juan Carlos Castaneda",
+    "name_confidence": "high",
+    "affiliation": "Resident of Chelsea",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=7189s",
+    "quote": "Sidewalks are public spaces designed and designated for pedestrians and not for bikes or bikers... We need regulation for bikes and bike riders."
+   }
+  ]
+ },
+ {
+  "id": "require-small-business-impact-statement-on-legislation",
+  "title": "Require a small-business impact statement on city legislation and rules",
+  "category": "MWBE & small business",
+  "summary": "Require a small-business economic impact statement for every piece of legislation, regulation or major policy affecting businesses, assessing not just whether something helps the economy but what it costs an owner-operated small business in time, paperwork, compliance, risk and money. Pair this with a 'listen before legislating' practice that brings actual shop owners to the table before mandates are created, since small businesses lack the government-affairs staff, lawyers and time to track new rules. The goal is a practical bridge between the people writing policy and the people living with its consequences.",
+  "proponent_count": 1,
+  "hearings": [
+   "Bronx"
+  ],
+  "proponents": [
+   {
+    "name": "Patrick Hall",
+    "name_confidence": "high",
+    "affiliation": "Elan Flowers (co-owner, Tribeca storefront florist since 1983)",
+    "role_type": "Business/industry",
+    "hearing": "Bronx",
+    "url": "https://www.youtube.com/watch?v=BT7z3EaKSUM&t=1547s",
+    "quote": "My name is Patrick Hall and my wife Christine and I own a small business called Elan Flowers in Tribeca. It's a storefront business that has been serving New York since 1983."
+   }
+  ]
+ },
+ {
+  "id": "require-interagency-coordination-to-protect-street-trees",
+  "title": "Require agencies to coordinate on protecting street trees during construction",
+  "category": "Street safety & public realm",
+  "summary": "Mature street trees are needlessly removed during city construction because design decisions are made without early input from the agencies responsible for the tree canopy. An arborist urged the charter to require the Department of Design and Construction and the Department of Transportation to collaborate directly with the Department of Parks and Recreation on tree protection during the design phase, so New Yorkers do not have to choose between functional infrastructure and preserving the urban tree canopy.",
+  "proponent_count": 1,
+  "hearings": [
+   "Brooklyn (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Olivia Goldberg",
+    "name_confidence": "high",
+    "affiliation": "ISA-certified arborist working with trees in New York City; third-party consultant on city construction projects",
+    "role_type": "Resident",
+    "hearing": "Brooklyn (Round 2)",
+    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=4454s",
+    "quote": "Why do we as New Yorkers have to choose between tree canopy cover and functional infrastructure?"
+   }
+  ]
+ },
+ {
+  "id": "require-green-infrastructure-impact-disclosure",
+  "title": "Require green-infrastructure impact statements and streamline such projects",
+  "category": "Capital projects",
+  "summary": "Major capital projects do not consistently disclose their environmental and public-health performance, and green-infrastructure projects face slow approvals. Proponents want a charter-required green-infrastructure impact statement so major projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public-health benefits, plus charter mechanisms to encourage public-private partnerships and philanthropic co-investment and to streamline approvals for green-infrastructure projects.",
+  "proponent_count": 1,
+  "hearings": [
+   "Staten Island"
+  ],
+  "proponents": [
+   {
+    "name": "Kauran Santas",
+    "name_confidence": "low",
+    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
+    "role_type": "Resident",
+    "hearing": "Staten Island",
+    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5671s",
+    "quote": "Require a 'green infrastructure impact statement' in the charter so major capital projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public health benefits."
+   }
+  ]
+ },
+ {
+  "id": "integrated-remediation-planning-for-contaminated-sites",
+  "title": "Require integrated remediation and land-use planning for contaminated sites",
+  "category": "Land use & planning",
+  "summary": "Add a charter requirement for integrated remediation planning at contaminated sites above a defined threshold. When a site hits a cleanup milestone, require DEP, Design and Construction, and City Planning to convene within 180 days and develop a joint remediation and land-use plan with binding, timelined community-benefit commitments, plus a tiered polluter-pays liability system.",
+  "proponent_count": 1,
+  "hearings": [
+   "Queens"
+  ],
+  "proponents": [
+   {
+    "name": "Pritya Shrimali",
+    "name_confidence": "low",
+    "affiliation": "Recent NYC high school graduate and New Jersey resident researching federal superfund and urban environmental remediation policy",
+    "role_type": "Academic",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=7131s",
+    "quote": "A child born in this neighborhood today will be finishing elementary school before the cleanup even begins."
+   }
+  ]
+ },
+ {
+  "id": "maintain-public-spaces-and-fix-311-followup",
+  "title": "Require maintenance plans for public spaces and fix 311 follow-up",
+  "category": "Street safety & public realm",
+  "summary": "Reduce barriers to creating public-space events and amenities, such as high insurance requirements, the Public Design Commission process and long contracting timelines. Require maintenance plans so responsibility for long-term parks isn't dropped between agencies, fix 311 so quality-of-life cases aren't closed without resolution, and speed DOT's response to streetscape lighting requests stuck in contracting.",
+  "proponent_count": 1,
+  "hearings": [
+   "Queens"
+  ],
+  "proponents": [
+   {
+    "name": "Henry Smith",
+    "name_confidence": "high",
+    "affiliation": "Director of economic development, Long Island City Partnership / LIC Business Improvement District (testified online)",
+    "role_type": "Business/industry",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=8256s",
+    "quote": "It has really been a problem with not only just cases being closed immediately but also to have the follow-up."
+   }
+  ]
+ },
+ {
+  "id": "rethink-standardized-testing-and-expand-alternative-schools",
+  "title": "Rethink standardized testing and expand alternative school models",
+  "category": "Child care & education",
+  "summary": "A resident testified that Common Core and standardized testing crush creativity and disproportionately harm neurodivergent students, framing education as the city's hidden infrastructure. He urged the commission to use the charter to move away from high-stakes standardized testing and to support alternative models such as democratic and Sudbury-style schools, philosophy and meditation offerings, and curricula that accommodate diverse learners. The proposal asks the charter to address educational quality and options rather than treating them as outside its scope.",
+  "proponent_count": 1,
+  "hearings": [
+   "Manhattan"
+  ],
+  "proponents": [
+   {
+    "name": "Marco Tang",
+    "name_confidence": "high",
+    "affiliation": "Resident (self-described NYC resident, neurodivergent former student)",
+    "role_type": "Resident",
+    "hearing": "Manhattan",
+    "url": "https://www.youtube.com/watch?v=n6F-Of84tR4&t=9991s",
+    "quote": "I am Marco Tang. I'm an NYC resident... education is the hidden infrastructure for everybody... common core and standardized testing have crushed this initiative so hard."
    }
   ]
  },
@@ -2371,44 +2836,23 @@
   ]
  },
  {
-  "id": "establish-permanent-fleet-management-department",
-  "title": "Establish a permanent Department of Fleet Management in the charter",
-  "category": "Capital projects",
-  "summary": "The city's multi-billion-dollar, 25,000-vehicle fleet is managed without a permanent charter home, leaving long-term planning and accountability vulnerable. Proponents want to establish a permanent Department of Fleet Management reporting to the Deputy Mayor for Operations, with citywide standards for fleet policy, performance, acquisition, safety, sustainability and public reporting. Centralized leadership would manage the fleet efficiently and advance Vision Zero and electrification goals.",
+  "id": "treat-ai-as-community-governed-civic-infrastructure",
+  "title": "Treat AI and data centers as community-governed civic infrastructure",
+  "category": "AI governance",
+  "summary": "Treat AI as civic infrastructure that communities can collectively shape, govern and benefit from, not a private product to consume. Pilot community-controlled essential infrastructure such as community-led data centers, modeled on community solar and mesh networks, and broaden the charter's definition of efficiency to mean public, accountable and trusted systems.",
   "proponent_count": 1,
   "hearings": [
-   "Staten Island"
+   "Queens"
   ],
   "proponents": [
    {
-    "name": "Eric Richardson",
+    "name": "Rajesh Sankat",
     "name_confidence": "high",
-    "affiliation": "Former Deputy Chief Fleet Management Officer, NYC DCAS / NYC Fleet (23 years, retired July 2024)",
-    "role_type": "Government body",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=4889s",
-    "quote": "This proposal is not about correcting a failure. It is about preserving success and giving this essential function the permanence it has grown into."
-   }
-  ]
- },
- {
-  "id": "require-green-infrastructure-impact-disclosure",
-  "title": "Require green-infrastructure impact statements and streamline such projects",
-  "category": "Capital projects",
-  "summary": "Major capital projects do not consistently disclose their environmental and public-health performance, and green-infrastructure projects face slow approvals. Proponents want a charter-required green-infrastructure impact statement so major projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public-health benefits, plus charter mechanisms to encourage public-private partnerships and philanthropic co-investment and to streamline approvals for green-infrastructure projects.",
-  "proponent_count": 1,
-  "hearings": [
-   "Staten Island"
-  ],
-  "proponents": [
-   {
-    "name": "Kauran Santas",
-    "name_confidence": "low",
-    "affiliation": "Resident; infrastructure and energy-transition professional, member of the Riverside Conservancy",
-    "role_type": "Resident",
-    "hearing": "Staten Island",
-    "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=5671s",
-    "quote": "Require a 'green infrastructure impact statement' in the charter so major capital projects publicly disclose stormwater captured, heat reduction, emission reduction and estimated public health benefits."
+    "affiliation": "Program strategist and civic designer at three by three, a community-centered design studio in Brooklyn",
+    "role_type": "Civic-tech",
+    "hearing": "Queens",
+    "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=6206s",
+    "quote": "When something shapes all of our lives, we don't leave it entirely to private actors. And that is what is happening with AI."
    }
   ]
  }

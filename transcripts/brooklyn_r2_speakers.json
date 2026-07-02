@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Nadia Shehata",
+    "name_as_heard": "Nadia Shehata",
+    "name_confidence": "high",
+    "affiliation": "Commissioner, New York City Department of Investigation (DOI)",
+    "role_type": "Government body",
+    "t": 395,
+    "topics": ["DOI independence", "oversight", "budget", "charter"],
+    "proposals": [
+      "Give DOI budget independence by fixing its budget as a percentage of the city budget (roughly 0.06% of the city budget) with full control over its own hiring and spending.",
+      "Amend the charter to strengthen controls around the mayor's authority to remove the DOI commissioner, making it a removal for cause with an opportunity for a public hearing and a statement of reasons from the mayor.",
+      "Establish a fixed five-year term for the DOI commissioner so the term spans administrations and limits the risk of improper influence or retaliation.",
+      "Codify in the charter provisions currently granted to DOI by executive order, including employees' obligation to cooperate with DOI, consolidation of all agency inspectors general within DOI, and DOI's access to agency data and records."
+    ],
+    "quote": "DOI should be afforded budget independence to reduce the risk of city hall or the city council interference or retaliation against DOI through control of the agency's budget and staffing."
+  },
+  {
+    "name": "PJ Berg",
+    "name_as_heard": "PJ Berg",
+    "name_confidence": "high",
+    "affiliation": "Deputy Commissioner for Real Estate Services, NYC Department of Citywide Administrative Services (DCAS)",
+    "role_type": "Government body",
+    "t": 1249,
+    "topics": ["surplus property", "leasing", "ULURP", "public land", "efficiency"],
+    "proposals": [
+      "Study and modernize the charter section 824 secondary approval process for selling or leasing surplus property, which adds many months but rarely draws any public testimony.",
+      "Reconsider the one-size-fits-all charter requirement that applies the same disposition process whether leasing a small lot or selling a multi-million-dollar property.",
+      "Amend charter section 195 so the City Planning Commission need not hold a hearing and approve office leases and purchases when the city is simply moving workers into existing commercial office space with no change of use, which puts the city at a competitive disadvantage."
+    ],
+    "quote": "I'm here today to ask the charter revision commission to take the opportunity to modernize these provisions and ensure that the city can operate with speed, efficiency and flexibility."
+  },
+  {
+    "name": "Fabricio Caro",
+    "name_as_heard": "Fargre Sio-Karo / Fabicio Caro / Fabrice O'Caro",
+    "name_confidence": "medium",
+    "affiliation": "Chief of Staff to the Fire Commissioner, Fire Department of New York (FDNY)",
+    "role_type": "Government body",
+    "t": 1968,
+    "topics": ["landmark firehouses", "transfer of development rights", "maintenance funding"],
+    "proposals": [
+      "Allow city-owned landmarks such as FDNY firehouses to use the streamlined transfer-of-development-rights process (created by the 2024 zoning resolution amendment) to fund the repair and long-term maintenance of landmark firehouses."
+    ],
+    "quote": "We would like to use this process to fund maintenance of our landmark firehouses."
+  },
+  {
+    "name": "Ronald Shiffman",
+    "name_as_heard": "Ronald Schiffman / Ron Schiffman",
+    "name_confidence": "high",
+    "affiliation": "Professor emeritus (Pratt); longtime community-development planner; former City Planning Commission member",
+    "role_type": "Academic",
+    "t": 2234,
+    "topics": ["EDC accountability", "public land", "stock transfer tax", "environmental justice", "capital"],
+    "proposals": [
+      "Use the charter revision to examine the structure, accountability and public obligations of quasi-independent agencies such as the NYC Economic Development Corporation, aligning their mandates with economic, racial and environmental justice.",
+      "Capture publicly created value for public purposes by abolishing the rebate of New York State's existing stock transfer tax (about one-tenth of one percent) and dedicating that revenue to the city's capital budget for public housing, climate resilience and industrial capacity.",
+      "Require that the sale or disposition of public land be reviewed against a citywide plan or framework and serve a clear public purpose rather than being sold off piecemeal."
+    ],
+    "quote": "I urge this commission to define government efficiency not simply as faster approvals or fewer procedural steps, but as the capacity of public institutions to deliver justice, repair longstanding inequities, and serve all New Yorkers."
+  },
+  {
+    "name": "Eve Baron",
+    "name_as_heard": "Eve Barron",
+    "name_confidence": "high",
+    "affiliation": "Urban planner and professor at Pratt Institute; member of the NYC Civic Engagement Commission; Collective for Community, Culture and the Environment",
+    "role_type": "Academic",
+    "t": 2533,
+    "topics": ["comprehensive planning", "community boards", "197A plans", "197E plan"],
+    "proposals": [
+      "Require the city to create a citywide comprehensive planning framework (a '197E plan') that connects goals, policies, local plans and budget decisions.",
+      "Add charter changes giving 197A community-board plans planning staff, resources and greater certainty of implementation so they are more than an unfunded mandate.",
+      "Amend the charter to ensure diverse representation on community boards and provide communities with planning resources."
+    ],
+    "quote": "What we don't have are the planning staff and resources at the community level or the guarantee of government to implement plans. What we also lack is a citywide comprehensive plan."
+  },
+  {
+    "name": "Caroline",
+    "name_as_heard": "Caroline Donala / Caroline",
+    "name_confidence": "low",
+    "affiliation": "Independent voter, Bay Ridge, Brooklyn; former volunteer on California's Proposition 14",
+    "role_type": "Resident",
+    "t": 3288,
+    "topics": ["open primaries", "voter participation", "independent voters"],
+    "proposals": [
+      "Adopt an open (nonpartisan) primary system so unaffiliated independent voters can vote in the first, often decisive, round of municipal elections."
+    ],
+    "quote": "Open primaries will increase voter participation. And isn't that what democracy is supposed to be about?"
+  },
+  {
+    "name": "Nancy Wang",
+    "name_as_heard": "Nancy Wang",
+    "name_confidence": "high",
+    "affiliation": "Product manager (formerly Microsoft; consulting for the State of Maryland)",
+    "role_type": "Civic-tech",
+    "t": 3455,
+    "topics": ["procurement", "outcome-based evaluation", "MyCity", "technology"],
+    "proposals": [
+      "Amend the charter to require outcome-based procurement evaluation, assessing contract performance on the results achieved (such as reduced application time or higher approval rates) rather than merely whether deliverables were completed."
+    ],
+    "quote": "Let's amend the charter to measure procurement outcomes and make that happen."
+  },
+  {
+    "name": "Selena Sue",
+    "name_as_heard": "Selena Sue / Celina",
+    "name_confidence": "medium",
+    "affiliation": "CUNY professor focusing on community organizing and participatory democracy; volunteer researcher with the People's Budget campaign; author of 'Budget Justice'",
+    "role_type": "Academic",
+    "t": 3709,
+    "topics": ["budget transparency", "participatory budgeting", "community boards", "spending disaggregation"],
+    "proposals": [
+      "Require budget function analysis across agencies so spending and staffing patterns cannot be masked or lumped together.",
+      "Require spatial (neighborhood/community-board-level) disaggregation of budget data so community boards can meaningfully inform statements of needs and priorities.",
+      "Let the public help define how budget function analyses are structured, incorporating public input at the rule-writing stage as with participatory budgeting."
+    ],
+    "quote": "Budget documents currently obfuscate patterns of distribution in the city, both across programs and across neighborhoods. We need basic transparency on spending and staffing."
+  },
+  {
+    "name": "Saunders Ruffin",
+    "name_as_heard": "Saunders riff it / Saunders Ruffin",
+    "name_confidence": "medium",
+    "affiliation": "Resident of the East Village; manages the monitoring and evaluation program at NYC Emergency Management (testifying in a personal capacity)",
+    "role_type": "Resident",
+    "t": 3899,
+    "topics": ["performance metrics", "Mayor's Management Report", "evaluation", "accountability"],
+    "proposals": [
+      "Codify language in the charter that establishes roles and responsibilities for creating, measuring and reporting more meaningful and analytical performance metrics.",
+      "Move the Mayor's Management Report (charter section 12) beyond static output metrics toward a mandate to conduct more rigorous, research-based evaluation experiments across government."
+    ],
+    "quote": "I believe we should codify language in the charter that establishes roles and responsibilities for creating, measuring and reporting more meaningful and analytical performance metrics."
+  },
+  {
+    "name": "Olivia Goldberg",
+    "name_as_heard": "Olivia Goldberg",
+    "name_confidence": "high",
+    "affiliation": "ISA-certified arborist working with trees in New York City; third-party consultant on city construction projects",
+    "role_type": "Resident",
+    "t": 4454,
+    "topics": ["tree canopy", "street trees", "interagency collaboration", "construction"],
+    "proposals": [
+      "Require the Department of Design and Construction and the Department of Transportation to collaborate directly with the Department of Parks and Recreation on tree protection during the design phase of construction projects, so mature street trees are preserved rather than needlessly removed."
+    ],
+    "quote": "Why do we as New Yorkers have to choose between tree canopy cover and functional infrastructure?"
+  },
+  {
+    "name": "Paul",
+    "name_as_heard": "Paul Hote / Paul",
+    "name_confidence": "low",
+    "affiliation": "Substitute teacher, NYC Department of Education",
+    "role_type": "Resident",
+    "t": 4665,
+    "topics": ["DOE substitute teachers", "suspension process", "administrative inefficiency"],
+    "proposals": [
+      "Address the inefficient and opaque process at the Department of Education by which substitute teachers are suspended without being told why and by which new substitutes wait far too long to be accepted."
+    ],
+    "quote": "I was not informed what I was suspended about. And I've dealt with this like two other times over the past like year and a half. And it's just very frustrating and inefficient."
+  },
+  {
+    "name": "Yvonne Murray",
+    "name_as_heard": "Yvonne Murray",
+    "name_confidence": "high",
+    "affiliation": "Registered independent voter; poll worker (information clerk) for several decades",
+    "role_type": "Resident",
+    "t": 4851,
+    "topics": ["open primaries", "voter suppression", "independent voters"],
+    "proposals": [
+      "Put open primaries on the ballot for New York City voters to decide, so that the roughly 1.2 million independent voters (54% of them people of color) are no longer locked out of primary elections."
+    ],
+    "quote": "We're locked out of participating. This is one of the largest forms of voter suppression."
+  },
+  {
+    "name": "Vanessa Rood",
+    "name_as_heard": "Vanessa Rudin / Vanessa Rood",
+    "name_confidence": "medium",
+    "affiliation": "Brooklyn resident of 30 years; tech startup founder; formerly founded a microfinance institution and worked with federally qualified health centers",
+    "role_type": "Resident",
+    "t": 5037,
+    "topics": ["open primaries", "independent voters", "ranked choice voting"],
+    "proposals": [
+      "Change to open primaries (preferred), or alternatively create a third unaffiliated primary with ranked choice voting, so independent voters can participate in the taxpayer-funded primaries."
+    ],
+    "quote": "If it's important to participate, then let me participate either in an open primary or if you prefer, let's have a third unaffiliated primary."
+  },
+  {
+    "name": "Liz Peralta",
+    "name_as_heard": "Liz Peralta",
+    "name_confidence": "high",
+    "affiliation": "Economic development professional; former head of the National Supermarket Association; tech startup founder",
+    "role_type": "Business/industry",
+    "t": 5451,
+    "topics": ["bodegas", "independent grocers", "EDC", "buying power", "public education"],
+    "proposals": [
+      "Have the city educate the public to correct misinformation that independent grocers and bodegas are price gouging, the way it has taken on misinformation on other issues.",
+      "Reimagine the Economic Development Corporation to build a city-supported grocery hub with shared purchasing infrastructure that gives independent stores the same buying power and supplier-pricing leverage as chains."
+    ],
+    "quote": "It's time to reimagine the economic development corporation... by building the buying power solution alongside the government store and use the city's platform to correct the record on who's actually driving up prices."
+  },
+  {
+    "name": "Carolina Salguero",
+    "name_as_heard": "Carolina Selgiro / Carolina Selcaro / Carolina Salguero",
+    "name_confidence": "high",
+    "affiliation": "Founder and Executive Director of PortSide New York, a maritime nonprofit",
+    "role_type": "Nonprofit",
+    "t": 5657,
+    "topics": ["maritime", "waterfront", "harbor", "EDC", "blue highway", "public space"],
+    "proposals": [
+      "Adopt a pro-growth maritime policy and create a new city agency for maritime, restoring dedicated maritime management that the city has lacked since its last maritime agency closed in 1991.",
+      "Take maritime functions and waterfront asset management away from the Economic Development Corporation entirely and put them in the hands of maritime professionals.",
+      "Create a maritime community board (as proposed by Save Our Seaport) so the maritime community has grassroots representation."
+    ],
+    "quote": "We're calling for a pro growth maritime policy, for a new city agency for maritime, so maritime is no longer straining to grow."
+  },
+  {
+    "name": "Tomoro Sargi",
+    "name_as_heard": "Tomorrow Sargi / tomorrow Sargi",
+    "name_confidence": "low",
+    "affiliation": "Native New Yorker; high school student",
+    "role_type": "Resident",
+    "t": 6277,
+    "topics": ["public transit", "cleanliness", "littering", "sanitation"],
+    "proposals": [
+      "Increase funding for public transportation to make the subway, buses and ferries more efficient, cleaner and better maintained.",
+      "Impose stronger fines and penalties on littering, with that revenue directed to the Department of Sanitation to clean public spaces more frequently."
+    ],
+    "quote": "I feel like we should have a more efficient system... and it should be taken better care of."
+  },
+  {
+    "name": "Pritha Mukherjee",
+    "name_as_heard": "Pritha Mukherjee / Prita Mukherjee",
+    "name_confidence": "high",
+    "affiliation": "International student in New York City (from Mumbai, India)",
+    "role_type": "Resident",
+    "t": 6448,
+    "topics": ["menstrual products", "public restrooms", "international students", "public space access"],
+    "proposals": [
+      "Have New York City proactively adopt the standards of the state's Total Access to Menstrual Products (TAMP) Act into the city charter rather than waiting for a state directive, mandating free menstrual products in public buildings.",
+      "Recognize and bridge gaps in public-space accessibility for international students, who face restrictions navigating and using parks, open streets and libraries under strict visa conditions."
+    ],
+    "quote": "I really hope this commission does not simply rely on the state to give a directive and New York City should proactively take up this and recommend the city's charter to incorporate standards already issued in the TAMP Act."
+  },
+  {
+    "name": "Mina",
+    "name_as_heard": "Mina / Mena / main",
+    "name_confidence": "low",
+    "affiliation": "Independent voter, New York City",
+    "role_type": "Resident",
+    "t": 6686,
+    "topics": ["open primaries", "independent voters"],
+    "proposals": [
+      "Allow independent voters, who make up roughly 30% of New York voters, to vote in primaries and help decide who appears on the ballot in all elections."
+    ],
+    "quote": "There's no reason why we shouldn't be allowed to help decide who actually belongs on the ballot. We pay taxes like everyone else."
+  },
+  {
+    "name": "Angel Martinez",
+    "name_as_heard": "Angel Martinez",
+    "name_confidence": "high",
+    "affiliation": "U.S. Army Reserve veteran (eight years); educator",
+    "role_type": "Resident",
+    "t": 6800,
+    "topics": ["open primaries", "independent voters", "veterans", "democracy"],
+    "proposals": [
+      "Open New York City's publicly funded primary elections to the 1.2 million independent voters who are currently excluded, noting that nearly half of America's veterans identify as independents."
+    ],
+    "quote": "If 'we the people' truly means all of the people, then independent voters should not be excluded from participating in publicly funded primary elections."
+  },
+  {
+    "name": "Jonathan Burke",
+    "name_as_heard": "Jonathan Burke",
+    "name_confidence": "high",
+    "affiliation": "General surgery resident and doctoral student in epidemiology; volunteer budget analyst and researcher with the People's Budget",
+    "role_type": "Advocacy org",
+    "t": 7014,
+    "topics": ["budget transparency", "open data", "community engagement", "budget process"],
+    "proposals": [
+      "Give the community more than a few weeks between the executive and adopted budgets and require open data to be available within 48 hours of any budget release.",
+      "Expand budget function analysis to all agencies, defined collaboratively with community members, explained in plain language, and paired with a detailed reference that differentiates administrative overhead, contracts and programs and includes neighborhood-level appropriations for place-based agencies.",
+      "Flag any funding changes above a meaningful threshold (roughly $10-20 million) with a clear explanation, and output budget data as ready-to-use spreadsheets that do not require processing to analyze."
+    ],
+    "quote": "With this charter revision, New York City has the opportunity to lead the country by providing the time and transparency our budget process needs to cultivate real community engagement."
+  },
+  {
+    "name": "Juan Carlos Castaneda",
+    "name_as_heard": "Juan Carlos Castaneda / One call is castaneda",
+    "name_confidence": "high",
+    "affiliation": "Resident of Chelsea",
+    "role_type": "Resident",
+    "t": 7189,
+    "topics": ["bikes", "sidewalks", "traffic regulation", "public space"],
+    "proposals": [
+      "Enact regulations requiring bike riders to obtain a license, carry insurance, register their bikes with a plate number, wear safety equipment and obey traffic laws.",
+      "Enact regulations for delivery workers on bikes and a law requiring bike riders to dismount on sidewalks and in parks and public areas."
+    ],
+    "quote": "Sidewalks are public spaces designed and designated for pedestrians and not for bikes or bikers... We need regulation for bikes and bike riders."
+  }
+]

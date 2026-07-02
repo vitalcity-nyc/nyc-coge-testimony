@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Matthew Bridge",
+    "name_as_heard": "Matthew Bridge / Matt bridge",
+    "name_confidence": "high",
+    "affiliation": "Senior Counsel, NYC Law Department; corporation counsel's designee on the Franchise and Concession Review Committee (FCRC), testifying informationally",
+    "role_type": "Government body",
+    "t": 486,
+    "topics": ["FCRC process", "franchises", "concessions", "sole source"],
+    "proposals": [
+      "He gave an informational overview of the FCRC process rather than advocating specific changes, describing how the six-member committee reviews franchises and concessions, the thresholds for significant concessions, and the exceptions for small and short-term concessions."
+    ],
+    "quote": "So the franchise and concession review committee is composed of six members, a designee of the mayor, a designee of the director of the office of management and budget, a designee of the corporation council, a designee of the comptroller, one additional appointee of the mayor and a designee from the borough president."
+  },
+  {
+    "name": "Catherine Winningham",
+    "name_as_heard": "Catherine Winningham / Catherine winning ham",
+    "name_confidence": "high",
+    "affiliation": "Former Senior Counsel, NYC Law Department (Legal Counsel Division), testifying in personal capacity on intellectual property/merchandise licensing",
+    "role_type": "Government body",
+    "t": 958,
+    "topics": ["intellectual property", "merchandise licensing", "FCRC", "trademarks", "charter amendment"],
+    "proposals": [
+      "Amend the charter so that the FCRC process applies only to city-owned real property, exempting merchandise and intellectual-property licensing from the franchise/concession review process.",
+      "Allow an agency to set the process for merchandise licensing through rulemaking (as under existing catch-all/DCAS authority) rather than forcing intangible IP through a real-estate-oriented process."
+    ],
+    "quote": "We're looking for a really easy amendment that just says FCRC applies to city owned real property."
+  },
+  {
+    "name": "Katie Denny Horowitz",
+    "name_as_heard": "Katie Denny Horowitz",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, North Brooklyn Parks Alliance (nonprofit conservancy managing parks and public spaces in Greenpoint and Williamsburg)",
+    "role_type": "Nonprofit",
+    "t": 2891,
+    "topics": ["parks", "concessions", "revenue retention", "park maintenance"],
+    "proposals": [
+      "Revise the charter to allow NYC Parks to retain a meaningful share of the concession revenue generated in the park where that revenue is created, instead of sending all concession revenue to the city's general fund.",
+      "Keep concession revenue within the Parks department so successful concessions help fund maintenance, gardeners, tree care, programs and capital improvements in the neighborhoods that bear their impact."
+    ],
+    "quote": "We strongly feel that parks should be retaining a portion of the concession revenue... if you could just imagine that these successful concessions actually help pay for the park that makes those concessions possible."
+  },
+  {
+    "name": "Rebecca Macklis",
+    "name_as_heard": "Rebecca Macless / Rebecca Maclaas / Rebecca Maclaas",
+    "name_confidence": "medium",
+    "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
+    "role_type": "Advocacy org",
+    "t": 3107,
+    "topics": ["FCRC reform", "public realm", "civic stewardship", "comprehensive planning", "permitting"],
+    "proposals": [
+      "Create a new FCRC category for public realm stewardship agreements that gives community partners a more streamlined review than revenue-generating concessions.",
+      "Raise FCRC review thresholds so that low-value agreements, volunteer stewardship, temporary activations and pilots are not subject to full review.",
+      "Authorize standardized stewardship agreement templates so public realm partnerships need not be renegotiated from scratch each time.",
+      "Authorize pilot project authority so activities like open streets, community markets and tactical urbanism can have multi-year running approvals (e.g., three years) with a path to permanency.",
+      "Encourage the city to review public space permitting systems (including the Street Activity Permit Office/SAPO), with the FCRC mandating that the SAPO process be reviewed every five years.",
+      "Adopt a charter mandate for comprehensive planning to align long-term goals with capital investment."
+    ],
+    "quote": "Create a new category for public realm stewardship agreements. This distinction would give partners a more streamlined review than revenue generating concessions."
+  },
+  {
+    "name": "Heather Lubov",
+    "name_as_heard": "Heather Lubov",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, City Parks Foundation",
+    "role_type": "Nonprofit",
+    "t": 3705,
+    "topics": ["parks", "license agreements", "nonprofits vs for-profits", "SummerStage", "sponsorship"],
+    "proposals": [
+      "Treat nonprofits differently from for-profit entities in the franchise/concession and license-agreement process.",
+      "Streamline how nonprofits negotiate license agreements with the city, including easing sole-source license approvals so long-standing nonprofit partners can generate program revenue (e.g., birthday-party revenue for the Swedish Cottage puppet mobile).",
+      "Allow more flexibility on exclusivity and naming rights for nonprofit-run city events so festivals like SummerStage can secure title sponsorships without losing them to the law department review process."
+    ],
+    "quote": "I actually support what Katie and M.A.S. both recommend, which is treating nonprofits differently than for profits."
+  },
+  {
+    "name": "Anna Berlinger",
+    "name_as_heard": "Anna Berlanger / Anna Berlinga",
+    "name_confidence": "medium",
+    "affiliation": "Bronx and Uptown Organizer, Transportation Alternatives",
+    "role_type": "Advocacy org",
+    "t": 3942,
+    "topics": ["street safety", "Vision Zero", "bike lanes", "bus priority", "community board process", "capital delays"],
+    "proposals": [
+      "Speed up street safety redesigns and cut the bureaucratic red tape and delays that keep proven life-saving street designs from being built.",
+      "Reduce the ability of community boards (whose membership skews toward drivers) to stall or water down standard, already-proven DOT designs such as protected bike lanes and bus improvements.",
+      "Streamline the approval and construction of major transportation/street-safety and bus-priority projects so they don't take a decade or get shelved."
+    ],
+    "quote": "Too many life saving designs and infrastructure solutions are put on ice or watered down before they're built and some neighborhoods have had hardly any safety infrastructure at all."
+  },
+  {
+    "name": "Deborah Kirschner",
+    "name_as_heard": "Deborah Kirschner / Deborah Kirschner",
+    "name_confidence": "high",
+    "affiliation": "Vice President of Communications and External Relations, Prospect Park Alliance",
+    "role_type": "Nonprofit",
+    "t": 4312,
+    "topics": ["FCRC", "nonprofits", "contract templates", "capital projects", "design-build"],
+    "proposals": [
+      "Recognize the differences between nonprofit and for-profit entities and take steps to make it easier for nonprofits to do business with the city.",
+      "Create a guide for nonprofits to help them prepare for the FCRC process, given that many nonprofits have minimal legal/general-counsel resources.",
+      "Use streamlined contract templates that right-size the agreement to the nonprofit scope of work, including allowing a simple memorandum of understanding instead of a full license agreement where appropriate.",
+      "Continue reforms (referencing recent city council legislation) to reduce timeframes for capital projects and enable more agencies to use design-build."
+    ],
+    "quote": "Our recommendations include creating a guide for nonprofits to help prepare for the FCRC process, keeping in mind that many nonprofits have minimal resources for general counsel and legal support."
+  },
+  {
+    "name": "Pedro Suarez",
+    "name_as_heard": "Pedro Suarez",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, Third Avenue Business Improvement District (501(c)(3)), South Bronx",
+    "role_type": "Nonprofit",
+    "t": 4543,
+    "topics": ["nonprofits", "DOT plaza concessions", "food concessions", "activation", "bathrooms"],
+    "proposals": [
+      "Put nonprofits through a separate process or at least treat them differently from for-profit entities in the concession process.",
+      "Make it easier for smaller organizations and plaza partners to establish DOT food concessions to activate public plazas, since the current legal counsel and contract negotiation process is very onerous.",
+      "Address the lack of bathroom facilities in DOT-designed food concessions, which creates Department of Health problems for plaza partners."
+    ],
+    "quote": "Nonprofits should go through a separate process or at least be treated differently from for profit entities."
+  },
+  {
+    "name": "Eric Soriano Perez",
+    "name_as_heard": "Eric Soriano Perez / Soriano",
+    "name_confidence": "medium",
+    "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
+    "role_type": "Resident",
+    "t": 4686,
+    "topics": ["civic engagement", "311", "community outreach", "city hiring", "work from home", "self-production", "job postings"],
+    "proposals": [
+      "Have the city partner with trusted community spaces (barbershops, salons, recreation centers, gyms) with bulletin boards, resource guides and outreach staff to bring services and information directly into communities rather than expecting residents to seek help.",
+      "Use these community locations as hubs to share information about jobs, apprenticeships, scholarships and workforce training, with social media as one part but not the only part of the strategy.",
+      "Build a stronger talent pipeline by recruiting from universities and the private sector to make public service attractive to skilled professionals (citing the Civil Service Pathways Fellowship).",
+      "Extend the work-from-home pilot for city employees indefinitely where data shows it improves productivity, saves money and retains talent.",
+      "Expand producing goods and services in-house (like the city's own asphalt) to increase self-sufficiency and reduce procurement costs.",
+      "Reorganize city job postings so positions open only to current city employees are separated from those open to the public."
+    ],
+    "quote": "I encourage the city to partner with trusted community spaces, barbershops, salons, recreation centers, gyms, and other places where people naturally gather."
+  },
+  {
+    "name": "Belki Perez",
+    "name_as_heard": "Belki Perez / Belchis Perez / Faith Taylor (misread intro)",
+    "name_confidence": "low",
+    "affiliation": "Bronx resident; naturalized citizen and independent (unaffiliated) voter",
+    "role_type": "Resident",
+    "t": 4896,
+    "topics": ["voting rights", "closed primaries", "independent voters"],
+    "proposals": [
+      "Allow independent voters who are not registered with a major party to vote in primary elections, so that citizens who choose not to belong to party A or B are not shut out of voting."
+    ],
+    "quote": "I received a letter saying that I was not allowed to vote because I'm not belong to party A or B. I hope that in the near future, I have the right to vote again."
+  },
+  {
+    "name": "Mike Taggriello",
+    "name_as_heard": "Michael Tager / Mike Taggriello",
+    "name_confidence": "low",
+    "affiliation": "New Yorker, block-association volunteer, veteran, and independent voter; volunteering with Veterans for All Voters (nonprofit, nonpartisan)",
+    "role_type": "Advocacy org",
+    "t": 5131,
+    "topics": ["open primaries", "independent voters", "veterans", "election reform"],
+    "proposals": [
+      "Put a reform before voters that opens the city's primary elections to independent (unaffiliated) voters, giving the more than 1 million shut-out New Yorkers, including tens of thousands of veterans, a meaningful vote in the elections that decide who governs the city."
+    ],
+    "quote": "Right now more than 1 million New Yorkers are shut out of the primary elections that decide who governs the city... I asked this commission to put a reform before voters that gives independent New Yorkers a meaningful vote."
+  },
+  {
+    "name": "Brie Daldrin",
+    "name_as_heard": "Ray or Brie Doldren / Brie Daldrin / Brie Daldrin",
+    "name_confidence": "low",
+    "affiliation": "Bedford-Stuyvesant resident, Gen Z open-primaries advocate",
+    "role_type": "Advocacy org",
+    "t": 5279,
+    "topics": ["open primaries", "independent voters", "Gen Z", "voting rights", "communities of color"],
+    "proposals": [
+      "Open New York City's closed primary elections so that the more than 1.2 million independent voters, a majority of whom are people of color, are no longer barred from having a say in the elections that matter most."
+    ],
+    "quote": "In New York City alone over 1.2 million independent voters, a majority of whom are people of color, are completely barred from having a say and are therefore silenced from participating."
+  },
+  {
+    "name": "James Goble",
+    "name_as_heard": "James Goble",
+    "name_confidence": "high",
+    "affiliation": "Works on franchise and concession agreements at the Mayor's Office of Contract Services (MOCS), testifying in personal capacity",
+    "role_type": "Government body",
+    "t": 5471,
+    "topics": ["FCRC", "concession rules", "cycle times", "small concessions", "franchise advertising"],
+    "proposals": [
+      "Loosen the public-hearing and advertising requirements for franchises so they are more in line with the less stringent requirements for concessions, potentially speeding up the process.",
+      "He clarified (correcting earlier testimony) that the FCRC does not meet virtually due to open meetings laws, and noted recent efficiency improvements such as small concessions (under $250,000, up to one to two years, no FCRC hearing/meeting or comptroller registration) and program-based/template concession plans."
+    ],
+    "quote": "One potential area of change could be making the public hearing requirements for franchises a little bit less onerous; the advertising requirements for those are much more stringent than those for concessions and those could potentially be loosened."
+  }
+]
