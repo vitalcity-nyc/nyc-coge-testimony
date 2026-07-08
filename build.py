@@ -105,6 +105,21 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .crow .cbar{height:17px;background:var(--vc-chartreuse);min-width:2px;}
 .crow .cval{font-family:var(--sans);font-weight:700;font-size:13px;color:var(--vc-black);}
 .crow.dim{opacity:.32;}
+.chart:not(.expanded) .crow.xtra{display:none;}
+.chart-more{margin-top:10px;background:none;border:none;color:var(--vc-black);font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;text-decoration:underline;text-decoration-color:var(--vc-orange);text-decoration-thickness:2px;padding:0;}
+
+/* theme groups */
+.theme{border-top:1px solid var(--vc-cloud);}
+.theme:first-child{border-top:2px solid var(--vc-black);}
+.theme-head{width:100%;display:flex;align-items:baseline;gap:12px;background:none;border:none;cursor:pointer;padding:16px 2px;text-align:left;}
+.theme-head:hover{background:var(--vc-chartreuse-20);}
+.theme-arr{color:var(--vc-orange);font-size:12px;transition:transform .15s;flex:none;}
+.theme.open .theme-arr{transform:rotate(90deg);}
+.theme-name{font-family:var(--sans);font-weight:900;font-size:19px;letter-spacing:-.01em;color:var(--vc-black);}
+.theme-meta{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);margin-left:auto;white-space:nowrap;}
+.theme-body{display:none;padding-bottom:8px;}
+.theme.open>.theme-body{display:block;}
+.theme-body .idea:first-child{border-top:1px dotted var(--vc-cloud);}
 
 /* controls */
 .controls{margin:8px 0 6px;}
@@ -257,7 +272,8 @@ html.embed .hero .kicker{margin-bottom:10px;}
     <div class="chart" id="chart"></div>
   </div>
 
-  <div class="sec-head"><h2 id="secTitle">Every idea, with who backed it</h2><span class="note" id="topcount"></span></div>
+  <div class="sec-head"><h2 id="secTitle">Every idea, grouped by theme</h2><span class="note" id="topcount"></span></div>
+  <p class="sec-sub" id="ideaSub">Ideas are grouped into broad themes &mdash; tap a theme to open it. Search or filter to look across all of them at once.</p>
   <div class="controls">
     <div class="viewtoggle" id="viewToggle">
       <button class="vt active" data-view="idea">By idea</button>
@@ -336,7 +352,36 @@ const IDEAS = JSON.parse(document.getElementById('data').textContent);
 const MAXC = Math.max.apply(null, IDEAS.map(i=>i.proponent_count));
 const cats = [...new Set(IDEAS.map(i=>i.category))].sort();
 const roles = [...new Set(IDEAS.flatMap(i=>i.proponents.map(p=>p.role_type)).filter(Boolean))].sort();
-const state = {q:"", cat:new Set(), roles:new Set(), sort:"count", view:"idea"};
+
+// roll the fine categories up into a few broad themes for grouping/filtering
+const THEME_MAP = {
+  "Elections & voting":"Elections & democracy",
+  "Street safety & public realm":"Streets & public realm",
+  "MWBE & small business":"Small business & economy",
+  "Technology & digital services":"Technology, data & AI",
+  "Open data & transparency":"Technology, data & AI",
+  "AI governance":"Technology, data & AI",
+  "Land use & planning":"Housing, land use & permitting",
+  "Permitting & licensing":"Housing, land use & permitting",
+  "Public land & EDC":"Housing, land use & permitting",
+  "Housing & shelter":"Housing, land use & permitting",
+  "Procurement & contracting":"Procurement, contracts & capital",
+  "Paying vendors on time":"Procurement, contracts & capital",
+  "Capital projects":"Procurement, contracts & capital",
+  "Labor & workforce":"Procurement, contracts & capital",
+  "Budget & fiscal reserves":"Budget, hiring & oversight",
+  "Hiring & civil service":"Budget, hiring & oversight",
+  "Oversight & ethics":"Budget, hiring & oversight",
+  "Child care & education":"Care, education & social services"
+};
+IDEAS.forEach(i=>{ i._theme = THEME_MAP[i.category] || "Other"; });
+// theme order = most-backed themes first
+const THEMES = (function(){
+  const s={};
+  IDEAS.forEach(i=>{ (s[i._theme]=s[i._theme]||new Set()); i.proponents.forEach(p=>s[i._theme].add((p.name||"").toLowerCase())); });
+  return Object.keys(s).sort((a,b)=>s[b].size-s[a].size);
+})();
+const state = {q:"", cat:new Set(), roles:new Set(), themeOpen:new Set(), sort:"count", view:"idea"};
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
 
 const hearingColor = {Manhattan:"var(--vc-cerulean)",Bronx:"var(--vc-magenta)",Brooklyn:"var(--vc-indigo)",Queens:"#3aa35a","Staten Island":"#a9762f","Bronx (Round 2)":"var(--vc-magenta)","Brooklyn (Round 2)":"var(--vc-indigo)","Written submission":"var(--vc-charcoal)"};
@@ -364,34 +409,45 @@ const SORTOPTS={
 
 function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 
-// ranked chart (always full set, ordered by count)
+function cssEsc(s){return (window.CSS&&CSS.escape)?CSS.escape(s):s;}
+
+// ranked chart (top 12 by default, "show all" expands)
 function renderChart(){
   const rows = IDEAS.slice().sort((a,b)=>b.proponent_count-a.proponent_count);
-  document.getElementById('chart').innerHTML = rows.map(i=>{
+  const TOP=12;
+  document.getElementById('chart').innerHTML = rows.map((i,k)=>{
     const w = Math.max(2, i.proponent_count/MAXC*100);
-    return `<div class="crow" data-id="${i.id}">
+    return `<div class="crow${k>=TOP?' xtra':''}" data-id="${i.id}">
       <div class="clabel"><span class="cat">${esc(i.category)}</span>${esc(i.title)}</div>
       <div class="cbarwrap"><div class="cbar" style="width:${w}%"></div><span class="cval">${i.proponent_count}</span></div>
     </div>`;
-  }).join("");
+  }).join("") + (rows.length>TOP?`<button class="chart-more" id="chartMore" type="button">Show all ${rows.length} ideas &#9662;</button>`:"");
   document.querySelectorAll('.crow').forEach(r=>{
-    r.addEventListener('click',()=>{
-      const el=document.querySelector(`.idea[data-id="${r.dataset.id}"]`);
-      if(el){
-        // ensure visible: clear filters if hidden
-        if(el.style.display==='none'){document.getElementById('reset').click();}
-        el.scrollIntoView({behavior:'smooth',block:'center'});
-        el.querySelector('.props').classList.add('open');
-        el.querySelector('.propbtn').classList.add('open');
-        el.style.transition='background .2s';el.style.background='var(--vc-chartreuse-20)';
-        setTimeout(()=>el.style.background='',1200);
-      }
-    });
+    r.addEventListener('click',()=>openIdea(r.dataset.id));
   });
+  const mb=document.getElementById('chartMore');
+  if(mb) mb.addEventListener('click',()=>{document.getElementById('chart').classList.add('expanded');mb.style.display='none';});
+}
+
+// open one idea: switch to idea view, expand its theme, scroll + expand it
+function openIdea(id){
+  const idea=IDEAS.find(i=>i.id===id); if(!idea) return;
+  if(state.view!=='idea') setView('idea');
+  state.themeOpen.add(idea._theme);
+  render();
+  let el=document.querySelector('.idea[data-id="'+cssEsc(id)+'"]');
+  if(!el){ // hidden by an active filter — clear filters and retry
+    state.q="";state.cat.clear();state.roles.clear();
+    document.getElementById('search').value="";
+    document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active'));
+    state.themeOpen.add(idea._theme); render();
+    el=document.querySelector('.idea[data-id="'+cssEsc(id)+'"]');
+  }
+  focusCard(el);
 }
 
 function buildChips(){
-  document.getElementById('catChips').innerHTML = cats.map(c=>
+  document.getElementById('catChips').innerHTML = THEMES.map(c=>
     `<span class="chip" data-val="${esc(c)}">${esc(c)}</span>`).join("");
   document.querySelectorAll('#catChips .chip').forEach(ch=>{
     ch.addEventListener('click',()=>{
@@ -414,7 +470,7 @@ function buildChips(){
 }
 
 function matches(i){
-  if(state.cat.size && !state.cat.has(i.category)) return false;
+  if(state.cat.size && !state.cat.has(i._theme)) return false;
   if(state.roles.size && !i.proponents.some(p=>state.roles.has(p.role_type))) return false;
   if(state.q){
     const hay=(i.title+" "+i.summary+" "+i.category+" "+i.proponents.map(p=>p.name+" "+p.affiliation).join(" ")).toLowerCase();
@@ -542,22 +598,42 @@ function render(){
   if(state.view==='person'){renderPeople();return;}
   const rows=sortRows(IDEAS.filter(matches));
   const c=document.getElementById('ideas');
-  c.innerHTML=rows.map(card).join("");
+  const filtering = !!(state.q || state.cat.size || state.roles.size);
+  const groups=THEMES.map(t=>({theme:t,ideas:rows.filter(i=>i._theme===t)})).filter(g=>g.ideas.length);
+  c.innerHTML=groups.map(g=>{
+    const backers=new Set(); g.ideas.forEach(i=>i.proponents.forEach(p=>backers.add((p.name||'').toLowerCase())));
+    const open = filtering || state.themeOpen.has(g.theme);
+    const cards=g.ideas.map((i,k)=>card(i,k)).join("");
+    return `<section class="theme${open?' open':''}" data-theme="${esc(g.theme)}">
+      <button class="theme-head" type="button">
+        <span class="theme-arr">&#9654;</span>
+        <span class="theme-name">${esc(g.theme)}</span>
+        <span class="theme-meta">${g.ideas.length} idea${g.ideas.length>1?'s':''} &middot; ${backers.size} backer${backers.size>1?'s':''}</span>
+      </button>
+      <div class="theme-body">${cards}</div>
+    </section>`;
+  }).join("");
   document.getElementById('empty').style.display=rows.length?'none':'block';
-  document.getElementById('count').innerHTML=`Showing <b>${rows.length}</b> of ${IDEAS.length} ideas`;
+  document.getElementById('count').innerHTML=`Showing <b>${rows.length}</b> of ${IDEAS.length} ideas in <b>${groups.length}</b> themes`;
   bindProps(c);
+  c.querySelectorAll('.theme-head').forEach(h=>{
+    h.addEventListener('click',()=>{
+      const sec=h.parentElement, t=sec.dataset.theme;
+      if(sec.classList.toggle('open')) state.themeOpen.add(t); else state.themeOpen.delete(t);
+    });
+  });
 }
 
 document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value;render();});
 document.getElementById('sort').addEventListener('change',e=>{state.sort=e.target.value;render();});
 document.getElementById('reset').addEventListener('click',()=>{
-  state.q="";state.cat.clear();state.roles.clear();state.sort="count";
+  state.q="";state.cat.clear();state.roles.clear();state.themeOpen.clear();state.sort="count";
   document.getElementById('search').value="";
   document.getElementById('sort').value="count";
   document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active'));
   render();
 });
-document.getElementById('topcount').textContent = cats.length+" categories";
+document.getElementById('topcount').textContent = THEMES.length+" themes";
 
 function buildSort(){
   const sel=document.getElementById('sort');
@@ -572,7 +648,8 @@ function setView(v){
   document.getElementById('ideaOnly').style.display = ideaView?'':'none';
   document.getElementById('catChips').style.display = ideaView?'':'none';
   document.getElementById('topcount').style.display = ideaView?'':'none';
-  document.getElementById('secTitle').textContent = ideaView?'Every idea, with who backed it':'Every witness, with what they backed';
+  document.getElementById('ideaSub').style.display = ideaView?'':'none';
+  document.getElementById('secTitle').textContent = ideaView?'Every idea, grouped by theme':'Every witness, with what they backed';
   state.cat.clear();
   document.querySelectorAll('#catChips .chip.active').forEach(c=>c.classList.remove('active'));
   buildSort();
@@ -594,16 +671,15 @@ function focusCard(el){
 function applyHash(){
   const h=decodeURIComponent((location.hash||'').replace(/^#/,''));
   if(!h) return;
-  let sel=null;
-  if(h.indexOf('idea-')===0){ setView('idea'); sel='.idea[data-id="'+(window.CSS&&CSS.escape?CSS.escape(h.slice(5)):h.slice(5))+'"]'; }
-  else if(h.indexOf('person-')===0){ setView('person'); sel='.idea[data-slug="'+(window.CSS&&CSS.escape?CSS.escape(h.slice(7)):h.slice(7))+'"]'; }
-  else return;
-  // clear filters so the target isn't hidden
-  state.q="";state.cat.clear();state.roles.clear();
-  document.getElementById('search').value="";
-  document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active'));
-  render();
-  focusCard(document.querySelector(sel));
+  if(h.indexOf('idea-')===0){ openIdea(h.slice(5)); return; }
+  if(h.indexOf('person-')===0){
+    setView('person');
+    state.q="";state.roles.clear();
+    document.getElementById('search').value="";
+    document.querySelectorAll('.chip.active').forEach(c=>c.classList.remove('active'));
+    render();
+    focusCard(document.querySelector('.idea[data-slug="'+cssEsc(h.slice(7))+'"]'));
+  }
 }
 window.addEventListener('hashchange',applyHash);
 // clicking the # anchor copies the full link
