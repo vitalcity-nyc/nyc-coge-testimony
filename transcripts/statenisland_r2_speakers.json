@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Diane Savino",
+    "name_as_heard": "Diane Ceino",
+    "name_confidence": "high",
+    "affiliation": "Former New York State Senator (Staten Island); former executive director of the 2024 Charter Revision Commission",
+    "role_type": "Elected official",
+    "t": 2888,
+    "proposals": [
+      "Once OMB grants an agency hiring authority, bar OMB from holding back or second-guessing hires so agencies can staff up.",
+      "Modernize the city's 1970s-era legacy IT systems so agencies serving the same people can share information.",
+      "Sunset council reporting requirements after a set period, and require council members to read reports into the public record to curb burdensome reporting bills.",
+      "Draw a clear distinction between negotiating with for-profit vendors and not-for-profit human-service providers.",
+      "Let the Office of Payroll Administration process payments to nonprofits the way it pays 300,000 city workers every two weeks.",
+      "Restrict the number of redundant mayoral offices the charter lets the mayor create."
+    ],
+    "quote": "There's a playground on the street that I live on that I allocated a million dollars, and by the time they were done it was $2 million. It took seven years to rebuild a playground."
+  },
+  {
+    "name": "Debi Rose",
+    "name_as_heard": "Debbie Rose",
+    "name_confidence": "high",
+    "affiliation": "Former New York City Council member (North Shore); staff at Central Family Life Center, board member of Project Hospitality",
+    "role_type": "Nonprofit",
+    "t": 3073,
+    "proposals": [
+      "Set a prescriptive timeline for each step of the procurement process, with penalties for agencies that miss it.",
+      "Speed up payments and reimbursements to nonprofits to prevent staff burnout and turnover.",
+      "Reduce redundant paperwork and multiple approval layers that block nonprofits from planning and expanding.",
+      "Hold government to the same quality-assurance and accountability standards it imposes on nonprofits."
+    ],
+    "quote": "When it send it off to the city, it goes into a black hole. So we also need to know from them what their timeline is for getting back to us."
+  },
+  {
+    "name": "Karen Persing",
+    "name_as_heard": "Karen Persing",
+    "name_confidence": "medium",
+    "affiliation": "Community impact officer, Project Hospitality (Staten Island); local clergy",
+    "role_type": "Nonprofit",
+    "t": 4286,
+    "proposals": [
+      "Amend charter chapter 13, section 311 to require the Procurement Policy Board to set contracting timelines for each step and report agency compliance.",
+      "Amend section 332 to require the city to pay interest on late payments, including those caused by late contract registration.",
+      "Increase transparency by publishing which agencies and contract types have the longest delays.",
+      "Require the Procurement Policy Board to meet at least four times a year.",
+      "Provide a sample budget in solicitations."
+    ],
+    "quote": "I'm often the person in my agency just pressing and pressing to start anyway based on that verbal agreement, and then they say no, you have to have the registered contract."
+  },
+  {
+    "name": "Kristin Miller",
+    "name_as_heard": "Kristen Miller",
+    "name_confidence": "high",
+    "affiliation": "Executive director, Homeless Services United; member of Human Services Council",
+    "role_type": "Nonprofit",
+    "t": 4500,
+    "proposals": [
+      "Mandate that the city pay interest and a minimum percentage of each invoice up front to give human-service contractors cash flow.",
+      "Set contracting timelines and prohibit agencies from starting work before a contract is registered.",
+      "Give MOCS charter authority over procurement, invoicing, and payment, with tools and resources to match.",
+      "Require agencies to automatically process extension contracts for existing vendors and standardize invoicing and auditing across agencies.",
+      "Require MOCS to collect and review performance data on contract registration and payment.",
+      "Include sample budgets in RFPs with market-rate analysis, annual wage escalators, and inflation indexes."
+    ],
+    "quote": "If you think about the nonprofit that submits an RFP, they create a budget that isn't even seen for a year. So it's already a year-old budget by the time they get their contract awarded."
+  },
+  {
+    "name": "Justin Wood",
+    "name_as_heard": "Justin Wood",
+    "name_confidence": "high",
+    "affiliation": "Director of policy, New York Lawyers for the Public Interest",
+    "role_type": "Advocacy org",
+    "t": 4980,
+    "proposals": [
+      "Empower a single coordinating agency such as the Mayor's Office of Climate and Environmental Justice with procurement and contracting authority for complex climate initiatives.",
+      "Empower the Mayor's Office for People with Disabilities as a lead agency to bring accessibility expertise in at the outset of projects.",
+      "Broaden the Department of Sanitation's authority to regulate safety, worker justice, and environmental justice in the commercial waste-zone industry.",
+      "Update the Taxi and Limousine Commission's mandate to reflect its climate and accessibility initiatives."
+    ],
+    "quote": "Too often the perspectives of people with disabilities and lived experience have not been taken into account in government planning and contracting at the outset of projects."
+  },
+  {
+    "name": "Vivian Murray",
+    "name_as_heard": "Vivian Murray",
+    "name_confidence": "medium",
+    "affiliation": "St. John's Episcopal Church, Rosebank; operates 84-unit senior housing",
+    "role_type": "Nonprofit",
+    "t": 5197,
+    "proposals": [
+      "Fix the CityFHEPS payment system so housing providers reliably receive the city's portion of rent.",
+      "Ensure formerly homeless tenants placed with vouchers arrive with social services to help them renew agreements.",
+      "Address the harm the two-year rent freeze does to small nonprofit housing operators already in debt."
+    ],
+    "quote": "We have trouble getting payment. We don't get anything from the tenant. We take them to court and then they're given another six months and another six months. So we're very much in debt."
+  },
+  {
+    "name": "Simon Grassmann",
+    "name_as_heard": "Simon Grassman",
+    "name_confidence": "medium",
+    "affiliation": "Member, democracy working group, New York City Democratic Socialists of America",
+    "role_type": "Advocacy org",
+    "t": 5515,
+    "proposals": [
+      "Do not advance an open-primary system alone, since it only shifts which political minorities are suppressed.",
+      "Recommend a public, charter-mandated study of proportional representation models.",
+      "If open primaries reach the ballot, also put proportional representation on the ballot so voters have a real choice."
+    ],
+    "quote": "New York City had such a system from 1936 to 1947. There is actually interest across the political spectrum, including a city council proposal by Republican Frank Morano and Democrat Farah Lewis."
+  },
+  {
+    "name": "Rose Uchinowski",
+    "name_as_heard": "Rose Eusinowski",
+    "name_confidence": "low",
+    "affiliation": "Community organizer, Transportation Alternatives",
+    "role_type": "Advocacy org",
+    "t": 5737,
+    "proposals": [
+      "Simplify the bureaucratic and political processes that slow down lifesaving street-safety redesigns.",
+      "Shorten the timeline for implementing tested, standard street redesigns.",
+      "Meet the goals of the city's streets plan for bus and bike infrastructure."
+    ],
+    "quote": "A city needs to simplify the bureaucratic and political processes that slow down lifesaving infrastructure redesigns."
+  },
+  {
+    "name": "Troy McGee",
+    "name_as_heard": "Troy McGee",
+    "name_confidence": "medium",
+    "affiliation": "Retired special education teacher and boys basketball coach, Curtis High School",
+    "role_type": "Resident",
+    "t": 5936,
+    "proposals": [
+      "Make the DOE a watchdog against contracting waste rather than a source of it.",
+      "Reform the Panel for Educational Policy's approval of large IT and professional-development contracts that don't improve classrooms.",
+      "Ensure professional development is delivered by people who have actually taught in New York City schools."
+    ],
+    "quote": "Could you imagine your expert testimony came from somebody from Utah that's never been to New York, who's never worked in a New York City agency, and who was going to tell you the best way to run an agency?"
+  },
+  {
+    "name": "Christopher Yukins",
+    "name_as_heard": "Christopher Yukans",
+    "name_confidence": "high",
+    "affiliation": "Lynn David Research Professor in Government Procurement Law, George Washington University Law School",
+    "role_type": "Academic",
+    "t": 6226,
+    "proposals": [
+      "Keep the charter open to best practices emerging from the ABA Model Procurement Code revision and international procurement reforms.",
+      "Adopt open contracting so all procurement information is presumptively available all the time and machine-readable.",
+      "Focus reform on a risk basis, shortening procurement acquisition lead time for the largest, highest-risk procurements."
+    ],
+    "quote": "Open contracting means that all procurement information is presumptively available all the time and it's machine readable. That's the way of the 21st century."
+  },
+  {
+    "name": "Aiden Rivera",
+    "name_as_heard": "Aiden Rivera",
+    "name_confidence": "medium",
+    "affiliation": "Case manager, Victims of Crime Advocates program, Central Family Life Center (Staten Island CBO)",
+    "role_type": "Nonprofit",
+    "t": 6572,
+    "proposals": [
+      "Secure MOCS funding and approve it for longer periods to avoid delays.",
+      "Require city agencies to submit annual, and if necessary more frequent, reports on contracts.",
+      "Provide faster and larger disbursements of money from city agencies to contractors."
+    ],
+    "quote": "Unlike businesses, nonprofit organizations are not entrepreneurial ventures. We and the people we help need long-term consistency and stability."
+  },
+  {
+    "name": "Tatiana Sabatelli",
+    "name_as_heard": "Tatiana Sabatelli",
+    "name_confidence": "high",
+    "affiliation": "Executive director, Nonprofit Staten Island (borough nonprofit membership association)",
+    "role_type": "Nonprofit",
+    "t": 6743,
+    "proposals": [
+      "Make the process faster by reducing delays between contract award, registration, and payment.",
+      "Make the process more transparent by giving providers clear visibility into where contracts stand.",
+      "Make the process more equitable so organizations of every size and borough have fair access to contracts.",
+      "Keep providers at the table with a meaningful voice in designing the systems that govern them."
+    ],
+    "quote": "Only 4% of New York City's DYCD-funded after-school programs are located here on Staten Island, and only 3.8% of the city's older-adult centers serve our borough."
+  },
+  {
+    "name": "Elizabeth Brantle",
+    "name_as_heard": "Elizabeth Brantle",
+    "name_confidence": "medium",
+    "affiliation": "Government relations coordinator, Center for Justice Innovation",
+    "role_type": "Nonprofit",
+    "t": 6987,
+    "proposals": [
+      "Modernize procurement systems to reduce uncertainty for providers.",
+      "Reduce unnecessary administrative burdens on nonprofit human-service providers.",
+      "Create more predictable contracting processes so organizations can recruit and retain staff and provide continuity of care."
+    ],
+    "quote": "New York City's more than 13,000 nonprofit organizations contribute billions of dollars to the local economy and employ nearly one in five workers across the city."
+  },
+  {
+    "name": "Crystal Nightstar",
+    "name_as_heard": "Crystal Nightstar",
+    "name_confidence": "low",
+    "affiliation": "Resident; 14-year city employee, Department of Citywide Administrative Services (formerly Department of Correction)",
+    "role_type": "Resident",
+    "t": 7125,
+    "proposals": [
+      "Break equal-employment-opportunity offices out of individual agencies into a separate independent body (like the CCRB) for real accountability.",
+      "Change the reporting structure so EEO complaints don't route through the same agency commissioner being reported."
+    ],
+    "quote": "Because it's held internally, they get the result that they want to get and not the result that is true."
+  },
+  {
+    "name": "Adrian Nabani",
+    "name_as_heard": "Adrian Nabani / Adrian Abate",
+    "name_confidence": "low",
+    "affiliation": "Executive director, Partnerships for Community Wellness; co-chair, Nonprofit Staten Island Advocacy Committee",
+    "role_type": "Nonprofit",
+    "t": 7477,
+    "proposals": [
+      "Scale up the timely, upfront release of funding that stabilizes human-service providers and lets them meet payroll without high-interest bridge loans.",
+      "Expand the use of fiscal intermediaries, which streamline procurement from execution to payment to closeout.",
+      "Sustain and support the Mayor's Office of Nonprofit Services as a bridge to city government.",
+      "Clarify the confusing guidelines and timelines for recouping advanced payments, and fix the Passport system's dead-end links."
+    ],
+    "quote": "Working with intermediaries is efficient and timely. These independent organizations streamline the procurement process from contract execution to payment to close out."
+  },
+  {
+    "name": "Janos Martin",
+    "name_as_heard": "Janos Martin",
+    "name_confidence": "medium",
+    "affiliation": "Vice president, St. George Civic Association (Staten Island)",
+    "role_type": "Advocacy org",
+    "t": 7735,
+    "proposals": [
+      "Expedite Rikers closure by emphasizing design-build so borough-based jails can be built up to a year faster.",
+      "Reconstitute the disbanded Rikers Island Advisory Council of city appointees and public members.",
+      "Transfer the Rikers Island bridge to civilian control (DCAS or DOT) so remediation and master planning can move faster.",
+      "Ensure waterfront redevelopment RFPs and the ULURP process guarantee genuine public access to the water rather than sealed-off private condos."
+    ],
+    "quote": "DDC projected the process for renewable Rikers would end in 2060. Now, I don't think I'm going to make it that far."
+  },
+  {
+    "name": "Edwin Hernandez",
+    "name_as_heard": "Edwin Hernandez",
+    "name_confidence": "medium",
+    "affiliation": "Resident; founder and CEO of the nonprofit Building Purpose, Staten Island",
+    "role_type": "Resident",
+    "t": 8213,
+    "proposals": [
+      "Establish open primary voting so unaffiliated voters aren't locked out of the decisive elections.",
+      "Improve the procurement process for the nonprofit sector.",
+      "Have the Department of Education improve its infrastructure."
+    ],
+    "quote": "I am one of 1.2 million constituents locked out of elections, unable to cast a vote at the polls due to discriminatory practices and biased policies."
+  },
+  {
+    "name": "Emilina Wilson",
+    "name_as_heard": "Emilina Wilson",
+    "name_confidence": "medium",
+    "affiliation": "Resident; ABA therapist / daycare worker (United Activities nonprofit) and commuter student, College of Staten Island; non-driver",
+    "role_type": "Resident",
+    "t": 8377,
+    "proposals": [
+      "Expand rail service on the North Shore, using existing rail infrastructure now used for sanitation and other purposes.",
+      "Build Staten Island bus rapid transit.",
+      "Build safe, intentional bike paths."
+    ],
+    "quote": "You will track a bus for an hour and then it will disappear when you need it. This bygone error of women and children not being part of public life is further being exacerbated."
+  },
+  {
+    "name": "AJ Ozen",
+    "name_as_heard": "Ego Ozen / Paleo AJ Ozen",
+    "name_confidence": "low",
+    "affiliation": "Associate professor of political science, College of Staten Island (CUNY); PSC union delegate",
+    "role_type": "Academic",
+    "t": 8644,
+    "proposals": [
+      "Do not advance an open or jungle-primary system, which dismantles the grassroots organizing that party primaries enable.",
+      "Reject top-two/top-four systems that shift advantage to money and name recognition when party cues disappear.",
+      "Consider proportional representation systems such as Maine's instead of open primaries."
+    ],
+    "quote": "When voters cannot rely on party labels, they pull back on whoever has the biggest war chest, the most media presence, and the backing of the wealthy interest."
+  },
+  {
+    "name": "Jen Gaboury",
+    "name_as_heard": "Jen Gabbor / Jan Goobury",
+    "name_confidence": "medium",
+    "affiliation": "First vice president, Professional Staff Congress (PSC) CUNY",
+    "role_type": "Labor",
+    "t": 8860,
+    "proposals": [
+      "Reject open primaries, citing California's 15-year experiment that leveled turnout and increased polarization.",
+      "Preserve party contests, which are where communities organize and express interests.",
+      "Focus on better voter engagement and turnout rather than dissolving party labels."
+    ],
+    "quote": "The experiment in open primaries in California for 15 years has not in fact expanded turnout. It has in fact leveled and increased polarization."
+  },
+  {
+    "name": "Chris Elena",
+    "name_as_heard": "Chris Elena",
+    "name_confidence": "medium",
+    "affiliation": "Teacher (30 years) and UFT chapter leader, Curtis High School",
+    "role_type": "Labor",
+    "t": 9073,
+    "proposals": [
+      "Fix the DOE procurement process so its budgetary timeline matches the school year.",
+      "Let schools actually spend allocated budget money before it is closed off, so purchases like translation devices reach students in time.",
+      "End reliance on crowdfunding apps like DonorsChoose to buy classroom essentials."
+    ],
+    "quote": "Depending on the kindness of strangers might work for Blanche DuBois, but it doesn't work for a high school in New York City."
+  },
+  {
+    "name": "Anel Ayon",
+    "name_as_heard": "Anel Aayon",
+    "name_confidence": "low",
+    "affiliation": "Resident; architectural conservator running own 12-person practice; born in Havana, Cuba",
+    "role_type": "Resident",
+    "t": 9216,
+    "proposals": [
+      "Eliminate the requirement to be registered with a party in order to vote in a New York City primary (open primaries).",
+      "Let unaffiliated independent voters cast ballots in the primaries, when candidates are effectively decided."
+    ],
+    "quote": "I cannot vote when it matters. New York City, my home of choice for 27 years, abides to a two-party system. For someone coming from a single-party communist tyranny, the two-party rule is insane."
+  },
+  {
+    "name": "Samantha Wilkinson",
+    "name_as_heard": "Samantha Wilkinson",
+    "name_confidence": "medium",
+    "affiliation": "Resident; substitute teacher and educator at Snug Harbor, Staten Island native and non-driver",
+    "role_type": "Resident",
+    "t": 9474,
+    "proposals": [
+      "Provide faster, safer buses and buses that run all day and reach further into Brooklyn than Bay Ridge.",
+      "Build a light rail on Staten Island's old track lines.",
+      "Reopen ports and build fast-ferry platforms to New Jersey, Queens, the Bronx, and Brooklyn, including a ferry to South Amboy.",
+      "Add a bus over the Goethals Bridge to Newark airport connecting to NJ Transit lines, plus safe bike lanes."
+    ],
+    "quote": "I would even go out on a limb to say that we have the worst public transit in New York City. We do not deserve to be the forgotten borough anymore."
+  },
+  {
+    "name": "Saul Porter",
+    "name_as_heard": "Saul Porter",
+    "name_confidence": "medium",
+    "affiliation": "Resident; works with Highland Counseling Agency, testifying as a private citizen on housing",
+    "role_type": "Resident",
+    "t": 9637,
+    "proposals": [
+      "Fix the CityFHEPS infrastructure so months-long inspections and HRA payment delays don't push landlords toward Section 8.",
+      "Give OMB additional audit responsibility to examine the people NOT being served by voucher programs and why.",
+      "Address staffing capacity and training so agencies can process vouchers quickly, recognizing shelter costs far exceed rental subsidies."
+    ],
+    "quote": "Every night a person spends in a homeless shelter is way more costly than whatever subsidy they are getting. Continuing to look at just a client served on a balance sheet is shooting ourselves in the foot as a city."
+  }
+]

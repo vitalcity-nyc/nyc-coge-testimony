@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Mark Levine",
+    "name_as_heard": "Mark Lavine",
+    "name_confidence": "high",
+    "affiliation": "New York City Comptroller",
+    "role_type": "Elected official",
+    "t": 486,
+    "proposals": [
+      "Set a rainy day fund balance target, required formula-based deposits and a withdrawal framework in the charter, leaving specific formulas and triggers to policy jointly adopted by the mayor, council and comptroller.",
+      "Treat the two-year recession-shortfall reserve target as a floor and size the fund to the full expected revenue loss across an entire recession.",
+      "Make deposits counter-cyclical (during economic strength, paused in downturns) and tighten withdrawal rules so the mayor cannot pull up to 50% without certifying financial need."
+    ],
+    "quote": "The rainy day fund has received only one deposit since its creation, despite extraordinary revenue growth over that time."
+  },
+  {
+    "name": "Jumaane Williams",
+    "name_as_heard": "Jamani Williams",
+    "name_confidence": "high",
+    "affiliation": "New York City Public Advocate",
+    "role_type": "Elected official",
+    "t": 770,
+    "proposals": [
+      "Amend the charter to explicitly grant subpoena power to the office of the public advocate so it need not sue under section 1109 to obtain agency information.",
+      "Add commissioner removal-for-cause protections and a public hearing requirement for the Department of Investigation commissioner.",
+      "Tie the Board of Correction minimum budget to 1% of the Department of Correction expense budget, change its appointment structure, and set a quorum of at least five members.",
+      "Provide independent funding for the Commission on Public Information and Communication (COPIC) to resume the annual data access directory."
+    ],
+    "quote": "Transparency to the city's ombudsman should be assumed as default."
+  },
+  {
+    "name": "Misha Smith",
+    "name_as_heard": "Misha Smith",
+    "name_confidence": "medium",
+    "affiliation": "Deputy Manhattan Borough President (for Brad Hoylman-Sigal)",
+    "role_type": "Government body",
+    "t": 1924,
+    "proposals": [
+      "Create a central permitting hub or at least a centralized online portal to consolidate the 40+ permits across 15 agencies an affordable building can require.",
+      "Vest the Department of Buildings with rulemaking authority to update the building code through notice-and-comment rather than the council's calendar.",
+      "Clarify and publicize the section 211 capital-funding formula and revise it to reflect actual capital need and daytime population rather than averaging headcount with land area."
+    ],
+    "quote": "The charter effectively mandates that Manhattan receive roughly the same level of capital funding as Staten Island."
+  },
+  {
+    "name": "Samuel Aiuto",
+    "name_as_heard": "Samuel Aluto / Samuel Ludo",
+    "name_confidence": "low",
+    "affiliation": "Building Trades Employers' Association (BTEA), director of member relations",
+    "role_type": "Business/industry",
+    "t": 4546,
+    "proposals": [
+      "Give agencies flexibility to match each project to the right delivery method and to administer contracts, change orders and time extensions at the project level.",
+      "Reform procurement so family-owned, emerging and MWBE contractors can compete, and require payment-flow transparency on public projects.",
+      "Protect subcontractors and MWBE firms from unfair no-damages-for-delay clauses, and convene a new mayoral capital process reform task force that includes contractors."
+    ],
+    "quote": "The city should get better priced work when agencies have the flexibility to manage contracts according to the realities of each job."
+  },
+  {
+    "name": "Michael Picarillo",
+    "name_as_heard": "Michael Pichilo / Michael Picarillo",
+    "name_confidence": "medium",
+    "affiliation": "New York City District Council of Carpenters",
+    "role_type": "Labor",
+    "t": 4777,
+    "proposals": [
+      "Require that the general contractor's permit, or at minimum the DOB Now virtual folder, clearly identify every subcontractor and the type of work they perform, enforcing Construction Code section 28-418.5.1.",
+      "Pair any permitting streamlining with stronger transparency so agencies can locate predatory contractors accused of wage fraud and worker misclassification before workers are hurt."
+    ],
+    "quote": "We can build faster, but we have to build safer."
+  },
+  {
+    "name": "Bob Avalron",
+    "name_as_heard": "Robert Alvaltron / Bob Avalron",
+    "name_confidence": "low",
+    "affiliation": "Environmental Contractors Association; former city commissioner",
+    "role_type": "Business/industry",
+    "t": 4963,
+    "proposals": [
+      "Dedicate reviewers and resources to asbestos abatement so approvals that now take three to six months return to roughly three weeks without compromising safety.",
+      "Run DOB and abatement regulation side by side and concurrently, as in the 2009 construction and abatement rules, to advance projects while keeping safety paramount."
+    ],
+    "quote": "Where it used to take three weeks to get approvals, it now takes three to six months before something can start."
+  },
+  {
+    "name": "Tom Harris",
+    "name_as_heard": "Tom Harris",
+    "name_confidence": "high",
+    "affiliation": "Times Square Alliance, president",
+    "role_type": "Business/industry",
+    "t": 5202,
+    "proposals": [
+      "Revise the charter to move pedicab oversight from DCWP to the TLC, decriminalize the industry so violations are civil penalties, and mandate metering and fair rates.",
+      "Replace endless homeless outreach with multidisciplinary teams and performance-based contracts holding providers accountable for placement.",
+      "Increase 311 accountability by requiring agencies to verify that an issue was actually resolved, not just closed."
+    ],
+    "quote": "The 311 system has become far too focused on reporting incidents, not resolving problems."
+  },
+  {
+    "name": "Andrew Rein",
+    "name_as_heard": "Andrew Wine",
+    "name_confidence": "medium",
+    "affiliation": "Citizens Budget Commission (CBC)",
+    "role_type": "Nonprofit",
+    "t": 5385,
+    "proposals": [
+      "Require mandatory formula-driven rainy day fund deposits when tax revenue growth exceeds the greater of 3% or inflation.",
+      "Permit withdrawals only during a recession or a temporary emergency causing revenue drops or spending increases exceeding 2% of city funds (~$1.8 billion), and cap annual withdrawals at two-thirds of the fund.",
+      "Set a target fund size of 16% of tax revenues, with detailed formulas established in local law subject to comptroller review."
+    ],
+    "quote": "If set aside money can be used whenever budgetary pressures arise, it ceases to be a rainy day fund."
+  },
+  {
+    "name": "Bruce Baker",
+    "name_as_heard": "Bruce Baker",
+    "name_confidence": "medium",
+    "affiliation": "Resident; public school science teacher, former charter school teacher",
+    "role_type": "Resident",
+    "t": 6010,
+    "proposals": [
+      "Reignite real accountability for charter schools given that roughly 75 cents of every charter dollar is public money.",
+      "Require chartering authorities such as SUNY and the DOE to conduct rigorous, honest evaluations rather than rubber-stamp clean bills of health for schools that swap out advertised academic programs."
+    ],
+    "quote": "You will see the logos of institutions like Yale advertising to the parents, but it's a bait and switch."
+  },
+  {
+    "name": "Katrina Long",
+    "name_as_heard": "Katrina Long",
+    "name_confidence": "medium",
+    "affiliation": "New York City paraprofessional (22+ years); elected UFT chapter leader",
+    "role_type": "Labor",
+    "t": 6248,
+    "proposals": [
+      "Fund the paraprofessional 'respect check' (about $22 million) to recruit and retain paras, framed as far cheaper than the $1.7 billion in Carter special-education lawsuits.",
+      "Raise paraprofessional pay toward a living wage so experienced staff can afford to stay in special-education roles."
+    ],
+    "quote": "We can invest in paraprofessionals now or continue paying more after students are denied their services."
+  },
+  {
+    "name": "Emily Jacobe",
+    "name_as_heard": "Emily Jacobe",
+    "name_confidence": "medium",
+    "affiliation": "Transportation Alternatives, Manhattan organizer",
+    "role_type": "Advocacy org",
+    "t": 6483,
+    "proposals": [
+      "Shorten the city's timelines for implementing tested, standard street safety redesigns instead of over-studying and returning repeatedly to community boards.",
+      "Stop watering down or shelving proven Vision Zero and bus priority projects, citing corridors like Canal Street and the Queensboro Bridge."
+    ],
+    "quote": "Every traffic fatality or serious injury is a design, infrastructure or policy failure."
+  },
+  {
+    "name": "Camelia Tepelus",
+    "name_as_heard": "Chamilleia Telis / Chameleia Teelos",
+    "name_confidence": "medium",
+    "affiliation": "Morris Park Business Improvement District (Bronx), executive director",
+    "role_type": "Business/industry",
+    "t": 6690,
+    "proposals": [
+      "Stop the delays, especially at Small Business Services, in creating new self-funding business improvement districts.",
+      "Improve inter-agency coordination (parks, DOT and others) so BIDs are not forced to broker permits for public events across siloed agencies."
+    ],
+    "quote": "I always say the bids are the original quote unquote tax the rich."
+  },
+  {
+    "name": "Servia Silva",
+    "name_as_heard": "Servia Silva",
+    "name_confidence": "low",
+    "affiliation": "United Federation of Teachers, Manhattan Borough Representative (30+ years teaching)",
+    "role_type": "Labor",
+    "t": 6843,
+    "proposals": [
+      "Speed the funneling of won grants and afterschool funding to schools, which can take one to two years to arrive.",
+      "Resolve the roughly $500,000 owed to some 47 home child care providers after the Highbridge Advisory Council collapsed without paying them.",
+      "Fix the months-long delays for students to get broken laptops repaired despite hundreds of millions in DOE IT contracts."
+    ],
+    "quote": "It would take from one to two years for the money to be funneled to the schools."
+  },
+  {
+    "name": "Michael Riley",
+    "name_as_heard": "Michael Riley",
+    "name_confidence": "medium",
+    "affiliation": "Resident of Harlem; works at the Interchurch Center",
+    "role_type": "Resident",
+    "t": 7034,
+    "proposals": [
+      "Actually enforce parking rules, including the seven-day maximum for stationary vehicles and removal of long-abandoned cars.",
+      "Crack down on illegal, fake and expired placard use, and create a single cross-agency reporting pathway instead of a 311 loop that returns 'no action taken.'"
+    ],
+    "quote": "I can point to you many vehicles that have not moved in three years."
+  },
+  {
+    "name": "Jessie Fields",
+    "name_as_heard": "Jesse Fields",
+    "name_confidence": "medium",
+    "affiliation": "Independent-voter advocate (open primaries)",
+    "role_type": "Advocacy org",
+    "t": 7242,
+    "proposals": [
+      "Put forth a ballot initiative allowing unaffiliated independent voters to vote in New York City primary elections."
+    ],
+    "quote": "Segregating unaffiliated voters, preventing them from meaningful participation in the primaries, is inherently unequal."
+  },
+  {
+    "name": "Michelle Knap",
+    "name_as_heard": "Michelle Knap / Michelle Nappy",
+    "name_confidence": "low",
+    "affiliation": "Repair Restore; textual analyst",
+    "role_type": "Advocacy org",
+    "t": 7443,
+    "proposals": [
+      "Establish a single nonpartisan primary election open to all voters and all candidates, argued from the 24th Amendment's 'primary or other' language.",
+      "Treat party-position elections as distinct from elections to nominate candidates for public office."
+    ],
+    "quote": "The single most effective move against public corruption is one primary election, all voters, all candidates."
+  },
+  {
+    "name": "Hindi Shakar",
+    "name_as_heard": "Hindi Shakar",
+    "name_confidence": "low",
+    "affiliation": "Families for Safe Streets member",
+    "role_type": "Advocacy org",
+    "t": 7690,
+    "proposals": [
+      "Create legal procedures that let the city act on identified street-safety problems and design fixes before a death forces the issue, rather than after."
+    ],
+    "quote": "Let's have legal procedures that allow us to forestall the death before it happens."
+  },
+  {
+    "name": "Darien Glasser",
+    "name_as_heard": "Darien Blaster / Darien Glasser",
+    "name_confidence": "low",
+    "affiliation": "Resident; street-safety advocate (Financial District)",
+    "role_type": "Resident",
+    "t": 7864,
+    "proposals": [
+      "Cut red tape around life-saving street infrastructure designs and reform the major transportation projects process to speed standard safety redesigns.",
+      "Shorten timelines for tested designs like the Canal Street, Delancey Street and 34th Street busway projects that have strong local support but stall for years."
+    ],
+    "quote": "Every delay costs real physical dollars and in some cases New Yorkers their lives."
+  },
+  {
+    "name": "Patrick Hall",
+    "name_as_heard": "Patrick Hall / Patrick Paul",
+    "name_confidence": "low",
+    "affiliation": "Small business owner (florist), downtown Manhattan",
+    "role_type": "Business/industry",
+    "t": 8048,
+    "proposals": [
+      "Protect commercial loading zones for actual commercial use rather than all-day parking by placarded personal vehicles.",
+      "Create one clear reporting pathway for blocked loading zones and placard misuse, and track and publish the problem."
+    ],
+    "quote": "Make sure that we listen before we legislate."
+  },
+  {
+    "name": "Hayden Brockett",
+    "name_as_heard": "Hayden Brockett",
+    "name_confidence": "medium",
+    "affiliation": "New York Clean Air Collective volunteer; Community Board 7 member",
+    "role_type": "Advocacy org",
+    "t": 8258,
+    "proposals": [
+      "Propose a charter amendment creating a Department of Civilian Enforcement modeled on the Citizens Air Complaint Program.",
+      "Strengthen the citizen air complaint idling program and extend civilian enforcement to illegal parking, illegal dumping and blocked bus lanes."
+    ],
+    "quote": "Civilian enforcement actually helps city agencies expand their reach and hold corporations accountable."
+  },
+  {
+    "name": "Jeremiah Bourneman",
+    "name_as_heard": "Jeremiah Bourneman / Jeremiah Borneman",
+    "name_confidence": "low",
+    "affiliation": "Special-education paraprofessional; elected UFT leader, District 2 para coordinator",
+    "role_type": "Labor",
+    "t": 8581,
+    "proposals": [
+      "Streamline the DOE hiring process for paraprofessionals, which can take up to four months from nomination to the school building.",
+      "Raise paraprofessional wages to cut the double-versus-teachers turnover rate, and examine the privatization driven by billions in Carter special-education cases."
+    ],
+    "quote": "Government efficiency can't just mean cutting costs."
+  },
+  {
+    "name": "Suzanne Ventura",
+    "name_as_heard": "Suzan Ventura / Suzanne Ventura",
+    "name_confidence": "medium",
+    "affiliation": "Greeningful Life; sustainability practitioner",
+    "role_type": "Nonprofit",
+    "t": 8698,
+    "proposals": [
+      "Create an Office of Circularity and Resource Coordination to connect talent, businesses, community organizations and reuse centers rather than add bureaucracy.",
+      "Expand programs like Big Reuse and Materials for the Arts into every borough and establish collective purchasing groups and resource directories."
+    ],
+    "quote": "What I've witnessed over and over is not a lack of solutions, it's a lack of coordination."
+  },
+  {
+    "name": "Faiza Khaled",
+    "name_as_heard": "Faiza Khaled",
+    "name_confidence": "medium",
+    "affiliation": "Educator and parent; UFT representative, Harlem Community School District 5",
+    "role_type": "Labor",
+    "t": 8945,
+    "proposals": [
+      "Investigate and fix the disconnect between funds allocated to schools and materials and supplies actually reaching classrooms, which can take months.",
+      "Ensure equitable access to supplies and 21st-century technology across all schools, even within the same community."
+    ],
+    "quote": "A child can go to school in one school and they may have supplies and technology, but they can go to another school, even in their own community, and there may be little to no supplies."
+  },
+  {
+    "name": "George Lee",
+    "name_as_heard": "George Lee",
+    "name_confidence": "low",
+    "affiliation": "Centurum (AI govtech efficiency startup); Oxford University student",
+    "role_type": "Civic-tech",
+    "t": 9106,
+    "proposals": [
+      "Adopt AI and deterministic document-checking tools to process the mountains of paperwork behind procurement and permitting compliance.",
+      "Use technology to preserve necessary safety regulation while removing the paperwork burden that delays housing, permits and school funding."
+    ],
+    "quote": "There is a reason that that paperwork exists, but that paperwork is also a huge barrier to the things that people are trying to do."
+  },
+  {
+    "name": "Ira Gershenhorn",
+    "name_as_heard": "Ira Gersinhorn",
+    "name_confidence": "medium",
+    "affiliation": "Riverside Park Conservancy volunteer (35 years)",
+    "role_type": "Resident",
+    "t": 9426,
+    "proposals": [
+      "Have DOT review and update its street inventory (established 1950) and replace the Henry Hudson Parkway highway patrol unit with speed cameras enforcing the 50 mph limit.",
+      "Close exit 12 north permanently and transfer its land to parks, and shift police and EMS to smaller vehicles that fit parks and cost less."
+    ],
+    "quote": "NYPD doesn't prevent any of this. They clean it up."
+  },
+  {
+    "name": "Adria Konz",
+    "name_as_heard": "Adria Konz / Adri Kinanes",
+    "name_confidence": "low",
+    "affiliation": "MetroPlus Health (NYC Health + Hospitals subsidiary) IT worker; lifelong New Yorker",
+    "role_type": "Resident",
+    "t": 9575,
+    "proposals": [
+      "Bring IT and infrastructure project work in-house rather than repeatedly hiring consulting firms like Deloitte and Accenture whose staff lack agency-specific and New York City expertise.",
+      "Leverage existing in-house expertise to save the city money and retain knowledge that otherwise walks out the door when contracts end."
+    ],
+    "quote": "You are hiring people who have no expertise in the agency, and that expertise that you have given them is walking out your door."
+  }
+]
