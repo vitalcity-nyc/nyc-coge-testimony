@@ -207,8 +207,8 @@
     "quote": "Listen to us, work with us. We want to be a part of building a more effective and efficient government, but we want to do it as independent voters."
    },
    {
-    "name": "Belki Perez",
-    "name_confidence": "low",
+    "name": "Belkis Perez",
+    "name_confidence": "high",
     "affiliation": "Bronx resident; naturalized citizen and independent (unaffiliated) voter",
     "role_type": "Resident",
     "hearing": "Bronx (Round 2)",
@@ -216,8 +216,8 @@
     "quote": "I received a letter saying that I was not allowed to vote because I'm not belong to party A or B. I hope that in the near future, I have the right to vote again."
    },
    {
-    "name": "Mike Taggriello",
-    "name_confidence": "low",
+    "name": "Michael Tagriella",
+    "name_confidence": "high",
     "affiliation": "New Yorker, block-association volunteer, veteran, and independent voter; volunteering with Veterans for All Voters (nonprofit, nonpartisan)",
     "role_type": "Advocacy org",
     "hearing": "Bronx (Round 2)",
@@ -225,8 +225,8 @@
     "quote": "Right now more than 1 million New Yorkers are shut out of the primary elections that decide who governs the city... I asked this commission to put a reform before voters that gives independent New Yorkers a meaningful vote."
    },
    {
-    "name": "Brie Daldrin",
-    "name_confidence": "low",
+    "name": "Bre Doldron",
+    "name_confidence": "high",
     "affiliation": "Bedford-Stuyvesant resident, Gen Z open-primaries advocate",
     "role_type": "Advocacy org",
     "hearing": "Bronx (Round 2)",
@@ -234,8 +234,8 @@
     "quote": "In New York City alone over 1.2 million independent voters, a majority of whom are people of color, are completely barred from having a say and are therefore silenced from participating."
    },
    {
-    "name": "Caroline",
-    "name_confidence": "low",
+    "name": "Caroline Donnola",
+    "name_confidence": "high",
     "affiliation": "Independent voter, Bay Ridge, Brooklyn; former volunteer on California's Proposition 14",
     "role_type": "Resident",
     "hearing": "Brooklyn (Round 2)",
@@ -252,8 +252,8 @@
     "quote": "We're locked out of participating. This is one of the largest forms of voter suppression."
    },
    {
-    "name": "Vanessa Rood",
-    "name_confidence": "medium",
+    "name": "Vanessa Rudin",
+    "name_confidence": "high",
     "affiliation": "Brooklyn resident of 30 years; tech startup founder; formerly founded a microfinance institution and worked with federally qualified health centers",
     "role_type": "Resident",
     "hearing": "Brooklyn (Round 2)",
@@ -261,8 +261,8 @@
     "quote": "If it's important to participate, then let me participate either in an open primary or if you prefer, let's have a third unaffiliated primary."
    },
    {
-    "name": "Mina",
-    "name_confidence": "low",
+    "name": "Mayna Bragdon",
+    "name_confidence": "high",
     "affiliation": "Independent voter, New York City",
     "role_type": "Resident",
     "hearing": "Brooklyn (Round 2)",
@@ -865,7 +865,7 @@
    },
    {
     "name": "Eric Soriano Perez",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
     "role_type": "Resident",
     "hearing": "Bronx (Round 2)",
@@ -978,90 +978,6 @@
   ]
  },
  {
-  "id": "reform-franchise-and-concession-review",
-  "title": "Reform franchise and concession review and let parks keep concession revenue",
-  "category": "Procurement & contracting",
-  "summary": "The Franchise and Concession Review Committee (FCRC) process is a slow, real-estate-oriented gauntlet that treats large revenue concessions, small nonprofit stewardship agreements and intangible intellectual-property licenses the same way. Proponents want the charter to narrow FCRC to city-owned real property, treat nonprofits differently from for-profits, create streamlined categories and templates for public-realm stewardship and pilots, raise review thresholds, and loosen the more onerous franchise public-hearing and advertising requirements. Several parks and conservancy witnesses also want NYC Parks to retain a meaningful share of the concession revenue generated in a given park so successful concessions help fund the maintenance and programming of the parks that make them possible.",
-  "proponent_count": 8,
-  "hearings": [
-   "Bronx (Round 2)"
-  ],
-  "proponents": [
-   {
-    "name": "Matthew Bridge",
-    "name_confidence": "high",
-    "affiliation": "Senior Counsel, NYC Law Department; corporation counsel's designee on the Franchise and Concession Review Committee (FCRC), testifying informationally",
-    "role_type": "Government body",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=486s",
-    "quote": "So the franchise and concession review committee is composed of six members, a designee of the mayor, a designee of the director of the office of management and budget, a designee of the corporation council, a designee of the comptroller, one additional appointee of the mayor and a designee from the borough president."
-   },
-   {
-    "name": "Catherine Winningham",
-    "name_confidence": "high",
-    "affiliation": "Former Senior Counsel, NYC Law Department (Legal Counsel Division), testifying in personal capacity on intellectual property/merchandise licensing",
-    "role_type": "Government body",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=958s",
-    "quote": "We're looking for a really easy amendment that just says FCRC applies to city owned real property."
-   },
-   {
-    "name": "Katie Denny Horowitz",
-    "name_confidence": "high",
-    "affiliation": "Executive Director, North Brooklyn Parks Alliance (nonprofit conservancy managing parks and public spaces in Greenpoint and Williamsburg)",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=2891s",
-    "quote": "We strongly feel that parks should be retaining a portion of the concession revenue... if you could just imagine that these successful concessions actually help pay for the park that makes those concessions possible."
-   },
-   {
-    "name": "Rebecca Macklis",
-    "name_confidence": "medium",
-    "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
-    "role_type": "Advocacy org",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3107s",
-    "quote": "Create a new category for public realm stewardship agreements. This distinction would give partners a more streamlined review than revenue generating concessions."
-   },
-   {
-    "name": "Heather Lubov",
-    "name_confidence": "high",
-    "affiliation": "Executive Director, City Parks Foundation",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3705s",
-    "quote": "I actually support what Katie and M.A.S. both recommend, which is treating nonprofits differently than for profits."
-   },
-   {
-    "name": "Deborah Kirschner",
-    "name_confidence": "high",
-    "affiliation": "Vice President of Communications and External Relations, Prospect Park Alliance",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4312s",
-    "quote": "Our recommendations include creating a guide for nonprofits to help prepare for the FCRC process, keeping in mind that many nonprofits have minimal resources for general counsel and legal support."
-   },
-   {
-    "name": "Pedro Suarez",
-    "name_confidence": "high",
-    "affiliation": "Executive Director, Third Avenue Business Improvement District (501(c)(3)), South Bronx",
-    "role_type": "Nonprofit",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4543s",
-    "quote": "Nonprofits should go through a separate process or at least be treated differently from for profit entities."
-   },
-   {
-    "name": "James Goble",
-    "name_confidence": "high",
-    "affiliation": "Works on franchise and concession agreements at the Mayor's Office of Contract Services (MOCS), testifying in personal capacity",
-    "role_type": "Government body",
-    "hearing": "Bronx (Round 2)",
-    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5471s",
-    "quote": "One potential area of change could be making the public hearing requirements for franchises a little bit less onerous; the advertising requirements for those are much more stringent than those for concessions and those could potentially be loosened."
-   }
-  ]
- },
- {
   "id": "modernize-mayors-management-report-and-neighborhood-data",
   "title": "Modernize the Mayor's Management Report into real-time, neighborhood-level data",
   "category": "Open data & transparency",
@@ -1134,7 +1050,7 @@
    },
    {
     "name": "Saunders Ruffin",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Resident of the East Village; manages the monitoring and evaluation program at NYC Emergency Management (testifying in a personal capacity)",
     "role_type": "Resident",
     "hearing": "Brooklyn (Round 2)",
@@ -1184,8 +1100,8 @@
     "quote": "Let's be honest, vision zero has been a failure. He's been active for about 10 years and we are nowhere near zero."
    },
    {
-    "name": "Anna Berlinger",
-    "name_confidence": "medium",
+    "name": "Anna Berlanga",
+    "name_confidence": "high",
     "affiliation": "Bronx and Uptown Organizer, Transportation Alternatives",
     "role_type": "Advocacy org",
     "hearing": "Bronx (Round 2)",
@@ -1236,6 +1152,81 @@
     "hearing": "Manhattan (Round 2)",
     "url": "https://www.youtube.com/watch?v=PtANp5nH73M&t=9426s",
     "quote": "Replace the Henry Hudson Parkway highway patrol unit with speed cameras enforcing the 50 mph limit."
+   }
+  ]
+ },
+ {
+  "id": "reform-franchise-and-concession-review",
+  "title": "Reform franchise and concession review and let parks keep concession revenue",
+  "category": "Procurement & contracting",
+  "summary": "The Franchise and Concession Review Committee (FCRC) process is a slow, real-estate-oriented gauntlet that treats large revenue concessions, small nonprofit stewardship agreements and intangible intellectual-property licenses the same way. Proponents want the charter to narrow FCRC to city-owned real property, treat nonprofits differently from for-profits, create streamlined categories and templates for public-realm stewardship and pilots, raise review thresholds, and loosen the more onerous franchise public-hearing and advertising requirements. Several parks and conservancy witnesses also want NYC Parks to retain a meaningful share of the concession revenue generated in a given park so successful concessions help fund the maintenance and programming of the parks that make them possible.",
+  "proponent_count": 7,
+  "hearings": [
+   "Bronx (Round 2)"
+  ],
+  "proponents": [
+   {
+    "name": "Katherine Winningham",
+    "name_confidence": "high",
+    "affiliation": "Former Senior Counsel, NYC Law Department (Legal Counsel Division), testifying in personal capacity on intellectual property/merchandise licensing",
+    "role_type": "Government body",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=958s",
+    "quote": "We're looking for a really easy amendment that just says FCRC applies to city owned real property."
+   },
+   {
+    "name": "Katie Denny Horowitz",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, North Brooklyn Parks Alliance (nonprofit conservancy managing parks and public spaces in Greenpoint and Williamsburg)",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=2891s",
+    "quote": "We strongly feel that parks should be retaining a portion of the concession revenue... if you could just imagine that these successful concessions actually help pay for the park that makes those concessions possible."
+   },
+   {
+    "name": "Rebecca Macklis",
+    "name_confidence": "high",
+    "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
+    "role_type": "Advocacy org",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3107s",
+    "quote": "Create a new category for public realm stewardship agreements. This distinction would give partners a more streamlined review than revenue generating concessions."
+   },
+   {
+    "name": "Heather Lubov",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, City Parks Foundation",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=3705s",
+    "quote": "I actually support what Katie and M.A.S. both recommend, which is treating nonprofits differently than for profits."
+   },
+   {
+    "name": "Deborah Kirchner",
+    "name_confidence": "high",
+    "affiliation": "Vice President of Communications and External Relations, Prospect Park Alliance",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4312s",
+    "quote": "Our recommendations include creating a guide for nonprofits to help prepare for the FCRC process, keeping in mind that many nonprofits have minimal resources for general counsel and legal support."
+   },
+   {
+    "name": "Pedro Suarez",
+    "name_confidence": "high",
+    "affiliation": "Executive Director, Third Avenue Business Improvement District (501(c)(3)), South Bronx",
+    "role_type": "Nonprofit",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=4543s",
+    "quote": "Nonprofits should go through a separate process or at least be treated differently from for profit entities."
+   },
+   {
+    "name": "James Goebel",
+    "name_confidence": "high",
+    "affiliation": "Works on franchise and concession agreements at the Mayor's Office of Contract Services (MOCS), testifying in personal capacity",
+    "role_type": "Government body",
+    "hearing": "Bronx (Round 2)",
+    "url": "https://www.youtube.com/watch?v=HoACOD8couU&t=5471s",
+    "quote": "One potential area of change could be making the public hearing requirements for franchises a little bit less onerous; the advertising requirements for those are much more stringent than those for concessions and those could potentially be loosened."
    }
   ]
  },
@@ -1660,7 +1651,7 @@
    },
    {
     "name": "Rebecca Macklis",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Director of Urban Design and Policy, Municipal Art Society of New York (MAS)",
     "role_type": "Advocacy org",
     "hearing": "Bronx (Round 2)",
@@ -1718,7 +1709,7 @@
     "quote": "I urge this commission to define government efficiency not simply as faster approvals or fewer procedural steps, but as the capacity of public institutions to deliver justice, repair longstanding inequities, and serve all New Yorkers."
    },
    {
-    "name": "Carolina Salguero",
+    "name": "Caroline Salguero",
     "name_confidence": "high",
     "affiliation": "Founder and Executive Director of PortSide New York, a maritime nonprofit",
     "role_type": "Nonprofit",
@@ -2075,7 +2066,7 @@
   "title": "Strengthen and independently fund watchdog and ethics agencies",
   "category": "Oversight & ethics",
   "summary": "Independent oversight agencies (DOI, Conflicts of Interest Board) must seek funding from the very officials they regulate, so proponents want independent budgeting (a set percentage of the city budget), removal-for-cause protections and fixed terms for the DOI commissioner, more transparent COIB ethics guidance, and lobbying oversight moved into a more independent ethics commission. They argue strong watchdogs save money, citing inspectors general returning $17 for every $1 invested, and frame the reforms as a response to corruption and a shrunken DOI.",
-  "proponent_count": 4,
+  "proponent_count": 3,
   "hearings": [
    "Manhattan",
    "Brooklyn (Round 2)",
@@ -2103,15 +2094,6 @@
     "quote": "We believe the commission must respond to this eruption of corruption by taking steps to strengthen New York City's frontline ethics agencies in particular the department of investigation and conflicts of interest board.",
     "doc_url": "https://reinventalbany.org/2026/05/reinvent-albany-statement-welcomes-mayor-mamdani-forming-a-charter-revision-commission/",
     "doc_label": "Reinvent Albany statement"
-   },
-   {
-    "name": "Nadia Shehata",
-    "name_confidence": "high",
-    "affiliation": "Commissioner, New York City Department of Investigation (DOI)",
-    "role_type": "Government body",
-    "hearing": "Brooklyn (Round 2)",
-    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=395s",
-    "quote": "DOI should be afforded budget independence to reduce the risk of city hall or the city council interference or retaliation against DOI through control of the agency's budget and staffing."
    },
    {
     "name": "Jumaane Williams",
@@ -2506,8 +2488,8 @@
     "quote": "We were very hard to remove litter and improve the area. Unfortunately, by the very next day, it looked as though we had never been there."
    },
    {
-    "name": "Tomoro Sargi",
-    "name_confidence": "low",
+    "name": "Tamara Al-Sharji",
+    "name_confidence": "high",
     "affiliation": "Native New Yorker; high school student",
     "role_type": "Resident",
     "hearing": "Brooklyn (Round 2)",
@@ -2587,8 +2569,8 @@
   ],
   "proponents": [
    {
-    "name": "Selena Sue",
-    "name_confidence": "medium",
+    "name": "Celina Su",
+    "name_confidence": "high",
     "affiliation": "CUNY professor focusing on community organizing and participatory democracy; volunteer researcher with the People's Budget campaign; author of 'Budget Justice'",
     "role_type": "Academic",
     "hearing": "Brooklyn (Round 2)",
@@ -2689,7 +2671,7 @@
    },
    {
     "name": "Eric Soriano Perez",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Lehman College graduate and civil servant, testifying as a resident",
     "role_type": "Resident",
     "hearing": "Bronx (Round 2)",
@@ -3038,7 +3020,7 @@
   ],
   "proponents": [
    {
-    "name": "Pritha Mukherjee",
+    "name": "Pritha Mukherji",
     "name_confidence": "high",
     "affiliation": "International student in New York City (from Mumbai, India)",
     "role_type": "Resident",
@@ -3164,8 +3146,8 @@
   ],
   "proponents": [
    {
-    "name": "Paul",
-    "name_confidence": "low",
+    "name": "Paul Hoti",
+    "name_confidence": "high",
     "affiliation": "Substitute teacher, NYC Department of Education",
     "role_type": "Resident",
     "hearing": "Brooklyn (Round 2)",
@@ -3192,27 +3174,6 @@
     "hearing": "Brooklyn (Round 2)",
     "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=5451s",
     "quote": "It's time to reimagine the economic development corporation... by building the buying power solution alongside the government store and use the city's platform to correct the record on who's actually driving up prices."
-   }
-  ]
- },
- {
-  "id": "use-development-rights-transfers-to-fund-landmark-maintenance",
-  "title": "Let city-owned landmarks use development-rights transfers to fund maintenance",
-  "category": "Capital projects",
-  "summary": "City-owned landmarks such as FDNY firehouses carry costly repair and long-term maintenance obligations without a dedicated funding source. FDNY urged the commission to let city-owned landmarks use the streamlined transfer-of-development-rights process created by the 2024 zoning resolution amendment so the proceeds can fund the repair and ongoing maintenance of landmark buildings like historic firehouses.",
-  "proponent_count": 1,
-  "hearings": [
-   "Brooklyn (Round 2)"
-  ],
-  "proponents": [
-   {
-    "name": "Fabricio Caro",
-    "name_confidence": "medium",
-    "affiliation": "Chief of Staff to the Fire Commissioner, Fire Department of New York (FDNY)",
-    "role_type": "Government body",
-    "hearing": "Brooklyn (Round 2)",
-    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=1968s",
-    "quote": "We would like to use this process to fund maintenance of our landmark firehouses."
    }
   ]
  },
@@ -3318,27 +3279,6 @@
     "hearing": "Queens",
     "url": "https://www.youtube.com/watch?v=m_5OyXGAhIQ&t=3090s",
     "quote": "Reform the Landmarks Preservation Commission process so LPC weighs the 1.4% vacancy rate and net loss of housing units, especially townhome conversions in districts like the West Village."
-   }
-  ]
- },
- {
-  "id": "streamline-city-property-disposition-and-leasing",
-  "title": "Modernize the charter process for disposing of and leasing city property",
-  "category": "Public land & EDC",
-  "summary": "The charter applies the same lengthy disposition and approval process whether the city is leasing a small lot or selling a multimillion-dollar property, adding many months of secondary review (charter section 824) that rarely draws public testimony, and requiring City Planning Commission hearings and approvals even when the city is simply moving workers into existing commercial office space with no change of use (section 195). A DCAS official urged the commission to modernize these provisions so the city can dispose of and lease property with more speed, flexibility and competitiveness while retaining meaningful public review where it matters.",
-  "proponent_count": 1,
-  "hearings": [
-   "Brooklyn (Round 2)"
-  ],
-  "proponents": [
-   {
-    "name": "PJ Berg",
-    "name_confidence": "high",
-    "affiliation": "Deputy Commissioner for Real Estate Services, NYC Department of Citywide Administrative Services (DCAS)",
-    "role_type": "Government body",
-    "hearing": "Brooklyn (Round 2)",
-    "url": "https://www.youtube.com/watch?v=7G0lW1G0-F4&t=1249s",
-    "quote": "I'm here today to ask the charter revision commission to take the opportunity to modernize these provisions and ensure that the city can operate with speed, efficiency and flexibility."
    }
   ]
  },
