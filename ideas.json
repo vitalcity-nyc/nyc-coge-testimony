@@ -37,7 +37,7 @@
    },
    {
     "name": "Jeffrey Aron",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Resident (independent voter)",
     "role_type": "Resident",
     "hearing": "Manhattan",
@@ -280,7 +280,7 @@
    },
    {
     "name": "Edwin Hernandez",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Resident; founder and CEO of the nonprofit Building Purpose, Staten Island",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -288,8 +288,8 @@
     "quote": "I am one of 1.2 million constituents locked out of elections, unable to cast a vote at the polls due to discriminatory practices and biased policies."
    },
    {
-    "name": "Anel Ayon",
-    "name_confidence": "low",
+    "name": "Angel Ayón",
+    "name_confidence": "high",
     "affiliation": "Resident; architectural conservator running own 12-person practice; born in Havana, Cuba",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -298,7 +298,7 @@
    },
    {
     "name": "Jessie Fields",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Independent-voter advocate (open primaries)",
     "role_type": "Advocacy org",
     "hearing": "Manhattan (Round 2)",
@@ -424,8 +424,8 @@
     "quote": "Set a prescriptive timeline for each step of the procurement process, with penalties for agencies that miss it."
    },
    {
-    "name": "Karen Persing",
-    "name_confidence": "medium",
+    "name": "Karen Pershing",
+    "name_confidence": "high",
     "affiliation": "Community impact officer, Project Hospitality (Staten Island); local clergy",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -451,8 +451,8 @@
     "quote": "Open contracting means that all procurement information is presumptively available all the time and it's machine readable. That's the way of the 21st century."
    },
    {
-    "name": "Aiden Rivera",
-    "name_confidence": "medium",
+    "name": "Aidan Rivera",
+    "name_confidence": "high",
     "affiliation": "Case manager, Victims of Crime Advocates program, Central Family Life Center (Staten Island CBO)",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -469,8 +469,8 @@
     "quote": "Only 4% of New York City's DYCD-funded after-school programs are located here on Staten Island, and only 3.8% of the city's older-adult centers serve our borough."
    },
    {
-    "name": "Elizabeth Brantle",
-    "name_confidence": "medium",
+    "name": "Elizabeth Brantl",
+    "name_confidence": "high",
     "affiliation": "Government relations coordinator, Center for Justice Innovation",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -478,8 +478,8 @@
     "quote": "New York City's more than 13,000 nonprofit organizations contribute billions of dollars to the local economy and employ nearly one in five workers across the city."
    },
    {
-    "name": "Adrian Nabani",
-    "name_confidence": "low",
+    "name": "Adrienne Abbate",
+    "name_confidence": "high",
     "affiliation": "Executive director, Partnerships for Community Wellness; co-chair, Nonprofit Staten Island Advocacy Committee",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -488,7 +488,7 @@
    },
    {
     "name": "Edwin Hernandez",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Resident; founder and CEO of the nonprofit Building Purpose, Staten Island",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -595,8 +595,8 @@
     "quote": "When it send it off to the city, it goes into a black hole. So we also need to know from them what their timeline is for getting back to us."
    },
    {
-    "name": "Karen Persing",
-    "name_confidence": "medium",
+    "name": "Karen Pershing",
+    "name_confidence": "high",
     "affiliation": "Community impact officer, Project Hospitality (Staten Island); local clergy",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -613,8 +613,8 @@
     "quote": "Mandate that the city pay interest and a minimum percentage of each invoice up front to give human-service contractors cash flow."
    },
    {
-    "name": "Aiden Rivera",
-    "name_confidence": "medium",
+    "name": "Aidan Rivera",
+    "name_confidence": "high",
     "affiliation": "Case manager, Victims of Crime Advocates program, Central Family Life Center (Staten Island CBO)",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -622,8 +622,8 @@
     "quote": "Unlike businesses, nonprofit organizations are not entrepreneurial ventures. We and the people we help need long-term consistency and stability."
    },
    {
-    "name": "Adrian Nabani",
-    "name_confidence": "low",
+    "name": "Adrienne Abbate",
+    "name_confidence": "high",
     "affiliation": "Executive director, Partnerships for Community Wellness; co-chair, Nonprofit Staten Island Advocacy Committee",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -631,8 +631,8 @@
     "quote": "Scale up the timely, upfront release of funding that stabilizes human-service providers and lets them meet payroll without high-interest bridge loans."
    },
    {
-    "name": "Samuel Aiuto",
-    "name_confidence": "low",
+    "name": "Sam Eluto",
+    "name_confidence": "high",
     "affiliation": "Building Trades Employers' Association (BTEA), director of member relations",
     "role_type": "Business/industry",
     "hearing": "Manhattan (Round 2)",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Servia Silva",
-    "name_confidence": "low",
+    "name_confidence": "high",
     "affiliation": "United Federation of Teachers, Manhattan Borough Representative (30+ years teaching)",
     "role_type": "Labor",
     "hearing": "Manhattan (Round 2)",
@@ -719,7 +719,7 @@
    },
    {
     "name": "Sadio Bah",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Bar Real Estate (broker/owner) and City Builder Development Corporation (owner); buy/fix/flip",
     "role_type": "Business/industry",
     "hearing": "Bronx",
@@ -745,8 +745,8 @@
     "quote": "Cut red tape and bureaucracy, without sacrificing safety, to build more housing and infrastructure that all citizens can access."
    },
    {
-    "name": "Misha Smith",
-    "name_confidence": "medium",
+    "name": "Miesha Smith",
+    "name_confidence": "high",
     "affiliation": "Deputy Manhattan Borough President (for Brad Hoylman-Sigal)",
     "role_type": "Government body",
     "hearing": "Manhattan (Round 2)",
@@ -754,8 +754,8 @@
     "quote": "Create a central permitting hub or at least a centralized online portal to consolidate the 40+ permits across 15 agencies an affordable building can require."
    },
    {
-    "name": "Bob Avalron",
-    "name_confidence": "low",
+    "name": "Robert \"Bob\" Avaltroni",
+    "name_confidence": "medium",
     "affiliation": "Environmental Contractors Association; former city commissioner",
     "role_type": "Business/industry",
     "hearing": "Manhattan (Round 2)",
@@ -764,7 +764,7 @@
    },
    {
     "name": "Camelia Tepelus",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Morris Park Business Improvement District (Bronx), executive director",
     "role_type": "Business/industry",
     "hearing": "Manhattan (Round 2)",
@@ -888,7 +888,7 @@
   "title": "Bring the building trades in early and don't let efficiency erode labor standards",
   "category": "Labor & workforce",
   "summary": "Organized labor and the building trades urge the city to consult them early on large projects, put experienced union tradespeople on jobs from day one, and use project labor agreements as a 'job site constitution' that speeds rather than slows work. They argue skilled union labor and rigorous apprenticeship are foundations of efficiency and pathways to the middle class. A recurring counter-tension: no efficiency reform should become a 'fast pass for exploitation' or weaken worker protections, prevailing-wage enforcement or safety.",
-  "proponent_count": 9,
+  "proponent_count": 8,
   "hearings": [
    "Manhattan",
    "Manhattan (Round 2)"
@@ -967,8 +967,8 @@
     "quote": "No reform should create a fast pass for exploitation... Jumping the line on special consideration should only be available to firms committed to strong labor standards."
    },
    {
-    "name": "Michael Picarillo",
-    "name_confidence": "medium",
+    "name": "Michael Piccirillo",
+    "name_confidence": "high",
     "affiliation": "New York City District Council of Carpenters",
     "role_type": "Labor",
     "hearing": "Manhattan (Round 2)",
@@ -1109,8 +1109,8 @@
     "quote": "Too many life saving designs and infrastructure solutions are put on ice or watered down before they're built and some neighborhoods have had hardly any safety infrastructure at all."
    },
    {
-    "name": "Rose Uchinowski",
-    "name_confidence": "low",
+    "name": "Rose Uscianowski",
+    "name_confidence": "high",
     "affiliation": "Community organizer, Transportation Alternatives",
     "role_type": "Advocacy org",
     "hearing": "Staten Island (Round 2)",
@@ -1118,8 +1118,8 @@
     "quote": "A city needs to simplify the bureaucratic and political processes that slow down lifesaving infrastructure redesigns."
    },
    {
-    "name": "Emily Jacobe",
-    "name_confidence": "medium",
+    "name": "Emily Jacobi",
+    "name_confidence": "high",
     "affiliation": "Transportation Alternatives, Manhattan organizer",
     "role_type": "Advocacy org",
     "hearing": "Manhattan (Round 2)",
@@ -1127,8 +1127,8 @@
     "quote": "Every traffic fatality or serious injury is a design, infrastructure or policy failure."
    },
    {
-    "name": "Hindi Shakar",
-    "name_confidence": "low",
+    "name": "Hindy Schachter",
+    "name_confidence": "high",
     "affiliation": "Families for Safe Streets member",
     "role_type": "Advocacy org",
     "hearing": "Manhattan (Round 2)",
@@ -1137,7 +1137,7 @@
    },
    {
     "name": "Darien Glasser",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "Resident; street-safety advocate (Financial District)",
     "role_type": "Resident",
     "hearing": "Manhattan (Round 2)",
@@ -1146,7 +1146,7 @@
    },
    {
     "name": "Ira Gershenhorn",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Riverside Park Conservancy volunteer (35 years)",
     "role_type": "Resident",
     "hearing": "Manhattan (Round 2)",
@@ -1342,7 +1342,7 @@
    },
    {
     "name": "Julie Swoope",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "NYC-DSA (Tech Action) member; Mamdani technology transition committee; works on a public-sector tech team (State of Maryland)",
     "role_type": "Labor",
     "hearing": "Brooklyn",
@@ -1382,7 +1382,7 @@
    },
    {
     "name": "Adria Konz",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "MetroPlus Health (NYC Health + Hospitals subsidiary) IT worker; lifelong New Yorker",
     "role_type": "Resident",
     "hearing": "Manhattan (Round 2)",
@@ -1457,8 +1457,8 @@
     "quote": "Streamline city MWBE contracting/reimbursement into one transparent system (registration can take 6 months to a year)"
    },
    {
-    "name": "Samuel Aiuto",
-    "name_confidence": "low",
+    "name": "Sam Eluto",
+    "name_confidence": "high",
     "affiliation": "Building Trades Employers' Association (BTEA), director of member relations",
     "role_type": "Business/industry",
     "hearing": "Manhattan (Round 2)",
@@ -1718,8 +1718,8 @@
     "quote": "We're calling for a pro growth maritime policy, for a new city agency for maritime, so maritime is no longer straining to grow."
    },
    {
-    "name": "Janos Martin",
-    "name_confidence": "medium",
+    "name": "Janos Marton",
+    "name_confidence": "high",
     "affiliation": "Vice president, St. George Civic Association (Staten Island)",
     "role_type": "Advocacy org",
     "hearing": "Staten Island (Round 2)",
@@ -1778,8 +1778,8 @@
     "doc_label": "Full testimony (PDF)"
    },
    {
-    "name": "Samuel Aiuto",
-    "name_confidence": "low",
+    "name": "Sam Eluto",
+    "name_confidence": "high",
     "affiliation": "Building Trades Employers' Association (BTEA), director of member relations",
     "role_type": "Business/industry",
     "hearing": "Manhattan (Round 2)",
@@ -1886,7 +1886,7 @@
    },
    {
     "name": "Vivian Murray",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "St. John's Episcopal Church, Rosebank; operates 84-unit senior housing",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -2043,7 +2043,7 @@
    },
    {
     "name": "Ralph Yozzo",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Lifelong New Yorker; former Community Education Council member; software/transparency developer; past City Council candidate (D36, 2021)",
     "role_type": "Resident",
     "hearing": "Brooklyn",
@@ -2298,7 +2298,7 @@
    },
    {
     "name": "Emilina Wilson",
-    "name_confidence": "medium",
+    "name_confidence": "low",
     "affiliation": "Resident; ABA therapist / daycare worker (United Activities nonprofit) and commuter student, College of Staten Island; non-driver",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -2339,8 +2339,8 @@
     "quote": "The city government needs to get out of its own way and let New York build."
    },
    {
-    "name": "Misha Smith",
-    "name_confidence": "medium",
+    "name": "Miesha Smith",
+    "name_confidence": "high",
     "affiliation": "Deputy Manhattan Borough President (for Brad Hoylman-Sigal)",
     "role_type": "Government body",
     "hearing": "Manhattan (Round 2)",
@@ -2401,7 +2401,7 @@
   "proponents": [
    {
     "name": "Simon Grassmann",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Member, democracy working group, New York City Democratic Socialists of America",
     "role_type": "Advocacy org",
     "hearing": "Staten Island (Round 2)",
@@ -2409,8 +2409,8 @@
     "quote": "Do not advance an open-primary system alone, since it only shifts which political minorities are suppressed."
    },
    {
-    "name": "AJ Ozen",
-    "name_confidence": "low",
+    "name": "H. Ege Ozen",
+    "name_confidence": "high",
     "affiliation": "Associate professor of political science, College of Staten Island (CUNY); PSC union delegate",
     "role_type": "Academic",
     "hearing": "Staten Island (Round 2)",
@@ -2419,7 +2419,7 @@
    },
    {
     "name": "Jen Gaboury",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "First vice president, Professional Staff Congress (PSC) CUNY",
     "role_type": "Labor",
     "hearing": "Staten Island (Round 2)",
@@ -2449,7 +2449,7 @@
    },
    {
     "name": "Edwin Hernandez",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Resident; founder and CEO of the nonprofit Building Purpose, Staten Island",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -2457,8 +2457,8 @@
     "quote": "Have the Department of Education improve its infrastructure."
    },
    {
-    "name": "Chris Elena",
-    "name_confidence": "medium",
+    "name": "Chris Alena",
+    "name_confidence": "high",
     "affiliation": "Teacher (30 years) and UFT chapter leader, Curtis High School",
     "role_type": "Labor",
     "hearing": "Staten Island (Round 2)",
@@ -2849,8 +2849,8 @@
   ],
   "proponents": [
    {
-    "name": "Karen Persing",
-    "name_confidence": "medium",
+    "name": "Karen Pershing",
+    "name_confidence": "high",
     "affiliation": "Community impact officer, Project Hospitality (Staten Island); local clergy",
     "role_type": "Nonprofit",
     "hearing": "Staten Island (Round 2)",
@@ -2880,7 +2880,7 @@
   "proponents": [
    {
     "name": "Simon Grassmann",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Member, democracy working group, New York City Democratic Socialists of America",
     "role_type": "Advocacy org",
     "hearing": "Staten Island (Round 2)",
@@ -2888,8 +2888,8 @@
     "quote": "New York City had such a system from 1936 to 1947. There is actually interest across the political spectrum, including a city council proposal by Republican Frank Morano and Democrat Farah Lewis."
    },
    {
-    "name": "AJ Ozen",
-    "name_confidence": "low",
+    "name": "H. Ege Ozen",
+    "name_confidence": "high",
     "affiliation": "Associate professor of political science, College of Staten Island (CUNY); PSC union delegate",
     "role_type": "Academic",
     "hearing": "Staten Island (Round 2)",
@@ -2918,8 +2918,8 @@
     "quote": "We can invest in paraprofessionals now or continue paying more after students are denied their services."
    },
    {
-    "name": "Jeremiah Bourneman",
-    "name_confidence": "low",
+    "name": "Jeremiah Bornemann",
+    "name_confidence": "high",
     "affiliation": "Special-education paraprofessional; elected UFT leader, District 2 para coordinator",
     "role_type": "Labor",
     "hearing": "Manhattan (Round 2)",
@@ -2940,7 +2940,7 @@
   "proponents": [
    {
     "name": "Servia Silva",
-    "name_confidence": "low",
+    "name_confidence": "high",
     "affiliation": "United Federation of Teachers, Manhattan Borough Representative (30+ years teaching)",
     "role_type": "Labor",
     "hearing": "Manhattan (Round 2)",
@@ -2948,8 +2948,8 @@
     "quote": "It would take from one to two years for the money to be funneled to the schools."
    },
    {
-    "name": "Faiza Khaled",
-    "name_confidence": "medium",
+    "name": "Faiza Khalid",
+    "name_confidence": "high",
     "affiliation": "Educator and parent; UFT representative, Harlem Community School District 5",
     "role_type": "Labor",
     "hearing": "Manhattan (Round 2)",
@@ -2979,7 +2979,7 @@
    },
    {
     "name": "Patrick Hall",
-    "name_confidence": "low",
+    "name_confidence": "high",
     "affiliation": "Small business owner (florist), downtown Manhattan",
     "role_type": "Business/industry",
     "hearing": "Manhattan (Round 2)",
@@ -3525,7 +3525,7 @@
   "proponents": [
    {
     "name": "Crystal Nightstar",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "Resident; 14-year city employee, Department of Citywide Administrative Services (formerly Department of Correction)",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -3545,8 +3545,8 @@
   ],
   "proponents": [
    {
-    "name": "Janos Martin",
-    "name_confidence": "medium",
+    "name": "Janos Marton",
+    "name_confidence": "high",
     "affiliation": "Vice president, St. George Civic Association (Staten Island)",
     "role_type": "Advocacy org",
     "hearing": "Staten Island (Round 2)",
@@ -3566,8 +3566,8 @@
   ],
   "proponents": [
    {
-    "name": "Misha Smith",
-    "name_confidence": "medium",
+    "name": "Miesha Smith",
+    "name_confidence": "high",
     "affiliation": "Deputy Manhattan Borough President (for Brad Hoylman-Sigal)",
     "role_type": "Government body",
     "hearing": "Manhattan (Round 2)",
@@ -3630,7 +3630,7 @@
   "proponents": [
    {
     "name": "Hayden Brockett",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "New York Clean Air Collective volunteer; Community Board 7 member",
     "role_type": "Advocacy org",
     "hearing": "Manhattan (Round 2)",
@@ -3651,7 +3651,7 @@
   "proponents": [
    {
     "name": "Suzanne Ventura",
-    "name_confidence": "medium",
+    "name_confidence": "high",
     "affiliation": "Greeningful Life; sustainability practitioner",
     "role_type": "Nonprofit",
     "hearing": "Manhattan (Round 2)",
@@ -3672,7 +3672,7 @@
   "proponents": [
    {
     "name": "George Lee",
-    "name_confidence": "low",
+    "name_confidence": "medium",
     "affiliation": "Centurum (AI govtech efficiency startup); Oxford University student",
     "role_type": "Civic-tech",
     "hearing": "Manhattan (Round 2)",
