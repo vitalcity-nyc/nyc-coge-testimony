@@ -22,14 +22,14 @@ HTML = r"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Testimony to the Commission on Government Efficiency, by idea</title>
-<meta name="description" content="An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE), built from seven hearings — __NIDEAS__ ideas across __NUNIQ__ witnesses, each linked to the hearing video or written submission.">
+<meta name="description" content="An idea-by-idea catalog of public testimony to New York City's 2026 Commission on Government Efficiency (COGE), built from all ten borough hearings (both rounds) — __NIDEAS__ ideas across __NUNIQ__ witnesses, each linked to the hearing video or written submission.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Testimony to the Commission on Government Efficiency, by idea">
-<meta property="og:description" content="Public testimony to NYC's 2026 charter revision commission (COGE), grouped by idea so shared threads are visible — __NIDEAS__ ideas, __NUNIQ__ witnesses, seven hearings to date.">
+<meta property="og:description" content="Public testimony to NYC's 2026 charter revision commission (COGE), grouped by idea so shared threads are visible — __NIDEAS__ ideas, __NUNIQ__ witnesses, all ten borough hearings.">
 <meta property="og:url" content="https://vitalcity-nyc.github.io/nyc-coge-testimony/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Testimony to the Commission on Government Efficiency, by idea">
-<meta name="twitter:description" content="Public testimony to NYC's 2026 charter revision commission (COGE), grouped by idea — __NIDEAS__ ideas, __NUNIQ__ witnesses, seven hearings to date.">
+<meta name="twitter:description" content="Public testimony to NYC's 2026 charter revision commission (COGE), grouped by idea — __NIDEAS__ ideas, __NUNIQ__ witnesses, all ten borough hearings.">
 <link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
 <style>
 @font-face{
@@ -242,8 +242,8 @@ html.embed .hero .kicker{margin-bottom:10px;}
   <div class="kicker">Commission on Government Efficiency &middot; testimony by idea</div>
   <h1>Testimony to the Commission on Government Efficiency, by idea</h1>
   <p class="dek">A catalog of public testimony to the Commission on Government Efficiency (COGE), New York City's 2026 charter revision commission, chaired by Patrick Gaspard. Testimony is grouped by idea rather than by speaker, so proposals raised by more than one person are visible at a glance. Each backer links to their testimony &mdash; the moment in the hearing video, or a written submission where one exists.</p>
-  <p class="dek" style="font-size:16px;color:var(--vc-charcoal);">Coverage spans all five first-round borough hearings &mdash; Manhattan, the Bronx, Brooklyn, Queens and Staten Island &mdash; plus four second-round hearings, in the Bronx, Brooklyn, Staten Island and Manhattan, cataloging the __NUNIQ__ members of the public who testified (commissioners and staff aside) and the __NIDEAS__ shared ideas they raised. The remaining second-round hearings and a written-comment period run into mid-July 2026, and this tool will be updated as that testimony comes in. COGE's proposals are due to reach voters on the November 2026 ballot.</p>
-  <p class="byline">__NIDEAS__ ideas &middot; __NUNIQ__ witnesses &middot; 9 hearings &middot; ~23 hours reviewed</p>
+  <p class="dek" style="font-size:16px;color:var(--vc-charcoal);">Coverage spans all five first-round borough hearings &mdash; Manhattan, the Bronx, Brooklyn, Queens and Staten Island &mdash; plus all five second-round borough hearings, cataloging the __NUNIQ__ members of the public who testified (commissioners and staff aside) and the __NIDEAS__ shared ideas they raised &mdash; both rounds of borough hearings are now complete. A written-comment period runs into mid-July 2026, and this tool will be updated as that testimony comes in. COGE's proposals are due to reach voters on the November 2026 ballot.</p>
+  <p class="byline">__NIDEAS__ ideas &middot; __NUNIQ__ witnesses &middot; 10 hearings &middot; ~26 hours reviewed</p>
 
   <div class="cta-row">
     <a class="cta-btn" href="https://notebooklm.google.com/notebook/265ada6f-453b-4f9e-8b3b-47718a5ff86d" target="_blank" rel="noopener">Ask the testimony a question &#8599;</a>
@@ -258,7 +258,7 @@ html.embed .hero .kicker{margin-bottom:10px;}
 
   <div class="stats">
     <div class="stat"><div class="n">__NIDEAS__</div><div class="l">distinct ideas proposed</div></div>
-    <div class="stat"><div class="n">__NUNIQ__</div><div class="l">witnesses across nine hearings</div></div>
+    <div class="stat"><div class="n">__NUNIQ__</div><div class="l">witnesses across ten hearings</div></div>
     <div class="stat"><div class="n">__MULTI__</div><div class="l">ideas raised at more than one hearing</div></div>
     <div class="stat"><div class="n">__MAXC__</div><div class="l">backers for the most popular idea, open primaries</div></div>
   </div>
@@ -301,7 +301,7 @@ html.embed .hero .kicker{margin-bottom:10px;}
 
 <section class="method"><div class="wrap">
   <h2>How this was built</h2>
-  <p>This is an idea-centric reading of the public record, not an official transcript. The transcripts from all five of COGE's first-round borough hearings (Manhattan, June 9; the Bronx, June 10; Brooklyn, June 11; Queens, June 22; and Staten Island, June 23) and its four second-round hearings so far (the Bronx, June 30; Brooklyn, July 1; Staten Island, July 6; and Manhattan, July 8) were used to identify each public witness and the concrete proposals they made, then those proposals were clustered into shared ideas. Transcripts come from YouTube's auto-generated captions where available; hearings that had no published captions when ingested were transcribed from the audio with OpenAI's Whisper. Where a witness or their organization has published their full written testimony or a closely related position, the entry links to it. Documented written submissions &mdash; including Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled. Commissioners, staff and procedural talk are excluded. The remaining second-round hearings and a written-comment period run into mid-July 2026, and this tool is intended to be updated as that testimony comes in.</p>
+  <p>This is an idea-centric reading of the public record, not an official transcript. The transcripts from all five of COGE's first-round borough hearings (Manhattan, June 9; the Bronx, June 10; Brooklyn, June 11; Queens, June 22; and Staten Island, June 23) and all five second-round hearings (the Bronx, June 30; Brooklyn, July 1; Staten Island, July 6; Manhattan, July 8; and Queens, July 13) were used to identify each public witness and the concrete proposals they made, then those proposals were clustered into shared ideas. Transcripts come from YouTube's auto-generated captions where available; hearings that had no published captions when ingested were transcribed from the audio with OpenAI's Whisper. Where a witness or their organization has published their full written testimony or a closely related position, the entry links to it. Documented written submissions &mdash; including Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled. Commissioners, staff and procedural talk are excluded. Both rounds of borough hearings are now complete; a written-comment period runs into mid-July 2026, and this tool is intended to be updated as that testimony comes in.</p>
 
   <h3>Why some names look approximate</h3>
   <p>Names came from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses. Each name was checked against public records (organization staff pages, news coverage) and, for the first-round Manhattan, Bronx and Brooklyn hearings, against the commission's own official meeting minutes, which list each speaker; many names were corrected this way. Second-round names have not yet been checked against official minutes and are especially provisional. Names that still could not be confirmed are marked with a dotted underline; hover for a note. Treat any flagged spelling as provisional and confirm against the video before quoting by name.</p>
@@ -337,7 +337,7 @@ html.embed .hero .kicker{margin-bottom:10px;}
   <ul>
     <li>Built with AI-assisted transcription and clustering of COGE's hearing videos, most recently on July 2, 2026. It is a research tool, not the official record.</li>
     <li>Speaker names come from auto-captions and are often misspelled; they were checked against public records and many corrected, but ones still unconfirmed are flagged with a dotted underline. Confirm names and quotes against the linked video before publishing.</li>
-    <li>Coverage is all five first-round borough hearings plus four second-round hearings (Bronx, Brooklyn, Staten Island and Manhattan); the remaining second-round hearings and a written-comment period run into mid-July 2026 and are not yet included.</li>
+    <li>Coverage is all ten borough hearings (both rounds, all five boroughs); a written-comment period runs into mid-July 2026 and is not yet included.</li>
     <li>Several hearings had no published captions when ingested and were machine-transcribed (OpenAI Whisper or YouTube auto-captions); those names and quotes are especially provisional &mdash; confirm against the video.</li>
     <li>Grouping testimony into "ideas" involves judgment; a backer placed under an idea may have framed it differently. Watch the clip for full context.</li>
     <li>Quotes are transcribed from auto-captions and lightly cleaned; they may not be word-perfect.</li>
@@ -384,7 +384,7 @@ const THEMES = (function(){
 const state = {q:"", cat:new Set(), roles:new Set(), themeOpen:new Set(), sort:"count", view:"idea"};
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
 
-const hearingColor = {Manhattan:"var(--vc-cerulean)",Bronx:"var(--vc-magenta)",Brooklyn:"var(--vc-indigo)",Queens:"#3aa35a","Staten Island":"#a9762f","Bronx (Round 2)":"var(--vc-magenta)","Brooklyn (Round 2)":"var(--vc-indigo)","Manhattan (Round 2)":"var(--vc-cerulean)","Staten Island (Round 2)":"#a9762f","Written submission":"var(--vc-charcoal)"};
+const hearingColor = {Manhattan:"var(--vc-cerulean)",Bronx:"var(--vc-magenta)",Brooklyn:"var(--vc-indigo)",Queens:"#3aa35a","Staten Island":"#a9762f","Bronx (Round 2)":"var(--vc-magenta)","Brooklyn (Round 2)":"var(--vc-indigo)","Manhattan (Round 2)":"var(--vc-cerulean)","Staten Island (Round 2)":"#a9762f","Queens (Round 2)":"#3aa35a","Written submission":"var(--vc-charcoal)"};
 
 // person index: regroup every proponent record by witness name
 const PEOPLE = (function(){

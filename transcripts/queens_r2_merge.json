@@ -1,0 +1,707 @@
+{
+ "slug": "queens_r2",
+ "label": "Queens (Round 2)",
+ "video": "udE7QLZcBZI",
+ "assignments": [
+  {
+   "name": "Lincoln Restler",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 33, Brooklyn); chair of the contracts committee",
+   "role_type": "Elected official",
+   "t": 433,
+   "target": "new",
+   "idea_id": "preserve-council-review-and-balance-of-powers",
+   "new_idea": {
+    "id": "preserve-council-review-and-balance-of-powers",
+    "title": "Preserve council review and the charter's balance of powers",
+    "category": "Oversight & ethics",
+    "summary": "Several elected officials and the council's own counsel argue that efficiency reforms should not shift authority from the City Council to the executive. They want to keep council review over the building code, DCAS property leases and dispositions, and major transportation projects, and to drop proposals they say are unconstitutional or usurp council power."
+   },
+   "quote": "Our charter must be strong enough to withstand the next corrupt administration."
+  },
+  {
+   "name": "Lincoln Restler",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 33, Brooklyn); chair of the contracts committee",
+   "role_type": "Elected official",
+   "t": 433,
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent",
+   "quote": "Restore year-round outdoor dining through pending council legislation rather than charter changes that could jeopardize it."
+  },
+  {
+   "name": "Lincoln Restler",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 33, Brooklyn); chair of the contracts committee",
+   "role_type": "Elected official",
+   "t": 433,
+   "target": "existing",
+   "idea_id": "comprehensive-procurement-reform",
+   "quote": "Have the Mamdani administration implement Local Law 169 to set crisp procurement timelines instead of automating report sunsets."
+  },
+  {
+   "name": "Frank Morano",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 51, Staten Island)",
+   "role_type": "Elected official",
+   "t": 801,
+   "target": "new",
+   "idea_id": "use-full-timeline-and-dont-rush-ballot-proposals",
+   "new_idea": {
+    "id": "use-full-timeline-and-dont-rush-ballot-proposals",
+    "title": "Use the full two-year timeline instead of rushing ballot proposals",
+    "category": "Oversight & ethics",
+    "summary": "Council officials urge the commission to use its full two-year timeline, deferring ballot proposals to 2027 rather than rushing them onto the November ballot, and to engage council subject-matter experts before issuing a final report."
+   },
+   "quote": "Extend this into a two-year charter revision commission rather than an accelerated timeline."
+  },
+  {
+   "name": "Frank Morano",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 51, Staten Island)",
+   "role_type": "Elected official",
+   "t": 801,
+   "target": "existing",
+   "idea_id": "reform-community-board-appointments-and-boundaries",
+   "quote": "I'm asking you to trust the voters enough to let them decide."
+  },
+  {
+   "name": "Frank Morano",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 51, Staten Island)",
+   "role_type": "Elected official",
+   "t": 801,
+   "target": "new",
+   "idea_id": "preserve-council-review-and-balance-of-powers",
+   "new_idea": {
+    "id": "preserve-council-review-and-balance-of-powers",
+    "title": "Preserve council review and the charter's balance of powers",
+    "category": "Oversight & ethics",
+    "summary": "Several elected officials and the council's own counsel argue that efficiency reforms should not shift authority from the City Council to the executive, keeping council review over the building code, DCAS leases and major transportation projects."
+   },
+   "quote": "Replace removal of council review of DCAS leases with a tiered review system and statutory deadlines that preserve accountability."
+  },
+  {
+   "name": "Edgar Alfonso",
+   "name_confidence": "low",
+   "affiliation": "Resident of Forest Hills/Rego Park and parent; chairs the transportation committee of Queens Community Board 6 but testified in a personal capacity",
+   "role_type": "Resident",
+   "t": 1442,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "We're putting families at risk unnecessarily."
+  },
+  {
+   "name": "Nyla Rosario",
+   "name_confidence": "high",
+   "affiliation": "One Fair Wage, national policy director and New York state director",
+   "role_type": "Advocacy org",
+   "t": 1606,
+   "target": "new",
+   "idea_id": "condition-outdoor-dining-licenses-on-living-wage",
+   "new_idea": {
+    "id": "condition-outdoor-dining-licenses-on-living-wage",
+    "title": "Condition outdoor dining licenses on paying a living wage",
+    "category": "Labor & workforce",
+    "summary": "One Fair Wage advocates and restaurant workers propose a charter amendment barring the city from issuing or renewing outdoor-business and outdoor dining licenses to businesses that do not pay a living wage, and ask that it go before voters."
+   },
+   "quote": "Ensuring that businesses pay a living wage should be viewed as another basic condition for doing business in the city of New York."
+  },
+  {
+   "name": "Geoff Brown",
+   "name_confidence": "medium",
+   "affiliation": "Former New York City chief information security officer (2016-2022) and founding head of NYC Cyber Command",
+   "role_type": "Civic-tech",
+   "t": 1936,
+   "target": "new",
+   "idea_id": "name-a-city-cyber-risk-owner",
+   "new_idea": {
+    "id": "name-a-city-cyber-risk-owner",
+    "title": "Name a commissioner-level owner of the city's cyber risk",
+    "category": "Technology & digital services",
+    "summary": "The city's former chief information security officer urges the charter to name a commissioner-level official who owns cyber risk, with a reporting line independent of IT delivery and public, auditable reporting on the city's cybersecurity posture."
+   },
+   "quote": "The official who owns cyber risk must be able to say no."
+  },
+  {
+   "name": "May Frank",
+   "name_confidence": "low",
+   "affiliation": "Transportation Alternatives, Queens organizer",
+   "role_type": "Advocacy org",
+   "t": 2072,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "We are not reinventing the wheel, folks. We just need to make it turn faster."
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 30, Queens)",
+   "role_type": "Elected official",
+   "t": 2610,
+   "target": "existing",
+   "idea_id": "consolidate-and-speed-permitting",
+   "quote": "Streamlining must not become a shortcut that bypasses environmental and community protections for larger, higher-impact projects."
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 30, Queens)",
+   "role_type": "Elected official",
+   "t": 2610,
+   "target": "existing",
+   "idea_id": "enforceable-rainy-day-fund-and-honest-budgeting",
+   "quote": "Retain his 12 June recommendations, including honest multi-year budget baselines."
+  },
+  {
+   "name": "Phil Wong",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (District 30, Queens)",
+   "role_type": "Elected official",
+   "t": 2610,
+   "target": "existing",
+   "idea_id": "consolidate-underenrolled-schools-and-end-ghost-funding",
+   "quote": "School consolidation for tiny campuses."
+  },
+  {
+   "name": "Brendan Griffith",
+   "name_confidence": "high",
+   "affiliation": "New York City Central Labor Council, AFL-CIO, president",
+   "role_type": "Labor",
+   "t": 3058,
+   "target": "existing",
+   "idea_id": "involve-building-trades-and-protect-labor-standards",
+   "quote": "Efficiency can be a loaded term and it can be a euphemism for austerity."
+  },
+  {
+   "name": "Brendan Griffith",
+   "name_confidence": "high",
+   "affiliation": "New York City Central Labor Council, AFL-CIO, president",
+   "role_type": "Labor",
+   "t": 3058,
+   "target": "existing",
+   "idea_id": "comprehensive-procurement-reform",
+   "quote": "Strengthen procurement and contract oversight to root out duplicative work and unnecessary outside consulting."
+  },
+  {
+   "name": "Brendan Griffith",
+   "name_confidence": "high",
+   "affiliation": "New York City Central Labor Council, AFL-CIO, president",
+   "role_type": "Labor",
+   "t": 3058,
+   "target": "existing",
+   "idea_id": "reject-open-primaries-and-preserve-party-primaries",
+   "quote": "Proceed carefully on any open primaries changes with full transparency."
+  },
+  {
+   "name": "Kevin Lera",
+   "name_confidence": "medium",
+   "affiliation": "Make McGuinness Safe, street safety advocate; fourth-generation Greenpoint resident",
+   "role_type": "Advocacy org",
+   "t": 3265,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "I blame a system that prioritizes inertia over action."
+  },
+  {
+   "name": "Selvena Brooks-Powers",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (southeast Queens and the Rockaway Peninsula)",
+   "role_type": "Elected official",
+   "t": 3620,
+   "target": "new",
+   "idea_id": "preserve-council-review-and-balance-of-powers",
+   "new_idea": {
+    "id": "preserve-council-review-and-balance-of-powers",
+    "title": "Preserve council review and the charter's balance of powers",
+    "category": "Oversight & ethics",
+    "summary": "Elected officials argue efficiency reforms should not shift authority from the council to the executive, keeping council notice and review over major transportation projects, city office leases and the building code."
+   },
+   "quote": "Efficiency cannot come at the expense of accountability, transparency, or the balance of powers established in our charter."
+  },
+  {
+   "name": "Selvena Brooks-Powers",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (southeast Queens and the Rockaway Peninsula)",
+   "role_type": "Elected official",
+   "t": 3620,
+   "target": "existing",
+   "idea_id": "publicize-hearings-and-improve-civic-outreach",
+   "quote": "Publish clearly defined ballot proposals and complete hearing transcripts before asking voters to decide."
+  },
+  {
+   "name": "Eric McClure",
+   "name_confidence": "high",
+   "affiliation": "Streets PAC, executive director; chair of Brooklyn Community Board 6",
+   "role_type": "Advocacy org",
+   "t": 4308,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "Community boards don't vote on whether we upgrade a sewer or water main, and they shouldn't be hamstringing implementation of projects that we know will save lives."
+  },
+  {
+   "name": "Steve Flack",
+   "name_confidence": "high",
+   "affiliation": "Resident, fourth-generation New Yorker and lifelong Brooklyn resident; street safety advocate",
+   "role_type": "Resident",
+   "t": 4466,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "The only thing slower than making these changes is the M42 bus."
+  },
+  {
+   "name": "Xavier Puok",
+   "name_confidence": "low",
+   "affiliation": "Resident; young worker and Brooklyn Technical High School student",
+   "role_type": "Resident",
+   "t": 4582,
+   "target": "new",
+   "idea_id": "condition-outdoor-dining-licenses-on-living-wage",
+   "new_idea": {
+    "id": "condition-outdoor-dining-licenses-on-living-wage",
+    "title": "Condition outdoor dining licenses on paying a living wage",
+    "category": "Labor & workforce",
+    "summary": "A charter amendment barring the city from issuing or renewing outdoor eating licenses for businesses that refuse to pay a living wage."
+   },
+   "quote": "Poverty wages don't teach responsibility. They create instability."
+  },
+  {
+   "name": "Laura Shepard",
+   "name_confidence": "high",
+   "affiliation": "Resident",
+   "role_type": "Resident",
+   "t": 4722,
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent",
+   "quote": "Eliminate the outdoor dining publishing requirement that forces businesses to buy an ~$800 print newspaper ad."
+  },
+  {
+   "name": "Laura Shepard",
+   "name_confidence": "high",
+   "affiliation": "Resident",
+   "role_type": "Resident",
+   "t": 4722,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "Put street safety redesigns in the hands of experts and reform the major transportation law."
+  },
+  {
+   "name": "Laura Shepard",
+   "name_confidence": "high",
+   "affiliation": "Resident",
+   "role_type": "Resident",
+   "t": 4722,
+   "target": "existing",
+   "idea_id": "maintain-public-spaces-and-fix-311-followup",
+   "quote": "While the city owns the sidewalks, property owners are responsible for their maintenance and care."
+  },
+  {
+   "name": "Misha Nonnen",
+   "name_confidence": "low",
+   "affiliation": "New York City Criminal Justice Agency, chief program officer (Queens supervised release provider)",
+   "role_type": "Nonprofit",
+   "t": 4956,
+   "target": "existing",
+   "idea_id": "pay-vendors-and-nonprofits-on-time",
+   "quote": "We also see just as clearly how slow-moving bureaucracy undermines that community strength."
+  },
+  {
+   "name": "Misha Nonnen",
+   "name_confidence": "low",
+   "affiliation": "New York City Criminal Justice Agency, chief program officer (Queens supervised release provider)",
+   "role_type": "Nonprofit",
+   "t": 4956,
+   "target": "existing",
+   "idea_id": "consolidate-and-speed-permitting",
+   "quote": "Speed permitting so transitional and supportive housing comes online faster."
+  },
+  {
+   "name": "Michelle Yanchi",
+   "name_confidence": "medium",
+   "affiliation": "Good Shepherd Services, CEO (nonprofit human service provider)",
+   "role_type": "Nonprofit",
+   "t": 5118,
+   "target": "existing",
+   "idea_id": "pay-vendors-and-nonprofits-on-time",
+   "quote": "We were paid almost $400,000 in interest costs just to maintain our line of credit."
+  },
+  {
+   "name": "Michelle Yanchi",
+   "name_confidence": "medium",
+   "affiliation": "Good Shepherd Services, CEO (nonprofit human service provider)",
+   "role_type": "Nonprofit",
+   "t": 5118,
+   "target": "existing",
+   "idea_id": "include-realistic-sample-budgets-and-escalators-in-solicitations",
+   "quote": "Require sufficient contract rates and automatic cost escalators tied to the true cost of living."
+  },
+  {
+   "name": "Merrill Labour",
+   "name_confidence": "medium",
+   "affiliation": "Resident of Greenpoint, Brooklyn; longtime North Brooklyn street safety advocate",
+   "role_type": "Resident",
+   "t": 5687,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "DOT spends more resources on paperwork instead of making our streets the envy of the world."
+  },
+  {
+   "name": "Rex Tai",
+   "name_confidence": "low",
+   "affiliation": "New York City Democratic Socialists of America member (Afro-Socialist and Socialists of Color Caucus); internal medicine physician at NYC Health + Hospitals",
+   "role_type": "Advocacy org",
+   "t": 5878,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "Preventive street safety infrastructure keeps neighborhood residents alive... rather than being struck by automobiles."
+  },
+  {
+   "name": "Rex Tai",
+   "name_confidence": "low",
+   "affiliation": "New York City Democratic Socialists of America member (Afro-Socialist and Socialists of Color Caucus); internal medicine physician at NYC Health + Hospitals",
+   "role_type": "Advocacy org",
+   "t": 5878,
+   "target": "existing",
+   "idea_id": "shift-budget-toward-prevention-and-community-safety",
+   "quote": "Consider the Department of Community Safety proposal to move the office into a full department."
+  },
+  {
+   "name": "Alex Moreno",
+   "name_confidence": "high",
+   "affiliation": "Brooklyn resident; street safety activist and traffic crash survivor",
+   "role_type": "Resident",
+   "t": 6066,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "It's New Yorkers of color and poor New Yorkers who disproportionately bear these impacts."
+  },
+  {
+   "name": "Pedro Rodriguez",
+   "name_confidence": "medium",
+   "affiliation": "Resident; street safety advocate",
+   "role_type": "Resident",
+   "t": 6250,
+   "target": "new",
+   "idea_id": "make-city-liable-for-known-dangerous-streets",
+   "new_idea": {
+    "id": "make-city-liable-for-known-dangerous-streets",
+    "title": "Make the city liable for streets it knew were dangerous",
+    "category": "Street safety & public realm",
+    "summary": "A street-safety advocate proposes making the city legally liable for damages on streets it knew were dangerous but failed to fix, creating a real enforcement incentive behind Vision Zero."
+   },
+   "quote": "Make Vision Zero bite. It needs to bite back."
+  },
+  {
+   "name": "Karen Wharton",
+   "name_confidence": "medium",
+   "affiliation": "Citizen Action of New York, legislative director; convener of the statewide New York BIPOC democracy table",
+   "role_type": "Advocacy org",
+   "t": 6481,
+   "target": "existing",
+   "idea_id": "reject-open-primaries-and-preserve-party-primaries",
+   "quote": "Different cities, same promise, same playbook: a sweeping, irreversible change."
+  },
+  {
+   "name": "Karen Wharton",
+   "name_confidence": "medium",
+   "affiliation": "Citizen Action of New York, legislative director; convener of the statewide New York BIPOC democracy table",
+   "role_type": "Advocacy org",
+   "t": 6481,
+   "target": "existing",
+   "idea_id": "study-proportional-representation-voting-systems",
+   "quote": "Create a broad-based task force to study the full range of electoral reforms through the lens of participation, racial equity and representation."
+  },
+  {
+   "name": "Ryan Shanahan",
+   "name_confidence": "high",
+   "affiliation": "Vera Institute of Justice, chief research officer",
+   "role_type": "Nonprofit",
+   "t": 6701,
+   "target": "new",
+   "idea_id": "mandate-correction-protect-human-dignity",
+   "new_idea": {
+    "id": "mandate-correction-protect-human-dignity",
+    "title": "Mandate that Correction protect the human dignity of everyone in its care",
+    "category": "Oversight & ethics",
+    "summary": "The Vera Institute proposes a charter mandate that the Department of Correction is responsible for protecting the human dignity of everyone who works there or is in its care, framing efficiency as alignment of values, not just faster processes."
+   },
+   "quote": "Government efficiency isn't just about processes. It's about a clarity of purpose and an alignment of values."
+  },
+  {
+   "name": "Sarah Catalinato",
+   "name_confidence": "medium",
+   "affiliation": "Parents to Improve School Transportation (and Student Omni for All)",
+   "role_type": "Advocacy org",
+   "t": 7095,
+   "target": "new",
+   "idea_id": "reform-pupil-transportation-governance",
+   "new_idea": {
+    "id": "reform-pupil-transportation-governance",
+    "title": "Reform the governance of student transportation",
+    "category": "Child care & education",
+    "summary": "Parent advocates want to change pupil-transportation governance to align with the charter's user-focused design mandate, proposing a ballot measure empowering a permanent commission of parents, educators, bus workers, students and disability advocates to set and implement policy."
+   },
+   "quote": "OPT spends 2 billion a year making 2-hour routes for 5-year-olds."
+  },
+  {
+   "name": "Alex Kamarda",
+   "name_confidence": "medium",
+   "affiliation": "Reinvent Albany, senior policy adviser",
+   "role_type": "Advocacy org",
+   "t": 7264,
+   "target": "existing",
+   "idea_id": "retire-obsolete-reports-and-mandates",
+   "quote": "Just 28 reports have been eliminated since 2010, while over 1,500 new reporting requirements have been mandated."
+  },
+  {
+   "name": "Alex Kamarda",
+   "name_confidence": "medium",
+   "affiliation": "Reinvent Albany, senior policy adviser",
+   "role_type": "Advocacy org",
+   "t": 7264,
+   "target": "existing",
+   "idea_id": "extend-ranked-choice-voting-to-all-elections",
+   "quote": "Note support for ranked choice voting and nonpartisan elections."
+  },
+  {
+   "name": "Alex Kamarda",
+   "name_confidence": "medium",
+   "affiliation": "Reinvent Albany, senior policy adviser",
+   "role_type": "Advocacy org",
+   "t": 7264,
+   "target": "existing",
+   "idea_id": "open-primaries-for-unaffiliated-voters",
+   "quote": "Note support for ranked choice voting and nonpartisan elections."
+  },
+  {
+   "name": "Namaka Gibbi",
+   "name_confidence": "low",
+   "affiliation": "New York City Council, general counsel (testifying on behalf of the speaker)",
+   "role_type": "Government body",
+   "t": 7502,
+   "target": "new",
+   "idea_id": "use-full-timeline-and-dont-rush-ballot-proposals",
+   "new_idea": {
+    "id": "use-full-timeline-and-dont-rush-ballot-proposals",
+    "title": "Use the full two-year timeline instead of rushing ballot proposals",
+    "category": "Oversight & ethics",
+    "summary": "Council officials urge using the full two-year timeline, deferring ballot proposals to 2027, and engaging council subject-matter experts on concrete recommendations before the final report."
+   },
+   "quote": "There's nothing efficient about getting the wrong policy outcome."
+  },
+  {
+   "name": "Namaka Gibbi",
+   "name_confidence": "low",
+   "affiliation": "New York City Council, general counsel (testifying on behalf of the speaker)",
+   "role_type": "Government body",
+   "t": 7502,
+   "target": "new",
+   "idea_id": "preserve-council-review-and-balance-of-powers",
+   "new_idea": {
+    "id": "preserve-council-review-and-balance-of-powers",
+    "title": "Preserve council review and the charter's balance of powers",
+    "category": "Oversight & ethics",
+    "summary": "The council's counsel urges dropping proposals it says violate the state constitution, such as giving DOB power to amend the building code without council approval or auto-sunsetting council voting authority."
+   },
+   "quote": "Drop proposals that violate the state constitution, such as giving DOB power to amend the building code without council approval."
+  },
+  {
+   "name": "Lee Drutman",
+   "name_confidence": "high",
+   "affiliation": "New America (Washington think tank), political scientist studying electoral reform",
+   "role_type": "Academic",
+   "t": 8042,
+   "target": "existing",
+   "idea_id": "reject-open-primaries-and-preserve-party-primaries",
+   "quote": "Registering as a Democrat costs nothing. It's as free as a free bus."
+  },
+  {
+   "name": "Lee Drutman",
+   "name_confidence": "high",
+   "affiliation": "New America (Washington think tank), political scientist studying electoral reform",
+   "role_type": "Academic",
+   "t": 8042,
+   "target": "existing",
+   "idea_id": "study-proportional-representation-voting-systems",
+   "quote": "Pursue proportional representation for New York City instead to create real competition and representation."
+  },
+  {
+   "name": "Briana Strong",
+   "name_confidence": "high",
+   "affiliation": "Resident; independent voter raising her daughter in Brooklyn",
+   "role_type": "Resident",
+   "t": 8276,
+   "target": "existing",
+   "idea_id": "open-primaries-for-unaffiliated-voters",
+   "quote": "It is taxation without meaningful representation and it has no place in a city that claims to value democracy."
+  },
+  {
+   "name": "Lourdes Blanco",
+   "name_confidence": "medium",
+   "affiliation": "Resident; NYPD school crossing guard testifying on her own behalf (originally from Venezuela)",
+   "role_type": "Resident",
+   "t": 8512,
+   "target": "existing",
+   "idea_id": "speed-street-safety-redesigns",
+   "quote": "Road safety education in schools... the goal would be to create a new culture from childhood."
+  },
+  {
+   "name": "Alvin Carter",
+   "name_confidence": "high",
+   "affiliation": "32BJ SEIU, deputy director of the security division",
+   "role_type": "Labor",
+   "t": 8837,
+   "target": "existing",
+   "idea_id": "involve-building-trades-and-protect-labor-standards",
+   "quote": "The city and its contracted shelter operators facilitate the lowering of job standards for security officers."
+  },
+  {
+   "name": "Gail Brewer",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (Upper West Side, Clinton and part of Central Park, Manhattan)",
+   "role_type": "Elected official",
+   "t": 9277,
+   "target": "existing",
+   "idea_id": "fix-outdoor-dining-revocable-consent",
+   "quote": "I didn't know what the hell revocable consent is, nor does anybody else."
+  },
+  {
+   "name": "Gail Brewer",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (Upper West Side, Clinton and part of Central Park, Manhattan)",
+   "role_type": "Elected official",
+   "t": 9277,
+   "target": "existing",
+   "idea_id": "strengthen-independent-oversight-and-ethics-agencies",
+   "quote": "Strengthen DOI and COIB with fixed terms, minimum budgets and no removal of the DOI commissioner."
+  },
+  {
+   "name": "Gail Brewer",
+   "name_confidence": "high",
+   "affiliation": "New York City Council member (Upper West Side, Clinton and part of Central Park, Manhattan)",
+   "role_type": "Elected official",
+   "t": 9277,
+   "target": "new",
+   "idea_id": "preserve-council-review-and-balance-of-powers",
+   "new_idea": {
+    "id": "preserve-council-review-and-balance-of-powers",
+    "title": "Preserve council review and the charter's balance of powers",
+    "category": "Oversight & ethics",
+    "summary": "Elected officials want council-power-usurping and overly complicated items kept off the ballot and handled legislatively instead."
+   },
+   "quote": "Keep council-power-usurping and overly complicated items off the ballot and handle them legislatively."
+  },
+  {
+   "name": "Judy",
+   "name_confidence": "low",
+   "affiliation": "Resident; community public health advocate of over 40 years, testifying as an individual",
+   "role_type": "Resident",
+   "t": 9660,
+   "target": "new",
+   "idea_id": "fund-safety-net-care-via-wealthy-hospitals",
+   "new_idea": {
+    "id": "fund-safety-net-care-via-wealthy-hospitals",
+    "title": "Fund safety-net and preventive care by tapping wealthy nonprofit hospitals",
+    "category": "Labor & workforce",
+    "summary": "A public-health advocate argues the city must ensure preventive and primary care for people losing insurance, and proposes tapping the funds of wealthy voluntary nonprofit hospitals to support safety-net providers in underserved communities."
+   },
+   "quote": "It's penny-wise and pound-foolish to not provide preventive and primary care, particularly to people that are not going to have access."
+  },
+  {
+   "name": "Michelle Jackson",
+   "name_confidence": "high",
+   "affiliation": "Human Services Council, executive director (represents over 180 human service providers)",
+   "role_type": "Nonprofit",
+   "t": 9973,
+   "target": "existing",
+   "idea_id": "pay-vendors-and-nonprofits-on-time",
+   "quote": "I have been giving the same testimony since 2010 on the charter."
+  },
+  {
+   "name": "Michelle Jackson",
+   "name_confidence": "high",
+   "affiliation": "Human Services Council, executive director (represents over 180 human service providers)",
+   "role_type": "Nonprofit",
+   "t": 9973,
+   "target": "existing",
+   "idea_id": "comprehensive-procurement-reform",
+   "quote": "Recommend a future charter revision commission focused solely on procurement reform."
+  },
+  {
+   "name": "Michelle Jackson",
+   "name_confidence": "high",
+   "affiliation": "Human Services Council, executive director (represents over 180 human service providers)",
+   "role_type": "Nonprofit",
+   "t": 9973,
+   "target": "existing",
+   "idea_id": "fix-contract-registration-delays",
+   "quote": "Set guideposts constraining OMB's role in approving budgets, invoices and modifications so payment happens on time."
+  },
+  {
+   "name": "Eric Huntley",
+   "name_confidence": "medium",
+   "affiliation": "Resident; Black restaurant worker with over 20 years in NYC restaurants (One Fair Wage)",
+   "role_type": "Resident",
+   "t": 10366,
+   "target": "new",
+   "idea_id": "condition-outdoor-dining-licenses-on-living-wage",
+   "new_idea": {
+    "id": "condition-outdoor-dining-licenses-on-living-wage",
+    "title": "Condition outdoor dining licenses on paying a living wage",
+    "category": "Labor & workforce",
+    "summary": "Restaurant workers propose a charter amendment before voters barring outdoor dining licenses for businesses that do not pay their workers a living wage."
+   },
+   "quote": "I'm not asking for special treatment. I'm asking for dignity."
+  }
+ ],
+ "new_ideas": [
+  {
+   "id": "preserve-council-review-and-balance-of-powers",
+   "title": "Preserve council review and the charter's balance of powers",
+   "category": "Oversight & ethics",
+   "summary": "Several elected officials and the council's own counsel argue that efficiency reforms should not shift authority from the City Council to the executive. They want to keep council review over the building code, DCAS property leases and dispositions, and major transportation projects, and to drop proposals (like letting DOB amend the building code without council approval or auto-sunsetting council voting authority) they say are unconstitutional or usurp council power. The framing: the charter must stay strong enough to check a future corrupt administration."
+  },
+  {
+   "id": "condition-outdoor-dining-licenses-on-living-wage",
+   "title": "Condition outdoor dining licenses on paying a living wage",
+   "category": "Labor & workforce",
+   "summary": "One Fair Wage advocates and restaurant workers propose a charter amendment barring the city from issuing or renewing outdoor dining and outdoor-business licenses to businesses that do not pay their workers a living wage. They frame a living wage as a basic condition of doing business in the city and ask that the condition be placed before voters on the November ballot."
+  },
+  {
+   "id": "name-a-city-cyber-risk-owner",
+   "title": "Name a commissioner-level owner of the city's cyber risk",
+   "category": "Technology & digital services",
+   "summary": "The city's former chief information security officer urges the charter to name a commissioner-level official who owns cyber risk, with a reporting line independent of IT delivery so the official can say no. He also wants public, auditable reporting on the city's cybersecurity posture."
+  },
+  {
+   "id": "use-full-timeline-and-dont-rush-ballot-proposals",
+   "title": "Use the full two-year timeline instead of rushing ballot proposals",
+   "category": "Oversight & ethics",
+   "summary": "Council officials urge the commission to use its full two-year timeline, deferring ballot proposals to 2027 rather than rushing them onto the November ballot. They want the commission to engage council subject-matter experts on concrete recommendations before issuing a final report, arguing there is nothing efficient about reaching the wrong policy outcome quickly."
+  },
+  {
+   "id": "make-city-liable-for-known-dangerous-streets",
+   "title": "Make the city liable for streets it knew were dangerous",
+   "category": "Street safety & public realm",
+   "summary": "A street-safety advocate proposes making the city legally liable for damages on streets it knew were dangerous but failed to fix, creating a real enforcement incentive behind Vision Zero rather than an aspirational goal. The aim is to give the city a financial reason to act on known hazards."
+  },
+  {
+   "id": "mandate-correction-protect-human-dignity",
+   "title": "Mandate that Correction protect the human dignity of everyone in its care",
+   "category": "Oversight & ethics",
+   "summary": "The Vera Institute proposes adding a charter mandate that the Department of Correction is responsible for protecting the human dignity of everyone who works there or is in its care. The argument frames government efficiency as clarity of purpose and alignment of values, not just faster processes."
+  },
+  {
+   "id": "reform-pupil-transportation-governance",
+   "title": "Reform the governance of student transportation",
+   "category": "Child care & education",
+   "summary": "Parent advocates want to change the governance of pupil transportation to align with the charter's user-focused design mandate, citing an Office of Pupil Transportation that spends roughly $2 billion a year producing two-hour routes for five-year-olds. They propose a ballot measure empowering a permanent commission of parents, educators, bus workers, students and disability advocates to make and implement pupil-transportation policy."
+  },
+  {
+   "id": "fund-safety-net-care-via-wealthy-hospitals",
+   "title": "Fund safety-net and preventive care by tapping wealthy nonprofit hospitals",
+   "category": "Labor & workforce",
+   "summary": "A longtime public-health advocate argues the city must ensure preventive and primary care for people losing health insurance, calling it penny-wise and pound-foolish to skip that care. She proposes tapping the funds of wealthy voluntary nonprofit hospitals to support safety-net health-care providers in underserved communities."
+  }
+ ]
+}
