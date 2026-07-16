@@ -1,0 +1,702 @@
+[
+ {
+  "name": "Susan Lee",
+  "affiliation": "Alliance for Community Preservation and Betterment (founder)",
+  "role_type": "Advocacy org",
+  "hearing": "Manhattan",
+  "quote": "1.2 million New Yorkers are locked out of the primary. As Americans, we need to do better."
+ },
+ {
+  "name": "Melanie Wesslock",
+  "affiliation": "One City Rising",
+  "role_type": "Advocacy org",
+  "hearing": "Manhattan",
+  "quote": "I had to register for a party that I do not want to be in in order to have a vote in our primaries... and I think that is insane."
+ },
+ {
+  "name": "Sam Panuccio",
+  "affiliation": "Retired NYPD (39 years); member of three police unions",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "Just as unions help ensure that workers have a voice in the workplace, our election system... should ensure that every voter has a voice in our democracy."
+ },
+ {
+  "name": "Maria Danzilo",
+  "affiliation": "One City Rising (Executive Director)",
+  "role_type": "Advocacy org",
+  "hearing": "Manhattan",
+  "quote": "The main effect of moving to an open primary, followed by a top two election would be to give unaffiliated voters the ability to participate in the primary process..."
+ },
+ {
+  "name": "Jessica Haller",
+  "affiliation": "Political consultant; advisory board, GoVoteNYC; former executive director, The New Majority NYC",
+  "role_type": "Advocacy org",
+  "hearing": "Bronx",
+  "quote": "Open primary districts generally have twice the turnout that we do here. And since this is also an efficiency discussion, election processes are much more efficient."
+ },
+ {
+  "name": "Dr. Jessie Fields",
+  "affiliation": "Harlem community physician (Mount Sinai); NYC Maternal Mortality Review Committee; board member, Open Primaries",
+  "role_type": "Advocacy org",
+  "hearing": "Brooklyn",
+  "quote": "The disenfranchisement of 1.2 million New Yorkers, a majority of whom are black, Hispanic, and Asian, must end."
+ },
+ {
+  "name": "Alan Cox",
+  "affiliation": "Community health outreach worker with COPE (Coalition on Positive Health Empowerment); Bronx resident; independent voter",
+  "role_type": "Nonprofit",
+  "hearing": "Queens",
+  "quote": "We have a system where 1.2 million folks who are independents are shut out of voting in the primaries. And that's where most decisions are made."
+ },
+ {
+  "name": "Frank Morano",
+  "affiliation": "New York City Council Member, Staten Island South Shore (testified online)",
+  "role_type": "Elected official",
+  "hearing": "Queens, Staten Island",
+  "quote": "A lot of times it feels like you need a decoder ring to determine how you vote in any given election."
+ },
+ {
+  "name": "Jeremy Gruber",
+  "affiliation": "Senior Vice President, Open Primaries (national organization); lawyer and election law expert",
+  "role_type": "Advocacy org",
+  "hearing": "Staten Island",
+  "quote": "Why Washington, D.C., and why not New York City?"
+ },
+ {
+  "name": "Martha Snow",
+  "affiliation": "Urban Design Forum (Director of Community Design)",
+  "role_type": "Nonprofit",
+  "hearing": "Manhattan",
+  "quote": "Activating a public space means navigating a fragmented maze... with no uniform process and no single point of accountability."
+ },
+ {
+  "name": "Robert Brunotte",
+  "affiliation": "Construction & General Building Laborers' Local 79 (LIUNA)",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "No reform should create a fast pass for exploitation... Jumping the line on special consideration should only be available to firms committed to strong labor standards."
+ },
+ {
+  "name": "Yadira Rodriguez",
+  "affiliation": "Construction consultant, Bronx business owner",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "the financial burden created by the permitting fees, violation penalties, and the lengthy approval process by the numerous agencies such as Do and Oath ... their fees are incredible crazy."
+ },
+ {
+  "name": "Charles Dilone",
+  "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx) [org name unverified]",
+  "role_type": "Nonprofit",
+  "hearing": "Bronx",
+  "quote": "Streamline permitting across agencies, strengthen protections for IBZ-zoned land"
+ },
+ {
+  "name": "Pedro Suarez",
+  "affiliation": "The Hub / Third Avenue Business Improvement District, South Bronx (Executive Director)",
+  "role_type": "Advocacy org",
+  "hearing": "Bronx",
+  "quote": "there should be an app or web account to consolidate all of the city's permitting and licensing for small businesses ... in multiple languages is some low-hanging fruit."
+ },
+ {
+  "name": "Jerry Hyppolite",
+  "affiliation": "Housing Solutions of New York (Chief of Staff and Head of Government Affairs)",
+  "role_type": "Nonprofit",
+  "hearing": "Bronx",
+  "quote": "there's a vault section but that vault section doesn't connect back to your contract. So if you have multicontracts you still have to go to the vault versus ... it can cut across the other contracts."
+ },
+ {
+  "name": "Sadio Bah",
+  "affiliation": "Bar Real Estate (broker/owner) and City Builder Development Corporation (owner); buy/fix/flip",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "Why don't you tell me what you need ... one time when I submit it to you, you don't have to make me go back and forth."
+ },
+ {
+  "name": "Annemarie Gray",
+  "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
+  "role_type": "Advocacy org",
+  "hearing": "Queens",
+  "quote": "We really must take a more well-rounded view of neighborhood character... so too are the New Yorkers that live in them."
+ },
+ {
+  "name": "Michael Piccirillo",
+  "affiliation": "New York City District Council of Carpenters (Director of Area Standards)",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "When you have experienced union carpenters on site, things run smoother, safer, and faster without cutting quarters. That's not an opinion. That's just how jobs actually play out."
+ },
+ {
+  "name": "Davon Lomax",
+  "affiliation": "District Council 9, International Union of Painters and Allied Trades (IUPAT) (Political Director)",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "Skilled workforce is not an obstacle to efficiency. It is one of its foundations."
+ },
+ {
+  "name": "Diego Opperman",
+  "affiliation": "Ironworkers Local 40",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "I personally been on jobs where one old-timer sees something that eight engineers have not yet understood."
+ },
+ {
+  "name": "Michael Grunert",
+  "affiliation": "IBEW Local 3 (International Brotherhood of Electrical Workers, Local Union No. 3)",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "Build more, build faster, build better. Most importantly, build union. Building unions builds pathways. a pathway to the middle class."
+ },
+ {
+  "name": "Henry Sutherland",
+  "affiliation": "IBEW Local 3 (International Brotherhood of Electrical Workers, Local Union No. 3)",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "If we want to continue this being the great city that it is... always keep the building trades in what we're doing."
+ },
+ {
+  "name": "Christopher Loscalzo",
+  "affiliation": "Laborers' Local 1010 (LIUNA - Pavers and Road Builders District Council)",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "Project labor agreements function as a job site constitution, establishing a single set of rules and expectations across an entire project rather than relying on a piecemeal approach."
+ },
+ {
+  "name": "Aaron Beinstein",
+  "affiliation": "Ironworkers Local 40",
+  "role_type": "Labor",
+  "hearing": "Manhattan",
+  "quote": "No job or infrastructure project is worth more than a worker's health or their well-being."
+ },
+ {
+  "name": "Robert Joyce",
+  "affiliation": "Abundance New York, Senior Policy Advisor (native Brooklynite, career public servant)",
+  "role_type": "Advocacy org",
+  "hearing": "Brooklyn",
+  "quote": "make staffing decisions... for the city as a whole downstream from our overall policy desired outcomes and staff from there."
+ },
+ {
+  "name": "Cherie Chung",
+  "affiliation": "Holly (hollygov.com), Co-founder & Co-CEO; govtech AI classification/compensation/hiring platform",
+  "role_type": "Business/industry",
+  "hearing": "Brooklyn",
+  "quote": "the system that we see in hiring is often slow not because of public servants but because... they don't have modern tools."
+ },
+ {
+  "name": "Cordell Schachter",
+  "affiliation": "Former NYC and federal government CTO/CIO; executive in residence at the Transit Tech Lab",
+  "role_type": "Civic-tech",
+  "hearing": "Queens",
+  "quote": "Streamline IT hiring and workforce development via a multidisciplinary board working with state authorities, labor, academia and the private sector."
+ },
+ {
+  "name": "Honda Wang",
+  "affiliation": "Ordinary New York City worker (rank-and-file civil servant), testifying in personal capacity",
+  "role_type": "Labor",
+  "hearing": "Queens",
+  "quote": "Asking the charter commission to eliminate guardrails because of mismanagement would be the equivalent of asking the FAA to relax airline safety standards after a plane crash because of Boeing's mismanagement."
+ },
+ {
+  "name": "Zachary Thomas",
+  "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+  "role_type": "Government body",
+  "hearing": "Queens",
+  "quote": "Make it easier for Parks and other agencies to hire and retain quality candidates so resident-initiated projects actually get executed."
+ },
+ {
+  "name": "Ashley Roelofs",
+  "affiliation": "Trust for Public Land (Program Coordinator)",
+  "role_type": "Nonprofit",
+  "hearing": "Manhattan",
+  "quote": "Philanthropic dollars are effectively paying banks for city-funded projects. Advancing even a portion of grant funding at the outset would solve this."
+ },
+ {
+  "name": "Felice Farber",
+  "affiliation": "Subcontractors Trade Association (STA), Executive Director",
+  "role_type": "Business/industry",
+  "hearing": "Manhattan",
+  "quote": "The city should track payment timeliness beginning on the date a payment requisition is submitted rather than measuring the period only after an agency approves payment."
+ },
+ {
+  "name": "Maurelhena Walles",
+  "affiliation": "Equity Design Inc. (founder and CEO); NYC/NYS MWBE",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "we get paid after the fact, sometimes a year after the fact ... So, I have to figure out how to be able to close that gap in my revenue so I have the cash flow that would allow me to take on big contracts."
+ },
+ {
+  "name": "Daniel Garcia",
+  "affiliation": "Salsa Catering & Special Events (founder/owner/CEO); MWBE; Port Morris Industrial Business Zone, Bronx",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "When payments are delayed for months or even years, it creates a real cash flow crisis that can threaten whole operations like salsa."
+ },
+ {
+  "name": "Gregory Hernandez",
+  "affiliation": "Green Canvas Productions (founder/CEO), Bronx video production company; MBE certified, NYC DOE vendor; also founder, Bronx Independent Cinema Center",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "Provide a payroll cash-infusion/financing mechanism for businesses in good standing"
+ },
+ {
+  "name": "Julie Samuels",
+  "affiliation": "Tech:NYC (President & CEO; founder); former 2025 NYC Charter Revision commissioner",
+  "role_type": "Business/industry",
+  "hearing": "Brooklyn",
+  "quote": "Reform procurement to ensure city contractors get paid"
+ },
+ {
+  "name": "Charles Diamond",
+  "affiliation": "Special Counsel, Mayor's Office of Contract Services (MOCS)",
+  "role_type": "Government body",
+  "hearing": "Manhattan",
+  "quote": "There's no way this commission can end its work without a big part of it being procurement because it is so big."
+ },
+ {
+  "name": "Michael Hickey",
+  "affiliation": "Citizens Committee for New York City (CitizensNYC), Chief of Strategy and Operations",
+  "role_type": "Nonprofit",
+  "hearing": "Manhattan",
+  "quote": "We recommend the contract administration be scaled to size and scope of funding so that community-based and hyperlocal partners are no longer excluded from competing because the administrative cost is too damn high."
+ },
+ {
+  "name": "Carl Hammersburg",
+  "affiliation": "SAS Institute, Senior Manager, Government and Healthcare Risk and Fraud",
+  "role_type": "Business/industry",
+  "hearing": "Brooklyn",
+  "quote": "Just knowing that five different departments are doing business with the same company and potentially you could aggregate that contract and get a lower unit price can have a huge impact on spending."
+ },
+ {
+  "name": "Phil Wong",
+  "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+  "role_type": "Elected official",
+  "hearing": "Queens, Written submission",
+  "quote": "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night) and tie contracts to real outcomes."
+ },
+ {
+  "name": "Jackson Chabot",
+  "affiliation": "Open Plans (Director of Public Space Advocacy)",
+  "role_type": "Advocacy org",
+  "hearing": "Manhattan",
+  "quote": "We urge the commission to recommend charter changes that would allow outdoor dining to be administered through the Department of Transportation's permits and licenses rather than revocable consents."
+ },
+ {
+  "name": "Corey Hannigan",
+  "affiliation": "Transportation Alternatives, Government Relations Director for Safe Streets",
+  "role_type": "Advocacy org",
+  "hearing": "Manhattan",
+  "quote": "Streamline the outdoor dining application; eliminate duplicative street-bed and sidewalk dining processes; make the program year-round"
+ },
+ {
+  "name": "Andrew Rigie",
+  "affiliation": "New York City Hospitality Alliance (executive director)",
+  "role_type": "Advocacy org",
+  "hearing": "Bronx",
+  "quote": "removing the revocable consent requirement from the outdoor dining licensing process ... by removing the revocable consent you will speed up the process by months and months and months."
+ },
+ {
+  "name": "Pei Wei",
+  "affiliation": "Co-owner of Zazza restaurant (Southeast Asian community, Queens); board director of a NYC restaurant group",
+  "role_type": "Business/industry",
+  "hearing": "Queens",
+  "quote": "Outdoor dining actually largely become a luxury for the well-funded restaurant in a wealthy neighborhood."
+ },
+ {
+  "name": "Helen Zhang",
+  "affiliation": "Owner of Ziggy's Roman Cafe, a full-service restaurant at 15 Main Street, Dumbo, Brooklyn (testified online)",
+  "role_type": "Business/industry",
+  "hearing": "Queens",
+  "quote": "I spent five months fighting for the right to put tables outside my front door. Please, I would love to make sure no one else does the same."
+ },
+ {
+  "name": "Michael Kelly",
+  "affiliation": "Outdoor-dining permit expediter who filed 400+ sidewalk, roadway and closed-cafe applications for clients (testified online)",
+  "role_type": "Business/industry",
+  "hearing": "Queens",
+  "quote": "The main complaint is that they paid the fee and cannot operate."
+ },
+ {
+  "name": "Megan Rickerson",
+  "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+  "role_type": "Business/industry",
+  "hearing": "Queens",
+  "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed."
+ },
+ {
+  "name": "Dr. Constance Barnes",
+  "affiliation": "UnmaskEDU, LLC (founder); Chair, Economic Development Committee, Bronx Community Board 8",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "Streamline the MWBE application paperwork (e.g., accommodate applicants whose landlords don't provide rent receipts)"
+ },
+ {
+  "name": "Yoxagna Canaan",
+  "affiliation": "Balance, Money And Mind, LLC (founder/owner), Bronx; CPA; financial literacy, bookkeeping, tax; NYC MWBE",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "whoever earned those contract can be secured that they hire or should contract a small and micro businesses from the Bronx to ensure that those resource from New Yorkers always stay in New York."
+ },
+ {
+  "name": "Aneesa Waheed",
+  "affiliation": "Tara Kitchen (founder and executive chef), Moroccan restaurant group (Tribeca + Capital Region NY); NYS 2024 SBA Small Business Person of the Year",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "I'm really interested in micropurchasing and if that is something that could be made transparent and ... accessible to small businesses like myself. It's really the difference between us surviving and going out of business."
+ },
+ {
+  "name": "Sarah Espillat",
+  "affiliation": "MWBE-certified business owner; mental health / emotional coaching services for women ages 25-55",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "they don't consider us like ... how can we put something together that let them see us and consider us when they get these type of contracts."
+ },
+ {
+  "name": "Tristan Louis",
+  "affiliation": "President & CEO of Casebook PBC, a public benefit corporation govtech (human-services case-management SaaS) company; NYC resident/technology entrepreneur",
+  "role_type": "Business/industry",
+  "hearing": "Manhattan",
+  "quote": "Digital infrastructure is fundamentally different than any other infrastructure that exists."
+ },
+ {
+  "name": "Julie Swoope",
+  "affiliation": "NYC-DSA (Tech Action) member; Mamdani technology transition committee; works on a public-sector tech team (State of Maryland)",
+  "role_type": "Labor",
+  "hearing": "Brooklyn",
+  "quote": "We need to break our dependence on private technology contracting while maintaining civil service protections for the workers of New York City because the status quo is broken."
+ },
+ {
+  "name": "Sumana Harihareswara",
+  "affiliation": "Software professional (testified online); cited beta NYC and 18F",
+  "role_type": "Civic-tech",
+  "hearing": "Queens",
+  "quote": "When we buy or build software that only a few people can ever improve or look at because it's closed source, then that reduces efficiency."
+ },
+ {
+  "name": "Amadou Diallo",
+  "affiliation": "Co-founder & CEO, B-HiTech, Inc. (operates the MineLogX AI mining platform); New York-based technology company",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "New York has an incredible opportunity to unlock the potential of immigrants and minority entrepreneurs by creating more pathways to funding, public partnerships and opportunities to test and deploy innovative solutions locally."
+ },
+ {
+  "name": "Mamadou Saliou Diallo",
+  "affiliation": "President, Guinean Community of America NY-NJ-CT (GUICA)",
+  "role_type": "Nonprofit",
+  "hearing": "Bronx",
+  "quote": "the access to funding I might say is very limited to us. I really ... asking you to consider that aspect."
+ },
+ {
+  "name": "Damaris Zoumanigui",
+  "affiliation": "Founder of Neighbor First Group (helps small businesses get funding)",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "the best funding for me is the SBA loan but it's very hard to get."
+ },
+ {
+  "name": "Mamadou Diallo",
+  "affiliation": "Deputy director, Guinea-USA Chamber of Commerce",
+  "role_type": "Nonprofit",
+  "hearing": "Bronx",
+  "quote": "what support is available for entrepreneur who face language [barriers] when navigate government services?"
+ },
+ {
+  "name": "Mariame Diallo",
+  "affiliation": "Owner, hair-braiding salon(s); described as secretary/director of the Guinea-USA Chamber of Commerce",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "Improve access to affordable financing/grants and address rising commercial rent, utility and insurance costs for women- and immigrant-owned businesses"
+ },
+ {
+  "name": "Tim Tompkins",
+  "affiliation": "NYU Marron Institute Fellow (Sustaining Places Initiative); former president, Times Square Alliance",
+  "role_type": "Academic",
+  "hearing": "Manhattan",
+  "quote": "There must be adequate public sector investment in the public realm with an adequate and uni by unionized city workforce, especially with respect to both maintenance and recreation programs"
+ },
+ {
+  "name": "Mark Levine",
+  "affiliation": "New York City Comptroller",
+  "role_type": "Elected official",
+  "hearing": "Written submission",
+  "quote": "binding Rainy Day Fund (Revenue Stabilization Fund) charter rules"
+ },
+ {
+  "name": "Amanda Page-Hoongrajok",
+  "affiliation": "Assistant Professor of Economics, Fashion Institute of Technology (FIT)",
+  "role_type": "Academic",
+  "hearing": "Staten Island",
+  "quote": "You could have painful spending cuts happening while money is just sitting in a reserve and you're not able to use it."
+ },
+ {
+  "name": "Martin Bernstein",
+  "affiliation": "Economist (testifying on revenue stabilization fund design)",
+  "role_type": "Academic",
+  "hearing": "Staten Island",
+  "quote": "Tying the government's hands can also have real economic risks, even though these rules are certainly well-intentioned."
+ },
+ {
+  "name": "J.W. Mason",
+  "affiliation": "Associate Professor of Economics, John Jay College, CUNY (former policy director, Working Families Party)",
+  "role_type": "Academic",
+  "hearing": "Staten Island",
+  "quote": "It's a little bit of a fantasy to think that you can avoid... you actually do need to have responsible people in office."
+ },
+ {
+  "name": "Gale Brewer",
+  "affiliation": "New York City Council Member, District 6 (Manhattan); former Manhattan Borough President",
+  "role_type": "Elected official",
+  "hearing": "Manhattan",
+  "quote": "Who's the equivalent of the school construction authority for the building world? That would be everything else."
+ },
+ {
+  "name": "Craig Covil",
+  "affiliation": "Design-Build Institute of America (DBIA) NYC Metro Region, Chair/President; C2 Consulting LLC",
+  "role_type": "Business/industry",
+  "hearing": "Manhattan",
+  "quote": "Design build delivers projects faster and more efficiently than design bid build... It is a tool in the toolbox."
+ },
+ {
+  "name": "Bria Donohue",
+  "affiliation": "American Institute of Architects New York (AIA NY), Director of Government Affairs",
+  "role_type": "Business/industry",
+  "hearing": "Manhattan",
+  "quote": "Smart comprehensive planning enables the city to deliver quality projects with the mentality of do it once and do it right."
+ },
+ {
+  "name": "Pascal A. Ouedraogo",
+  "affiliation": "AK General Contractor Corp (Bronx); licensed general contractor (CEO)",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "the building department changed the law if you got like some project you have to hiding ... superintendent that's the extra money we have to pay and we don't have enough budget."
+ },
+ {
+  "name": "Glenny Payano",
+  "affiliation": "Founder, Victimas Directas (Bronx domestic-violence nonprofit / Women's Service Club, 501(c)(3))",
+  "role_type": "Nonprofit",
+  "hearing": "Bronx",
+  "quote": "Create programs/licensing pathways so moms can legally run a business from home (or affordable local space) without getting ticketed"
+ },
+ {
+  "name": "Mayerlyn Suarez",
+  "affiliation": "Founder of a NYC small business making artisanal paletas (multicultural flavors); immigrant entrepreneur",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "it can be difficult to know exactly what is expected ... Additional support such as educational workshops, clear checklists, multilingual resources, and easier technical assistant will make a significant difference."
+ },
+ {
+  "name": "Andrew Rasiej",
+  "affiliation": "Civic Hall at Union Square (founder)",
+  "role_type": "Civic-tech",
+  "hearing": "Brooklyn",
+  "quote": "Staying current isn't the project you finish, it's the permanent condition of governing from now on."
+ },
+ {
+  "name": "Julia Stoyanovich",
+  "affiliation": "NYU Institute Associate Professor of Computer Science & Engineering and Data Science; founder/director, Center for Responsible AI",
+  "role_type": "Academic",
+  "hearing": "Brooklyn",
+  "quote": "Disclose it. Prove it works. Let people contest it. Three lines in the charter, three questions for the ballot."
+ },
+ {
+  "name": "Jessica Ariel-Wamala",
+  "affiliation": "The Future Fluent (founder); formerly Principal, AI Systems & Public Benefits at Promise; Crown Heights",
+  "role_type": "Civic-tech",
+  "hearing": "Brooklyn",
+  "quote": "We must stop defining AI solely by the risks and fear. And we need to start defining AI by what we hope these technologies can achieve for public good."
+ },
+ {
+  "name": "Jenessa Jules",
+  "affiliation": "South Bronx small business owner (cannabis space) and analyst",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "doing an audit of all of the different agencies and department sites could be something that would be a lowcost way to address that issue."
+ },
+ {
+  "name": "Margaret Brown",
+  "affiliation": "City employee at an unnamed mayoral agency (testifying in personal capacity)",
+  "role_type": "Government body",
+  "hearing": "Brooklyn",
+  "quote": "Have the city stand up a Model Context Protocol (MCP) server like Boston's that lets AI securely interact with city open data and reduces hallucinations when residents query public data"
+ },
+ {
+  "name": "Lamar A. Whyte",
+  "affiliation": "Bronx resident; medical coder, real estate agent, software developer; founder of the Quality Time Network and Quality Time Network Foundation",
+  "role_type": "Civic-tech",
+  "hearing": "Bronx",
+  "quote": "What is the best path to connect with the right city stakeholders and explore pilot programs that could eventually inform policy and improve how services are delivered?"
+ },
+ {
+  "name": "Sergio Marrero",
+  "affiliation": "Founder of Rebel One (RBL1), investor network accelerating diverse social-impact tech founders; formerly Managing Director of Blue Ridge Labs @ Robin Hood Foundation",
+  "role_type": "Civic-tech",
+  "hearing": "Brooklyn",
+  "quote": "a sandbox of some sort... where they can actually deploy this technology and failure is part of the process rather than a long rigorous process."
+ },
+ {
+  "name": "Mimi Turner",
+  "affiliation": "Women's Housing and Economic Development Corporation (WHEDco), small business adviser; South Bronx community development nonprofit",
+  "role_type": "Nonprofit",
+  "hearing": "Bronx",
+  "quote": "we urge the city to sustain and expand investment in community-based local development focused organizations like Wedco."
+ },
+ {
+  "name": "Ligia Guallpa",
+  "affiliation": "Workers Justice Project, executive director (delivery and day-laborer organizing)",
+  "role_type": "Advocacy org",
+  "hearing": "Queens",
+  "quote": "The Deliverista Hubs are the solution, are the model to look at for what public safety solutions should look like."
+ },
+ {
+  "name": "Antonio Solís",
+  "affiliation": "Delivery worker, member of the Workers Justice Project (testified in Spanish via interpreter)",
+  "role_type": "Labor",
+  "hearing": "Queens",
+  "quote": "In reality, the streets have become our place of work, but every day we encounter and face danger due to the lack of safe infrastructure."
+ },
+ {
+  "name": "Aneydy Paniagua",
+  "affiliation": "Independent family child care provider, Bronx (Andeliz Paniagua, Leslie Daycare, Bronx NY 10471; NYS license 933805)",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "any kind of expansion of the child care can be included for the providers, independent providers ... and can guarantee that no child, family or educator can be left behind."
+ },
+ {
+  "name": "Michelle Minaya",
+  "affiliation": "Family child care provider (5 years), Bronx",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "the 2K and 3K program forces you to join a network ... there is nothing being done about these providers who are going to fall behind and eventually have to close their doors."
+ },
+ {
+  "name": "Jessica Lopez",
+  "affiliation": "Licensed real estate agent, Bronx (Keller New York); ~22 years in real estate with property management background; works with rental subsidy programs",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "having a voucher does not mean they have a home ... I've personally had families wait 3 to four months after submitting everything before receiving final approval to move in."
+ },
+ {
+  "name": "David Lee",
+  "affiliation": "NYC Fiscal Policy Analyst, Center for New York City Affairs (The New School); researcher at Columbia (Lamont-Doherty), in personal capacity",
+  "role_type": "Academic",
+  "hearing": "Brooklyn",
+  "quote": "transparency and accessibility to public data are of course the paramount priorities of effective... governance."
+ },
+ {
+  "name": "Lola Star",
+  "affiliation": "Small business owner and artist, Coney Island; founder of Lola Star Souvenir Boutique (est. 2001) and the 'Save Coney Island' advocacy group; created Dreamland Roller Rink",
+  "role_type": "Business/industry",
+  "hearing": "Brooklyn",
+  "quote": "Public land belongs to the people of New York but too often decisions are made through systems that strip power from the communities who are forced to live with the consequences."
+ },
+ {
+  "name": "Robin Graham",
+  "affiliation": "Mentor/advocate for incarcerated and returning citizens and their families (24 years)",
+  "role_type": "Advocacy org",
+  "hearing": "Brooklyn",
+  "quote": "can we take the technology out of the hands of those vendors who are pilfering the pockets of the loved ones who are already struggling."
+ },
+ {
+  "name": "Ashley Graber",
+  "affiliation": "Co-owner of Cool Hand Movers, a Brooklyn-based licensed moving company (testified online)",
+  "role_type": "Business/industry",
+  "hearing": "Queens",
+  "quote": "The city does recognize that these tickets are unavoidable, but they then treat it as a reliable revenue stream."
+ },
+ {
+  "name": "Belkis Lora",
+  "affiliation": "Founder and CEO, Grand Slam (banquet hall / event business, Bronx, 18 years; second location in Manhattan)",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "We've been requested to the DOT to give us a loading zone for the business on the block, but other people are not respecting that sign... they give us a ticket every two minutes. It's becoming like another rent to us."
+ },
+ {
+  "name": "John Paul Lupo",
+  "affiliation": "Founder of A.REIT Public Affairs; former Director of City Legislative Affairs and Intergovernmental Affairs, NYC City Hall",
+  "role_type": "Business/industry",
+  "hearing": "Staten Island",
+  "quote": "Right now the City Council is a one-way ratchet. It passes new requirements every session with no mechanism to retire old ones."
+ },
+ {
+  "name": "Stephen Lewis",
+  "affiliation": "Counsel to the Center for New York City and State Law and adjunct professor at New York Law School; former Chief of the Legal Counsel Division, NYC Law Department",
+  "role_type": "Academic",
+  "hearing": "Staten Island",
+  "quote": "Sometimes these reports and advisory commissions outlive their usefulness... agencies end up spending time and resources that could be better spent in other ways."
+ },
+ {
+  "name": "Rob Richie",
+  "affiliation": "Head of Expand Democracy; founder and former head of FairVote (1992-2023); ranked choice voting authority",
+  "role_type": "Advocacy org",
+  "hearing": "Staten Island",
+  "quote": "New York City is actually the only jurisdiction to use RCV only in the primaries, but not the general election."
+ },
+ {
+  "name": "Rajesh Sankat",
+  "affiliation": "Program strategist and civic designer at three by three, a community-centered design studio in Brooklyn",
+  "role_type": "Civic-tech",
+  "hearing": "Queens",
+  "quote": "When something shapes all of our lives, we don't leave it entirely to private actors. And that is what is happening with AI."
+ },
+ {
+  "name": "Pritya Shrimali",
+  "affiliation": "Recent NYC high school graduate and New Jersey resident researching federal superfund and urban environmental remediation policy",
+  "role_type": "Academic",
+  "hearing": "Queens",
+  "quote": "A child born in this neighborhood today will be finishing elementary school before the cleanup even begins."
+ },
+ {
+  "name": "Damien Archbold",
+  "affiliation": "Anesthesiologist at Elmhurst Hospital, Queens; resident of Long Island City",
+  "role_type": "Labor",
+  "hearing": "Queens",
+  "quote": "The state of our public spaces and roads are a public health issue."
+ },
+ {
+  "name": "Henry Smith",
+  "affiliation": "Director of economic development, Long Island City Partnership / LIC Business Improvement District (testified online)",
+  "role_type": "Business/industry",
+  "hearing": "Queens",
+  "quote": "It has really been a problem with not only just cases being closed immediately but also to have the follow-up."
+ },
+ {
+  "name": "India Bee",
+  "affiliation": "Local beekeeper; founder of a sensory-inclusion pop-up organization; parent and disability advocate (CUNY graduate degree in disability studies)",
+  "role_type": "Advocacy org",
+  "hearing": "Queens",
+  "quote": "The city is beautiful, noisy chaos, and a lot of our loved ones cannot function in that... allow us to hold on to the pole and support our loved ones."
+ },
+ {
+  "name": "Nick Guargiglia",
+  "affiliation": "New York Offshore Wind Alliance (also Alliance for Clean Energy New York); advocacy manager",
+  "role_type": "Advocacy org",
+  "hearing": "Manhattan",
+  "quote": "Infrastructure delays are themselves a form of government inefficiency. When projects are slowed by fragmented planning, insufficient coordination, duplicative processes, or a lack of long-term investment, New Yorkers ultimately bear the cost."
+ },
+ {
+  "name": "Patrick Hall",
+  "affiliation": "Elan Flowers (co-owner, Tribeca storefront florist since 1983)",
+  "role_type": "Business/industry",
+  "hearing": "Bronx",
+  "quote": "My name is Patrick Hall and my wife Christine and I own a small business called Elan Flowers in Tribeca. It's a storefront business that has been serving New York since 1983."
+ },
+ {
+  "name": "Hugh Francis",
+  "affiliation": "HeyMamdaniNYC coalition (founder of Garden 3D); coalition includes Mozilla Foundation, RadicalxChange, Metagov, Decentral Park and Polis",
+  "role_type": "Civic-tech",
+  "hearing": "Brooklyn",
+  "quote": "My name is Hugh Francis and I'm here on behalf of heymamdani.nyc, a coalition of New Yorkers and leading civic tech organizations who want to help this city work better. New York City can become dramatically more efficient by making its technology open and participatory to the people who live here."
+ },
+ {
+  "name": "Stacey Bode",
+  "affiliation": "Parent advocate for families with disabilities (autism); online participant",
+  "role_type": "Advocacy org",
+  "hearing": "Brooklyn",
+  "quote": "I'm a parent advocate for families with disabilities. The DOE and the HR departments are not talking to each other... there's not one place that has all the information. Nobody's been collecting data on this community."
+ },
+ {
+  "name": "Eric Richardson",
+  "affiliation": "Former Deputy Chief Fleet Management Officer, NYC DCAS / NYC Fleet (23 years, retired July 2024)",
+  "role_type": "Government body",
+  "hearing": "Staten Island",
+  "quote": "This proposal is not about correcting a failure. It is about preserving success and giving this essential function the permanence it has grown into."
+ }
+]

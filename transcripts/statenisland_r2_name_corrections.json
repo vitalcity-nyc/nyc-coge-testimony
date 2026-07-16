@@ -1,0 +1,34 @@
+[
+ {
+  "original_name": "Troy McGee",
+  "corrected_name": "Troy McGhie",
+  "name_verified": true,
+  "name_confidence": "high",
+  "verify_source": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf",
+  "notes": "Official commission transcript spells the name McGhie in the PUBLIC SPEAKERS roster, in every speaker label (MR. McGHIE), and in his own introduction: \"My name is Troy McGhie.\" Our Whisper transcript had rendered it phonetically as McGee."
+ },
+ {
+  "original_name": "Crystal Nightstar",
+  "corrected_name": "Krystal Nightstar",
+  "name_verified": true,
+  "name_confidence": "high",
+  "verify_source": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf",
+  "notes": "Official transcript roster, speaker labels (MS. NIGHTSTAR) and self-introduction give Krystal with a K: \"My name is Krystal Nightstar and I've worked for the City of New York.\" Whisper had rendered it Crystal."
+ },
+ {
+  "original_name": "Saul Porter",
+  "corrected_name": "Saul Porter",
+  "name_verified": true,
+  "name_confidence": "high",
+  "verify_source": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf",
+  "notes": "Spelling confirmed by the official transcript roster, speaker labels and self-introduction (\"My name is Saul Porter\"), matching our Whisper transcript. Raised medium -> high."
+ },
+ {
+  "original_name": "Emilina Wilson",
+  "corrected_name": "Emilina Wilson",
+  "name_verified": false,
+  "name_confidence": "medium",
+  "verify_source": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf",
+  "notes": "Official transcript roster lists Emilina Wilson, matching our Whisper transcript independently; the chair addresses her as Emilina and speaker labels read MS. WILSON. She does not spell the name herself and no independent public record was found, so raised low -> medium rather than high."
+ }
+]

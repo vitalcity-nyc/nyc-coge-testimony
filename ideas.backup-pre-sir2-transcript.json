@@ -2204,7 +2204,7 @@
    },
    {
     "name": "Saul Porter",
-    "name_confidence": "high",
+    "name_confidence": "medium",
     "affiliation": "Resident; works with Highland Counseling Agency, testifying as a private citizen on housing",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -2773,7 +2773,7 @@
    },
    {
     "name": "Emilina Wilson",
-    "name_confidence": "medium",
+    "name_confidence": "low",
     "affiliation": "Resident; ABA therapist / daycare worker (United Activities nonprofit) and commuter student, College of Staten Island; non-driver",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -2835,8 +2835,8 @@
   ],
   "proponents": [
    {
-    "name": "Troy McGhie",
-    "name_confidence": "high",
+    "name": "Troy McGee",
+    "name_confidence": "medium",
     "affiliation": "Retired special education teacher and boys basketball coach, Curtis High School",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",
@@ -4009,8 +4009,8 @@
   ],
   "proponents": [
    {
-    "name": "Krystal Nightstar",
-    "name_confidence": "high",
+    "name": "Crystal Nightstar",
+    "name_confidence": "medium",
     "affiliation": "Resident; 14-year city employee, Department of Citywide Administrative Services (formerly Department of Correction)",
     "role_type": "Resident",
     "hearing": "Staten Island (Round 2)",

@@ -3,11 +3,18 @@
   "Bronx (Round 2)",
   "Brooklyn (Round 2)",
   "Queens",
-  "Staten Island"
+  "Staten Island",
+  "Staten Island (Round 2)"
  ],
- "date": "2026-07-13",
+ "date": "2026-07-16",
  "excluded_agency_experts": [
-  "Michelle Craven (DOT)",
-  "Eric Beaton (DOT)"
- ]
+  "David Garfinkel (invited expert, Staten Island Round 2)",
+  "Eric Beaton (DOT)",
+  "Julia Fusfeld (invited expert, Staten Island Round 2)",
+  "Michelle Craven (DOT)"
+ ],
+ "sources": {
+  "Staten Island (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf  (official Veritext stenographic transcript, July 6, 2026)",
+  "Queens": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/COGE-QN-Hearing-1-Official-Transcript-Condensed_20260713.pdf  (official Veritext stenographic transcript, June 22, 2026; re-checked 2026-07-16, roster matched all 25 catalogued names, no changes)"
+ }
 }
