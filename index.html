@@ -210,10 +210,39 @@ html.embed .hero h1{display:none;}
 html.embed .hero .dek{display:none;}
 html.embed .hero .wrap{padding-top:20px;}
 html.embed .hero .kicker{margin-bottom:10px;}
+/* the orange footer band is page chrome — the host article supplies that context */
+html.embed footer{display:none;}
+/* fixed-position inside an auto-height iframe would pin to the very bottom of the
+   whole document; anchor it to the end of the content instead */
+html.embed .ai-btn{position:absolute;}
+html.embed body{position:relative;}
 </style>
 </head>
 <body>
-<script>if(new URLSearchParams(location.search).get('embed')==='1')document.documentElement.classList.add('embed');</script>
+<script>
+// Embed mode (?embed=1): strip outer chrome and post content height to the parent
+// so a Ghost HTML card can size its iframe to fit — no inner scrollbar, no
+// trailing whitespace. This page is interactive (theme accordions, view toggle,
+// filters all change height), so we re-measure on any body resize, not just load.
+if(new URLSearchParams(location.search).get('embed')==='1'){
+  document.documentElement.classList.add('embed');
+  var __lastH=0;
+  var postHeight=function(){
+    var h=Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+    if(h===__lastH) return; __lastH=h;
+    parent.postMessage({type:'vc-embed-height', id:'nyc-coge-testimony', height:h}, '*');
+  };
+  window.addEventListener('load', postHeight);
+  window.addEventListener('resize', postHeight);
+  document.addEventListener('DOMContentLoaded', function(){
+    // catches accordion expand/collapse, view toggle, filtering, search
+    if(window.ResizeObserver){ new ResizeObserver(postHeight).observe(document.body); }
+    postHeight();
+  });
+  // fonts/late layout can shift height right after load
+  var __n=0, __t=setInterval(function(){ postHeight(); if(++__n>20) clearInterval(__t); }, 300);
+}
+</script>
 
 <div class="topbar"><div class="wrap">
   <span class="tag">Commission on Government Efficiency</span>
