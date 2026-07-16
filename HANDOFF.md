@@ -72,6 +72,47 @@ Unconfirmed names keep `name_confidence` low/medium and render with a **dotted u
 - **The old launchd watcher (`com.josh.coge-watcher`) is DISABLED** and must stay disabled. It wrote new video IDs into `known_videos.json` before the ingest task ran, so the task saw them as "known" and skipped them (this is why SI R2 + Manhattan R2 were silently missed once). If it ever reappears: `launchctl bootout gui/$(id -u)/com.josh.coge-watcher`.
 - **NotebookLM sync is manual.** Google gives no API to add sources, so Josh adds each hearing to the notebook **as a YouTube link** by hand. On every ingest, the task's iMessage includes an explicit "Add to NotebookLM: https://www.youtube.com/watch?v=<id>" line. (You can read the notebook's current sources via the claude-in-chrome browser MCP if you need to check what's in it — Josh is logged in.)
 
+## Embedding in a Ghost story
+
+The page has an **`?embed=1` mode** following the canonical Vital City pattern (`feedback_vital_city_embed_pattern`). It strips the topbar, h1, dek and the orange footer band (the host article supplies that context), keeps the kicker/byline/stats/scope box/the full tool/methodology/AI-caution, and **posts its content height to the parent** as `{type:'vc-embed-height', id:'nyc-coge-testimony', height:N}` so the iframe sizes to fit — no inner scrollbar, no trailing whitespace.
+
+Because this page is interactive (theme accordions, by-idea/by-person toggle, filters all change height *after* load), it re-measures via a **ResizeObserver on `document.body`**, not just the load/resize/interval used by simpler embeds.
+
+Embed URL: https://vitalcity-nyc.github.io/nyc-coge-testimony/?embed=1
+
+Paste into a Ghost **HTML card**:
+
+```html
+<!-- COGE testimony catalog — Vital City embed -->
+<div class="vc-embed-coge" style="margin:1.5em 0;">
+  <div style="position:relative;width:100%;border:1px solid #111;overflow:hidden;">
+    <iframe
+      class="vc-embed-coge__iframe"
+      src="https://vitalcity-nyc.github.io/nyc-coge-testimony/?embed=1"
+      title="Testimony to the Commission on Government Efficiency, by idea"
+      loading="lazy" allow="fullscreen" scrolling="no"
+      style="display:block;width:100%;height:1200px;border:0;background:transparent;"
+    ></iframe>
+  </div>
+  <p style="font-size:0.8em;color:#666;margin:0.5em 0 0;text-align:center;">
+    Tap a theme to open it.
+    <a href="https://vitalcity-nyc.github.io/nyc-coge-testimony/" target="_blank" rel="noopener">Open full screen ↗</a>
+  </p>
+  <script>
+    (function () {
+      window.addEventListener('message', function (e) {
+        var d = e && e.data;
+        if (!d || d.type !== 'vc-embed-height' || d.id !== 'nyc-coge-testimony') return;
+        var f = document.querySelector('.vc-embed-coge__iframe');
+        if (f && typeof d.height === 'number') f.style.height = d.height + 'px';
+      });
+    })();
+  </script>
+</div>
+```
+
+The `1200px` is only a fallback before the first height message. Keep exactly **one** border — on the wrapper div, not the iframe (embed mode ships none). The standalone URL is unaffected; both modes share the same file, so test both after changing either.
+
 ## Editorial rules (from Josh)
 
 - **COGE 2026 only.** Exclude the 2024 and 2025 charter revision commissions — the official `nyc.gov/site/charter` URL is reused across commissions, and `citymeetings.nyc` 2025 transcripts are a common trap.
