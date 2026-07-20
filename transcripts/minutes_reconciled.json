@@ -2,11 +2,12 @@
  "reconciled": [
   "Bronx (Round 2)",
   "Brooklyn (Round 2)",
+  "Manhattan",
   "Queens",
   "Staten Island",
   "Staten Island (Round 2)"
  ],
- "date": "2026-07-16",
+ "date": "2026-07-20",
  "excluded_agency_experts": [
   "David Garfinkel (invited expert, Staten Island Round 2)",
   "Eric Beaton (DOT)",
@@ -15,6 +16,7 @@
  ],
  "sources": {
   "Staten Island (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf  (official Veritext stenographic transcript, July 6, 2026)",
-  "Queens": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/COGE-QN-Hearing-1-Official-Transcript-Condensed_20260713.pdf  (official Veritext stenographic transcript, June 22, 2026; re-checked 2026-07-16, roster matched all 25 catalogued names, no changes)"
+  "Queens": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/COGE-QN-Hearing-1-Official-Transcript-Condensed_20260713.pdf  (official Veritext stenographic transcript, June 22, 2026; re-checked 2026-07-16, roster matched all 25 catalogued names, no changes)",
+  "Manhattan": "https://www.nyc.gov/assets/charter/downloads/pdf/COGE-MN-Hearing-1-Offical-Transcript-20260617-1.pdf  (official Veritext stenographic transcript, June 9, 2026; reconciled 2026-07-20 — roster matched all 39 catalogued witnesses, none missing, none extra. Corrections: Sam Panuccio -> Samuel Peter Panuccio (documented in his own prior sworn City Council testimony); Henry Sutherland -> Henry Sullivan (his self-introduction in the official record; no public record for either spelling, so confidence lowered to medium). Bria Donohue confirmed correct against AIA NY staff page despite the transcript rendering Maria Donahue; other steno spellings (Tim Hopkins, Gail Brewer, Michael Picarello) are worse than the catalog and were left alone.)"
  }
 }
