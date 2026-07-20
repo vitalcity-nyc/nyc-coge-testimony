@@ -1,12 +1,4 @@
 {
- "reconciled": [
-  "Bronx (Round 2)",
-  "Brooklyn (Round 2)",
-  "Manhattan",
-  "Queens",
-  "Staten Island",
-  "Staten Island (Round 2)"
- ],
  "date": "2026-07-20",
  "excluded_agency_experts": [
   "David Garfinkel (invited expert, Staten Island Round 2)",
@@ -14,9 +6,21 @@
   "Julia Fusfeld (invited expert, Staten Island Round 2)",
   "Michelle Craven (DOT)"
  ],
+ "reconciled": [
+  "Bronx",
+  "Bronx (Round 2)",
+  "Brooklyn",
+  "Brooklyn (Round 2)",
+  "Manhattan",
+  "Queens",
+  "Staten Island",
+  "Staten Island (Round 2)"
+ ],
  "sources": {
-  "Staten Island (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf  (official Veritext stenographic transcript, July 6, 2026)",
+  "Bronx": "https://www.nyc.gov/assets/charter/downloads/pdf/Exec-General-Workspace-Charter-Review-Commission-06-10-2026.pdf  (official Veritext stenographic transcript, June 10, 2026, Fordham University/Bronx \u2014 NOTE the filename says 'Exec General Workspace' and does not name the borough; it is the Bronx Round 1 hearing. Reconciled 2026-07-20: the Attendee/Speaker roster listed 33 names and matched all 33 catalogued witnesses one-for-one \u2014 none missing, none extra. No corrections made: every catalogued name is high-confidence and independently verified, and the steno spellings are consistently worse (DeLone/Dilone, Menia/Minaya, Janessa Jewels/Jenessa Jules, Demaris Sumadiqui/Damaris Zoumanigui, Pascal Undrago/Pascal A. Ouedraogo, Sarah Spyat/Sarah Espillat, Bah, Sajo/Sadio Bah). Speaker labels MR. SHAW and MR. PENJABA are commissioners asking questions, not witnesses.)",
+  "Brooklyn": "https://www.nyc.gov/assets/charter/downloads/pdf/Exec-General-Workspace-Charter-Review-06-11-2026.pdf  (official Veritext stenographic transcript, June 11, 2026, Brooklyn Law School \u2014 same misleading 'Exec General Workspace' filename; it is the Brooklyn Round 1 hearing. Reconciled 2026-07-20: the APPEARANCES + CONTENTS rosters matched all 29 catalogued witnesses one-for-one \u2014 none missing, none extra. No corrections made. Steno 'Andrew Ryan' is wrong for the Citizens Budget Commission president Andrew Rein; 'Stacey Vogue' is marked [ph] (phonetic) in the record itself, so the independently-verified catalog name Stacey Bode stands.)",
+  "Manhattan": "https://www.nyc.gov/assets/charter/downloads/pdf/COGE-MN-Hearing-1-Offical-Transcript-20260617-1.pdf  (official Veritext stenographic transcript, June 9, 2026; reconciled 2026-07-20 \u2014 roster matched all 39 catalogued witnesses, none missing, none extra. Corrections: Sam Panuccio -> Samuel Peter Panuccio (documented in his own prior sworn City Council testimony); Henry Sutherland -> Henry Sullivan (his self-introduction in the official record; no public record for either spelling, so confidence lowered to medium). Bria Donohue confirmed correct against AIA NY staff page despite the transcript rendering Maria Donahue; other steno spellings (Tim Hopkins, Gail Brewer, Michael Picarello) are worse than the catalog and were left alone.)",
   "Queens": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/COGE-QN-Hearing-1-Official-Transcript-Condensed_20260713.pdf  (official Veritext stenographic transcript, June 22, 2026; re-checked 2026-07-16, roster matched all 25 catalogued names, no changes)",
-  "Manhattan": "https://www.nyc.gov/assets/charter/downloads/pdf/COGE-MN-Hearing-1-Offical-Transcript-20260617-1.pdf  (official Veritext stenographic transcript, June 9, 2026; reconciled 2026-07-20 — roster matched all 39 catalogued witnesses, none missing, none extra. Corrections: Sam Panuccio -> Samuel Peter Panuccio (documented in his own prior sworn City Council testimony); Henry Sutherland -> Henry Sullivan (his self-introduction in the official record; no public record for either spelling, so confidence lowered to medium). Bria Donohue confirmed correct against AIA NY staff page despite the transcript rendering Maria Donahue; other steno spellings (Tim Hopkins, Gail Brewer, Michael Picarello) are worse than the catalog and were left alone.)"
+  "Staten Island (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf  (official Veritext stenographic transcript, July 6, 2026)"
  }
 }
