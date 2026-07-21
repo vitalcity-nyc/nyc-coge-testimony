@@ -108,6 +108,16 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .chart:not(.expanded) .crow.xtra{display:none;}
 .chart-more{margin-top:10px;background:none;border:none;color:var(--vc-black);font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;text-decoration:underline;text-decoration-color:var(--vc-orange);text-decoration-thickness:2px;padding:0;}
 
+/* on-the-ballot box */
+.idea.on-ballot{border:2px solid var(--vc-black);border-radius:4px;background:var(--vc-chartreuse-20);padding:20px 22px;margin:14px 0;}
+.ballot-badge{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 10px;}
+.ballot-badge .bq{font-family:var(--sans);font-weight:900;font-size:11px;letter-spacing:.12em;text-transform:uppercase;background:var(--vc-black);color:var(--vc-white);padding:4px 10px;border-radius:999px;white-space:nowrap;}
+.ballot-badge .bpart{font-family:var(--sans);font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--vc-charcoal);}
+.ballot-what{font-size:14px;line-height:1.5;margin:0 0 4px;}
+.ballot-secs{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);margin:0 0 12px;}
+.crow.on-ballot .clabel::after{content:"ON BALLOT";display:inline-block;margin-left:8px;font-family:var(--sans);font-weight:900;font-size:9px;letter-spacing:.1em;background:var(--vc-black);color:var(--vc-white);padding:2px 6px;border-radius:999px;vertical-align:middle;}
+.theme-meta .bcount{color:var(--vc-black);}
+
 /* theme groups */
 .theme{border-top:1px solid var(--vc-cloud);}
 .theme:first-child{border-top:2px solid var(--vc-black);}
@@ -280,6 +290,12 @@ if(new URLSearchParams(location.search).get('embed')==='1'){
     <span class="cta-note">Query the full testimony in plain language, via a NotebookLM notebook built on the same hearing record.</span>
   </div>
 
+  <div class="verdict" style="background:var(--vc-orange-20);">
+    <div class="lab">What made the ballot</div>
+    <p>On July 20, 2026 the commission released its <a href="https://www.nyc.gov/assets/charter/downloads/pdf/2026/Proposed-Charter-Amendments-20260720.pdf" target="_blank" rel="noopener">proposed charter amendments</a> &mdash; <strong>five questions</strong> headed for the November ballot. Ideas in this catalog that those amendments would enact are <strong>boxed and labeled with their ballot question</strong>. The five questions cover outdoor dining and revocable consents (Q1), notice and comment on contract awards (Q2), major transportation projects and city property (Q3), consolidating construction permitting in the Buildings Department (Q4) and the Rainy Day Fund (Q5).</p>
+    <p class="chan">Matching testimony to amendments is our judgment, not the commission's: the proposals are legal text and name no witnesses. Read the amendments yourself before relying on a match, and note that the vast majority of ideas here did <em>not</em> make the ballot.</p>
+  </div>
+
   <div class="verdict">
     <div class="lab">Scope and sources</div>
     <p>COGE does not publish a consolidated record of who testified or what they asked for, and citymeetings.nyc has not transcribed the 2026 hearings. This catalog is compiled from the commission's own hearing videos plus written submissions that testifiers or their organizations have published. Names and quotes are drawn from auto-generated captions and checked against public records where possible; treat them as provisional.</p>
@@ -447,7 +463,7 @@ function renderChart(){
   const TOP=12;
   document.getElementById('chart').innerHTML = rows.map((i,k)=>{
     const w = Math.max(2, i.proponent_count/MAXC*100);
-    return `<div class="crow${k>=TOP?' xtra':''}" data-id="${i.id}">
+    return `<div class="crow${k>=TOP?' xtra':''}${i.ballot?' on-ballot':''}" data-id="${i.id}">
       <div class="clabel"><span class="cat">${esc(i.category)}</span>${esc(i.title)}</div>
       <div class="cbarwrap"><div class="cbar" style="width:${w}%"></div><span class="cval">${i.proponent_count}</span></div>
     </div>`;
@@ -538,10 +554,18 @@ function propRow(p){
 function card(i, idx){
   const reach = i.hearings.join(" &middot; ");
   const plabel = i.proponent_count===1 ? "1 backer" : i.proponent_count+" backers";
-  return `<article class="idea" data-id="${i.id}">
+  const b = i.ballot;
+  const ballotBox = b ? `<div class="ballot-badge">
+      <span class="bq">On the November ballot &middot; Question ${b.question}</span>
+      ${b.match==='partial'?'<span class="bpart">addressed in part</span>':''}
+    </div>
+    <p class="ballot-what">${esc(b.summary)}</p>
+    <p class="ballot-secs">${esc(b.sections)}</p>` : "";
+  return `<article class="idea${b?' on-ballot':''}" data-id="${i.id}">
     <div class="ihead">
       <div class="rank">${String(idx+1).padStart(2,'0')}</div>
       <div>
+        ${ballotBox}
         <h3>${esc(i.title)}<a class="anchor" href="#idea-${i.id}" title="Copy link to this idea" aria-label="Copy link to this idea">#</a></h3>
         <div class="imeta">
           <span class="cat-tag">${esc(i.category)}</span>
@@ -638,7 +662,7 @@ function render(){
       <button class="theme-head" type="button">
         <span class="theme-arr">&#9654;</span>
         <span class="theme-name">${esc(g.theme)}</span>
-        <span class="theme-meta">${g.ideas.length} idea${g.ideas.length>1?'s':''} &middot; ${backers.size} backer${backers.size>1?'s':''}</span>
+        <span class="theme-meta">${g.ideas.length} idea${g.ideas.length>1?'s':''} &middot; ${backers.size} backer${backers.size>1?'s':''}${(()=>{const nb=g.ideas.filter(x=>x.ballot).length;return nb?` &middot; <span class="bcount">${nb} on ballot</span>`:'';})()}</span>
       </button>
       <div class="theme-body">${cards}</div>
     </section>`;

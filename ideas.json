@@ -542,7 +542,13 @@
     "url": "https://www.youtube.com/watch?v=udE7QLZcBZI&t=9973s",
     "quote": "Recommend a future charter revision commission focused solely on procurement reform."
    }
-  ]
+  ],
+  "ballot": {
+   "question": 2,
+   "match": "direct",
+   "summary": "Requires public notice and comment before certain contract awards and puts the citywide procurement data system under a single director.",
+   "sections": "Charter §§ 20-t, 311, 325, 326"
+  }
  },
  {
   "id": "pay-vendors-and-nonprofits-on-time",
@@ -901,7 +907,13 @@
     "url": "https://www.youtube.com/watch?v=udE7QLZcBZI&t=8512s",
     "quote": "Road safety education in schools... the goal would be to create a new culture from childhood."
    }
-  ]
+  ],
+  "ballot": {
+   "question": 3,
+   "match": "direct",
+   "summary": "Streamlines the notification and presentation requirements that slow major transportation projects, and changes how the city acquires office space and disposes of property.",
+   "sections": "Charter §§ 2903, 197-e, 384, new 824; § 195 repealed"
+  }
  },
  {
   "id": "consolidate-and-speed-permitting",
@@ -1043,7 +1055,13 @@
     "url": "https://www.youtube.com/watch?v=udE7QLZcBZI&t=4956s",
     "quote": "Speed permitting so transitional and supportive housing comes online faster."
    }
-  ]
+  ],
+  "ballot": {
+   "question": 4,
+   "match": "partial",
+   "summary": "Consolidates construction permitting and inspection authority in the Department of Buildings, including curb-cut and subsurface work.",
+   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301"
+  }
  },
  {
   "id": "modernize-civil-service-hiring",
@@ -1371,7 +1389,13 @@
     "url": "https://www.youtube.com/watch?v=udE7QLZcBZI&t=9277s",
     "quote": "I didn't know what the hell revocable consent is, nor does anybody else."
    }
-  ]
+  ],
+  "ballot": {
+   "question": 1,
+   "match": "direct",
+   "summary": "Takes sidewalk cafes out of the revocable-consent process, cuts City Record notice from 15 days to 6 and drops the paid newspaper-ad requirement.",
+   "sections": "Charter §§ 364, 371, 372, 375"
+  }
  },
  {
   "id": "modernize-mayors-management-report-and-neighborhood-data",
@@ -1834,7 +1858,13 @@
     "url": "https://www.youtube.com/watch?v=T0_9yE6FsG8&t=3598s",
     "quote": "It's a little bit of a fantasy to think that you can avoid... you actually do need to have responsible people in office."
    }
-  ]
+  ],
+  "ballot": {
+   "question": 5,
+   "match": "direct",
+   "summary": "Writes rules for the Revenue Stabilization (rainy day) Fund into the charter.",
+   "sections": "Charter § 1528"
+  }
  },
  {
   "id": "fix-contract-registration-delays",
@@ -2822,7 +2852,13 @@
     "url": "https://www.youtube.com/watch?v=PtANp5nH73M&t=1924s",
     "quote": "Vest the Department of Buildings with rulemaking authority to update the building code through notice-and-comment rather than the council's calendar."
    }
-  ]
+  ],
+  "ballot": {
+   "question": 4,
+   "match": "direct",
+   "summary": "Consolidates construction permitting and inspection authority in the Department of Buildings, including curb-cut and subsurface work.",
+   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301"
+  }
  },
  {
   "id": "reform-doe-procurement-and-classroom-spending",
