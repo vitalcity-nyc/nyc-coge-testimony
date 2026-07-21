@@ -114,7 +114,18 @@ h1{font-family:var(--serif);font-weight:300;font-size:clamp(30px,5.4vw,56px);lin
 .ballot-badge .bq{font-family:var(--sans);font-weight:900;font-size:11px;letter-spacing:.12em;text-transform:uppercase;background:var(--vc-black);color:var(--vc-white);padding:4px 10px;border-radius:999px;white-space:nowrap;}
 .ballot-badge .bpart{font-family:var(--sans);font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--vc-charcoal);}
 .ballot-what{font-size:14px;line-height:1.5;margin:0 0 4px;}
-.ballot-secs{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);margin:0 0 12px;}
+.ballot-secs{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--vc-charcoal);margin:0 0 10px;}
+.ballot-head{font-family:var(--serif);font-size:17px;line-height:1.35;margin:0 0 8px;color:var(--vc-black);}
+.cmpbtn{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.05em;text-transform:uppercase;background:none;border:none;color:var(--vc-black);cursor:pointer;padding:0;display:inline-flex;align-items:center;gap:6px;margin:0 0 12px;}
+.cmpbtn .arr{color:var(--vc-orange);transition:transform .15s;}
+.cmpbtn.open .arr{transform:rotate(90deg);}
+.cmp{display:none;margin:0 0 12px;border-top:1px dotted var(--vc-charcoal);padding-top:10px;}
+.cmp.open{display:block;}
+.cmp h5{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;margin:10px 0 3px;}
+.cmp h5.k-does{color:#3aa35a;}
+.cmp h5.k-short{color:var(--vc-magenta);}
+.cmp h5.k-beyond{color:var(--vc-charcoal);}
+.cmp p{font-size:14px;line-height:1.5;margin:0;}
 .crow.on-ballot .clabel::after{content:"ON BALLOT";display:inline-block;margin-left:8px;font-family:var(--sans);font-weight:900;font-size:9px;letter-spacing:.1em;background:var(--vc-black);color:var(--vc-white);padding:2px 6px;border-radius:999px;vertical-align:middle;}
 .theme-meta .bcount{color:var(--vc-black);}
 
@@ -293,7 +304,8 @@ if(new URLSearchParams(location.search).get('embed')==='1'){
   <div class="verdict" style="background:var(--vc-orange-20);">
     <div class="lab">What made the ballot</div>
     <p>On July 20, 2026 the commission released its <a href="https://www.nyc.gov/assets/charter/downloads/pdf/2026/Proposed-Charter-Amendments-20260720.pdf" target="_blank" rel="noopener">proposed charter amendments</a> &mdash; <strong>five questions</strong> headed for the November ballot. Ideas in this catalog that those amendments would enact are <strong>boxed and labeled with their ballot question</strong>. The five questions cover outdoor dining and revocable consents (Q1), notice and comment on contract awards (Q2), major transportation projects and city property (Q3), consolidating construction permitting in the Buildings Department (Q4) and the Rainy Day Fund (Q5).</p>
-    <p class="chan">Matching testimony to amendments is our judgment, not the commission's: the proposals are legal text and name no witnesses. Read the amendments yourself before relying on a match, and note that the vast majority of ideas here did <em>not</em> make the ballot.</p>
+    <p>Making the ballot is not the same as getting what was asked for. Each boxed idea carries a plain-language reading of <strong>what the amendment actually does, what it leaves out and what it contains that nobody asked for</strong> &mdash; several questions answer only part of the testimony, and some carry substantial provisions no witness raised.</p>
+    <p class="chan">Matching testimony to amendments, and reading the legal text against what witnesses said, is our judgment &mdash; not the commission's. The proposals are legal text and name no witnesses. Read the <a href="https://www.nyc.gov/assets/charter/downloads/pdf/2026/Proposed-Charter-Amendments-20260720.pdf" target="_blank" rel="noopener">amendments</a> yourself before relying on any of it, and note that the vast majority of ideas here did <em>not</em> make the ballot.</p>
   </div>
 
   <div class="verdict">
@@ -560,7 +572,14 @@ function card(i, idx){
       ${b.match==='partial'?'<span class="bpart">addressed in part</span>':''}
     </div>
     <p class="ballot-what">${esc(b.summary)}</p>
-    <p class="ballot-secs">${esc(b.sections)}</p>` : "";
+    <p class="ballot-secs">${esc(b.sections)}</p>
+    ${b.compare?`<p class="ballot-head">${esc(b.compare.headline)}</p>
+    <button class="cmpbtn"><span class="arr">&#9654;</span> How it compares to the testimony</button>
+    <div class="cmp">
+      <h5 class="k-does">What it does that witnesses asked for</h5><p>${esc(b.compare.delivers)}</p>
+      ${b.compare.falls_short?`<h5 class="k-short">What witnesses asked for that it leaves out</h5><p>${esc(b.compare.falls_short)}</p>`:''}
+      ${b.compare.goes_beyond?`<h5 class="k-beyond">In the amendment, but nobody asked for it</h5><p>${esc(b.compare.goes_beyond)}</p>`:''}
+    </div>`:''}` : "";
   return `<article class="idea${b?' on-ballot':''}" data-id="${i.id}">
     <div class="ihead">
       <div class="rank">${String(idx+1).padStart(2,'0')}</div>
@@ -582,6 +601,12 @@ function card(i, idx){
 
 function bindProps(c){
   c.querySelectorAll('.propbtn').forEach(b=>{
+    b.addEventListener('click',()=>{
+      b.classList.toggle('open');
+      b.nextElementSibling.classList.toggle('open');
+    });
+  });
+  c.querySelectorAll('.cmpbtn').forEach(b=>{
     b.addEventListener('click',()=>{
       b.classList.toggle('open');
       b.nextElementSibling.classList.toggle('open');

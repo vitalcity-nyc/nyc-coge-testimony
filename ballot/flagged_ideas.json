@@ -1,0 +1,434 @@
+{
+ "comprehensive-procurement-reform": {
+  "title": "Treat procurement as central and overhaul its rules and oversight",
+  "summary": "Given roughly $40 billion a year in new contracts, proponents argue no efficiency effort can ignore procurement. Proposals include advance published procurement planning, centralized value-for-money reporting through MOCS, emergency-procurement planning, a single holistic view of all vendors to catch duplicate invoices and collusion, aggregating contracts across departments for lower unit prices, and a charter framework for centralized vendor oversight. There is internal tension over the Procurement Policy Board: some want it empowered and expanded, others want a centralized authority that takes precedence over it.",
+  "ballot": {
+   "question": 2,
+   "match": "direct",
+   "summary": "Requires public notice and comment before certain contract awards and puts the citywide procurement data system under a single director.",
+   "sections": "Charter §§ 20-t, 311, 325, 326"
+  },
+  "backers": [
+   {
+    "name": "Charles Diamond",
+    "affiliation": "Special Counsel, Mayor's Office of Contract Services (MOCS)",
+    "quote": "There's no way this commission can end its work without a big part of it being procurement because it is so big."
+   },
+   {
+    "name": "Michael Hickey",
+    "affiliation": "Citizens Committee for New York City (CitizensNYC), Chief of Strategy and Operations",
+    "quote": "We recommend the contract administration be scaled to size and scope of funding so that community-based and hyperlocal partners are no longer excluded from competing because the administrative cost is too damn high."
+   },
+   {
+    "name": "Carl Hammersburg",
+    "affiliation": "SAS Institute, Senior Manager, Government and Healthcare Risk and Fraud",
+    "quote": "Just knowing that five different departments are doing business with the same company and potentially you could aggregate that contract and get a lower unit price can have a huge impact on spending."
+   },
+   {
+    "name": "Louisa Chafee",
+    "affiliation": "New York City Independent Budget Office (Director)",
+    "quote": "Reform the Procurement Policy Board: expand to 10 members... require it to meet four times a year, review procurements, and produce a public annual report"
+   },
+   {
+    "name": "Jerry Hyppolite",
+    "affiliation": "Housing Solutions of New York (Chief of Staff and Head of Government Affairs)",
+    "quote": "Modernize procurement and payment processes — build further on the Passport system so its 'vault' documents... connect across multiple contracts instead of being re-uploaded each time"
+   },
+   {
+    "name": "Phil Wong",
+    "affiliation": "New York City Council Member, 30th District, Queens (Middle Village, Maspeth, Elmhurst, Ridgewood, Glendale, Rego Park)",
+    "quote": "Require cost-effectiveness reviews before signing billion-dollar contracts (e.g. emergency hotel shelters at $352/night) and tie contracts to real outcomes."
+   },
+   {
+    "name": "Zachary Thomas",
+    "affiliation": "Member of the parks committee, Manhattan Community Board 3 (recently moved to Long Island City)",
+    "quote": "Since January 30th, the New York Knicks have played 54 basketball games... Our city's administrative apparatus requires more time to install a single tree guard."
+   },
+   {
+    "name": "Nancy Wang",
+    "affiliation": "Product manager (formerly Microsoft; consulting for the State of Maryland)",
+    "quote": "Let's amend the charter to measure procurement outcomes and make that happen."
+   },
+   {
+    "name": "Diane Savino",
+    "affiliation": "Former New York State Senator (Staten Island); former executive director of the 2024 Charter Revision Commission",
+    "quote": "There's a playground on the street that I live on that I allocated a million dollars, and by the time they were done it was $2 million. It took seven years to rebuild a playground."
+   },
+   {
+    "name": "Debi Rose",
+    "affiliation": "Former New York City Council member (North Shore); staff at Central Family Life Center, board member of Project Hospitality",
+    "quote": "Set a prescriptive timeline for each step of the procurement process, with penalties for agencies that miss it."
+   },
+   {
+    "name": "Karen Pershing",
+    "affiliation": "Community impact officer, Project Hospitality (Staten Island); local clergy",
+    "quote": "I'm often the person in my agency just pressing and pressing to start anyway based on that verbal agreement, and then they say no, you have to have the registered contract."
+   },
+   {
+    "name": "Kristin Miller",
+    "affiliation": "Executive director, Homeless Services United; member of Human Services Council",
+    "quote": "Give MOCS charter authority over procurement, invoicing, and payment, with tools and resources to match."
+   },
+   {
+    "name": "Christopher Yukins",
+    "affiliation": "Lynn David Research Professor in Government Procurement Law, George Washington University Law School",
+    "quote": "Open contracting means that all procurement information is presumptively available all the time and it's machine readable. That's the way of the 21st century."
+   },
+   {
+    "name": "Aidan Rivera",
+    "affiliation": "Case manager, Victims of Crime Advocates program, Central Family Life Center (Staten Island CBO)",
+    "quote": "Secure MOCS funding and approve it for longer periods to avoid delays, with annual reporting on contracts."
+   },
+   {
+    "name": "Tatiana Sabatelli",
+    "affiliation": "Executive director, Nonprofit Staten Island (borough nonprofit membership association)",
+    "quote": "Only 4% of New York City's DYCD-funded after-school programs are located here on Staten Island, and only 3.8% of the city's older-adult centers serve our borough."
+   },
+   {
+    "name": "Elizabeth Brantl",
+    "affiliation": "Government relations coordinator, Center for Justice Innovation",
+    "quote": "New York City's more than 13,000 nonprofit organizations contribute billions of dollars to the local economy and employ nearly one in five workers across the city."
+   },
+   {
+    "name": "Adrienne Abbate",
+    "affiliation": "Executive director, Partnerships for Community Wellness; co-chair, Nonprofit Staten Island Advocacy Committee",
+    "quote": "Working with intermediaries is efficient and timely. These independent organizations streamline the procurement process from contract execution to payment to close out."
+   },
+   {
+    "name": "Edwin Hernandez",
+    "affiliation": "Resident; founder and CEO of the nonprofit Building Purpose, Staten Island",
+    "quote": "Improve the procurement process for the nonprofit sector."
+   },
+   {
+    "name": "Lincoln Restler",
+    "affiliation": "New York City Council member (District 33, Brooklyn); chair of the contracts committee",
+    "quote": "Have the Mamdani administration implement Local Law 169 to set crisp procurement timelines instead of automating report sunsets."
+   },
+   {
+    "name": "Brendan Griffith",
+    "affiliation": "New York City Central Labor Council, AFL-CIO, president",
+    "quote": "Strengthen procurement and contract oversight to root out duplicative work and unnecessary outside consulting."
+   },
+   {
+    "name": "Michelle Jackson",
+    "affiliation": "Human Services Council, executive director (represents over 180 human service providers)",
+    "quote": "Recommend a future charter revision commission focused solely on procurement reform."
+   }
+  ]
+ },
+ "speed-street-safety-redesigns": {
+  "title": "Speed up tested street-safety redesigns and expand automated enforcement",
+  "summary": "Standard, already-tested street safety redesigns (protected bike lanes, bus lanes, daylighting, sidewalk expansions) take years because of additional outreach rounds, duplicative FDNY objection requirements and slow DDC delivery. Proponents want shorter timelines, a sensible deadline for or removal of firehouse comment requirements, traffic enforcement returned to DOT, and authority for the city to expand speed cameras and automated enforcement without repeatedly begging the state. One argues Vision Zero has failed after a decade because of these delays, which cost time, money and lives.",
+  "ballot": {
+   "question": 3,
+   "match": "direct",
+   "summary": "Streamlines the notification and presentation requirements that slow major transportation projects, and changes how the city acquires office space and disposes of property.",
+   "sections": "Charter §§ 2903, 197-e, 384, new 824; § 195 repealed"
+  },
+  "backers": [
+   {
+    "name": "Corey Hannigan",
+    "affiliation": "Transportation Alternatives, Government Relations Director for Safe Streets",
+    "quote": "When a protected bike lane is proposed and presented to a community, the DOT has already conducted months of outreach, analysis, and research... From there, additional months of outreach and delays cost time, money, and lives."
+   },
+   {
+    "name": "Pedro Rodriguez",
+    "affiliation": "Resident; founder/organizer of Neighbors for a Safer Austin Street; Queens Community Board 6 member; street safety advocate (Forest Hills)",
+    "quote": "Let's be honest, vision zero has been a failure. He's been active for about 10 years and we are nowhere near zero."
+   },
+   {
+    "name": "Anna Berlanga",
+    "affiliation": "Bronx and Uptown Organizer, Transportation Alternatives",
+    "quote": "Too many life saving designs and infrastructure solutions are put on ice or watered down before they're built and some neighborhoods have had hardly any safety infrastructure at all."
+   },
+   {
+    "name": "Rose Uscianowski",
+    "affiliation": "Community organizer, Transportation Alternatives",
+    "quote": "A city needs to simplify the bureaucratic and political processes that slow down lifesaving infrastructure redesigns."
+   },
+   {
+    "name": "Emily Jacobi",
+    "affiliation": "Transportation Alternatives, Manhattan organizer",
+    "quote": "Every traffic fatality or serious injury is a design, infrastructure or policy failure."
+   },
+   {
+    "name": "Hindy Schachter",
+    "affiliation": "Families for Safe Streets member",
+    "quote": "Let's have legal procedures that allow us to forestall the death before it happens."
+   },
+   {
+    "name": "Darien Glasser",
+    "affiliation": "Resident; street-safety advocate (Financial District)",
+    "quote": "Every delay costs real physical dollars and in some cases New Yorkers their lives."
+   },
+   {
+    "name": "Ira Gershenhorn",
+    "affiliation": "Riverside Park Conservancy volunteer (35 years)",
+    "quote": "Replace the Henry Hudson Parkway highway patrol unit with speed cameras enforcing the 50 mph limit."
+   },
+   {
+    "name": "Edgar Alfonso",
+    "affiliation": "Resident of Forest Hills/Rego Park and parent; chairs the transportation committee of Queens Community Board 6 but testified in a personal capacity",
+    "quote": "We're putting families at risk unnecessarily."
+   },
+   {
+    "name": "May Frank",
+    "affiliation": "Transportation Alternatives, Queens organizer",
+    "quote": "We are not reinventing the wheel, folks. We just need to make it turn faster."
+   },
+   {
+    "name": "Kevin Lera",
+    "affiliation": "Make McGuinness Safe, street safety advocate; fourth-generation Greenpoint resident",
+    "quote": "I blame a system that prioritizes inertia over action."
+   },
+   {
+    "name": "Eric McClure",
+    "affiliation": "Streets PAC, executive director; chair of Brooklyn Community Board 6",
+    "quote": "Community boards don't vote on whether we upgrade a sewer or water main, and they shouldn't be hamstringing implementation of projects that we know will save lives."
+   },
+   {
+    "name": "Steve Flack",
+    "affiliation": "Resident, fourth-generation New Yorker and lifelong Brooklyn resident; street safety advocate",
+    "quote": "The only thing slower than making these changes is the M42 bus."
+   },
+   {
+    "name": "Laura Shepard",
+    "affiliation": "Resident",
+    "quote": "Put street safety redesigns in the hands of experts and reform the major transportation law."
+   },
+   {
+    "name": "Merrill Labour",
+    "affiliation": "Resident of Greenpoint, Brooklyn; longtime North Brooklyn street safety advocate",
+    "quote": "DOT spends more resources on paperwork instead of making our streets the envy of the world."
+   },
+   {
+    "name": "Rex Tai",
+    "affiliation": "New York City Democratic Socialists of America member (Afro-Socialist and Socialists of Color Caucus); internal medicine physician at NYC Health + Hospitals",
+    "quote": "Preventive street safety infrastructure keeps neighborhood residents alive... rather than being struck by automobiles."
+   },
+   {
+    "name": "Alex Moreno",
+    "affiliation": "Brooklyn resident; street safety activist and traffic crash survivor",
+    "quote": "It's New Yorkers of color and poor New Yorkers who disproportionately bear these impacts."
+   },
+   {
+    "name": "Lourdes Blanco",
+    "affiliation": "Resident; NYPD school crossing guard testifying on her own behalf (originally from Venezuela)",
+    "quote": "Road safety education in schools... the goal would be to create a new culture from childhood."
+   }
+  ]
+ },
+ "consolidate-and-speed-permitting": {
+  "title": "Consolidate and speed up permitting across agencies",
+  "summary": "Permitting is a fragmented maze across DOB, FDNY, DEP, DOT, SAPO and others, with serial back-and-forth that delays projects and inflates costs. Proponents want consolidation and acceleration: a single permitting authority or interface, all objections delivered at once, phased and concurrent reviews, a single multilingual permitting app/web account for small businesses, and integrated reporting so the same documents aren't submitted repeatedly. They argue delay is itself a form of government inefficiency that burdens homeowners, small developers and industrial businesses.",
+  "ballot": {
+   "question": 4,
+   "match": "partial",
+   "summary": "Consolidates construction permitting and inspection authority in the Department of Buildings, including curb-cut and subsurface work.",
+   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301"
+  },
+  "backers": [
+   {
+    "name": "Martha Snow",
+    "affiliation": "Urban Design Forum (Director of Community Design)",
+    "quote": "Activating a public space means navigating a fragmented maze... with no uniform process and no single point of accountability."
+   },
+   {
+    "name": "Robert Brunotte",
+    "affiliation": "Construction & General Building Laborers' Local 79 (LIUNA)",
+    "quote": "No reform should create a fast pass for exploitation... Jumping the line on special consideration should only be available to firms committed to strong labor standards."
+   },
+   {
+    "name": "Yadira Rodriguez",
+    "affiliation": "Construction consultant, Bronx business owner",
+    "quote": "the financial burden created by the permitting fees, violation penalties, and the lengthy approval process by the numerous agencies such as Do and Oath ... their fees are incredible crazy."
+   },
+   {
+    "name": "Charles Dilone",
+    "affiliation": "BACH Network (Industrial Business Service Provider for the Bronx) [org name unverified]",
+    "quote": "Streamline permitting across agencies, strengthen protections for IBZ-zoned land"
+   },
+   {
+    "name": "Pedro Suarez",
+    "affiliation": "The Hub / Third Avenue Business Improvement District, South Bronx (Executive Director)",
+    "quote": "there should be an app or web account to consolidate all of the city's permitting and licensing for small businesses ... in multiple languages is some low-hanging fruit."
+   },
+   {
+    "name": "Jerry Hyppolite",
+    "affiliation": "Housing Solutions of New York (Chief of Staff and Head of Government Affairs)",
+    "quote": "there's a vault section but that vault section doesn't connect back to your contract. So if you have multicontracts you still have to go to the vault versus ... it can cut across the other contracts."
+   },
+   {
+    "name": "Sadio Bah",
+    "affiliation": "Bar Real Estate (broker/owner) and City Builder Development Corporation (owner); buy/fix/flip",
+    "quote": "Why don't you tell me what you need ... one time when I submit it to you, you don't have to make me go back and forth."
+   },
+   {
+    "name": "Annemarie Gray",
+    "affiliation": "Open New York, executive director (statewide pro-housing grassroots advocacy group)",
+    "quote": "We really must take a more well-rounded view of neighborhood character... so too are the New Yorkers that live in them."
+   },
+   {
+    "name": "Robert Brown",
+    "affiliation": "New York City resident, longtime taxpayer; identifies as independent (younger-generation voter)",
+    "quote": "Cut red tape and bureaucracy, without sacrificing safety, to build more housing and infrastructure that all citizens can access."
+   },
+   {
+    "name": "Miesha Smith",
+    "affiliation": "Deputy Manhattan Borough President (for Brad Hoylman-Sigal)",
+    "quote": "Create a central permitting hub or at least a centralized online portal to consolidate the 40+ permits across 15 agencies an affordable building can require."
+   },
+   {
+    "name": "Robert \"Bob\" Avaltroni",
+    "affiliation": "Environmental Contractors Association; former city commissioner",
+    "quote": "Where it used to take three weeks to get approvals, it now takes three to six months before something can start."
+   },
+   {
+    "name": "Camelia Tepelus",
+    "affiliation": "Morris Park Business Improvement District (Bronx), executive director",
+    "quote": "Improve inter-agency coordination so BIDs are not forced to broker permits for public events across siloed agencies, and stop the delays at SBS in creating new BIDs."
+   },
+   {
+    "name": "Phil Wong",
+    "affiliation": "New York City Council member (District 30, Queens)",
+    "quote": "Streamlining must not become a shortcut that bypasses environmental and community protections for larger, higher-impact projects."
+   },
+   {
+    "name": "Misha Nonnen",
+    "affiliation": "New York City Criminal Justice Agency, chief program officer (Queens supervised release provider)",
+    "quote": "Speed permitting so transitional and supportive housing comes online faster."
+   }
+  ]
+ },
+ "fix-outdoor-dining-revocable-consent": {
+  "title": "Run outdoor dining on DOT permits, not revocable consents",
+  "summary": "The outdoor dining (Dining Out NYC) program is bogged down because it runs through revocable consents, which add months and high publication and consent fees. Proponents want a charter change so outdoor dining is administered through DOT permits and licenses, the two separate sidewalk and roadway processes consolidated, the program made year-round, duplicative reviews and notification requirements eased, and consent/publication fees capped or eliminated. They argue this single change would speed licensing by months.",
+  "ballot": {
+   "question": 1,
+   "match": "direct",
+   "summary": "Takes sidewalk cafes out of the revocable-consent process, cuts City Record notice from 15 days to 6 and drops the paid newspaper-ad requirement.",
+   "sections": "Charter §§ 364, 371, 372, 375"
+  },
+  "backers": [
+   {
+    "name": "Jackson Chabot",
+    "affiliation": "Open Plans (Director of Public Space Advocacy)",
+    "quote": "We urge the commission to recommend charter changes that would allow outdoor dining to be administered through the Department of Transportation's permits and licenses rather than revocable consents."
+   },
+   {
+    "name": "Corey Hannigan",
+    "affiliation": "Transportation Alternatives, Government Relations Director for Safe Streets",
+    "quote": "Streamline the outdoor dining application; eliminate duplicative street-bed and sidewalk dining processes; make the program year-round"
+   },
+   {
+    "name": "Andrew Rigie",
+    "affiliation": "New York City Hospitality Alliance (executive director)",
+    "quote": "removing the revocable consent requirement from the outdoor dining licensing process ... by removing the revocable consent you will speed up the process by months and months and months."
+   },
+   {
+    "name": "Pei Wei",
+    "affiliation": "Co-owner of Zazza restaurant (Southeast Asian community, Queens); board director of a NYC restaurant group",
+    "quote": "Outdoor dining actually largely become a luxury for the well-funded restaurant in a wealthy neighborhood."
+   },
+   {
+    "name": "Helen Zhang",
+    "affiliation": "Owner of Ziggy's Roman Cafe, a full-service restaurant at 15 Main Street, Dumbo, Brooklyn (testified online)",
+    "quote": "I spent five months fighting for the right to put tables outside my front door. Please, I would love to make sure no one else does the same."
+   },
+   {
+    "name": "Michael Kelly",
+    "affiliation": "Outdoor-dining permit expediter who filed 400+ sidewalk, roadway and closed-cafe applications for clients (testified online)",
+    "quote": "The main complaint is that they paid the fee and cannot operate."
+   },
+   {
+    "name": "Megan Rickerson",
+    "affiliation": "Owner of Someday Bar in Boerum Hill, Brooklyn (testified online)",
+    "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed."
+   },
+   {
+    "name": "Lincoln Restler",
+    "affiliation": "New York City Council member (District 33, Brooklyn); chair of the contracts committee",
+    "quote": "Restore year-round outdoor dining through pending council legislation rather than charter changes that could jeopardize it."
+   },
+   {
+    "name": "Laura Shepard",
+    "affiliation": "Resident",
+    "quote": "Eliminate the outdoor dining publishing requirement that forces businesses to buy an ~$800 print newspaper ad."
+   },
+   {
+    "name": "Gail Brewer",
+    "affiliation": "New York City Council member (Upper West Side, Clinton and part of Central Park, Manhattan)",
+    "quote": "I didn't know what the hell revocable consent is, nor does anybody else."
+   }
+  ]
+ },
+ "enforceable-rainy-day-fund-and-honest-budgeting": {
+  "title": "Put enforceable Rainy Day Fund rules and honest baselines in the charter",
+  "summary": "Create binding charter rules for the city's Revenue Stabilization (Rainy Day) Fund: mandatory formula deposits in good times, withdrawals restricted to recessions and emergencies, a target size (around 16%), and public reporting. Proponents pair this with honest multi-year budget baselines. The goal is to harden fiscal discipline so reserves are actually built and preserved rather than spent down.",
+  "ballot": {
+   "question": 5,
+   "match": "direct",
+   "summary": "Writes rules for the Revenue Stabilization (rainy day) Fund into the charter.",
+   "sections": "Charter § 1528"
+  },
+  "backers": [
+   {
+    "name": "Andrew Rein",
+    "affiliation": "Citizens Budget Commission (president)",
+    "quote": "Create charter rules to strengthen the rainy day fund: mandate deposits during good times, restrict withdrawals to recessions/emergencies, and set target-size policy"
+   },
+   {
+    "name": "Mark Levine",
+    "affiliation": "New York City Comptroller",
+    "quote": "binding Rainy Day Fund (Revenue Stabilization Fund) charter rules"
+   },
+   {
+    "name": "Phil Wong",
+    "affiliation": "New York City Council Member, District 30 (Queens)",
+    "quote": "honest multi-year budget baselines + enforceable Rainy Day Fund rules"
+   },
+   {
+    "name": "Amanda Page-Hoongrajok",
+    "affiliation": "Assistant Professor of Economics, Fashion Institute of Technology (FIT)",
+    "quote": "You could have painful spending cuts happening while money is just sitting in a reserve and you're not able to use it."
+   },
+   {
+    "name": "Martin Bernstein",
+    "affiliation": "Economist (testifying on revenue stabilization fund design)",
+    "quote": "Tying the government's hands can also have real economic risks, even though these rules are certainly well-intentioned."
+   },
+   {
+    "name": "J.W. Mason",
+    "affiliation": "Associate Professor of Economics, John Jay College, CUNY (former policy director, Working Families Party)",
+    "quote": "It's a little bit of a fantasy to think that you can avoid... you actually do need to have responsible people in office."
+   }
+  ]
+ },
+ "designate-dob-single-permitting-authority": {
+  "title": "Make DOB the single permitting and inspection authority for construction",
+  "summary": "Designate the Department of Buildings as the single permitting and inspection authority for all residential and commercial construction, with FDNY, DEP and others keeping their substantive standards but DOB administering them under one application and one inspection sequence. Proponents also want DOB empowered to update construction codes by rule rather than by City Council local law, to keep technical updates from being slowed and politicized, and want clean-energy permitting consolidated at DEP. The argument: a new residential building takes 18 months to permit and four years to occupancy, time spent overpaying rent or waiting in shelter.",
+  "ballot": {
+   "question": 4,
+   "match": "direct",
+   "summary": "Consolidates construction permitting and inspection authority in the Department of Buildings, including curb-cut and subsurface work.",
+   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301"
+  },
+  "backers": [
+   {
+    "name": "Catherine Vaughan",
+    "affiliation": "Abundance New York (Co-Founder and Executive Director); Brooklyn Community Board 6 member (Park Slope)",
+    "quote": "A new residential building takes 18 months to permit and four years from filing to occupancy. Time spent paying too much rent or waiting in a shelter."
+   },
+   {
+    "name": "Laeo Crnkovic-Rubsamen",
+    "affiliation": "Resident (lifelong New Yorker; housing affordability advocate)",
+    "quote": "The city government needs to get out of its own way and let New York build."
+   },
+   {
+    "name": "Miesha Smith",
+    "affiliation": "Deputy Manhattan Borough President (for Brad Hoylman-Sigal)",
+    "quote": "Vest the Department of Buildings with rulemaking authority to update the building code through notice-and-comment rather than the council's calendar."
+   }
+  ]
+ }
+}
