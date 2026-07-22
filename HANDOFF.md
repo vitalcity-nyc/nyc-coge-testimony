@@ -80,38 +80,11 @@ Because this page is interactive (theme accordions, by-idea/by-person toggle, fi
 
 Embed URL: https://vitalcity-nyc.github.io/nyc-coge-testimony/?embed=1
 
-Paste into a Ghost **HTML card**:
+The canonical card lives in **`ghost-embed.html`** in this repo — copy that file's contents verbatim into a Ghost **HTML card**. It clips the embed to 2,400px inside the article (hero + ranked chart + filters), fades the cut, and offers an "Expand the full catalog" toggle plus an "Open full screen" link. Verified 2026-07-22 in a simulated article.
 
-```html
-<!-- COGE testimony catalog — Vital City embed -->
-<div class="vc-embed-coge" style="margin:1.5em 0;">
-  <div style="position:relative;width:100%;border:1px solid #111;overflow:hidden;">
-    <iframe
-      class="vc-embed-coge__iframe"
-      src="https://vitalcity-nyc.github.io/nyc-coge-testimony/?embed=1"
-      title="Testimony to the Commission on Government Efficiency, by idea"
-      loading="lazy" allow="fullscreen" scrolling="no"
-      style="display:block;width:100%;height:1200px;border:0;background:transparent;"
-    ></iframe>
-  </div>
-  <p style="font-size:0.8em;color:#666;margin:0.5em 0 0;text-align:center;">
-    Tap a theme to open it.
-    <a href="https://vitalcity-nyc.github.io/nyc-coge-testimony/" target="_blank" rel="noopener">Open full screen ↗</a>
-  </p>
-  <script>
-    (function () {
-      window.addEventListener('message', function (e) {
-        var d = e && e.data;
-        if (!d || d.type !== 'vc-embed-height' || d.id !== 'nyc-coge-testimony') return;
-        var f = document.querySelector('.vc-embed-coge__iframe');
-        if (f && typeof d.height === 'number') f.style.height = d.height + 'px';
-      });
-    })();
-  </script>
-</div>
-```
+**The height ratchet (fixed 2026-07-22).** `postHeight()` originally measured `documentElement.scrollHeight`, which is floored by the viewport — and inside an auto-sized iframe the viewport *is* whatever height the parent last set. The height could therefore only grow: collapsing a theme never shrank the frame, and a reader who opened one theme was left with 20,000px of white space. It now measures `document.body.getBoundingClientRect().height`. Verified open/close cycle: 3450 -> 7914 -> 3450. **Do not go back to `scrollHeight` here.**
 
-The `1200px` is only a fallback before the first height message. Keep exactly **one** border — on the wrapper div, not the iframe (embed mode ships none). The standalone URL is unaffected; both modes share the same file, so test both after changing either.
+Keep exactly **one** border, on the wrapper div, not the iframe (embed mode ships none). The standalone URL is unaffected; both modes share the same file, so test both after changing either. Note that GitHub Pages serves `index.html` with a ~10-minute cache, so a freshly deployed embed fix may not appear in an iframe immediately.
 
 ## Editorial rules (from Josh)
 
