@@ -250,8 +250,13 @@ if(new URLSearchParams(location.search).get('embed')==='1'){
   document.documentElement.classList.add('embed');
   var __lastH=0;
   var postHeight=function(){
-    var h=Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
-    if(h===__lastH) return; __lastH=h;
+    // Measure the BODY box, not documentElement.scrollHeight: scrollHeight is
+    // floored by the viewport, and inside an auto-sized iframe the viewport IS
+    // whatever height the parent last set. Using it makes the height a ratchet
+    // that can only grow — collapsing an accordion would never shrink the frame.
+    var h=Math.ceil(document.body.getBoundingClientRect().height);
+    if(!(h>0)) h=document.body.scrollHeight;
+    if(Math.abs(h-__lastH)<2) return; __lastH=h;
     parent.postMessage({type:'vc-embed-height', id:'nyc-coge-testimony', height:h}, '*');
   };
   window.addEventListener('load', postHeight);
