@@ -249,6 +249,18 @@ html.embed .hero h1{display:none;}
 html.embed .hero .dek{display:none;}
 html.embed .hero .wrap{padding-top:20px;}
 html.embed .hero .kicker{margin-bottom:10px;}
+/* embed-only masthead: the host article's headline is about the story, not the
+   tool, so the tool needs to name itself and offer a way out to full screen */
+.embed-head{display:none;}
+html.embed .embed-head{display:flex;align-items:flex-start;justify-content:space-between;
+  gap:18px;flex-wrap:wrap;margin:0 0 18px;padding-bottom:16px;border-bottom:2px solid var(--vc-black);}
+html.embed .embed-head h2{font-family:var(--serif);font-weight:300;font-size:clamp(26px,3.6vw,40px);
+  line-height:1.06;letter-spacing:-.01em;margin:0;max-width:720px;}
+.embed-full{display:inline-block;background:var(--vc-orange);color:var(--vc-white);
+  font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  text-decoration:none;padding:11px 16px;border-radius:4px;border:2px solid var(--vc-black);
+  white-space:nowrap;flex:none;}
+.embed-full:hover{background:var(--vc-black);color:var(--vc-white);}
 /* the orange footer band is page chrome — the host article supplies that context */
 html.embed footer{display:none;}
 /* fixed-position inside an auto-height iframe would pin to the very bottom of the
@@ -297,6 +309,10 @@ if(new URLSearchParams(location.search).get('embed')==='1'){
 <header class="hero"><div class="wrap">
   <div class="kicker">Commission on Government Efficiency &middot; testimony by idea</div>
   <h1>Testimony to the Commission on Government Efficiency, by idea</h1>
+  <div class="embed-head">
+    <h2>Testimony to the Commission on Government Efficiency, by idea</h2>
+    <a class="embed-full" href="https://vitalcity-nyc.github.io/nyc-coge-testimony/" target="_blank" rel="noopener">Expand to full screen &#8599;</a>
+  </div>
   <p class="dek">A catalog of public testimony to the Commission on Government Efficiency (COGE), New York City's 2026 charter revision commission, chaired by Patrick Gaspard. Testimony is grouped by idea rather than by speaker, so proposals raised by more than one person are visible at a glance. Each backer links to their testimony &mdash; the moment in the hearing video, or a written submission where one exists.</p>
   <p class="dek" style="font-size:16px;color:var(--vc-charcoal);">Coverage spans all five first-round borough hearings &mdash; Manhattan, the Bronx, Brooklyn, Queens and Staten Island &mdash; plus all five second-round borough hearings, cataloging the __NUNIQ__ members of the public who testified (commissioners and staff aside) and the __NIDEAS__ shared ideas they raised &mdash; both rounds of borough hearings are now complete. A written-comment period runs into mid-July 2026, and this tool will be updated as that testimony comes in. COGE's proposals are due to reach voters on the November 2026 ballot.</p>
   <p class="byline">__NIDEAS__ ideas &middot; __NUNIQ__ witnesses &middot; 10 hearings &middot; ~26 hours reviewed</p>
