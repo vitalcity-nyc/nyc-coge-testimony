@@ -307,7 +307,7 @@
     "quote": "Segregating unaffiliated voters, preventing them from meaningful participation in the primaries, is inherently unequal."
    },
    {
-    "name": "Michelle Napp",
+    "name": "Michelle Knap",
     "name_confidence": "low",
     "affiliation": "Repair Restore; textual analyst",
     "role_type": "Advocacy org",
@@ -547,13 +547,7 @@
    "question": 2,
    "match": "direct",
    "summary": "Requires public notice and comment before certain contract awards and puts the citywide procurement data system under a single director.",
-   "sections": "Charter §§ 20-t, 311, 325, 326",
-   "compare": {
-    "headline": "The amendment centralizes procurement data under one director and loosens public-notice rules, but skips the timelines and outcome measures witnesses wanted.",
-    "delivers": "It gives the city's chief procurement officer, who runs the Mayor's Office of Contract Services, formal charter control over the citywide contract data system, including its format and policy, which echoes calls to give that office real authority and to standardize contract information. It lets the Procurement Policy Board scale reporting requirements by contract size, industry or small-business status, close to the ask that paperwork be sized to the grant so small community groups can compete, and it requires the board to meet at least quarterly. It also unlocks a bottleneck by allowing the mayor's sign-off on certain contracts to be handed down to an agency's chief contracting officer, with that agency head's consent, where the charter previously barred any such delegation.",
-    "falls_short": "Nothing in the text sets the prescriptive step-by-step procurement deadlines, or penalties for agencies that miss them, that witnesses repeatedly demanded, and nothing addresses invoicing, payment or the years-long registration delays nonprofits described. It does not require cost-effectiveness or value-for-money review before large contracts, does not mandate outcome measurement or a public annual report on procurement, does not expand the Procurement Policy Board to 10 members as the Independent Budget Office director proposed and does nothing to build the single, cross-agency view of vendors that would let the city spot duplicate invoices or aggregate buying.",
-    "goes_beyond": "It rolls back existing public input that no witness asked to cut: agencies would no longer publish a draft plan for client-services contracting or hold the annual public hearing on it, and the fixed $100,000 threshold that triggers public notice and comment on noncompetitive contracts would be replaced by whatever dollar figure the Procurement Policy Board sets by rule, with the comment period allowed to shrink to seven days and materially identical renewals up to $10 million exempt entirely. Those notice changes would not take effect until Oct. 1, 2030."
-   }
+   "sections": "Charter §§ 20-t, 311, 325, 326"
   }
  },
  {
@@ -918,13 +912,7 @@
    "question": 3,
    "match": "direct",
    "summary": "Streamlines the notification and presentation requirements that slow major transportation projects, and changes how the city acquires office space and disposes of property.",
-   "sections": "Charter §§ 2903, 197-e, 384, new 824; § 195 repealed",
-   "compare": {
-    "headline": "It loosens two brakes on street redesigns but skips speed cameras, enforcement powers and deadlines, and adds unrelated real estate rules.",
-    "delivers": "The amendment goes at two of the specific delays witnesses named. It rewrites the city's \"major transportation projects\" law so that when the Transportation Department consults another agency, that agency's head is the only person who has to be consulted, which ends the practice of individual firehouses signing off on bike lane and bus lane plans, and it says a failure to consult does not void the project. It also writes a broad definition of the public safety exception in that law: if the commissioner finds a risk of serious injury based on crash rates or any other safety consideration, the project qualifies for immediate implementation and the required council and community board notice and presentation can be made afterward on a best efforts basis.",
-    "falls_short": "Nothing here touches automated enforcement, so the requests for more speed cameras and for the city to stop asking Albany for permission go unanswered, and Ira Gershenhorn's specific ask for cameras on the Henry Hudson Parkway is outside what a charter amendment can grant. It also does not move traffic enforcement from the Police Department back to Transportation, does not set any deadline for firehouse or agency comment, and does not impose delivery timelines on the Design and Construction Department. The underlying notice and presentation requirements for ordinary projects stay in place; only the safety exception widens, and how much that speeds up a typical redesign depends on how aggressively the commissioner invokes it.",
-    "goes_beyond": "Most of the text has nothing to do with streets: it repeals the charter section governing city acquisition of office space and replaces it with a notice-only procedure, exempts city land sales under 10,000 square feet and sales of landmark development rights from full land use review, and lets the mayor sell undevelopable slivers of city land directly to neighboring owners at appraised value without an auction starting Dec. 31, 2030. No street safety witness asked for any of that."
-   }
+   "sections": "Charter §§ 2903, 197-e, 384, new 824; § 195 repealed"
   }
  },
  {
@@ -1072,13 +1060,7 @@
    "question": 4,
    "match": "partial",
    "summary": "Consolidates construction permitting and inspection authority in the Department of Buildings, including curb-cut and subsurface work.",
-   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301",
-   "compare": {
-    "headline": "The amendment orders a shared permit-filing portal by 2029 and moves waterfront permits to Buildings, but leaves each agency's permits intact.",
-    "delivers": "It takes a real step toward the \"one front door\" witnesses described: a new section 645(e) requires the Department of Buildings, the Department of Environmental Protection, the Fire Department, the Department of Transportation and other permit-issuing agencies to build and accept applications through a single construction-permit system, to be established by Dec. 1, 2029. It also does one true consolidation, stripping the \"exclusive\" permitting, inspection and zoning-enforcement powers over wharves, piers, docks and bulkheads from the agency that runs the waterfront (Charter section 1301) and handing construction and demolition on waterfront property to Buildings under a new section 643(8), with existing permits and certificates carried over so no one has to refile.",
-    "falls_short": "It does not make Buildings the single permitting and inspection authority that witnesses asked for: the Fire Department, environmental protection and transportation keep issuing their own permits and running their own inspections, and nothing in the text requires one application, one inspection sequence or all objections delivered at once. The shared system is also softer than it looks, since it is \"subject to appropriations\" and the Buildings commissioner can push the 2029 deadline back to whatever later date he or she \"determines may be feasible,\" with no penalty for missing it. Nothing addresses the other asks: no rulemaking power for Buildings to update the building code without a Council local law, no change to permit fees or violation penalties, no multilingual small-business licensing portal and nothing on events, outdoor dining or business improvement district permits, since the new system covers new construction only.",
-    "goes_beyond": "The waterfront transfer, which is the amendment's biggest substantive change, was not something any of these witnesses raised, and it is delayed until Dec. 31, 2030 or until a waterfront construction code exists, whichever comes first. The amendment also rewrites Buildings' internal management in ways no testimony asked for, letting the commissioner deputize additional architect or engineer deputy commissioners and replacing the five borough superintendents with borough commissioners who can be given citywide powers."
-   }
+   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301"
   }
  },
  {
@@ -1309,7 +1291,7 @@
   "title": "Run outdoor dining on DOT permits, not revocable consents",
   "category": "Permitting & licensing",
   "summary": "The outdoor dining (Dining Out NYC) program is bogged down because it runs through revocable consents, which add months and high publication and consent fees. Proponents want a charter change so outdoor dining is administered through DOT permits and licenses, the two separate sidewalk and roadway processes consolidated, the program made year-round, duplicative reviews and notification requirements eased, and consent/publication fees capped or eliminated. They argue this single change would speed licensing by months.",
-  "proponent_count": 9,
+  "proponent_count": 10,
   "hearings": [
    "Manhattan",
    "Bronx",
@@ -1381,6 +1363,15 @@
     "quote": "If we're waiting six plus months to get going, think about how many restaurants and bars just missed out... So much revenue was lost from small businesses that people really, really needed."
    },
    {
+    "name": "Lincoln Restler",
+    "name_confidence": "high",
+    "affiliation": "New York City Council member (District 33, Brooklyn); chair of the contracts committee",
+    "role_type": "Elected official",
+    "hearing": "Queens (Round 2)",
+    "url": "https://www.youtube.com/watch?v=udE7QLZcBZI&t=433s",
+    "quote": "Restore year-round outdoor dining through pending council legislation rather than charter changes that could jeopardize it."
+   },
+   {
     "name": "Laura Shepard",
     "name_confidence": "high",
     "affiliation": "Resident",
@@ -1402,14 +1393,8 @@
   "ballot": {
    "question": 1,
    "match": "direct",
-   "summary": "Keeps sidewalk cafes as revocable consents but folds them into the charter's general process: the public hearing becomes optional, City Record notice drops from 15 days to six and the paid newspaper ad is dropped.",
-   "sections": "Charter §§ 364, 371, 372, 375",
-   "compare": {
-    "headline": "The amendment strips out hearings, ads and waiting time from the revocable consent process but keeps outdoor dining inside it.",
-    "delivers": "It attacks the delays witnesses complained about: the mandatory public hearing before a revocable consent is approved becomes optional at the agency's discretion, City Record notice drops from 15 days to six and the requirement that the applicant buy repeat ads in a daily and a weekly newspaper -- the roughly $800 print notice Laura Shepard singled out -- is deleted outright. It also lets a consent take effect before the comptroller finishes registering the agreement and says an inadvertent missed notice no longer voids an approval, both of which remove common sources of dead time.",
-    "falls_short": "It does not do the central thing Open Plans, the Hospitality Alliance and others asked for: outdoor dining stays a revocable consent rather than moving to a Department of Transportation permit or license, and the amendment in fact routes sidewalk cafes back through the charter's general revocable consent chapter instead of the administrative code sections that now govern Dining Out NYC. Nothing here merges the separate sidewalk and roadway applications, makes the program year-round or caps or eliminates the consent fees themselves -- only the newspaper ad cost goes away.",
-    "goes_beyond": "The changes apply to every revocable consent the city grants, not just restaurant seating, so sheds, pipes, vaults and other private uses of the sidewalk also lose the guaranteed hearing and the 15-day notice; community boards, borough presidents and council members can also sign blanket waivers giving up notice for whole categories of consents, and the mayor gains authority to hand off charter powers over these agreements to agency heads."
-   }
+   "summary": "Takes sidewalk cafes out of the revocable-consent process, cuts City Record notice from 15 days to 6 and drops the paid newspaper-ad requirement.",
+   "sections": "Charter §§ 364, 371, 372, 375"
   }
  },
  {
@@ -1652,8 +1637,8 @@
     "quote": "When we buy or build software that only a few people can ever improve or look at because it's closed source, then that reduces efficiency."
    },
    {
-    "name": "Adria Quinones",
-    "name_confidence": "high",
+    "name": "Adria Konz",
+    "name_confidence": "medium",
     "affiliation": "MetroPlus Health (NYC Health + Hospitals subsidiary) IT worker; lifelong New Yorker",
     "role_type": "Resident",
     "hearing": "Manhattan (Round 2)",
@@ -1878,13 +1863,7 @@
    "question": 5,
    "match": "direct",
    "summary": "Writes rules for the Revenue Stabilization (rainy day) Fund into the charter.",
-   "sections": "Charter § 1528",
-   "compare": {
-    "headline": "The amendment writes rainy day fund rules into the charter but sets a lower target and leaves the formula to City Hall.",
-    "delivers": "It moves the Revenue Stabilization Fund from a purely optional savings account into the charter with a numeric target: reserves of at least 12 percent of the prior year's tax revenue, with the city required to deposit money whenever it falls below that line. It requires the Office of Management and Budget, consulting the comptroller, to publish a deposit methodology by May 1, 2027, after a City Record notice, a 30-day comment period and a public hearing, with copies to the Council speaker, the Independent Budget Office, the state comptroller and the Financial Control Board, refreshed at least every four years. It also puts the first limit on raiding the fund: taking more than half of it in a year requires the mayor to certify a compelling fiscal need such as a recession, falling revenue, a disaster or a declared emergency.",
-    "falls_short": "The target is 12 percent, not the roughly 16 percent proponents such as the Citizens Budget Commission urged, and it counts other existing reserve funds toward the total rather than requiring that much in the rainy day fund itself. The deposit mandate is only as binding as the methodology the mayor's own budget office writes, the amount is left to that document and no deposit is required until the fiscal year beginning July 1, 2027. Withdrawals are not actually restricted to recessions and emergencies: up to 50 percent of the fund can be drawn in any year through an ordinary budget modification for any reason, and above that the mayor certifies the need himself with no outside sign-off. Nothing in the text addresses the honest multi-year budget baselines that Council Member Wong and others paired with the fund rules, and there is no recurring public report on the fund's balance.",
-    "goes_beyond": "Letting other city reserve funds count toward the 12 percent target was not something witnesses asked for and it reduces how much new saving the mandate actually forces. The mayoral certification path for large withdrawals also creates an escape hatch broader than the recession-and-emergency trigger proponents described, which partly answers the economists who warned against tying the city's hands."
-   }
+   "sections": "Charter § 1528"
   }
  },
  {
@@ -2878,13 +2857,7 @@
    "question": 4,
    "match": "direct",
    "summary": "Consolidates construction permitting and inspection authority in the Department of Buildings, including curb-cut and subsurface work.",
-   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301",
-   "compare": {
-    "headline": "The amendment orders a shared permit-filing portal by 2029 and moves waterfront permits to Buildings, but leaves each agency's permits intact.",
-    "delivers": "It takes a real step toward the \"one front door\" witnesses described: a new section 645(e) requires the Department of Buildings, the Department of Environmental Protection, the Fire Department, the Department of Transportation and other permit-issuing agencies to build and accept applications through a single construction-permit system, to be established by Dec. 1, 2029. It also does one true consolidation, stripping the \"exclusive\" permitting, inspection and zoning-enforcement powers over wharves, piers, docks and bulkheads from the agency that runs the waterfront (Charter section 1301) and handing construction and demolition on waterfront property to Buildings under a new section 643(8), with existing permits and certificates carried over so no one has to refile.",
-    "falls_short": "It does not make Buildings the single permitting and inspection authority that witnesses asked for: the Fire Department, environmental protection and transportation keep issuing their own permits and running their own inspections, and nothing in the text requires one application, one inspection sequence or all objections delivered at once. The shared system is also softer than it looks, since it is \"subject to appropriations\" and the Buildings commissioner can push the 2029 deadline back to whatever later date he or she \"determines may be feasible,\" with no penalty for missing it. Nothing addresses the other asks: no rulemaking power for Buildings to update the building code without a Council local law, no change to permit fees or violation penalties, no multilingual small-business licensing portal and nothing on events, outdoor dining or business improvement district permits, since the new system covers new construction only.",
-    "goes_beyond": "The waterfront transfer, which is the amendment's biggest substantive change, was not something any of these witnesses raised, and it is delayed until Dec. 31, 2030 or until a waterfront construction code exists, whichever comes first. The amendment also rewrites Buildings' internal management in ways no testimony asked for, letting the commissioner deputize additional architect or engineer deputy commissioners and replacing the five borough superintendents with borough commissioners who can be given citywide powers."
-   }
+   "sections": "Charter ch. 26 (§§ 642–649, 666), § 1301"
   }
  },
  {

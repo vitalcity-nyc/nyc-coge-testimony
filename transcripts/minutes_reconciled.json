@@ -1,10 +1,12 @@
 {
- "date": "2026-07-20",
+ "date": "2026-07-23",
  "excluded_agency_experts": [
+  "Ahmed Tigani (commissioner, NYC Department of Buildings; invited testimony, Manhattan Round 2)",
   "David Garfinkel (invited expert, Staten Island Round 2)",
   "Eric Beaton (DOT)",
   "Julia Fusfeld (invited expert, Staten Island Round 2)",
-  "Michelle Craven (DOT)"
+  "Michelle Craven (DOT)",
+  "Seth Bynum (senior advisor to the Deputy Mayor for Housing and Planning; SPEED Task Force, invited testimony, Manhattan Round 2)"
  ],
  "reconciled": [
   "Bronx",
@@ -12,6 +14,7 @@
   "Brooklyn",
   "Brooklyn (Round 2)",
   "Manhattan",
+  "Manhattan (Round 2)",
   "Queens",
   "Staten Island",
   "Staten Island (Round 2)"
@@ -21,6 +24,7 @@
   "Brooklyn": "https://www.nyc.gov/assets/charter/downloads/pdf/Exec-General-Workspace-Charter-Review-06-11-2026.pdf  (official Veritext stenographic transcript, June 11, 2026, Brooklyn Law School \u2014 same misleading 'Exec General Workspace' filename; it is the Brooklyn Round 1 hearing. Reconciled 2026-07-20: the APPEARANCES + CONTENTS rosters matched all 29 catalogued witnesses one-for-one \u2014 none missing, none extra. No corrections made. Steno 'Andrew Ryan' is wrong for the Citizens Budget Commission president Andrew Rein; 'Stacey Vogue' is marked [ph] (phonetic) in the record itself, so the independently-verified catalog name Stacey Bode stands.)",
   "Manhattan": "https://www.nyc.gov/assets/charter/downloads/pdf/COGE-MN-Hearing-1-Offical-Transcript-20260617-1.pdf  (official Veritext stenographic transcript, June 9, 2026; reconciled 2026-07-20 \u2014 roster matched all 39 catalogued witnesses, none missing, none extra. Corrections: Sam Panuccio -> Samuel Peter Panuccio (documented in his own prior sworn City Council testimony); Henry Sutherland -> Henry Sullivan (his self-introduction in the official record; no public record for either spelling, so confidence lowered to medium). Bria Donohue confirmed correct against AIA NY staff page despite the transcript rendering Maria Donahue; other steno spellings (Tim Hopkins, Gail Brewer, Michael Picarello) are worse than the catalog and were left alone.)",
   "Queens": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/COGE-QN-Hearing-1-Official-Transcript-Condensed_20260713.pdf  (official Veritext stenographic transcript, June 22, 2026; re-checked 2026-07-16, roster matched all 25 catalogued names, no changes)",
-  "Staten Island (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf  (official Veritext stenographic transcript, July 6, 2026)"
+  "Staten Island (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/meetings-hearings/Public-Hearing-07-06-2026.pdf  (official Veritext stenographic transcript, July 6, 2026)",
+  "Manhattan (Round 2)": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/Manhattan-Rd-2-Transcript.pdf  (official Veritext stenographic transcript, July 8, 2026, Riverside Church; posted after 2026-07-21 and reconciled 2026-07-23. The speaker roster matched all 24 catalogued witnesses one-for-one. Corrections: Adria Konz -> Adria Quinones (she self-identifies in the official record; independently confirmed as a senior IT consultant at MetroPlusHealth, so confidence raised to high) and Michelle Knap -> Michelle Napp (the steno reads \"Michelle Napp\" and her own self-introduction in the YouTube captions reads \"Michelle Nappy of Repair Restor\"; the \"Knap\" spelling came only from the chair reading the sign-up list. No public record of either spelling, so confidence stays low). Two further public speakers appear in the record - Comptroller Mark Levine and Citizens Budget Commission president Andrew Rein, both testifying on the rainy day fund - but both are already catalogued as proponents of enforceable-rainy-day-fund-and-honest-budgeting (Levine via his written submission, Rein via Brooklyn Round 1), so the per-idea name dedupe correctly skips them and no rows were added. Excluded as invited administration officials: DOB Commissioner Ahmed Tigani and Seth Bynum of the Deputy Mayor for Housing and Planning.)"
  }
 }
