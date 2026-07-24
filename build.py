@@ -10,6 +10,12 @@ for i in ideas:
     for p in i["proponents"]:
         uniq.add(p["name"])
 n_uniq = len(uniq)
+# witnesses whose spelling is still unconfirmed (rendered with a dotted underline)
+conf = {}
+for i in ideas:
+    for p in i["proponents"]:
+        conf.setdefault(p["name"], p.get("name_confidence", "low"))
+n_flag = sum(1 for c in conf.values() if c != "high")
 n_ideas = len(ideas)
 maxc = max(i["proponent_count"] for i in ideas)
 multi = sum(1 for i in ideas if len(set(i["hearings"])) >= 2)
@@ -385,7 +391,7 @@ if(new URLSearchParams(location.search).get('embed')==='1'){
   <p>This is an idea-centric reading of the public record, not an official transcript. The transcripts from all five of COGE's first-round borough hearings (Manhattan, June 9; the Bronx, June 10; Brooklyn, June 11; Queens, June 22; and Staten Island, June 23) and all five second-round hearings (the Bronx, June 30; Brooklyn, July 1; Staten Island, July 6; Manhattan, July 8; and Queens, July 13) were used to identify each public witness and the concrete proposals they made, then those proposals were clustered into shared ideas. Transcripts come from YouTube's auto-generated captions where available; hearings that had no published captions when ingested were transcribed from the audio with OpenAI's Whisper. Where a witness or their organization has published their full written testimony or a closely related position, the entry links to it. Documented written submissions &mdash; including Comptroller Mark Levine and Council Member Phil Wong &mdash; are folded in and labeled. Commissioners, staff and procedural talk are excluded. Both rounds of borough hearings are now complete; a written-comment period runs into mid-July 2026, and this tool is intended to be updated as that testimony comes in.</p>
 
   <h3>Why some names look approximate</h3>
-  <p>Names came from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses. Each name was checked against public records (organization staff pages, news coverage) and, for the first-round Manhattan, Bronx and Brooklyn hearings, against the commission's own official meeting minutes, which list each speaker; many names were corrected this way. Second-round names have not yet been checked against official minutes and are especially provisional. Names that still could not be confirmed are marked with a dotted underline; hover for a note. Treat any flagged spelling as provisional and confirm against the video before quoting by name.</p>
+  <p>Names came from the auto-captions, which routinely garble them &mdash; especially for the many immigrant and community witnesses. Each name was checked against public records (organization staff pages, news coverage) and against the commission's own official record for that hearing &mdash; the stenographic transcript or the signed meeting minutes, both of which list each speaker. All ten borough hearings have now been reconciled that way, and many names were corrected in the process. Where the official record and an independent public record disagree, the independently documented spelling wins: the commission's stenographers garble names too. __NFLAG__ of the __NUNIQ__ witnesses still could not be confirmed; those are marked with a dotted underline, and hovering gives a note. Treat any flagged spelling as provisional and confirm against the video before quoting by name.</p>
 
   <h3>COGE only</h3>
   <p>This covers the 2026 Commission on Government Efficiency only. New York City has had four charter commissions in roughly two years, and a lot of widely cited "charter testimony" actually belongs to the 2024 and 2025 commissions. Those were deliberately left out.</p>
@@ -810,6 +816,7 @@ HTML = (HTML
         .replace("__DATA__", data_json)
         .replace("__NIDEAS__", str(n_ideas))
         .replace("__NUNIQ__", str(n_uniq))
+        .replace("__NFLAG__", str(n_flag))
         .replace("__MULTI__", str(multi))
         .replace("__MAXC__", str(maxc)))
 
