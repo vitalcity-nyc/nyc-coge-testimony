@@ -9,7 +9,7 @@ An idea-by-idea catalog of public testimony to **COGE** — the NYC **Commission
 - **Live:** https://vitalcity-nyc.github.io/nyc-coge-testimony/
 - **Repo:** github.com/vitalcity-nyc/nyc-coge-testimony (the **vitalcity-nyc** GitHub account)
 - **Local:** `/Users/joshgreenman/Experiments/nyc-coge-testimony/`
-- **Companion NotebookLM** (public): https://notebooklm.google.com/notebook/265ada6f-453b-4f9e-8b3b-47718a5ff86d — linked from the "Ask the testimony a question" button.
+- **Companion Gemini Notebook** (public): https://notebooklm.google.com/notebook/265ada6f-453b-4f9e-8b3b-47718a5ff86d — linked from the "Ask the testimony a question" button.
 
 ## Current state (2026-07-14)
 
@@ -70,7 +70,7 @@ Unconfirmed names keep `name_confidence` low/medium and render with a **dotted u
 
 - **Scheduled task `coge-testimony-watch`** (`~/.claude/scheduled-tasks/coge-testimony-watch/SKILL.md`) runs daily ~10am **while the Claude app is open** (else on next launch). It does the whole loop: detect new videos, ingest, reconcile minutes, verify the deploy, and iMessage Josh (**9175823254**) only when something changed. To edit it, edit that SKILL.md or use the scheduled-tasks tools.
 - **The old launchd watcher (`com.josh.coge-watcher`) is DISABLED** and must stay disabled. It wrote new video IDs into `known_videos.json` before the ingest task ran, so the task saw them as "known" and skipped them (this is why SI R2 + Manhattan R2 were silently missed once). If it ever reappears: `launchctl bootout gui/$(id -u)/com.josh.coge-watcher`.
-- **NotebookLM sync is manual.** Google gives no API to add sources, so Josh adds each hearing to the notebook **as a YouTube link** by hand. On every ingest, the task's iMessage includes an explicit "Add to NotebookLM: https://www.youtube.com/watch?v=<id>" line. (You can read the notebook's current sources via the claude-in-chrome browser MCP if you need to check what's in it — Josh is logged in.)
+- **Gemini Notebook sync is manual.** Google gives no API to add sources, so Josh adds each hearing to the notebook **as a YouTube link** by hand. On every ingest, the task's iMessage includes an explicit "Add to Gemini Notebook: https://www.youtube.com/watch?v=<id>" line. (You can read the notebook's current sources via the claude-in-chrome browser MCP if you need to check what's in it — Josh is logged in.)
 
 ## Embedding in a Ghost story
 
