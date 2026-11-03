@@ -425,7 +425,7 @@ if(new URLSearchParams(location.search).get('embed')==='1'){
   <button class="x" id="aiX" aria-label="Close">&times;</button>
   <h4>About this catalog &mdash; read before relying on it</h4>
   <ul>
-    <li>Built with AI-assisted transcription and clustering of COGE's hearing videos, most recently on July 2, 2026. It is a research tool, not the official record.</li>
+    <li>Built with AI-assisted transcription and clustering of COGE's hearing videos; the last hearing was added on July 15, 2026. It is a research tool, not the official record.</li>
     <li>Speaker names come from auto-captions and are often misspelled; they were checked against public records and many corrected, but ones still unconfirmed are flagged with a dotted underline. Confirm names and quotes against the linked video before publishing.</li>
     <li>Coverage is all ten borough hearings (both rounds, all five boroughs); written comments appear only where the witness or their organization published them.</li>
     <li>Several hearings had no published captions when ingested and were machine-transcribed (OpenAI Whisper or YouTube auto-captions); those names and quotes are especially provisional &mdash; confirm against the video.</li>
